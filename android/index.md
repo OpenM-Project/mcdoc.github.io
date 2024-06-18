@@ -2,7 +2,7 @@
 outline: deep
 permalink: /android
 has_children: true
-title: Windows - MCBEDOC
+title: Android - MCBEDOC
 ---
 
 # Android Tools
