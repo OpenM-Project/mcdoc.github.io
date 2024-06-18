@@ -5,21 +5,24 @@ title: Credits
 # MCBEDOC's members
 
 <div>
-
+<!--
 <script>
 window.onload = function() {
   var tbody = document.querySelector('#membersTable tbody');
   var rows = Array.prototype.slice.call(tbody.rows, 0);
-
+-->
+<!--
   rows = rows.sort(function(a, b) {
     return Math.random() > 0.5 ? 1 : -1;
   });
-
+-->
+<!--
   rows.forEach(function(row) {
     tbody.appendChild(row);
   });
 };
 </script>
+-->
 
 <table id="membersTable">
   <tr>
