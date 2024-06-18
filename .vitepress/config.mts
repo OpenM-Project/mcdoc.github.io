@@ -64,7 +64,10 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mcbedoc/mcbedoc.github.io' }
+      { icon: 'github', link: 'https://github.com/mcbedoc/mcbedoc.github.io' },
+      { icon: 'discord', link: 'https://dsc.gg/openms'},
     ]
   }
 })
+
+
