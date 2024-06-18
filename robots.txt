@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /TODO/
+
+
+sitemap: https://mcbedoc.openm.tech/sitemap.xml
