@@ -10,7 +10,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Windows', link: '/windows' }
+      { text: 'Credits', link: '/credits' },
+      { text: 'DMCA', link: '/dmca' }
     ],
 
     sidebar: [

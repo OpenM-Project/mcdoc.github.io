@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Browse
-      link: /windows/
+      link: /windows/minecraft-for-windows/
     - theme: brand
       text: Story
-      link: /windows/
+      link: /story/
     - theme: alt
       text: GitHub
       link: https://github.com/mcbedoc/mcbedoc.github.io
