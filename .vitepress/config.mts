@@ -50,6 +50,7 @@ export default defineConfig({
       },
       {
         text: 'Console Edition',
+        link: '/console',
         items: [
           { text: 'Minecraft for Nintendo Switch', link: '/console/minecraft-for-nintendo-switch' },
           { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
