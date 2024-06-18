@@ -66,6 +66,14 @@ export default defineConfig({
       }
     ],
 
+    search: {
+      provider: 'local',
+      options: {
+        indexName: 'mcbedoc',
+      }
+    },
+
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mcbedoc/mcbedoc.github.io' },
       { icon: 'discord', link: 'https://dsc.gg/openms'},
