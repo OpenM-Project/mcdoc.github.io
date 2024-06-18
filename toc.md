@@ -11,12 +11,11 @@ title: Table of Contents
   * [Minecraft China](/windows/minecraft-china)
   * [Minecraft Legends](/windows/minecraft-legends)
   * [Minecraft Dungeons](/windows/minecraft-dungeons)
-* [Android](/android/)
+* Android
   * [Minecraft for Android](/android/minecraft-for-android)
   * [Minecraft Earth](/android/minecraft-earth)
   * [Miscellaneous](/android/miscellaneous)
 * IOS
   * [Minecraft](/ios/minecraft-for-ios)
   * [Minecraft Earth](/ios/minecraft-earth)
-* [Console Edition](/console)
 * [Miscellaneous](/miscellaneous)
