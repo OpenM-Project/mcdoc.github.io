@@ -24,4 +24,4 @@ Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pock
 
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
-Plug ToolBox | [AppStore](https://apps.apple.com/us/app/plug-toolbox-for-minecraft/id1354063228) | - | **Yes** | A tool that allows you to cheat and hack.
+Plug ToolBox | [AppStore](https://apps.apple.com/us/app/plug-toolbox-for-minecraft/id1354063228) | - | **Yes** | A **PAID** tool that allows you to cheat and hack.
