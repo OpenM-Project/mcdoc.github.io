@@ -2,7 +2,7 @@
 outline: deep
 permalink: /ios
 has_children: true
-title: Windows - MCBEDOC
+title: iOS - MCBEDOC
 ---
 
 # iOS Tools
