@@ -5,18 +5,17 @@ outline: deep
 
 # Unlockers for Minecraft for Windows
 
-{: .note-title }
-> <b><u>Glossary:</u></b>
->
-> * ClipSVC Method: \[Patched] [Check 1st Paragrapgh](/story/#the-beginning-m-centers--online-fixme)
-> * **I-MCM** - In-Memory Code Manipulation: Edits `minecraft.windows.exe` in RAM
-> * **DMM** - DLL Memory Manipulation: Loads `Windows.ApplicationModel.Store.dll` in a process and edit it's code in RAM
-> 
-> <u><i>Editing in RAM:</i></u> [Memory Injection] When a program uses RAM when running, the RAM Manipulator [if using one] edits in there. Thus making it temporary.
-> * DLL Replacing: Replaces Store DLLs with Cracked ones.
-> * DLL Hooking: [Hooks](https://www.vmray.com/glossary/hooking/) the DLLs of MS Store.
-> * **DRC** - DLL Redirection for Cracking: Making Minecraft load Cracked DLLs without editing system files
+::: info Glossary
 
+ * ClipSVC Method: \[Patched] [Check 1st Paragrapgh](/story/#the-beginning-m-centers--online-fixme)
+ * **I-MCM** - In-Memory Code Manipulation: Edits `minecraft.windows.exe` in RAM
+ * **DMM** - DLL Memory Manipulation: Loads `Windows.ApplicationModel.Store.dll` in a process and edit it's code in RAM
+ 
+ <u><i>Editing in RAM:</i></u> [Memory Injection] When a program uses RAM when running, the RAM Manipulator [if using one] edits in there. Thus making it temporary.
+ * DLL Replacing: Replaces Store DLLs with Cracked ones.
+ * DLL Hooking: [Hooks](https://www.vmray.com/glossary/hooking/) the DLLs of MS Store.
+ * **DRC** - DLL Redirection for Cracking: Making Minecraft load Cracked DLLs without editing system files
+:::
 
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------

@@ -13,16 +13,58 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Navbar',
+        text: 'The Story',
+        link: '/story'
+      },
+      {
+        text: 'Windows',
+        link: '/windows',
         items: [
-          { text: 'Windows', link: '/windows' },
-          { text: 'Android', link: '/android' }
+          { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
+          { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
+          {text: 'Minecraft China', link: '/windows/minecraft-china' },
+          { text: 'Minecraft Earth', link: '/windows/minecraft-earth' },
+          { text: 'Minecraft Education', link: '/windows/minecraft-education' },
+          { text: 'Minecraft Legends', link: '/windows/minecraft-legends' }
+        ]
+      },
+      {
+        text: 'Android',
+        link: '/android',
+        items: [
+          { text: 'Minecraft Earth', link: '/android/minecraft-earth' },
+          { text: 'Minecraft for Android', link: '/android/minecraft-for-android' },
+          { text: 'Miscellaneous', link: '/android/miscellaneous' }
+        ]
+      },
+      {
+        text: 'iOS',
+        link: '/ios',
+        items: [
+          { text: 'Minecraft Earth', link: '/ios/minecraft-earth' },
+          { text: 'Minecraft for iOS', link: '/ios/minecraft-for-ios' }
+        ]
+      },
+      {
+        text: 'Console Edition',
+        items: [
+          { text: 'Minecraft for Nintendo Switch', link: '/console/minecraft-for-nintendo-switch' },
+          { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
+          { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' }
+        ]
+      },
+      {
+        text: 'Miscellaneous',
+        items: [
+          { text: 'Miscellaneous', link: '/miscellaneous/' },
+          { text: 'Credits', link: '/credits/' },
+          { text: 'DMCA', link: '/dmca/' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/mcbedoc/mcbedoc.github.io' }
     ]
   }
 })

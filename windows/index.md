@@ -8,3 +8,5 @@ title: Windows - MCBEDOC
 # Windows Tools
 
 Minecraft: Bedrock Edition Tools & Unlockers for Windows XP to Windows 11
+
+[[toc]]
