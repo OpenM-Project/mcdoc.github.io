@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Browse
-      link: /windows/minecraft-for-windows/
+      link: /toc/
     - theme: brand
       text: Story
       link: /story/

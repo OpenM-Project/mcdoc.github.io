@@ -61,16 +61,15 @@ export default defineConfig({
         items: [
           { text: 'Miscellaneous', link: '/miscellaneous/' },
           { text: 'Credits', link: '/credits/' },
-          { text: 'DMCA', link: '/dmca/' }
+          { text: 'DMCA', link: '/dmca/' },
+          { text: 'TOC', link: '/toc/' }
         ]
       }
     ],
 
     search: {
       provider: 'local',
-      options: {
-        indexName: 'mcbedoc',
-      }
+      options: {},
     },
 
 
