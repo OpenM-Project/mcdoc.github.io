@@ -3,11 +3,14 @@ import { withPwa } from '@vite-pwa/vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+
   title: "MCBEDOC",
+  lang: 'en-US',
   description: "An Ultimate Collection of Minecraft: Bedrock Edition Tools & Unlockers",
   pwa: {},
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/favicon.ico',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Credits', link: '/credits' },
