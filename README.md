@@ -13,9 +13,9 @@ This documentation aims to provide comprehensive information and guides on vario
 ## Getting Started
 
 To get started with VitePress, follow these steps:
-1. Clone the repository: `git clone https://github.com/mcbedoc/mcbedoc.github.io.git`
+1. Clone the repository: `git clone https://github.com/mcbedoc/mcdoc.github.io.git`
 2. Install VitePress: `npm install -g create-vitepress`
-3. Navigate to the project directory: `cd mcbedoc.github.io`
+3. Navigate to the project directory: `cd mcdoc.github.io`
 4. Start the local development server: `npm run dev`
 5. Open your browser and visit `http://localhost:3000` to view the documentation.
 
@@ -37,4 +37,4 @@ For any questions or inquiries, please contact the project maintainer at [mcbedo
 
 We value your feedback! If you have any suggestions, comments, or questions about the documentation, please don't hesitate to reach out to us. You can submit an issue on the [GitHub repository](https://github.com/mcbedoc/mcdoc.github.io/issues) or contact us directly.
 
-We appreciate your support and hope you find MCBEDOC helpful for your Minecraft Bedrock Edition projects!
+We appreciate your support and hope you find MCDOC helpful for your Minecraft Bedrock Edition projects!
