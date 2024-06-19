@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Browse
-      link: /toc/
+      link: /browse/
     - theme: brand
       text: Story
       link: /story/
