@@ -4,7 +4,10 @@ title: Credits
 
 # MCBEDOC's members
 
-<div>
+<!--
+https://vitepress.dev/reference/default-theme-team-page
+-->
+
 <!--
 <script>
 window.onload = function() {
