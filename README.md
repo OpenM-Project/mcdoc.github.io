@@ -1,10 +1,10 @@
 # <img src="https://raw.githubusercontent.com/MCBEDOC/mcbedoc.github.io/main/assets/images/MCBEDOC.webp"></img>
 
-MCDOC is a documentation project for Minecraft Bedrock Edition tools and unlockers.
+MCDOC is a documentation project for Minecraft tools and unlockers.
 
 ## Overview
 
-This documentation aims to provide comprehensive information and guides on various tools and unlockers for Minecraft Bedrock Edition.
+This documentation aims to provide comprehensive information and guides on various tools and unlockers for Minecraft.
 
 ## Technologies Used
 
