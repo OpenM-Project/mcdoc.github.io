@@ -2,7 +2,7 @@
 title: Credits
 ---
 
-# MCDOC's members
+# OpenM's members
 
 <div>
 <!--
@@ -27,15 +27,15 @@ window.onload = function() {
 <table id="membersTable">
   <tr>
     <td><a href="https://github.com/XtronXI/"><strong>XtronXI</strong></a></td>
-    <td>Founder of <strong>MCDOC</strong>, Owner of <em>r/mcommunity_</em> & <em>r/MCDOC</em>, former moderator at OpenM Community, and support at M Centers.</td>
+    <td>Founder of <strong>OpenM</strong>, Owner of <em>r/mcommunity_</em> & <em>r/MCDOC</em>, former moderator at OpenM Community, and support at M Centers.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/misike12/"><strong>Cubebanyasz</strong></a></td>
-    <td>Co-founder of MCDOC, former admin at OpenM Community (now defunct), support at M Centers, and owner of the <code>openm.tech</code> website, the <code>akshnav.cubebanyasz.me</code> website, and the MCDOC discord.</td>
+    <td>Co-founder of OpenM, former admin at OpenM Community (now defunct), support at M Centers, and owner of the <code>openm.tech</code> website, the <code>akshnav.cubebanyasz.me</code> website, and the MCDOC discord.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/arsfr/"><strong>ARS</strong></a></td>
-    <td>Former co-owner of OpenM, Admin at M Community, support at M Centers, and developer here at MCDOC.</td>
+    <td>Admin at M Community, support at M Centers, and developer here at MCDOC.</td>
   </tr>
 </table>
 
@@ -68,7 +68,7 @@ window.onload = function() {
   </tr>
   <tr>
     <td><a href="https://github.com/soyeonswife63/"><strong>soyeonswife63</strong></a></td>
-    <td>Former owner of OpenM (now defunct), owner and developer of the WavEye project, aimed to create a python alternative to M Centers, which unlocks Minecraft: Bedrock Edition's trial on Windows Systems.</td>
+    <td>Wwner and developer of the WavEye project, aimed to create a python alternative to M Centers, which unlocks Minecraft: Bedrock Edition's trial on Windows Systems.</td>
   </tr>
 </table>
 
