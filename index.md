@@ -17,9 +17,9 @@ hero:
       link: /story/
     - theme: alt
       text: GitHub
-      link: /favicon.ico
+      link: https://github.com/openm-proj/mcdoc.github.io
   image:
-    src: /favicon.png
+    src: /logo.webp
     alt: MCDOC
 features:
   - icon: 🔓
