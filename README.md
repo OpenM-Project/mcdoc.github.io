@@ -1,5 +1,3 @@
-# <img src="https://raw.githubusercontent.com/openm-proj/mcbedoc.github.io/main/assets/images/MCBEDOC.webp"></img>
-
 MCDOC is a documentation project for Minecraft tools and unlockers.
 
 ## Overview
