@@ -10,11 +10,11 @@ export default defineConfig({
   pwa: {},
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'https://raw.githubusercontent.com/OpenM-Proj/mcdoc.github.io/main/MCDOC.webp',
+    logo: '/favicon.ico',
     head: [
       ['link', { rel: "shortcut icon", href: "https://raw.githubusercontent.com/OpenM-Proj/mcdoc.github.io/main/MCDOC.webp"}],
     ],
-    siteTitle: '',
+    siteTitle: 'MCDOC',
     nav: [
         {
           text: 'The Story',
