@@ -19,7 +19,7 @@ hero:
       text: GitHub
       link: https://github.com/mcbedoc/mcbedoc.github.io
   image:
-    src: resources/images/favicon.png
+    src: /favicon.png
     alt: MCBEDOC
 features:
   - icon: 🔓
