@@ -53,6 +53,7 @@ export default defineConfig({
         },
         {
           text: 'Miscellaneous',
+          activeMatch: '/miscellaneous',
           items: [
             { text: 'Miscellaneous', link: '/miscellaneous/' },
             { text: 'Credits', link: '/credits/' },
@@ -116,6 +117,10 @@ export default defineConfig({
       options: {},
     },
 
+    footer: {
+      message: 'All rights reserved.',
+      copyright: 'Copyright © 2024 MCBEDOC',
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mcbedoc/mcbedoc.github.io' },
@@ -126,7 +131,21 @@ export default defineConfig({
         },
         link: 'https://reddit.com/r/mcbedoc',
       }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/mcbedoc/mcdoc.github.io/edit/main/:path',
+      text: 'Edit this page on GitHub'
+    },
+
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    }
+
   }
 })
 
