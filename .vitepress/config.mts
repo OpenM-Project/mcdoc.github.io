@@ -12,7 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
     head: [
-      ['link', { rel: "shortcut icon", href: "/assets/favicons/favicon.ico"}],
+      ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
     ],
     siteTitle: 'MCDOC',
     nav: [
