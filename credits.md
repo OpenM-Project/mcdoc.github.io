@@ -31,7 +31,7 @@ window.onload = function() {
   </tr>
   <tr>
     <td><a href="https://github.com/misike12/"><strong>Cubebanyasz</strong></a></td>
-    <td>Co-founder of MCDOC, former admin at OpenM Community (now defunct), support at M Centers, and owner of the <code>openm.tech</code> website, the <code>akshnav.cubebanyasz.me</code> website, and the MCBEDOC discord.</td>
+    <td>Co-founder of MCDOC, former admin at OpenM Community (now defunct), support at M Centers, and owner of the <code>openm.tech</code> website, the <code>akshnav.cubebanyasz.me</code> website, and the MCDOC discord.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/arsfr/"><strong>ARS</strong></a></td>
