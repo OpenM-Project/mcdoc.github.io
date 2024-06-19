@@ -8,7 +8,7 @@ title: Miscellaneous
 
 * [Bedrock Developer Beta](https://minecraft.wiki/w/Bedrock_Developer_Beta)
 
-## Communitys
+## Communities
 
 * [Anti P2W Movement: Bedrock Edition](https://discord.gg/antip2w)
 * [M Community](https://discord.gg/h7ke59TwgS)
