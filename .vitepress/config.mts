@@ -10,7 +10,7 @@ export default defineConfig({
   pwa: {},
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/favicon.ico',
+    logo: '/img/MCDOC.webp',
     head: [
       ['link', { rel: "shortcut icon", href: "/img/MCDOC.webp"}],
     ],
