@@ -4,14 +4,14 @@ import { withPwa } from '@vite-pwa/vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  title: "MCBEDOC",
+  title: "MCDOC",
   lang: 'en-US',
-  description: "An Ultimate Collection of Minecraft: Bedrock Edition Tools & Unlockers",
+  description: "An Ultimate Collection of Minecraft Tools & Unlockers",
   pwa: {},
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
-    siteTitle: 'MCBEDOC',
+    siteTitle: 'MCDOC',
     nav: [
         {
           text: 'The Story',
@@ -123,7 +123,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mcbedoc/mcbedoc.github.io' },
+      { icon: 'github', link: 'https://github.com/mcbedoc/mcdoc.github.io' },
       { icon: 'discord', link: 'https://dsc.gg/openms'},
       {
         icon: {
