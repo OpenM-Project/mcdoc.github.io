@@ -62,13 +62,14 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
+      { 
         text: 'The Story',
         link: '/story'
       },
       {
         text: 'Windows',
         link: '/windows',
+        collapsed: true,
         items: [
           { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
           { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
@@ -80,7 +81,7 @@ export default defineConfig({
       },
       {
         text: 'Android',
-        link: '/android',
+        collapsed: true,
         items: [
           { text: 'Minecraft Earth', link: '/android/minecraft-earth' },
           { text: 'Minecraft for Android', link: '/android/minecraft-for-android' },
@@ -90,6 +91,7 @@ export default defineConfig({
       {
         text: 'iOS',
         link: '/ios',
+        collapsed: true,
         items: [
           { text: 'Minecraft Earth', link: '/ios/minecraft-earth' },
           { text: 'Minecraft for iOS', link: '/ios/minecraft-for-ios' }
@@ -97,6 +99,7 @@ export default defineConfig({
       },
       {
         text: 'Console Edition',
+        collapsed: true,
         items: [
           { text: 'Minecraft for Nintendo Switch', link: '/console/minecraft-for-nintendo-switch' },
           { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
