@@ -119,7 +119,7 @@ export default defineConfig({
 
     footer: {
       message: 'All rights reserved.',
-      copyright: 'Copyright © 2024 MCBEDOC',
+      copyright: 'Copyright © 2024 MCDOC',
     },
 
     socialLinks: [

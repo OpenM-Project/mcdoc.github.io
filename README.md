@@ -31,7 +31,7 @@ This project is licensed under the MIT License
 
 ## Contact
 
-For any questions or inquiries, please contact the project maintainer at [mcbedoc@openm.tech](mailto:mcbedoc@openm.tech)
+For any questions or inquiries, please contact the project maintainer at [mcdoc@openm.tech](mailto:mcdoc@openm.tech)
 
 ## Feedback
 

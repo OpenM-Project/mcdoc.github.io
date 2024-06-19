@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 
-sitemap: https://mcbedoc.openm.tech/sitemap.xml
+sitemap: https://mcdoc.openm.tech/sitemap.xml

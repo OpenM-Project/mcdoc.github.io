@@ -2,7 +2,7 @@
 outline: deep
 permalink: /windows
 has_children: true
-title: Windows - MCBEDOC
+title: Windows - MCDOC
 ---
 
 # Windows Tools
