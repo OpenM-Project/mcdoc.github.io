@@ -11,6 +11,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
+    head: [
+      ['link', { rel: "shortcut icon", href: "/assets/favicons/favicon.ico"}],
+    ],
     siteTitle: 'MCDOC',
     nav: [
         {
