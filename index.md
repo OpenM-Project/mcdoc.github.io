@@ -1,13 +1,13 @@
 ---
 layout: home
 
-title: MCBEDOC
-titleTemplate: An Ultimate Collection of Minecraft Bedrock Edition Tools & Unlockers
+title: MCDOC
+titleTemplate: An Ultimate Collection of Minecraft Tools & Unlockers
 
 hero:
-  name: "MCBEDOC"
+  name: "MCDOC"
   text: "Free Minecraft?"
-  tagline: An Ultimate Collection of Minecraft Bedrock Edition Tools & Unlockers
+  tagline: An Ultimate Collection of Minecraft Tools & Unlockers
   actions:
     - theme: brand
       text: Browse
@@ -17,10 +17,10 @@ hero:
       link: /story/
     - theme: alt
       text: GitHub
-      link: https://github.com/mcbedoc/mcbedoc.github.io
+      link: https://github.com/mcbedoc/mcdoc.github.io
   image:
     src: /favicon.png
-    alt: MCBEDOC
+    alt: MCDOC
 features:
   - icon: 🔓
     title: Unlockers
