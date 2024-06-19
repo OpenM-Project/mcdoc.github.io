@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/MCBEDOC/mcbedoc.github.io/main/assets/images/MCBEDOC.webp"></img>
 
-MCBEDOC is a documentation project for Minecraft Bedrock Edition tools and unlockers.
+MCDOC is a documentation project for Minecraft Bedrock Edition tools and unlockers.
 
 ## Overview
 
@@ -35,6 +35,6 @@ For any questions or inquiries, please contact the project maintainer at [mcbedo
 
 ## Feedback
 
-We value your feedback! If you have any suggestions, comments, or questions about the documentation, please don't hesitate to reach out to us. You can submit an issue on the [GitHub repository](https://github.com/mcbedoc/mcbedoc.github.io/issues) or contact us directly.
+We value your feedback! If you have any suggestions, comments, or questions about the documentation, please don't hesitate to reach out to us. You can submit an issue on the [GitHub repository](https://github.com/mcbedoc/mcdoc.github.io/issues) or contact us directly.
 
 We appreciate your support and hope you find MCBEDOC helpful for your Minecraft Bedrock Edition projects!
