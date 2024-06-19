@@ -6,7 +6,7 @@ export default defineConfig({
 
   title: "MCDOC",
   lang: 'en-US',
-  description: "An Ultimate Collection of Minecraft: Bedrock Edition Tools & Unlockers",
+  description: "An Ultimate Collection of Minecraft Tools & Unlockers",
   pwa: {},
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
