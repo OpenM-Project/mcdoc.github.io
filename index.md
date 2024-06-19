@@ -17,7 +17,7 @@ hero:
       link: /story/
     - theme: alt
       text: GitHub
-      link: /public/favicon.webp
+      link: /public/favicon.ico
   image:
     src: /favicon.png
     alt: MCDOC
