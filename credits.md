@@ -2,7 +2,7 @@
 title: Credits
 ---
 
-# MCBEDOC's members
+# MCDOC's members
 
 <div>
 <!--
@@ -76,4 +76,4 @@ window.onload = function() {
   </tr>
 </table>
 
-#### *And other contributers/moderators of M Centers / M Community / M Community Development / OpenM Project / OpenMicrosoft Project / MCBEDOC*
+#### *And other contributers/moderators of M Centers / M Community / M Community Development / OpenM Project / OpenMicrosoft Project / MCBEDOC / MCDOC*
