@@ -22,8 +22,8 @@ To get started with VitePress, follow these steps:
 
 ## Contributing
 
-Contributions to MCBEDOC are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request. Make sure to follow the contribution guidelines outlined in the.
-**For requesting to add a material to MCBEDOC is accepted!, please do a Pull Request for it.**
+Contributions to MCDOC are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request. Make sure to follow the contribution guidelines outlined in the.
+**For requesting to add a material to MCDOC is accepted!, please do a Pull Request for it.**
 
 ## License
 
