@@ -66,6 +66,9 @@ export default defineConfig({
         text: 'The Story',
         link: '/story'
       },
+      { text: 'Miscellaneous', link: '/miscellaneous/' },
+      { text: 'Credits', link: '/credits/' },
+      { text: 'DMCA', link: '/dmca/' },
       {
         text: 'Windows',
         link: '/windows',
@@ -106,14 +109,6 @@ export default defineConfig({
           { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' }
         ]
       },
-      {
-        text: 'Miscellaneous',
-        items: [
-          { text: 'Miscellaneous', link: '/miscellaneous/' },
-          { text: 'Credits', link: '/credits/' },
-          { text: 'DMCA', link: '/dmca/' },
-        ]
-      }
     ],
 
     search: {
