@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/OpenM-Proj/mcdoc.github.io/main/MCDOC.png"></img>
+# <img src="https://raw.githubusercontent.com/OpenM-Proj/mcdoc.github.io/main/public/title.webp"></img>
 
 MCDOC is a documentation project for Minecraft tools and unlockers.
 
