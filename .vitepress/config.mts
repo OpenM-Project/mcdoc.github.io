@@ -138,10 +138,10 @@ export default defineConfig({
       }
     ],
 
-//    editLink: {
-//      pattern: 'https://github.com/mcbedoc/mcdoc.github.io/edit/main/:path',
-//      text: 'Edit this page on GitHub'
-//    },
+editLink: {
+  pattern: 'https://github.com/mcbedoc/mcdoc.github.io/edit/main/:path',
+  text: 'Edit'
+},
 
     lastUpdated: {
       text: 'Updated at',
