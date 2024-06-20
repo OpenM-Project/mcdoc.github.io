@@ -3,3 +3,9 @@ title: Java Edition
 ---
 
 # Java Edition
+
+## **Free** Java Edition Launchers
+
+- 🌟 [SKLauncher](https://skmedix.pl/) - Easy to Use
+- ⭐ [ElyPrism Launcher](https://github.com/Octol1ttle/ElyPrismLauncher) - Fork of Prism Launcher with Ely.by accounts insted of Mojang accounts
+- ⭐ [Legacy Launcher](https://llaun.ch/en) - Stable, fast , simple and open source / Alternative download [here]()
