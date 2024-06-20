@@ -77,7 +77,6 @@ export default defineConfig({
       { text: 'DMCA', link: '/dmca/' },
       {
         text: 'Windows',
-        link: '/windows',
         collapsed: false,
         items: [
           { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
@@ -99,7 +98,6 @@ export default defineConfig({
       },
       {
         text: 'iOS',
-        link: '/ios',
         collapsed: false,
         items: [
           { text: 'Minecraft Earth', link: '/ios/minecraft-earth' },
