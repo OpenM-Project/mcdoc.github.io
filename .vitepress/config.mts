@@ -75,6 +75,7 @@ export default defineConfig({
       { text: 'Miscellaneous', link: '/miscellaneous/' },
       { text: 'Credits', link: '/credits/' },
       { text: 'DMCA', link: '/dmca/' },
+      
       {
         text: 'Windows',
         collapsed: false,
