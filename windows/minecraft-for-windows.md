@@ -7,10 +7,12 @@ outline: deep
 
 ::: danger Download Minecraft for Windows
 
-* Click Win+R to open Run dialog, then type [ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ](ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ) and click Enter. Then Install, and you will have the latest MCfW10 version.
+* <a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ">Install Minecraft for Windows</a>
 * If you want Beta/Preview or Older versions of MCfW10, then download [**MCLauncher**](https://github.com/MCMrARM/mc-w10-version-launcher) or [**Bedrock Launcher**](https://bedrock-launcher.github.io/).
 
 :::
+
+
 
 ::: info Glossary
 
