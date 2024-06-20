@@ -137,3 +137,11 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+/**
+ * Disable Link Underlinking - https://www.freecodecamp.org/news/remove-underline-from-link-in-css/
+ * -------------------------------------------------------------------------- */
+
+a:link {
+  text-decoration: none;
+}
