@@ -8,12 +8,14 @@ export default defineConfig({
   lang: 'en-US',
   description: "An Ultimate Collection of Minecraft Tools & Unlockers",
   pwa: {},
+  head: [
+          [ 'link', { rel: "manifest", href: "/manifest.json"}],
+          [ 'scipt', { src: "/asstes/js/service.js" }],
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
-    head: [
-      ['link', { rel: "shortcut icon", href: "https://raw.githubusercontent.com/OpenM-Proj/mcdoc.github.io/main/MCDOC.webp"}],
-    ],
     siteTitle: 'MCDOC',
     nav: [
         {
