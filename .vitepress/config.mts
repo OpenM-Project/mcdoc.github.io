@@ -25,6 +25,7 @@ export default defineConfig({
         {
           text: 'Windows',
           items: [
+            { text: 'Java Edition', link: '/windows/java' },
             { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
             { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
             { text: 'Minecraft China', link: '/windows/minecraft-china' },
@@ -80,6 +81,7 @@ export default defineConfig({
         text: 'Windows',
         collapsed: false,
         items: [
+          { text: 'Java Edition', link: '/windows/java' },
           { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
           { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
           { text: 'Minecraft China', link: '/windows/minecraft-china' },
