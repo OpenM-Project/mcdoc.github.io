@@ -1,5 +1,7 @@
-import { defineConfig } from 'vitepress'
-import { withPwa } from '@vite-pwa/vitepress'
+import { defineConfig } from 'vitepress';
+import StellarUI from 'stellar-ui'
+import 'stellar-ui/dist/style.css';
+import { withPwa } from '@vite-pwa/vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,6 +13,7 @@ export default defineConfig({
   head: [
           [ 'link', { rel: "manifest", href: "/manifest.json"}],
           [ 'scipt', { src: "/asstes/js/service.js" }],
+          [ 'script', { src: "/assets/js/ads.js" }],
   ],
 
   themeConfig: {
