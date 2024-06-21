@@ -6,7 +6,6 @@ export default defineConfig({
   title: "MCDOC",
   lang: 'en-US',
   description: "An Ultimate Collection of Minecraft Tools & Unlockers",
-  pwa: {},
   head: [
           [ 'link', { rel: "manifest", href: "/manifest.json"}],
           [ 'scipt', { src: "/asstes/js/service.js" }],
@@ -150,9 +149,10 @@ editLink: {
         dateStyle: 'full',
         timeStyle: 'medium'
       }
-    }
+    },
 
   }
+
 })
 
 
