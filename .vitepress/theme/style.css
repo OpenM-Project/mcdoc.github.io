@@ -146,6 +146,6 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
