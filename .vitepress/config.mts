@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { withPwa } from '@vite-pwa/vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
