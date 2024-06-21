@@ -5,6 +5,26 @@ outline: deep
 
 # Unlockers for Minecraft for Windows
 
+<script setup>
+const items = [{
+  label: 'Getting Started',
+  icon: 'icon-[heroicons--information-circle]',
+  defaultOpen: true,
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.'
+}, {
+  label: 'Installation',
+  icon: 'icon-[heroicons--arrow-down-tray]',
+  disabled: true,
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.'
+},
+  {
+  label: 'Theming',
+  icon: 'icon-[heroicons--eye-dropper]',
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.'
+}]
+</script>
+
+
 ::: danger Download Minecraft for Windows
 
 * <a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ">Install Minecraft for Windows</a>
