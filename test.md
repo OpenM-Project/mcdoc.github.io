@@ -16,3 +16,5 @@ A bit of searching around ended up pointing me towards [this Github issue](https
 According to the responses within the issue, there are two ways of bringing in TailwindCSS:
 
 **1. Import TailwindCSS through their CDN:**
+
+<button class="btn btn-primary">Hello World!</button>
