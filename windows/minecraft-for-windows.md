@@ -3,27 +3,7 @@ title: Minecraft for Windows
 outline: deep
 ---
 
-# Unlockers for Minecraft for Windows
-
-<script setup>
-const items = [{
-  label: 'Getting Started',
-  icon: 'icon-[heroicons--information-circle]',
-  defaultOpen: true,
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.'
-}, {
-  label: 'Installation',
-  icon: 'icon-[heroicons--arrow-down-tray]',
-  disabled: true,
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.'
-},
-  {
-  label: 'Theming',
-  icon: 'icon-[heroicons--eye-dropper]',
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.'
-}]
-</script>
-
+# Minecraft for Windows
 
 ::: danger Download Minecraft for Windows
 
@@ -45,6 +25,8 @@ const items = [{
  * DLL Hooking: [Hooks](https://www.vmray.com/glossary/hooking/) the DLLs of MS Store.
  * **DRC** - DLL Redirection for Cracking: Making Minecraft load Cracked DLLs without editing system files
 :::
+
+## Unlockers for Minecraft for Windows
 
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
@@ -84,9 +66,8 @@ Minecraft-Bedrock-Cracker|[GitHub](https://github.com/cloudhzc/Minecraft-Bedrock
 MIno's Python script|[GitHub](https://github.com/misike12/Minecraft-Windows-10-edition-crack-with-gui-python/archive/refs/heads/main.zip)|[GitHub](https://github.com/misike12/Minecraft-Windows-10-edition-crack-with-gui-python)|No|ClipSVC
 XenonLauncher|[GitHub](https://github.com/charlie272/XenonLauncher/archive/refs/heads/main.zip)|[GitHub](https://github.com/charlie272/XenonLauncher)|No|ClipSVC
 
----
 
-# Other Tools for Minecraft for Windows 10
+## Other Tools for Minecraft for Windows 10
 
 Name | Download | Source code | Is it maintained?| Description
 ------ | ------ | ------ | ------| ------
