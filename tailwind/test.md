@@ -5,7 +5,7 @@ title: Test site
 # Configuring TailwindCSS to work with Vitepress
 
 <div class="flex flex-col items-center mt-10 sm:flex-row">
-  <img src="./logo.webp" alt="Vite package logo" width="200" height="200" style="float: left; margin-right: 12px;" />
+  <img src="/logo.webp" alt="Vite package logo" width="200" height="200" style="float: left; margin-right: 12px;" />
   <p class="italic text-gray-500">
     I've found myself feeling limited by the styles provided by the framework so I looked into what it takes to use a stylesheet.
   </p>
