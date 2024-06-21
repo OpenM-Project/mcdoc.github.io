@@ -3,8 +3,6 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
-import StellarUI from 'stellar-ui'
-import 'stellar-ui/dist/style.css';
 
 export default {
   extends: DefaultTheme,
