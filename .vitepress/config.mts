@@ -61,6 +61,7 @@ export default defineConfig({
           activeMatch: '/miscellaneous',
           items: [
             { text: 'Miscellaneous', link: '/miscellaneous/' },
+            { text: 'Secret Marketplace Items', link: '/secret-marketplace' },
             { text: 'Credits', link: '/credits/' },
             { text: 'DMCA', link: '/dmca/' },
           ]
@@ -72,6 +73,7 @@ export default defineConfig({
         text: 'The Story',
         link: '/story'
       },
+      { text: 'Secret Marketplace Items', link: '/secret-marketplace' },
       { text: 'Miscellaneous', link: '/miscellaneous/' },
       { text: 'Credits', link: '/credits/' },
       { text: 'DMCA', link: '/dmca/' },
