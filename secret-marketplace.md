@@ -41,7 +41,7 @@ Catastrophic Pandamonium: [here](minecraft://?showStoreOffer=ea4b8a80-8557-4c6e-
 The Lost Civilization: [here](minecraft://?showStoreOffer=9d38a0fd-29f9-4ef1-b9f1-8324b3c2dcef)  
 Rich with Money: [here](minecraft://?showStoreOffer=bb1e0f1d-7323-42fd-a4e2-d224a5bd8e53)  
 
-## Unaviable  
+## Unavailable  
 
 Founder's Cape: [here](minecraft://?showStoreOffer=b3b50166-5612-4ff1-8f03-9af0b01cb4da)  
 Earth Skin: [here](minecraft://?showStoreOffer=0c77040a-abb6-4938-963d-5a8e9872c85c)  
