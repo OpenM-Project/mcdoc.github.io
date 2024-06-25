@@ -19,7 +19,7 @@ outline: deep
  * ClipSVC Method: \[Patched] [Check 1st Paragrapgh](/story#the-beginning-m-centers--online-fixme)
  * **I-MCM** - In-Memory Code Manipulation: Patches the license checking code within the game exe (`Minecraft.Windows.exe`) directly in memory.
  * **DMM** - DLL Memory Manipulation: Patches the license checking code within the `Windows.ApplicationModel.Store.dll` module loaded within the game in memory.
- * DLL Hooking: Uses [function hooking]([https://www.vmray.com/glossary/hooking/](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html)) to modify the license checking functions within the game and/or other DLLs loaded within the game in memory.
+ * DLL Hooking: Uses [function hooking](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html) to modify the license checking functions within the game and/or other DLLs loaded within the game in memory.
  
  <u><i>Patching in memory:</i></u> When Minecraft is running, the RAM Manipulator [if using one] edits code (instructions) within the game process and other modules (i.e. dlls). Thus, it is temporary method and needs to be done every time the game is started.
  <u><i>Difference between **I-MCM** and **DMM**:</i></u> In the **I-MCM** method, the game exe (`Minecraft.Windows.exe`) is patched in memory, whereas in the **DMM** method, the store DLLs containing the license checking code are patched within memory.
