@@ -17,12 +17,12 @@ outline: deep
 ::: info Glossary
 
  * ClipSVC Method: \[Patched] [Check 1st Paragrapgh](/story#the-beginning-m-centers--online-fixme)
- * **I-MCM** - In-Memory Code Manipulation: Edits `minecraft.windows.exe` in RAM
- * **DMM** - DLL Memory Manipulation: Loads `Windows.ApplicationModel.Store.dll` in a process and edit it's code in RAM
+ * **I-MCM** - In-Memory Code Manipulation: Patches the game (`Minecraft.Windows.exe`) directly in memory.
+ * **DMM** - DLL Memory Manipulation: Patches the `Windows.ApplicationModel.Store.dll` dll loaded within the game in memory.
  
- <u><i>Editing in RAM:</i></u> [Memory Injection] When a program uses RAM when running, the RAM Manipulator [if using one] edits in there. Thus making it temporary.
- * DLL Replacing: Replaces Store DLLs with Cracked ones.
- * DLL Hooking: [Hooks](https://www.vmray.com/glossary/hooking/) the DLLs of MS Store.
+ <u><i>Patching in RAM:</i></u> When Minecraft is running, the RAM Manipulator [if using one] edits code (instructions) within the game process and other modules (i.e. dlls). Thus making it temporary.
+ * DLL Replacing: Replaces the `Windows.ApplicationModel.Store.dll` DLL's with patched (i.e cracked) ones.
+ * DLL Hooking: Uses [function hooking]([https://www.vmray.com/glossary/hooking/](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html)) to modify the license checking functions within the DLLs loaded within the game in memory.
  * **DRC** - DLL Redirection for Cracking: Making Minecraft load Cracked DLLs without editing system files
 :::
 
