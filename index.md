@@ -2,12 +2,12 @@
 layout: home
 
 title: MCDOC
-titleTemplate: An Ultimate Collection of Minecraft Tools & Unlockers
+titleTemplate: An Ultimate Collection of Minecraft History, Tools & Unlockers.
 
 hero:
   name: "MCDOC"
   text: "Free Minecraft?"
-  tagline: An Ultimate Collection of Minecraft Tools & Unlockers
+  tagline: An Ultimate Collection of Minecraft History, Tools & Unlockers.
   actions:
     - theme: brand
       text: Browse
