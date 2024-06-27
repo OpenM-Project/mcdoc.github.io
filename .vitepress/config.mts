@@ -9,7 +9,7 @@ export default defineConfig({
 
   title: "MCDOC",
   lang: 'en-US',
-  description: "An Ultimate Collection of Minecraft Tools & Unlockers",
+  description: "An Ultimate Collection of Minecraft History, Tools & Unlockers.",
   base: '/',
   cleanUrls:true,
   appearance:'dark',
@@ -133,16 +133,16 @@ export default defineConfig({
 
     footer: {
       message: 'All rights reserved.',
-      copyright: 'Copyright © 2024 MCDOC',
+      copyright: 'Copyright © 2024 OpenM Project',
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mcbedoc/mcdoc.github.io' },
+      { icon: 'github', link: 'https://github.com/openm-project/mcdoc.github.io' },
       { icon: 'discord', link: 'https://dsc.gg/openms'}
     ],
 
 editLink: {
-  pattern: 'https://github.com/mcbedoc/mcdoc.github.io/edit/main/:path',
+  pattern: 'https://github.com/openm-project/mcdoc.github.io/edit/main/:path',
   text: 'Edit'
 },
 
