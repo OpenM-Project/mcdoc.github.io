@@ -1,11 +1,18 @@
 import { defineConfig } from 'vitepress'
 
+import timeline from "vitepress-markdown-timeline"; 
+
+import taskLists from 'markdown-it-task-checkbox'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
   title: "MCDOC",
   lang: 'en-US',
   description: "An Ultimate Collection of Minecraft Tools & Unlockers",
+  base: '/',
+  cleanUrls:true,
+  appearance:'dark',
   head: [
           [ 'link', { rel: "manifest", href: "/manifest.json"}],
           [ 'scipt', { src: "/asstes/js/service.js" }],
@@ -145,6 +152,20 @@ editLink: {
         dateStyle: 'full',
         timeStyle: 'medium'
       }
+    },
+
+  },
+
+  markdown: {
+    lineNumbers: true, 
+
+    config: (md) => {
+      md.use(timeline);
+      
+    },
+
+    image: {
+      lazyLoading: true
     },
 
   }

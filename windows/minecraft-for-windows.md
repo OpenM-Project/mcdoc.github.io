@@ -5,11 +5,19 @@ outline: deep
 
 # Minecraft for Windows
 
-::: danger Download Minecraft for Windows
+<br>
 
-* <a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ">Install Minecraft for Windows</a>
-* If you want Beta/Preview or Older versions of MCfW10, then download [**MCLauncher**](https://github.com/MCMrARM/mc-w10-version-launcher) or [**Bedrock Launcher**](https://bedrock-launcher.github.io/).
+<div class="linkcard">
+  <a href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ" target="_blank">
+    <p class="description"><b>Download Minecraft for Windows</b><br><span>Click here to download!</span></p>
+    <div class="logo">
+        <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" />
+    </div>
+  </a>
+</div>
 
+::: tip Tip
+<p>If you want Beta/Preview or Older versions of MCfW10, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrock-launcher.github.io/">Bedrock Launcher</a>.</p>
 :::
 
 
