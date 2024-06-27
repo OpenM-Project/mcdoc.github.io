@@ -138,7 +138,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/openm-project/mcdoc.github.io' },
-      { icon: 'discord', link: 'https://dsc.gg/openms'}
+      { icon: 'discord', link: 'https://dsc.gg/openmproject'}
     ],
 
 editLink: {
