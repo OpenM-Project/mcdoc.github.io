@@ -16,7 +16,7 @@ iOSVizor | [Website](https://iosvizor.com/games/arcade/minecraft-pe-ipa-download
 AppCake | [Website](https://www.iphonecake.com/app_479516143_.html) | - | **Yes** | Unlocked IPAs of Minecraft for iOS
 PDALife | [Website](https://pdalife.com/minecraft-pocket-edition1-ios-a8721.html) | - | **Yes** | Unlocked IPAs of Minecraft for IOS
 iOSGods | [Website](https://iosgods.com/topic/62469-minecraft-latest-version-free-no-jailbreak-required/) | - | **Yes** | IPAs of Minecraft for IOS
-TweakHome | [Website](https://tweakhome.app/minecraft-ipa/) | - | **Yes** | Modded & Unlocked IPAs of Minecraft for IOS
+TweakHome | [Website](https://tweakhome.app/minecraft-ipa/) | - | No | Modded & Unlocked IPAs of Minecraft for IOS
 Senumy | [Website](https://senumy.com/ipa-library/hacked-games/minecraft/) | - | No | Unlocked IPAs of Minecraft for IOS
 Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pocket-edition-versions-ipa) | - | No | An archive of Unlocked Minecraft IPAs
 
