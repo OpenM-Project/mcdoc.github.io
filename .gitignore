@@ -1,9 +1,7 @@
 # VitePress
-node_modules/
 .vitepress/cache/
 
 # Vue
-/node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
