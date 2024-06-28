@@ -5,7 +5,7 @@ title: Minecraft
 # Minecraft for IOS
 
 ::: info What is an IPA?
- An IPA file is an application made for iOS devices (iPhone & iPad). The file format was created by Apple. To install an IPA, it is recommended that you use [Signtunes](https://signtunes.com/).
+ An IPA file is an application made for iOS devices (iPhone & iPad). The file format was created by Apple. To install an IPA, it is recommended that you use [SideStore](https://sidestore.io/) [Best out of all], [AltStore](https://altstore.io/) [Recommended], or instead [Sideloadly](https://sideloadly.io/).
 :::
 
 ## Modded / Unlocked IPAs
