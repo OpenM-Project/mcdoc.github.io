@@ -1,5 +1,7 @@
 # VitePress
 .vitepress/cache/
+anode_modules/
+node_modules/
 
 # Vue
 npm-debug.log*
