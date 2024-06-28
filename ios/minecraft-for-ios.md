@@ -24,4 +24,5 @@ Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pock
 
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
-Plug ToolBox | [AppStore](https://apps.apple.com/us/app/plug-toolbox-for-minecraft/id1354063228) | - | **Yes** | A tool that allows you to cheat and hack.
+Project Lumina | [Website](https://projectlumina.xyz/) / [Discord](https://discord.com/invite/7ppv6m7huM) | - | **Yes** | The first free non-jailbreak mod menu client for Minecraft on iOS devices ported to Shortcuts!
+Plug ToolBox | [AppStore](https://apps.apple.com/us/app/plug-toolbox-for-minecraft/id1354063228) | - | **Yes** | The only mod menu client for Minecraft on the App Store, the caveat is that it is unfortunately **paid**.
