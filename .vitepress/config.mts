@@ -60,7 +60,8 @@ export default defineConfig({
           items: [
             { text: 'Minecraft for Nintendo Switch', link: '/console/minecraft-for-nintendo-switch' },
             { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
-//            { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' }
+            { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' },
+            { text: 'Minecraft for Wii', link: '/console/minecraft-for-wii' }
           ]
         },
         {
@@ -121,7 +122,8 @@ export default defineConfig({
         items: [
           { text: 'Minecraft for Nintendo Switch', link: '/console/minecraft-for-nintendo-switch' },
           { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
-//          { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' }
+          { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' },
+          { text: 'Minecraft for Wii', link: '/console/minecraft-for-wii' }
         ]
       },
     ],
