@@ -6,4 +6,4 @@ title: Miscellaneous
 
 ## Minecraft: Dungeons
 
-* [Apkvision](https://apkvision.org/games/role-playing/minecraft-dungeons-64159/) - Unofficial Minecraft: Dungeons APK
+* [Apkvision](https://apkvision.org/games/role-playing/minecraft-dungeons-64159/) - Unofficial 100% safe to use Minecraft: Dungeons APK
