@@ -2,6 +2,6 @@
 title: Minecraft for Xbox
 ---
 
-# Minecraft for Windows
+# Minecraft for Xbox
 
 ### Work in Progress
