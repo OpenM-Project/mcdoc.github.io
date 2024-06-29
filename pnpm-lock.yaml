@@ -17,6 +17,9 @@ importers:
       '@nolebase/vitepress-plugin-enhanced-readabilities':
         specifier: ^2.2.0
         version: 2.2.0(@algolia/client-search@4.24.0)(postcss@8.4.38)(sass@1.77.6)(search-insights@2.14.0)
+      '@nolebase/vitepress-plugin-highlight-targeted-heading':
+        specifier: ^2.2.0
+        version: 2.2.0(@algolia/client-search@4.24.0)(postcss@8.4.38)(sass@1.77.6)(search-insights@2.14.0)
       '@nolebase/vitepress-plugin-inline-link-preview':
         specifier: ^2.2.0
         version: 2.2.0(@algolia/client-search@4.24.0)(postcss@8.4.38)(sass@1.77.6)(search-insights@2.14.0)
@@ -344,6 +347,9 @@ packages:
 
   '@nolebase/vitepress-plugin-enhanced-readabilities@2.2.0':
     resolution: {integrity: sha512-qdE+yDs4Eso5LZ44vsCO7nG0IGOxmaBhXxrbAm58/vESer/V6/sTWNv5LyrsrQ+QUbLooBEK7PQwrQ5ClKe4fA==}
+
+  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.2.0':
+    resolution: {integrity: sha512-VjPan374xfKvYA9jIw451UBtzJYRC4EH1O6eBZKcYQN18DLcQ2E/heoHr5/thjqdZ1LVuHihYxfqzd0NmoEn7Q==}
 
   '@nolebase/vitepress-plugin-inline-link-preview@2.2.0':
     resolution: {integrity: sha512-OKtdgMI9TM+VYx08MOZhLyACaynvcA0mQqhi99SpXU/J4vZpj/ul5tZZK8PlShpMwDUkRqFJLBW9pXVkDQWivQ==}
@@ -1350,6 +1356,38 @@ snapshots:
       '@iconify-json/carbon': 1.1.36
       '@iconify-json/icon-park-outline': 1.1.15
       '@nolebase/ui': 2.2.0(@algolia/client-search@4.24.0)(postcss@8.4.38)(sass@1.77.6)(search-insights@2.14.0)
+      less: 4.2.0
+      vitepress: 1.2.3(@algolia/client-search@4.24.0)(less@4.2.0)(postcss@8.4.38)(sass@1.77.6)(search-insights@2.14.0)
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/node'
+      - '@types/react'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - fuse.js
+      - idb-keyval
+      - jwt-decode
+      - lightningcss
+      - markdown-it-mathjax3
+      - nprogress
+      - postcss
+      - qrcode
+      - react
+      - react-dom
+      - sass
+      - search-insights
+      - sortablejs
+      - stylus
+      - sugarss
+      - terser
+      - typescript
+      - universal-cookie
+
+  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.2.0(@algolia/client-search@4.24.0)(postcss@8.4.38)(sass@1.77.6)(search-insights@2.14.0)':
+    dependencies:
       less: 4.2.0
       vitepress: 1.2.3(@algolia/client-search@4.24.0)(less@4.2.0)(postcss@8.4.38)(sass@1.77.6)(search-insights@2.14.0)
     transitivePeerDependencies:

@@ -5,6 +5,11 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import {  
+  NolebaseHighlightTargetedHeading,  
+} from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css' 
+
 import {
   NolebaseInlineLinkPreviewPlugin,
 } from '@nolebase/vitepress-plugin-inline-link-preview/client'
@@ -59,6 +64,9 @@ export default {
             'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
             // A enhanced readabilities menu for narrower screens (usually smaller than iPad Mini)
             'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu), 
+            'layout-top': () => [
+              h(NolebaseHighlightTargetedHeading),
+            ],
     })
   },
   

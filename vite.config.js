@@ -4,7 +4,8 @@ export default defineConfig(() => {
   return {
     optimizeDeps: {
       exclude: [ 
-        '@nolebase/vitepress-plugin-enhanced-readabilities/client', 
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        '@nolebase/vitepress-plugin-highlight-targeted-heading',
         'vitepress'
       ], 
     },
