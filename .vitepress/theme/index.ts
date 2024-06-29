@@ -5,10 +5,19 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import {
+  NolebaseInlineLinkPreviewPlugin,
+} from '@nolebase/vitepress-plugin-inline-link-preview/client'
+
+import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
+
 import "vitepress-markdown-timeline/dist/theme/index.css";
 
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
+
+import type { Options } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import { InjectionKey } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 
@@ -31,6 +40,10 @@ export default {
     app.component('MNavLinks' , MNavLinks)
     app.component('Navlink' , Navlink)
     //app.component('Layout' , Layout)
+    app.provide(InjectionKey, {
+      // Configuration...
+    } as Options)
+    app.use(NolebaseInlineLinkPreviewPlugin)
   },
 
   Layout: () => {

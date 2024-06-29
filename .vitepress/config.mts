@@ -1,6 +1,12 @@
 import { defineConfig } from 'vitepress'
 
-import timeline from "vitepress-markdown-timeline"; 
+import timeline from "vitepress-markdown-timeline";
+
+import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
+
+import { 
+  InlineLinkPreviewElementTransform 
+} from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 import taskLists from 'markdown-it-task-checkbox'
 
@@ -20,7 +26,7 @@ export default defineConfig({
       ], 
     }, 
   }, 
-  
+
   title: "MCDOC",
   lang: 'en-US',
   description: "An Ultimate Collection of Minecraft History, Tools & Unlockers.",
@@ -177,7 +183,8 @@ editLink: {
 
     config: (md) => {
       md.use(timeline);
-      
+      md.use(BiDirectionalLinks())
+      md.use(InlineLinkPreviewElementTransform)
     },
 
     image: {
