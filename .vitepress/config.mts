@@ -7,6 +7,20 @@ import taskLists from 'markdown-it-task-checkbox'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
+  vite: { 
+    optimizeDeps: { 
+      exclude: [ 
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client', 
+      ], 
+    }, 
+    ssr: { 
+      noExternal: [ 
+        // If there are other packages that need to be processed by Vite, you can add them here.
+        '@nolebase/vitepress-plugin-enhanced-readabilities', 
+      ], 
+    }, 
+  }, 
+  
   title: "MCDOC",
   lang: 'en-US',
   description: "An Ultimate Collection of Minecraft History, Tools & Unlockers.",

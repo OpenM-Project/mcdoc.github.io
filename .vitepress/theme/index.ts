@@ -12,6 +12,12 @@ import { onMounted, watch, nextTick } from 'vue';
 
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 
+import { 
+  NolebaseEnhancedReadabilitiesMenu, 
+  NolebaseEnhancedReadabilitiesScreenMenu, 
+} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+
 import Video from './components/Video.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import Navlink from './components/Navlink.vue'
@@ -35,7 +41,12 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props)
+    return h(DefaultTheme.Layout, props, {
+            // A enhanced readabilities menu for wider screens
+            'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
+            // A enhanced readabilities menu for narrower screens (usually smaller than iPad Mini)
+            'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu), 
+    })
   },
   
   setup() {
