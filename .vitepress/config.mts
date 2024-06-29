@@ -45,6 +45,7 @@ export default defineConfig({
   description: "An Ultimate Collection of Minecraft History, Tools & Unlockers.",
   base: '/',
   cleanUrls:true,
+  srcExclude: ['/node_modules/'],
   appearance:'dark',
   head: [
           [ 'link', { rel: "manifest", href: "/manifest.json"}],
