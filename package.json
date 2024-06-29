@@ -7,6 +7,7 @@
     "@nolebase/vitepress-plugin-git-changelog": "^2.2.0",
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.2.0",
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.2.0",
+    "@nolebase/vitepress-plugin-page-properties": "^2.2.0",
     "less": "^4.2.0",
     "medium-zoom": "^1.1.0",
     "sass": "^1.77.6",

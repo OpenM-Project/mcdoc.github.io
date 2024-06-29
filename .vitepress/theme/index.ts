@@ -8,6 +8,11 @@ import './style.css'
 import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 
+import {
+  NolebasePagePropertiesPlugin,
+} from '@nolebase/vitepress-plugin-page-properties/client'
+import '@nolebase/vitepress-plugin-page-properties/client/style.css'
+
 import {  
   NolebaseHighlightTargetedHeading,  
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
@@ -51,6 +56,7 @@ export default {
     app.provide(InjectionKey, {
       // Configuration
     } as Options)
+    app.use(NolebaseGitChangelogPlugin)
     app.use(NolebaseInlineLinkPreviewPlugin)
     app.use(NolebaseGitChangelogPlugin, {
       // Configuration
