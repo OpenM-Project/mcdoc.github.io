@@ -30,7 +30,12 @@ export default defineConfig({
         // Fill in your repository URL here
         repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
       }), 
-      GitChangelogMarkdownSection(), 
+      GitChangelogMarkdownSection({
+        sections: { 
+          disableChangelog: false,
+          disableContributors: true,
+        }, 
+      }), 
     ],
     ssr: { 
       noExternal: [ 
