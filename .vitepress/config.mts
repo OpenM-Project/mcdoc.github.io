@@ -50,6 +50,7 @@ export default defineConfig({
   description: "An Ultimate Collection of Minecraft History, Tools & Unlockers.",
   base: '/',
   cleanUrls:true,
+  ignoreDeadLinks: true,
   srcExclude: ['/node_modules/'],
   appearance:'dark',
   head: [
@@ -177,6 +178,12 @@ export default defineConfig({
       copyright: 'Copyright © 2024 OpenM Project',
     },
 
+    // Page - Next & Previous Buttons
+    docFooter: {
+      prev: 'Prev',
+      next: 'Next',
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/openm-project/mcdoc.github.io' },
       { icon: 'discord', link: 'https://dsc.gg/openmproject'},
@@ -215,6 +222,8 @@ editLink: {
     image: {
       lazyLoading: true
     },
+
+    defaultHighlightLang: 'ts',
 
   }
 

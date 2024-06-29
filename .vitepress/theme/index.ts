@@ -43,7 +43,6 @@ import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import Video from './components/Video.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import Navlink from './components/Navlink.vue'
-// import Layout from './components/Layout.vue'
 
 export default {
   extends: DefaultTheme,
@@ -52,7 +51,6 @@ export default {
     app.component('Video' , Video)
     app.component('MNavLinks' , MNavLinks)
     app.component('Navlink' , Navlink)
-    //app.component('Layout' , Layout)
     app.provide(InjectionKey, {
       // Configuration
     } as Options)
