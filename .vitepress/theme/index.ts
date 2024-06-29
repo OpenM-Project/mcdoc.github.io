@@ -5,6 +5,9 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+
 import {  
   NolebaseHighlightTargetedHeading,  
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
@@ -46,9 +49,12 @@ export default {
     app.component('Navlink' , Navlink)
     //app.component('Layout' , Layout)
     app.provide(InjectionKey, {
-      // Configuration...
+      // Configuration
     } as Options)
     app.use(NolebaseInlineLinkPreviewPlugin)
+    app.use(NolebaseGitChangelogPlugin, {
+      // Configuration
+    })
   },
 
   Layout: () => {

@@ -8,6 +8,11 @@ import {
   InlineLinkPreviewElementTransform 
 } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
+import {
+  GitChangelog,
+  GitChangelogMarkdownSection,
+} from '@nolebase/vitepress-plugin-git-changelog/vite'
+
 import taskLists from 'markdown-it-task-checkbox'
 
 // https://vitepress.dev/reference/site-config
@@ -20,6 +25,13 @@ export default defineConfig({
         '@nolebase/vitepress-plugin-highlight-targeted-heading',
       ], 
     }, 
+    plugins: [ 
+      GitChangelog({ 
+        // Fill in your repository URL here
+        repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
+      }), 
+      GitChangelogMarkdownSection(), 
+    ],
     ssr: { 
       noExternal: [ 
         // If there are other packages that need to be processed by Vite, you can add them here.
