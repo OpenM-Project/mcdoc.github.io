@@ -19,7 +19,7 @@ hero:
       text: GitHub
       link: https://github.com/openm-project/mcdoc.github.io
   image:
-    src: /logo.webp
+    src: /assets/images/logo.webp
     alt: MCDOC
 features:
   - icon: 🔓

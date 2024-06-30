@@ -1,12 +1,19 @@
-@import '/.vitepress/theme/style/index.css';
+@import './style/var.css';
+@import './style/link.css';
+@import './style/linkcard.css';
+@import './style/vp-code-group.css';
+
+/* Fix Layout Switcher */
 
 .VPSocialLinks.VPNavBarSocialLinks.social-links {
   margin-right: 0;
 }
 
+/* Background image */
+
 .Layout {
   background-color: var(--vp-c-bg-alt) !important;
-  background: url('/bg.png');
+  background: url('/assets/images/background.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
@@ -29,72 +36,42 @@
   bottom:2rem;
   right:2.5rem
 }
+
+/* Back to top button hover */
+
 .go-to-top[data-v-09295527]:hover{
   background-color: var(--vp-c-gray-2)
 }
+
+/* Back to top button icon */
+
 .go-to-top .icon-top[data-v-09295527]{
   width:1em;
   height:1em;
   font-size:14px;
   display:inline-block
 }
+
+/* Only dispaly back to top on pc */
+
 @media (max-width: 959px){
   .go-to-top[data-v-09295527]{
       display:none
   }
 }
+
+
+/* Fade animation for Back To Top */
+
 .fade-enter-active[data-v-09295527],.fade-leave-active[data-v-09295527]{
   transition:opacity .3s
 }
+
 .fade-enter[data-v-09295527],.fade-leave-to[data-v-09295527]{
   opacity:0
 }
 
-
-/**
- * Customize default theme styling by overriding CSS variables:
- * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
- */
-
-/**
- * Colors
- *
- * Each colors have exact same color scale system with 3 levels of solid
- * colors with different brightness, and 1 soft color.
- * 
- * - `XXX-1`: The most solid color used mainly for colored text. It must
- *   satisfy the contrast ratio against when used on top of `XXX-soft`.
- *
- * - `XXX-2`: The color used mainly for hover state of the button.
- *
- * - `XXX-3`: The color for solid background, such as bg color of the button.
- *   It must satisfy the contrast ratio with pure white (#ffffff) text on
- *   top of it.
- *
- * - `XXX-soft`: The color used for subtle background such as custom container
- *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
- *   on top of it.
- *
- *   The soft color must be semi transparent alpha channel. This is crucial
- *   because it allows adding multiple "soft" colors on top of each other
- *   to create a accent, such as when having inline code block inside
- *   custom containers.
- *
- * - `default`: The color used purely for subtle indication without any
- *   special meanings attched to it such as bg color for menu hover state.
- *
- * - `brand`: Used for primary brand colors, such as link text, button with
- *   brand theme, etc.
- *
- * - `tip`: Used to indicate useful information. The default theme uses the
- *   brand color for this by default.
- *
- * - `warning`: Used to indicate warning to the users. Used in custom
- *   container, badges, etc.
- *
- * - `danger`: Used to show error, or dangerous message to the users. Used
- *   in custom container, badges, etc.
- * -------------------------------------------------------------------------- */
+/* Root variables */
 
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);
