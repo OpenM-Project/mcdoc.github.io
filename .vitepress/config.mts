@@ -13,8 +13,6 @@ import {
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
-import taskLists from 'markdown-it-task-checkbox'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
