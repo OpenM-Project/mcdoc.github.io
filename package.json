@@ -22,5 +22,8 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress-plugin-back-to-top": "^1.0.1"
   }
 }

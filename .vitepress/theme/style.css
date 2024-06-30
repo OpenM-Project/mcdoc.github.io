@@ -13,6 +13,44 @@
   background-size: cover;
 }
 
+/* Back to top button */
+
+.go-to-top[data-v-09295527]{
+  width:36px;
+  height:36px;
+  line-height:36px;
+  padding:0;
+  text-align:center;
+  border-radius:50%;
+  background-color: var(--vp-c-gray-1);
+  box-shadow:0 2px 12px var(--vp-c-bg-alt);
+  cursor:pointer;
+  position:fixed;
+  bottom:2rem;
+  right:2.5rem
+}
+.go-to-top[data-v-09295527]:hover{
+  background-color: var(--vp-c-gray-2)
+}
+.go-to-top .icon-top[data-v-09295527]{
+  width:1em;
+  height:1em;
+  font-size:14px;
+  display:inline-block
+}
+@media (max-width: 959px){
+  .go-to-top[data-v-09295527]{
+      display:none
+  }
+}
+.fade-enter-active[data-v-09295527],.fade-leave-active[data-v-09295527]{
+  transition:opacity .3s
+}
+.fade-enter[data-v-09295527],.fade-leave-to[data-v-09295527]{
+  opacity:0
+}
+
+
 /**
  * Customize default theme styling by overriding CSS variables:
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css

@@ -5,6 +5,8 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import vitepressBackToTop from 'vitepress-plugin-back-to-top'
+
 import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 
@@ -58,6 +60,10 @@ export default {
     app.use(NolebaseInlineLinkPreviewPlugin)
     app.use(NolebaseGitChangelogPlugin, {
       // Configuration
+    })
+    vitepressBackToTop({
+      // default
+      threshold:300
     })
   },
 
