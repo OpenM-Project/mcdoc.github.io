@@ -19,5 +19,9 @@ We hope you find *MCDOC* a valuable resource and enjoy your time exploring the w
 ## Emoji Legend
 
 - ⭐ Items or that are highly recommended or preferred
-- 🌟 A step above favorite, used for top-tier choices or preferences
 - 🌐 Used to denote comprehensive indexes or guides, similar to those found in FMHY or the r/piracy megathread
+
+
+<!--
+- 🌟 A step above favorite, used for top-tier choices or preferences
+-->
