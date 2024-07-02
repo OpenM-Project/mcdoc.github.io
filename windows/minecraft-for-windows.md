@@ -20,18 +20,16 @@ outline: deep
 <p>If you want Beta/Preview or Older versions of MCfW10, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrock-launcher.github.io/">Bedrock Launcher</a>.</p>
 :::
 
-
-
 ::: info Glossary
 
- * ClipSVC Method: \[Patched] [Check 1st Paragrapgh](/story#the-beginning-m-centers--online-fixme)
+<u>*Patching in memory:*</u> When Minecraft is running, the RAM Manipulator [if using one] edits code (instructions) within the game process and other modules (i.e. dlls). Thus, it is temporary method and needs to be done every time the game is started.
+ <u>*Difference between **I-MCM** and **DMM**:*</u> In the **I-MCM** method, the game exe (`Minecraft.Windows.exe`) is patched in memory, whereas in the **DMM** method, the store DLLs containing the license checking code are patched within memory.
+
+***Methods:***
  * **I-MCM** - In-Memory Code Manipulation: Patches the license checking code within the game exe (`Minecraft.Windows.exe`) directly in memory.
- * **DMM** - DLL Memory Manipulation: Patches the license checking code within the `Windows.ApplicationModel.Store.dll` module loaded within the game in memory.
+  * **DMM** - DLL Memory Manipulation: Patches the license checking code within the `Windows.ApplicationModel.Store.dll` module loaded within the game in memory.
+ * ClipSVC Method: \[Patched] [Check 1st Paragrapgh](/story#the-beginning-m-centers--online-fixme)
  * DLL Hooking: Uses [function hooking](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html) to modify the license checking functions within the game and/or other DLLs loaded within the game in memory.
- 
- <u><i>Patching in memory:</i></u> When Minecraft is running, the RAM Manipulator [if using one] edits code (instructions) within the game process and other modules (i.e. dlls). Thus, it is temporary method and needs to be done every time the game is started.
- <u><i>Difference between **I-MCM** and **DMM**:</i></u> In the **I-MCM** method, the game exe (`Minecraft.Windows.exe`) is patched in memory, whereas in the **DMM** method, the store DLLs containing the license checking code are patched within memory.
- 
  * DLL Replacing: Replaces the `Windows.ApplicationModel.Store.dll` DLL's with patched (i.e cracked) ones.
  * **DRC** - DLL Redirection for Cracking: Also known as DLL hijacking, this method takes advantage of the [DLL search order](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order) to cause the game to load a patched (i.e. cracked) dll instead of the dll present within the system directories (`System32` and `SysWOW64`). This method does not require editing the dlls in the system directories.
 :::
