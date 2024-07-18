@@ -38,8 +38,8 @@ outline: deep
 
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
-🌟 M Centres 8.0|[Website](https://mcenters.net/) / [Discord](https://dsc.gg/mcenters)|[GitHub](https://github.com/tinedpakgamer/M-Centers-8.0/)|**Yes**|**Multiple Methods**
-🌟 Max_RM's pre-cracked appx|[Telegram](https://t.me/MDLC_main) / [2](https://t.me/MPC_MCBE_UWP)|\-|**Yes**|**Cracked Appx**
+⭐ M Centres 8.0|[Website](https://mcenters.net/) / [Discord](https://dsc.gg/mcenters)|[GitHub](https://github.com/tinedpakgamer/M-Centers-8.0/)|**Yes**|**Multiple Methods**
+⭐ Max_RM's pre-cracked appx|[Telegram](https://t.me/MDLC_main) / [2](https://t.me/MPC_MCBE_UWP)|\-|**Yes**|**Cracked Appx**
 ⭐ online-fix\.me's Launcher|[Website](https://online-fix.me/games/sandbox/16708-minecraft-for-windows-10-po-seti.html)|\-|**Yes**|**I-MCM**
 ⭐ OptiCraft|[Website](https://optijuegos.github.io/)|\-|**Yes**|**Cracked Appx**
 ⭐ Zhmurkov Launcher|[Website](https://zhmurkov.ru/)|\-|**Yes**|**Cracked Appx**
