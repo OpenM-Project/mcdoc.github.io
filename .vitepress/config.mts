@@ -98,6 +98,7 @@ export default defineConfig({
             { text: 'Secret Marketplace Items', link: '/secret-marketplace' },
             { text: 'Credits', link: '/credits/' },
             { text: 'DMCA', link: '/dmca/' },
+            { text: 'Marketplace Crack', link: '/marketplace/' },
           ]
         }
     ],
@@ -108,6 +109,7 @@ export default defineConfig({
         link: '/story'
       },
       { text: 'Secret Marketplace Items', link: '/secret-marketplace' },
+      { text: 'Marketplace Crack', link: '/marketplace/' },
       { text: 'Miscellaneous', link: '/miscellaneous/' },
       { text: 'Credits', link: '/credits/' },
       { text: 'DMCA', link: '/dmca/' },

@@ -11,3 +11,7 @@ title: Marketplace Piracy
 * [MCUtils / McTools](https://silica.codes/BedrockReverse/McTools)
 * [MCDecryptor](https://t.me/archivebluecoin)
 * [MCPackDecrypt](https://silica.codes/BedrockReverse/MCPackDecrypt)
+
+## Precracked Content
+
+* [Minecraft DLC Archive](https://discord.gg/mU92azb9Ap)
