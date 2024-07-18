@@ -35,8 +35,17 @@ export default defineConfig(() => {
         'vue',
       ], 
     }, 
-    plugins: [
-      // other vite plugins...
+    plugins: [ 
+      GitChangelog({ 
+        // Fill in your repository URL here
+        repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
+      }), 
+      GitChangelogMarkdownSection({
+        sections: { 
+          disableChangelog: false,
+          disableContributors: true,
+        }, 
+      }), 
     ],
     // other vite configurations...
   }

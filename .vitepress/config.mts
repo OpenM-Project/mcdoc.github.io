@@ -16,33 +16,6 @@ import {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  vite: { 
-    optimizeDeps: { 
-      exclude: [ 
-        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
-        '@nolebase/vitepress-plugin-highlight-targeted-heading',
-      ], 
-    }, 
-    plugins: [ 
-      GitChangelog({ 
-        // Fill in your repository URL here
-        repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
-      }), 
-      GitChangelogMarkdownSection({
-        sections: { 
-          disableChangelog: false,
-          disableContributors: true,
-        }, 
-      }), 
-    ],
-    ssr: { 
-      noExternal: [ 
-        // If there are other packages that need to be processed by Vite, you can add them here.
-        '@nolebase/vitepress-plugin-enhanced-readabilities', 
-      ], 
-    }, 
-  }, 
-
   title: "MCDOC",
   lang: 'en-US',
   description: "An Ultimate Collection of Minecraft History, Tools & Unlockers.",
