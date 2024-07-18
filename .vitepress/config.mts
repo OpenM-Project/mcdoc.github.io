@@ -16,6 +16,21 @@ import {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
+  vite: { 
+    plugins: [ 
+      GitChangelog({ 
+        // Fill in your repository URL here
+        repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
+      }), 
+      GitChangelogMarkdownSection({
+        sections: { 
+          disableChangelog: false,
+          disableContributors: true,
+        }, 
+      }), 
+    ],
+  }, 
+
   title: "MCDOC",
   lang: 'en-US',
   description: "An Ultimate Collection of Minecraft History, Tools & Unlockers.",

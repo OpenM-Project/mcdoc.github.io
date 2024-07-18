@@ -1,5 +1,4 @@
-import { defineConfig } from 'vite';
-import GitChangelog from 'git-changelog';
+import { defineConfig } from 'vite'
 
 export default defineConfig(() => {
   return {
@@ -12,6 +11,7 @@ export default defineConfig(() => {
     },
     ssr: { 
       noExternal: [ 
+        // If there are other packages that need to be processed by Vite, you can add them here.
         '@nolebase/vitepress-plugin-enhanced-readabilities', 
         '@nolebase/ui',
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
@@ -35,12 +35,9 @@ export default defineConfig(() => {
         'vue',
       ], 
     }, 
-    plugins: [ 
-      GitChangelog({ 
-        repoURL: 'https://github.com/openm-project/mcdoc.github.io', 
-      }), 
-      // Add other plugins if necessary
+    plugins: [
+      // other vite plugins...
     ],
     // other vite configurations...
   }
-});
+})
