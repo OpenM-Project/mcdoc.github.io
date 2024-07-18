@@ -111,9 +111,9 @@ First, tinedpakgamer revived the <a href="https://www.youtube.com/channel/UCM1jM
 
 :::
 
-::: details Continuation of OpenM with wavEye
+::: details Start of wavEye
 
-After OpenM was deleted, soyeonswife63 created the wavEye Project as an extension of the OpenM project.
+After OpenM was deleted, soyeonswife63 created the wavEye Project to work independently.
 
 <code>libstarlight</code> was the first release, which was basically a Rust rewrite of <code>librosewater</code> from OpenM. There was supposed to be a successor to BEAMinject called Starlight, but it never saw the light of day due to issues during development.
 
@@ -124,6 +124,9 @@ After Starlight was ditched, <code>BEAMinject</code> and <code>librosewater</cod
   <li>Cleaned up code with proper Python practices</li>
   <li>Added support for patching Minecraft Preview versions</li>
 </ul>
-The project is still developing, and there may be more to come.
+
+Then, <code>libdopamine</code> was created, which was a revised version of <code>libstarlight</code>, but using a cleaner code template. This removed the issues during development that <code>libstarlight</code> saw, and finally, <code>BEAMinject</code> was completely re-written in Rust, and the Python version was deprecated.
+
+wavEye continues to maintain <code>BEAMinject</code> and <code>libdopamine</code>, along with other projects, to this day. wavEye remains as the only project which has FOSS for Minecraft unlocking.
 
 :::
