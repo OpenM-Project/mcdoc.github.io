@@ -8,7 +8,7 @@ title: Minecraft for Android
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
-| ⭐ modscraft.net | [Website](https://modscraft.net/en/mcpe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, both for Preview and Release versions, maintained by.
+| ⭐ ModsCraft | [Website](https://modscraft.net/en/mcpe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, both for Preview and Release versions
 | MCPEDL.ORG | [Website](https://mcpedl.org/downloading/) | \- | **Yes** | Unlocked APKs of Minecraft for Android
 | Monster MCPE | [Website](https://monster-mcpe.com/download-minecraft-pe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android
 | an1 | [Website](https://an1.com/7190-minecraft-mod.html) | \- | **Yes** | Modded & Unlocked APKs of Minecraft for Android
