@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import GitChangelog from 'git-changelog';
 
 export default defineConfig(() => {
   return {
