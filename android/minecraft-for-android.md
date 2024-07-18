@@ -22,4 +22,4 @@ title: Minecraft for Android
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
  ⭐ Toolbox UP | [Website](https://toolboxup.pages.dev/) | [GitHub](https://github.com/BeestoXd/Toolbox-UP/releases) | **Yes** | Launcher/Modification for Minecraft: PE & Unlock Premium features
-ToolBoxUnlock | [Github](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock/releases) | [GitHub](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock) | **Yes** | Unlocker for [**Toolbox for Minecraft: PE**](https://play.google.com/store/apps/details?id=io.mrarm.mctoolbox&hl=en_US) & Removes license check from Minecraft
+ToolBoxUnlock | [Github](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock/releases) | [GitHub](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock) | **Yes** | Unlocker for [**Toolbox for Minecraft: PE**](https://play.google.com/store/apps/details?id=io.mrarm.mctoolbox) & Removes license check from Minecraft
