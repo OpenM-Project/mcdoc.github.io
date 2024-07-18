@@ -8,6 +8,12 @@ title: Minecraft for iOS
 An IPA file is an application made for iOS devices (iPhone & iPad). The file format was created by Apple. To install an IPA, it is recommended that you use [SideStore](https://sidestore.io/) or [AltStore](https://altstore.io/).
 :::
 
+## Apple ID Services
+
+Name | Download | Source code | Is it maintained? | Description
+------ | ------ | ------ | ------| ------
+⭐ akwebguide.com | [Website](https://akwebguide.com/) | - | **Yes** | Unlocked Apple ID service for a variety of games including Minecraft for IOS
+
 ## Modded / Unlocked IPAs
 
 Name | Download | Source code | Is it maintained? | Description
