@@ -4,6 +4,8 @@ import timeline from "vitepress-markdown-timeline";
 
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+
 import { 
   InlineLinkPreviewElementTransform 
 } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
@@ -205,14 +207,14 @@ editLink: {
       md.use(timeline);
       md.use(BiDirectionalLinks())
       md.use(InlineLinkPreviewElementTransform)
+      md.use(tabsMarkdownPlugin)
     },
 
     image: {
       lazyLoading: true
     },
 
-    defaultHighlightLang: 'ts',
-
+    defaultHighlightLang: 'ts'
   }
 
 })

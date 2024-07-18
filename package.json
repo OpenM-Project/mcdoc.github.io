@@ -16,6 +16,7 @@
     "vitepress": "1.2.3",
     "vitepress-markdown-timeline": "^1.2.1",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
+    "vitepress-plugin-tabs": "^0.5.0",
     "vue": "^3.4.30"
   },
   "scripts": {

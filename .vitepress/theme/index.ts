@@ -5,6 +5,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 
 import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
@@ -61,6 +62,7 @@ export default {
     app.use(NolebaseGitChangelogPlugin, {
       // Configuration
     })
+    enhanceAppWithTabs(app)
     vitepressBackToTop({
       // default
       threshold:300
@@ -103,4 +105,4 @@ export default {
 
   },
 
-}
+} satisfies Theme

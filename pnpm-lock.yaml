@@ -60,6 +60,9 @@ importers:
       vitepress-plugin-comment-with-giscus:
         specifier: ^1.1.15
         version: 1.1.15(vue@3.4.32)
+      vitepress-plugin-tabs:
+        specifier: ^0.5.0
+        version: 0.5.0(vitepress@1.2.3(@algolia/client-search@4.24.0)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0))(vue@3.4.32)
       vue:
         specifier: ^3.4.30
         version: 3.4.32
@@ -1351,6 +1354,12 @@ packages:
 
   vitepress-plugin-comment-with-giscus@1.1.15:
     resolution: {integrity: sha512-1DJjgN+7SYvn5ZkjuSXPmz7nlqfcrh4qCGGviiZghA2ELXnaO2m9WY7m+RisPSaqCn90xqe0JbO2T4NMq8iUBg==}
+
+  vitepress-plugin-tabs@0.5.0:
+    resolution: {integrity: sha512-SIhFWwGsUkTByfc2b279ray/E0Jt8vDTsM1LiHxmCOBAEMmvzIBZSuYYT1DpdDTiS3SuJieBheJkYnwCq/yD9A==}
+    peerDependencies:
+      vitepress: ^1.0.0-rc.27
+      vue: ^3.3.8
 
   vitepress@1.2.3:
     resolution: {integrity: sha512-GvEsrEeNLiDE1+fuwDAYJCYLNZDAna+EtnXlPajhv/MYeTjbNK6Bvyg6NoTdO1sbwuQJ0vuJR99bOlH53bo6lg==}
@@ -2870,6 +2879,11 @@ snapshots:
       '@giscus/vue': 2.4.0(vue@3.4.32)
     transitivePeerDependencies:
       - vue
+
+  vitepress-plugin-tabs@0.5.0(vitepress@1.2.3(@algolia/client-search@4.24.0)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0))(vue@3.4.32):
+    dependencies:
+      vitepress: 1.2.3(@algolia/client-search@4.24.0)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)
+      vue: 3.4.32
 
   vitepress@1.2.3(@algolia/client-search@4.24.0)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0):
     dependencies:
