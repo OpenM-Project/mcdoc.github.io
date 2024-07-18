@@ -12,7 +12,6 @@ export default defineConfig(() => {
     },
     ssr: { 
       noExternal: [ 
-        // If there are other packages that need to be processed by Vite, you can add them here.
         '@nolebase/vitepress-plugin-enhanced-readabilities', 
         '@nolebase/ui',
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
@@ -38,16 +37,10 @@ export default defineConfig(() => {
     }, 
     plugins: [ 
       GitChangelog({ 
-        // Fill in your repository URL here
-        repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
+        repoURL: 'https://github.com/openm-project/mcdoc.github.io', 
       }), 
-      GitChangelogMarkdownSection({
-        sections: { 
-          disableChangelog: false,
-          disableContributors: true,
-        }, 
-      }), 
+      // Add other plugins if necessary
     ],
     // other vite configurations...
   }
-})
+});
