@@ -11,7 +11,16 @@
 
 /* Background image */
 
-.Layout {
+.VPContent {
+  background-color: var(--vp-c-bg-alt) !important;
+  background: url('/assets/images/background.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.VPSidebar {
   background-color: var(--vp-c-bg-alt) !important;
   background: url('/assets/images/background.webp');
   background-repeat: no-repeat;
