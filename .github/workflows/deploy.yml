@@ -41,6 +41,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: pnpm install
+      - name: Add git-changelog
+        run: pnpm add git-changelog
       - name: Build
         run: pnpm run docs:build
       - name: Upload artifact
