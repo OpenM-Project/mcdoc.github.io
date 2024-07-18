@@ -66,6 +66,10 @@ window.onload = function() {
     <td><strong>SOMEONE</strong></td>
     <td>Founder of M Community, the community that was aiming to revive M Centers after M Centers left (02/13/2024 [MM/DD/YYYY]), and before M Centers came back (05/01/2024 [MM/DD/YYYY]). <strong>SOMEONE</strong> is also support at M Centers.</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/soyeonswife63/">ssy</a></td>
+    <td>Development of all original OpenM work. Owner of wavEye Project.</td>
+  </tr>
 </table>
 
 #### *And other contributers or developers of the OpenM Project/OpenMicrosoft Project/MCDOC/MCBEDOC, M Centers, and M Community/M Community Development*

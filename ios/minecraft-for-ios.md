@@ -12,7 +12,7 @@ An IPA file is an application made for iOS devices (iPhone & iPad). The file for
 
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
-⭐ akwebguide | [Website](https://akwebguide.com/) | - | **Yes** | Unlocked Apple ID service for a variety of games including Minecraft for IOS
+⭐ akwebguide | [Website](https://www.akwebguide.com/) | - | **Yes** | Unlocked Apple ID service for a variety of games including Minecraft for IOS
 
 ## Modded / Unlocked IPAs
 
