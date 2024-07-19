@@ -2,7 +2,7 @@
 title: The Story
 ---
 
-# The Story of MC unlockers
+# The Story of Minecraft Unlocking.
 
 The detailed story of cracking Minecraft.
 
@@ -11,21 +11,19 @@ The detailed story of cracking Minecraft.
 When Minecraft was released, people started to look for ways to play the game for free *(as usual)*. The game had a trial version which was limited and you could only play for 60 minutes in a world.
 
 Then, people started to notice that the paid version and the trial version was the exact same app! So, efforts started to try to unlock the game, and here we are today.
-Stable
-
 </div>
 
 ## The Beginning, M Centers & online-fix\.me
 
 ::: details The First Method - ClipSVC
 
-The First trick, discovered by tinedpakgamer, is the <b>ClipSVC Method</b>. With some registry code, you could force stop ClipSVC and prevent it from running in the background. After that, when you start Minecraft, it would buffer at 46% which you would then go and force stop Runtime Broker under Minecraft in Task Manager. And this worked! This was then packed into a program named M Centers by the discoverer. But, this method was the opposite of safe, as it breaks MS Store completely and on 10th October 2022, it got patched by Microsoft Sanity/Subscription Check Update.
+The first hack to unlock Minecraft, discovered by tinedpakgamer, is the <b>ClipSVC Method</b>. With some registry code, you could force stop ClipSVC and prevent it from running in the background. After that, when you start Minecraft, it would buffer at 46% which you would then go and force stop Runtime Broker under Minecraft in Task Manager. And this worked! This was then packed into a program named M Centers by the discoverer. But, this method was the opposite of safe, as it breaks MS Store completely and on 10th October 2022, it got patched by Microsoft Sanity/Subscription Check Update.
 
 :::
 
 ::: details The Second Method - DLL Replacing
 
-Then came along a permanent method, the <b>DLL Replacing</b>. By replacing <code>Windows.ApplicationModel.Store.dll</code> with <i>Cracked DLLs</i> and making it say the game was licensed, Minecraft was able to be unlocked! This was the method used by Tinedpakgamer in M Centers, released as version 3.0 <i>(2.0 was a sentry launcher using precracked appx. It failed and got scraped)</i>. After M Centers 3.0 became commonly used, M Centers 3.3 was released which did the same thing, but fixed a bug in the previous version.
+Then came along a permanent method, the <b>DLL Replacing</b>. By replacing <code>Windows.ApplicationModel.Store.dll</code> with <i>Cracked DLLs</i> and making it say the game was licensed, Minecraft was able to be unlocked! This was the method used by Tinedpakgamer in M Centers, released as version 3.0 <i>(2.0 was a sentry launcher using precracked appx. Its development failed and got scrapped)</i>. After M Centers 3.0 became commonly used, M Centers 3.3 was released which did the same thing, but fixed a bug in the previous version.
 :::
 
 ::: details The third method - Memory Manipulation
@@ -40,19 +38,19 @@ In 2021, online-fix.me <i>(a well-known Russian site)</i> released their own ver
 
 ::: details The DMCA
 
-After some time of the releases, Tinedpakgamer announced the end of M Centers, and started slowly deleting everything related to him. The speculated reason for this was an DMCA takedown, but this was never confirmed.
+After some time of the releases, Tinedpakgamer announced the end of M Centers, and started slowly deleting everything related to him. The reason for this was because he wanted a break and also had his identity leaked, so this was why he had left.
 
 :::
 
 ::: details SOMEONE
 
-While M Centers was slowly shutting down, a user named SOMEONE#1060 created a server named "M Community" and shared it through a major chunk of users on the M Centers server. his server, M Community, was the unofficial revival and archive of M Centers. As this server got increasingly popular, Tinedpakgamer found out about it then proceeded to delete the invitation message. But it was too late, and most of the stuff was archived and lots of users were in the server already. M Centers eventually deleted the Discord server, leaving no trace of it. 
+While M Centers was slowly shutting down, a user named **someone1060** created a server named "M Community" and shared it through a major chunk of users on the M Centers server. his server, M Community, was the unofficial revival and archive of M Centers. As this server got increasingly popular, tinedpakgamer found out about it then proceeded to delete the invitation message. But it was too late, and most of the stuff was archived and lots of users were in the server already. M Centers eventually deleted the Discord server, leaving no trace of it. 
 
 :::
 
-::: details MCenters 7.0
+::: details M Centers 7.0 (Akshnav)
 
-Later, a video titled something along the lines of "How to get MCBE for free" blew up. This video had linked the M Community server, which caused it to get lots of members. This soon led to M Centers joining the server and uploading M Centers 7.0 <i>(also known as Akshnav Launcher)</i> which also used <i>In-Memory Code Manipulation</i>. But this method had some issues.
+Later, a video titled something along the lines of "How to get MCBE for free" blew up. This video had linked the M Community server, which caused it to get lots of members. This soon led to M Centers joining the server and uploading M Centers 7.0 <i>(also known as Akshnav)</i> which also used <i>In-Memory Code Manipulation</i>. But this method had some issues.
 
 :::
 
