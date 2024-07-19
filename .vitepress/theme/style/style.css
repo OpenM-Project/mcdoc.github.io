@@ -11,6 +11,8 @@
 
 /* Background image */
 
+/*
+
 .VPContent {
   background-color: var(--vp-c-bg-alt) !important;
   background: url('/assets/images/background.webp');
@@ -19,6 +21,8 @@
   background-position: bottom;
   background-size: cover;
 }
+  
+  */
 
 /*
 .VPSidebar {
