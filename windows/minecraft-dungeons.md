@@ -8,8 +8,8 @@ title: Minecraft Dungeons
 
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
+⭐ Minecraft Dungeons crack by online-fix.me | [Website](https://online-fix.me/games/rpg/16413-minecraft-dungeons-po-seti.html) | - | Yes | Minecraft Dungeons crack by online-fix.me supporting multiplayer, and all normal functions of the game.
 🌐 Minecraft Dungeons Topic|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=22&t=116396)| - | **Yes** | CS.RIN.RU Topic of Minecraft Dungeons
-MCD Online-Fix | [Website](https://online-fix.me/games/rpg/16413-minecraft-dungeons-po-seti.html) | - | Yes | Minecraft Dungeons patch with online-fix
 Minecraft Dungeons [P] [RUS + ENG + 12 / ENG + 8] (2020, RPG) (1.12.0.0. + 8 DLC) [Scene] | [Rutracker](https://rutracker.org/forum/viewtopic.php?t=5998861) | - | Yes | Minecraft: Dungeons PC patch with 8 DLCs
 Minecraft Dungeons CRACKED|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=10&t=97669)| - | **Yes** | Cracked Minecraft Dungeons download
 
