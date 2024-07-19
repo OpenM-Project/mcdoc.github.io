@@ -4,6 +4,10 @@ title: Minecraft for Android
 
 # Minecraft for Android
 
+::: info What is an APK?
+An APK file is an application made for Android devices. The file format was created by Android. To install an APK, you have to turn on **Install Apps from Unknown Sources** in your phone's settings, download the apk, and double click it to open the installation page, or you can alternatively, use adb to install Minecraft for Android by doing **adb install {replace this with the Minecraft APK's filename}.apk**.
+:::
+
 ## Modded / Unlocked APKs
 
 | Name | Download | Source code | Is it maintained? | Description
@@ -23,6 +27,7 @@ title: Minecraft for Android
 
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
- ⭐ Toolbox UP | [Website](https://toolboxup.pages.dev/) | [GitHub](https://github.com/BeestoXd/Toolbox-UP/releases) | **Yes** | Launcher/Modification for Minecraft: PE & Unlock Premium features
+ ⭐ Toolbox for Minecraft: PE | [Google Play](https://play.google.com/store/apps/details?id=io.mrarm.mctoolbox&pli=1) | [GitHub](https://github.com/1503Dev/Toolbox-for-Minecraft-PE) | **Yes** | A free launcher/Modification for Minecraft: PE, that is on the Google Play Store.
+ ⭐ Toolbox UP | [Website](https://toolboxup.pages.dev/) | [GitHub](https://github.com/BeestoXd/Toolbox-UP/releases) | **Yes** | A free launcher/Modification for Minecraft: PE, and features to unlock Premium, it is based on **Toolbox For Minecraft: PE**
 Project Lumina | [Website](https://projectlumina.org/) | \- | **Yes** | Launcher/Modification for Minecraft: PE
-ToolBoxUnlock | [Github](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock/releases) | [GitHub](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock) | **Yes** | Unlocker for [**Toolbox for Minecraft: PE**](https://play.google.com/store/apps/details?id=io.mrarm.mctoolbox) & Removes license check from Minecraft
+ToolBoxUnlock | [Github](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock/releases) | [GitHub](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock) | **Yes** | Unlocker for **Toolbox for Minecraft: PE** & Removes license check from Minecraft.
