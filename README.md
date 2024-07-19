@@ -9,6 +9,7 @@ This documentation aims to provide comprehensive information and guides on vario
 ## Technologies Used
 
 - VitePress: A static site generator that allows you to build and maintain your documentation easily.
+- Markdown: A lightweight markup language that you can use to add formatting elements to plaintext text documents
 
 ## Getting Started
 
@@ -27,7 +28,7 @@ Contributions to MCDOC are welcome! If you have any suggestions, improvements, o
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License. For more info, check out the [LICENSE](LICENSE) file.
 
 ## Contact
 
