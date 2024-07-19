@@ -1,5 +1,5 @@
 ---
-title: Minecraft: Education Edition
+title: Minecraft Education Edition
 ---
 
 # Minecraft Education
