@@ -110,6 +110,24 @@
 }
 
 /**
+ * Component: Custom
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* Scrollbar */
+  scroll-behavior: smooth;
+  scrollbar-width: 4px;
+}
+
+/* Custom scrollbar */
+.VPSidebar::-webkit-scrollbar {
+  block-size: 4px;
+  border-end-end-radius: 14px;
+  border-start-end-radius: 14px;
+  inline-size: 4px;
+}
+
+/**
  * Component: Button
  * -------------------------------------------------------------------------- */
 
