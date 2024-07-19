@@ -9,6 +9,7 @@ This documentation aims to provide comprehensive information and guides on vario
 ## Technologies Used
 
 - VitePress: A static site generator that allows you to build and maintain your documentation easily.
+- Markdown: A lightweight markup language that you can use to add formatting elements to plaintext text documents
 
 ## Getting Started
 
