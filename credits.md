@@ -47,27 +47,27 @@ window.onload = function() {
 
 <table>
   <tr>
-    <td><a href="https://github.com/tinedpakgamer/"><strong>M Centers</strong></a></td>
-    <td>Developer of M Centres, aka tinedpakgamer.</td>
+    <td><a href="https://github.com/tinedpakgamer/"><strong>tinedpakgamer</strong></a></td>
+    <td>Developer of M Centres, his code had helped inspire wavEye's BEAMinject and power Max RM's pre-cracked appx, by giving Max RM the code and method to make them.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/Max-RM"><strong>Max RM</strong></a></td>
-    <td><strong>a <em>major</em> partner of M Centers</strong>, the owner of MDLC <em>(working on cracked appx for Minecraft)</em>, helped in giving Hex codes for BEAMinject.</td>
+    <td><strong>A <em>major</em> partner of M Centers</strong>, the owner of MDLC <em>(working on cracked appx for Minecraft)</em>, and helped in giving hex codes for wavEye's BEAMinject.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/QwertyTheCoder"><strong>CyberAWM</strong></a></td>
-    <td>Partner of M Centers.</td>
+    <td>A partner of M Centers.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/ClickNin/">ClickNinYT</a>/<a href="https://github.com/FishiaT">FishiaT</a></td>
-    <td>Developer of ClickGo, ClickGoLTS, DynoLTS and BlueSky Launcher. He is also partnered with M Centers.</td>
+    <td>Developer of ClickGo, ClickGoLTS, DynoLTS and BlueSky Launcher. He is also partnered with M Centers, although he is not in the M Centers discord server anymore.</td>
   </tr>
   <tr>
     <td><strong>SOMEONE</strong></td>
-    <td>Founder of M Community, the community that was aiming to revive M Centers after M Centers left (02/13/2024 [MM/DD/YYYY]), and before M Centers came back (05/01/2024 [MM/DD/YYYY]). <strong>SOMEONE</strong> is also support at M Centers.</td>
+    <td>Founder of M Community, the community that was aiming to revive M Centers after M Centers left (02/13/2024 [MM/DD/YYYY]), and before M Centers came back (05/01/2024 [MM/DD/YYYY]). <strong>SOMEONE</strong> is also a partner at M Centers.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/soyeonswife63/">ssy</a></td>
+    <td><a href="https://github.com/soyeonswife63/">soyeonswife63</a></td>
     <td>Development of all original OpenM work. Owner of wavEye Project.</td>
   </tr>
 </table>
