@@ -28,7 +28,7 @@ Contributions to MCDOC are welcome! If you have any suggestions, improvements, o
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License. For more info, check out the [LICENSE](LICENSE) file.
 
 ## Contact
 
