@@ -74,12 +74,22 @@ Minecraft-Bedrock-Cracker|[GitHub](https://github.com/cloudhzc/Minecraft-Bedrock
 MIno's Python script|[GitHub](https://github.com/misike12/Minecraft-Windows-10-edition-crack-with-gui-python/archive/refs/heads/main.zip)|[GitHub](https://github.com/misike12/Minecraft-Windows-10-edition-crack-with-gui-python)|No|ClipSVC
 XenonLauncher|[GitHub](https://github.com/charlie272/XenonLauncher/archive/refs/heads/main.zip)|[GitHub](https://github.com/charlie272/XenonLauncher)|No|ClipSVC
 
+## Hacked/Modded Clients for Minecraft for Windows 10
+
+Name | Download | Source code | Is it maintained?| Description
+------ | ------ | ------ | ------| ------
+⭐ Horion|[Website](https://horion.download/)|[GitHub](https://github.com/HorionContinued/Injector)|**Yes**|A Minecraft: Bedrock Edition hack/client mod designed to enhance gameplay.
+⭐ Borion|[Website](https://borion-updated.github.io/) (DLL to be used with [Fate Injector](https://github.com/fligger/FateInjector))|[GitHub](https://github.com/Borion-Updated/Releases)|**Yes**|Borion-Updated is an updated version of Horion and Horion-Open-SRC. Full credit goes to the original Horion developers and everyone who has contributed over the years for the base. They do NOT claim credit for the code of the base.
+Prax Client|[GitHub](https://github.com/Prax-Client/Releases) (DLL to be used with [Prax Injector](https://github.com/Prax-Client/Injector))|[GitHub](https://github.com/Prax-Client/Injector)|**Yes**|Prax Client is an external hacked/modded client for Minecraft Bedrock Edition. It offers various features to enhance gameplay.
+Horion Open-SRC|\-|[GitHub](https://github.com/NRGJobro/Horion-Open-SRC)|**No**|Horion, but updated to 1.18.12 and open src :)
 
 ## Other Tools for Minecraft for Windows 10
 
 Name | Download | Source code | Is it maintained?| Description
 ------ | ------ | ------ | ------| ------
-MCLauncher|[GitHub](https://github.com/MCMrARM/mc-w10-version-launcher/releases)|[GitHub](https://github.com/MCMrARM/mc-w10-version-launcher)|**Yes**|Multi-version launcher for Minecraft
+⭐ MCLauncher|[GitHub](https://github.com/MCMrARM/mc-w10-version-launcher/releases)|[GitHub](https://github.com/MCMrARM/mc-w10-version-launcher)|**Yes**|Multi-version launcher for Minecraft
+⭐ Bedrock Launcher|[GitHub](https://github.com/BedrockLauncher/BedrockLauncher/releases)|[GitHub](https://github.com/BedrockLauncher/BedrockLauncher)|**Yes**|Multi-version launcher for Minecraft with a good GUI
+⭐ AutoModificator|[GitHub](https://github.com/Max-RM/AutoModificator)|[GitHub](https://github.com/Max-RM/AutoModificator/releases)|**Yes**| Unlocking height limit and piston push limit
 Betacraft|[Website](https://betacraft.uk/)|[Github](https://github.com/betacraftuk/betacraft-launcher/)|*Maybe*|Multi-version launcher for Minecraft Beta Versions
 MCli|[GitHub](https://raw.githubusercontent.com/mcrax/mcli/main/MCli.py)|[GitHub](https://github.com/mcrax/mcli)|No|UUID downloading
 McUtils|[PixelDrain](https://pixeldrain.com/u/Rpw33LwR)|\-|*Maybe*|Decrypting Marketplace Content
@@ -89,8 +99,6 @@ ThePillagerBay|[Telegram](https://t.me/ThePillagerBay)|~~Telegram~~|**Yes**|Decr
 TPB Discord | [Server](https://discord.com/invite/leek)| - | **Yes** | ThePillagerBay Discord Server
 RobLauncher|[GitHub](https://github.com/OptiJuegos/RobLauncher/releases)|[GitHub](https://github.com/OptiJuegos/RobLauncher)|**Yes**|Collections of tools
 Mcappx|[Website](https://www.mcappx.com/)|\-|**Yes**|A third-party game resource platform that focuses on providing all versions of Minecraft for Windows
-AutoModificator|[GitHub](https://github.com/Max-RM/AutoModificator)|[GitHub](https://github.com/Max-RM/AutoModificator/releases)|**Yes**| Unlocking height limit and piston push limit
-Bedrock Launcher|[GitHub](https://github.com/BedrockLauncher/BedrockLauncher/releases)|[GitHub](https://github.com/BedrockLauncher/BedrockLauncher)|**Yes**|Multi-version launcher for Minecraft with a good GUI
 Mc Persona|[PixelDrain](https://pixeldrain.com/u/gn9BuMTG)|[Telegram](https://t.me/c/2071756372/1758)|*Maybe*|Persona decryptor
 BlueCoin|[Telegram](https://t.me/archivebluecoin)|\-|**Yes**|Decrypting Marketplace Content
 Minecraft Bedrock Leaks|[Website](https://shytz.net/Minecraft-Leaks/Windows-Leaks)|\-|**Yes**|Minecraft: Bedrock Edition Development version leaks
