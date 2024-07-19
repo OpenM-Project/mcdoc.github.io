@@ -18,13 +18,14 @@ Name | Download | Source code | Is it maintained? | Description
 
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
-⭐ iOSGods | [Website](https://iosgods.com/topic/62469-minecraft-latest-version-free-no-jailbreak-required/) | - | **Yes** | IPAs of Minecraft for IOS
-⭐ PDALife | [Website](https://pdalife.com/minecraft-pocket-edition1-ios-a8721.html) | - | **Yes** | Unlocked IPAs of Minecraft for IOS
-iOSVizor | [Website](https://iosvizor.com/games/arcade/minecraft-pe-ipa-download-free/) | - | **Yes** | Unlocked IPAs of Minecraft for IOS
-AppCake | [Website](https://www.iphonecake.com/app_479516143_.html) | - | **Yes** | Unlocked IPAs of Minecraft for iOS
-TweakHome | [Website](https://tweakhome.app/minecraft-ipa/) | - | No | Modded & Unlocked IPAs of Minecraft for IOS
-Senumy | [Website](https://senumy.com/ipa-library/hacked-games/minecraft/) | - | No | Unlocked IPAs of Minecraft for IOS
-Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pocket-edition-versions-ipa) | - | No | An archive of Unlocked Minecraft IPAs
+⭐ iOSGods | [Website](https://iosgods.com/topic/62469-minecraft-latest-version-free-no-jailbreak-required/) | - | **Yes** | IPAs of Minecraft for iOS.
+⭐ PDALife | [Website](https://pdalife.com/minecraft-pocket-edition1-ios-a8721.html) | - | **Yes** | Unlocked IPAs of Minecraft for IOS.
+⭐ ipaomtk | [Website](https://ipaomtk.com/minecraft-ipa/) | - | **Yes** | IPAs of Minecraft for iOS.
+iOSVizor | [Website](https://iosvizor.com/games/arcade/minecraft-pe-ipa-download-free/) | - | **Yes** | Unlocked IPAs of Minecraft for IOS.
+AppCake | [Website](https://www.iphonecake.com/app_479516143_.html) | - | **Yes** | Unlocked IPAs of Minecraft for iOS.
+TweakHome | [Website](https://tweakhome.app/minecraft-ipa/) | - | No | Modded & Unlocked IPAs of Minecraft for IOS.
+Senumy | [Website](https://senumy.com/ipa-library/hacked-games/minecraft/) | - | No | Unlocked IPAs of Minecraft for IOS.
+Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pocket-edition-versions-ipa) | - | No | An archive of Unlocked Minecraft IPAs.
 
 ## Other Tools
 
