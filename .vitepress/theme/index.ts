@@ -3,7 +3,7 @@ import { h } from 'vue'
 import { useData , useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import './style.css'
+import './style/style.css'
 
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'

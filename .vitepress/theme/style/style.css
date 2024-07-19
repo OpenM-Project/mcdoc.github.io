@@ -1,7 +1,7 @@
-@import './style/var.css';
-@import './style/link.css';
-@import './style/linkcard.css';
-@import './style/vp-code-group.css';
+@import './var.css';
+@import './link.css';
+@import './linkcard.css';
+@import './vp-code-group.css';
 
 /* Fix Layout Switcher */
 
