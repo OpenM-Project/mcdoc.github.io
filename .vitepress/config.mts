@@ -66,70 +66,14 @@ export default defineConfig({
     logo: '/favicon.ico',
     siteTitle: 'MCDOC',
     nav: [
-        {
-          text: 'The Story',
-          link: '/story'
-        },
-        {
-          text: 'Windows',
-          items: [
-            { text: 'Java Edition', link: 'https://fmhy.net/gaming-tools#minecraft-tools' },
-            { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
-            { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
-            { text: 'Minecraft China', link: '/windows/minecraft-china' },
-            { text: 'Minecraft Earth', link: '/windows/minecraft-earth' },
-            { text: 'Minecraft Education', link: '/windows/minecraft-education' },
-            { text: 'Minecraft Legends', link: '/windows/minecraft-legends' }
-          ]
-        },
-        {
-          text: 'Android',
-          items: [
-            { text: 'Minecraft Earth', link: '/android/minecraft-earth' },
-            { text: 'Minecraft for Android', link: '/android/minecraft-for-android' },
-            { text: 'Miscellaneous', link: '/android/miscellaneous' }
-          ]
-        },
-        {
-          text: 'iOS',
-          items: [
-            { text: 'Minecraft Earth', link: '/ios/minecraft-earth' },
-            { text: 'Minecraft for iOS', link: '/ios/minecraft-for-ios' }
-          ]
-        },
-        {
-          text: 'Console Edition',
-          items: [
-            { text: 'Minecraft for Nintendo Switch', link: '/console/minecraft-for-nintendo-switch' },
-            { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
-            { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' },
-            { text: 'Minecraft for Wii', link: '/console/minecraft-for-wii' }
-          ]
-        },
-        {
-          text: 'Miscellaneous',
-          activeMatch: '/miscellaneous',
-          items: [
-            { text: 'Miscellaneous', link: '/miscellaneous/' },
-            { text: 'Secret Marketplace Items', link: '/secret-marketplace' },
-            { text: 'Credits', link: '/credits/' },
-            { text: 'DMCA', link: '/dmca/' },
-            { text: 'Marketplace Crack', link: '/marketplace/' },
-          ]
-        }
-    ],
+        { text: 'Story', link: '/story'},
+        { text: 'Miscellaneous', link: '/miscellaneous/' },
+        { text: 'Marketplace', link: '/marketplace/' },
+        { text: 'DMCA', link: '/dmca/' },
+        { text: 'Credits', link: '/credits/' },
+        ],
 
-    sidebar: [
-      { 
-        text: 'The Story',
-        link: '/story'
-      },
-      { text: 'Secret Marketplace Items', link: '/secret-marketplace' },
-      { text: 'Marketplace Crack', link: '/marketplace/' },
-      { text: 'Miscellaneous', link: '/miscellaneous/' },
-      { text: 'Credits', link: '/credits/' },
-      { text: 'DMCA', link: '/dmca/' },
-      
+    sidebar: [      
       {
         text: 'Windows',
         collapsed: false,
