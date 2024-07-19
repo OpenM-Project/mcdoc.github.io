@@ -78,8 +78,8 @@ XenonLauncher|[GitHub](https://github.com/charlie272/XenonLauncher/archive/refs/
 
 Name | Download | Source code | Is it maintained?| Description
 ------ | ------ | ------ | ------| ------
-⭐ Horion|[Website](https://horion.download/)|[GitHub](https://github.com/HorionContinued/Injector)|**Yes**|A Minecraft: Bedrock Edition hack/client mod designed to enhance gameplay.
-⭐ Borion|[Website](https://borion-updated.github.io/) (DLL to be used with [Fate Injector](https://github.com/fligger/FateInjector))|[GitHub](https://github.com/Borion-Updated/Releases)|**Yes**|Borion-Updated is an updated version of Horion and Horion-Open-SRC. Full credit goes to the original Horion developers and everyone who has contributed over the years for the base. They do NOT claim credit for the code of the base.
+⭐Horion|[Website](https://horion.download/)|[GitHub](https://github.com/HorionContinued/Injector)|**Yes**|A Minecraft: Bedrock Edition hack/client mod designed to enhance gameplay.
+⭐Borion|[Website](https://borion-updated.github.io/) (DLL to be used with [Fate Injector](https://github.com/fligger/FateInjector))|[GitHub](https://github.com/Borion-Updated/Releases)|**Yes**|Borion-Updated is an updated version of Horion and Horion-Open-SRC. Full credit goes to the original Horion developers and everyone who has contributed over the years for the base. They do NOT claim credit for the code of the base.
 Prax Client|[GitHub](https://github.com/Prax-Client/Releases) (DLL to be used with [Prax Injector](https://github.com/Prax-Client/Injector))|[GitHub](https://github.com/Prax-Client/Injector)|**Yes**|Prax Client is an external hacked/modded client for Minecraft Bedrock Edition. It offers various features to enhance gameplay.
 Horion Open-SRC|\-|[GitHub](https://github.com/NRGJobro/Horion-Open-SRC)|**No**|Horion, but updated to 1.18.12 and open src :)
 
