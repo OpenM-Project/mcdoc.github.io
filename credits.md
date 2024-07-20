@@ -33,10 +33,6 @@ window.onload = function() {
     <td><a href="https://github.com/misike12/"><strong>Cubebanyasz</strong></a></td>
     <td>Owner of the OpenM Project, a contributor at M Centers & partnered with M Centers, and owner of the <code>openm.tech</code> domain, and the <code>akshnav.cubebanyasz.me</code> website.</td>
   </tr>
-  <tr>
-    <td><a href="https://github.com/soyeonswife63/"><strong>ssy</strong></a></td>
-    <td>Founder and lead developer of all original OpenM work. Owner of wavEye Project.</td>
-  </tr>
 </table>
 
 </div>
@@ -47,12 +43,20 @@ window.onload = function() {
 
 <table>
   <tr>
+    <td><a href="https://github.com/soyeonswife63/"><strong>ssy</strong></a></td>
+    <td>Founder and lead developer of all original OpenM work. Owner of wavEye Project, contributor at OpenM & MCDOC.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/arsfr/"><strong>ARS</strong></a></td>
+    <td>Contributor of the OpenM Project, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/tinedpakgamer/"><strong>M Centers</strong></a></td>
-    <td>Developer of M Centres, his code had helped inspire wavEye's BEAMinject and power Max RM's pre-cracked appx, by giving Max RM the code and method to make them.</td>
+    <td>Developer of M Centres, his code had powered Max RM's pre-cracked appx, by giving Max RM the code and method to make them.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/Max-RM"><strong>Max RM</strong></a></td>
-    <td><strong>A <em>major</em> partner of M Centers</strong>, the owner of MDLC <em>(working on cracked appx for Minecraft)</em>, and helped in giving hex codes for wavEye's BEAMinject.</td>
+    <td><strong>A <em>major</em> partner of M Centers</strong>, the owner of MDLC <em>(working on cracked appx for Minecraft)</em>, and helped in giving hex codes for BEAMinject.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/QwertyTheCoder"><strong>CyberAWM</strong></a></td>
@@ -65,10 +69,6 @@ window.onload = function() {
   <tr>
     <td><strong>SOMEONE</strong></td>
     <td>Founder of M Community, the community that was aiming to revive M Centers after M Centers left (02/13/2024 [MM/DD/YYYY]), and before M Centers came back (05/01/2024 [MM/DD/YYYY]). <strong>SOMEONE</strong> is also a partner at M Centers.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/arsfr/">ARS</a></td>
-    <td>Contributor of the OpenM Project, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
   </tr>
 </table>
 
