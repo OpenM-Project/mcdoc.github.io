@@ -68,7 +68,7 @@ window.onload = function() {
   </tr>
   <tr>
     <td><a href="https://github.com/soyeonswife63/">ssy</a></td>
-    <td>Development of all original OpenM work. Owner of wavEye Project.</td>
+    <td>Co-founder and lead developer of all original OpenM work. Owner of wavEye Project.</td>
   </tr>
 </table>
 
