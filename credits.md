@@ -68,4 +68,4 @@ window.onload = function() {
   </tr>
 </table>
 
-#### *And other contributers or developers of the OpenM Project/OpenMicrosoft Project/MCDOC/MCBEDOC, M Centers, and M Community/M Community Development*
+#### *And other contributors or developers of OpenM, and its projects, M Centers, and M Community / M Community Development*
