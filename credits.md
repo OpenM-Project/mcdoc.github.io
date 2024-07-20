@@ -34,7 +34,7 @@ window.onload = function() {
     <td>Owner of the OpenM Project, a contributor at M Centers & partnered with M Centers, and owner of the <code>openm.tech</code> domain, and the <code>akshnav.cubebanyasz.me</code> website.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/soyeonswife63/">ssy</a></td>
+    <td><a href="https://github.com/soyeonswife63/"><strong>ssy</strong></a></td>
     <td>Founder and lead developer of all original OpenM work. Owner of wavEye Project.</td>
   </tr>
 </table>
@@ -67,7 +67,7 @@ window.onload = function() {
     <td>Founder of M Community, the community that was aiming to revive M Centers after M Centers left (02/13/2024 [MM/DD/YYYY]), and before M Centers came back (05/01/2024 [MM/DD/YYYY]). <strong>SOMEONE</strong> is also a partner at M Centers.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/arsfr/"><strong>ARS</strong></a></td>
+    <td><a href="https://github.com/arsfr/">ARS</a></td>
     <td>Contributor of the OpenM Project, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
   </tr>
 </table>
