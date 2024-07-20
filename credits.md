@@ -47,10 +47,6 @@ window.onload = function() {
 
 <table>
   <tr>
-    <td><a href="https://github.com/soyeonswife63/"><strong>ssy</strong></a></td>
-    <td>Co-founder and lead developer of all original OpenM work. Owner of wavEye Project, contributor at OpenM & MCDOC.</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/tinedpakgamer/"><strong>M Centers</strong></a></td>
     <td>Developer of M Centres, his code had powered Max RM's pre-cracked appx, by giving Max RM the code and method to make them.</td>
   </tr>
