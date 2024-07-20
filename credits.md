@@ -2,7 +2,7 @@
 title: Credits
 ---
 
-# OpenM's members
+# The OpenM Project's members
 
 <div>
 <!--
@@ -65,6 +65,10 @@ window.onload = function() {
   <tr>
     <td><strong>SOMEONE</strong></td>
     <td>Founder of M Community, the community that was aiming to revive M Centers after M Centers left (02/13/2024 [MM/DD/YYYY]), and before M Centers came back (05/01/2024 [MM/DD/YYYY]). <strong>SOMEONE</strong> is also a partner at M Centers.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/soyeonswife63/"><strong>ssy</strong></a></td>
+    <td>Co-founder and lead developer of all original OpenM work. Owner of wavEye Project, contributor at OpenM & MCDOC.</td>
   </tr>
 </table>
 
