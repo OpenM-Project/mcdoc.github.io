@@ -114,6 +114,13 @@ export default defineConfig({
           { text: 'Minecraft for Wii', link: '/console/minecraft-for-wii' }
         ]
       },
+      {
+        text: 'Guides',
+        collapsed: false,
+        items: [
+          { text: '(Win Only) Unban MC Account', link: '/console/minecraft-for-nintendo-switch' }
+        ]
+      },
     ],
 
     outline: {
