@@ -33,6 +33,10 @@ window.onload = function() {
     <td><a href="https://github.com/misike12/"><strong>Cubebanyasz</strong></a></td>
     <td>Owner of the OpenM Project, a contributor at M Centers & partnered with M Centers, and owner of the <code>openm.tech</code> domain, and the <code>akshnav.cubebanyasz.me</code> website.</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/arsfr/"><strong>ARS</strong></a></td>
+    <td>Contributor of the OpenM Project, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
+  </tr>
 </table>
 
 </div>
@@ -64,7 +68,7 @@ window.onload = function() {
   </tr>
   <tr>
     <td><a href="https://github.com/soyeonswife63/">ssy</a></td>
-    <td>Co-founder and lead developer of all original OpenM work. Owner of wavEye Project.</td>
+    <td>Founder and lead developer of all original OpenM work. Owner of wavEye Project.</td>
   </tr>
 </table>
 
