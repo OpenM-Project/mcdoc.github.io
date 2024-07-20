@@ -35,7 +35,7 @@ window.onload = function() {
   </tr>
   <tr>
     <td><a href="https://github.com/arsfr/"><strong>ARS</strong></a></td>
-    <td>A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
+    <td>Founder of the OpenM Project, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
   </tr>
 </table>
 
