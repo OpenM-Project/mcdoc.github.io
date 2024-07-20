@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build & Deploy
 
 on:
   push:
@@ -49,7 +49,4 @@ jobs:
         with:
           path: .vitepress/dist
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          path: .vitepress/dist
