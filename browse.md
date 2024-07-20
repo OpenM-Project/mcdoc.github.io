@@ -16,9 +16,9 @@ We hope you find *MCDOC* a valuable resource and enjoy your time exploring the w
 
 **Happy crafting!** *🛠️*
 
-## Emoji Legend
+## Emoji Legend:
 
-- ⭐ Items or that are highly recommended or preferred
+- ⭐ Items or that are highly recommended, and/or preffered overall.
 - 🌐 Used to denote comprehensive indexes or guides, similar to those found in FMHY or the r/piracy megathread
 
 
