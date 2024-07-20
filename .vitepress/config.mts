@@ -118,7 +118,7 @@ export default defineConfig({
         text: 'Guides',
         collapsed: false,
         items: [
-          { text: '(Win Only) Unban MC Account', link: '/console/minecraft-for-nintendo-switch' }
+          { text: '(Win Only) Unban MC Account', link: '/guides/unban-your-account' }
         ]
       },
     ],
