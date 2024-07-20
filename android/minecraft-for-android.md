@@ -12,7 +12,7 @@ An APK file is an application made for Android devices. The file format was crea
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
-| ⭐ ModsCraft | [Website](https://modscraft.net/en/mcpe/) or instead [OpenM's MCBE Fetcher](https://mcbefetcher.openm.tech/) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, both for Preview and Release versions
+| ⭐ ModsCraft | [Website](https://modscraft.net/en/mcpe/) or instead [wavEye's Parser for ModsCraft](https://waveye-project.github.io/modscraft_mcpe_apk/) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, both for Preview and Release versions
 | ⭐ MCBE APK Dev Team | [Website](https://github.com/ToolsPeople200/mcbe-apk) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in 64-bit and 32-bit, both in Preview and Release versions.
 | APKDONE | [Website](https://apkdone.com/minecraft-game-mod/) | \- | **Yes** | Modded & Unlocked APKs of Minecraft for Android
 | MCPEDL.ORG | [Website](https://mcpedl.org/downloading/) | \- | **Yes** | Unlocked APKs of Minecraft for Android
