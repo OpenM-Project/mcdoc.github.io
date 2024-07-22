@@ -71,6 +71,15 @@ export default defineConfig({
         { text: 'Marketplace', link: '/marketplace/' },
         { text: 'DMCA', link: '/dmca/' },
         { text: 'Credits', link: '/credits/' },
+        { text: 'Guides',
+          items: [
+            { text: 'Windows',
+              items: [
+                { text: 'Unban Your Account', link: '/guides/unban-your-account' }
+              ]
+            }
+          ]
+         }
         ],
 
     sidebar: [      
@@ -112,13 +121,6 @@ export default defineConfig({
           { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
           { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' },
           { text: 'Minecraft for Wii', link: '/console/minecraft-for-wii' }
-        ]
-      },
-      {
-        text: 'Guides',
-        collapsed: false,
-        items: [
-          { text: '(Win Only) Unban MC Account', link: '/guides/unban-your-account' }
         ]
       },
     ],
