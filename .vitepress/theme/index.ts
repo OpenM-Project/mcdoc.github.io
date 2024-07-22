@@ -29,7 +29,6 @@ import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 
 import "vitepress-markdown-timeline/dist/theme/index.css";
 
-import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 
 import type { Options } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
@@ -86,23 +85,6 @@ export default {
               h(NolebaseHighlightTargetedHeading),
             ],
     })
-  },
-  
-  setup() {
-    const route = useRoute();
-    const initZoom = () => {
-      mediumZoom('.main img', { background: 'var(--vp-c-bg)' });
-    };
-    onMounted(() => {
-      initZoom();
-    });
-    watch(
-      () => route.path,
-      () => nextTick(() => initZoom())
-    );
-
-    const { frontmatter } = useData();
-
   },
 
 } satisfies Theme
