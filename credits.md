@@ -34,7 +34,7 @@ window.onload = function() {
     <td>Current owner of the OpenM Project, a contributor at M Centers & partnered with M Centers, and owner of the <code>openm.tech</code> domain, and the <code>akshnav.cubebanyasz.me</code> website.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/arsfr/">ARS</a></td>
+    <td><a href="https://github.com/arsfrr/">ARS</a></td>
     <td>Founder of the OpenM Project, Owner of <em>r/openm</em>, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
   </tr>
 </table>
