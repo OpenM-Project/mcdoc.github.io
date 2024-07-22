@@ -8,7 +8,7 @@ outline: deep
 <br>
 
 <div class="linkcard">
-  <a href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ" target="_blank">
+  <a href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ">
     <p class="description"><b>Download Minecraft for Windows</b><br><span>Click here to download!</span></p>
     <div class="logo">
         <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" />
