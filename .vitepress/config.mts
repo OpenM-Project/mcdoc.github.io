@@ -158,11 +158,11 @@ export default defineConfig({
 
 editLink: {
   pattern: 'https://github.com/openm-project/mcdoc.github.io/edit/main/:path',
-  text: 'Edit'
+  text: 'Edit this Page'
 },
 
     lastUpdated: {
-      text: 'Updated at',
+      text: 'Last Updated',
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
