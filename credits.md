@@ -47,8 +47,8 @@ window.onload = function() {
 
 <table>
   <tr>
-    <td><a href="https://github.com/tinedpakgamer/"><strong>M Centers</strong></a></td>
-    <td>Developer of M Centres, his code had powered Max RM's pre-cracked appx, by giving Max RM the code and method to make them.</td>
+    <td><a href="https://github.com/tinedpakgamer/"><strong>M Centers</strong></a>/<a href="https://github.com/tinedpakgamer/"><strong>TinedPakGamer</strong></a></td>
+    <td>Developer of M Centers Launchers</td>
   </tr>
   <tr>
     <td><a href="https://github.com/Max-RM"><strong>Max RM</strong></a></td>
