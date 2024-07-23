@@ -8,15 +8,21 @@ importers:
 
   .:
     dependencies:
+      pnpm:
+        specifier: ^9.6.0
+        version: 9.6.0
       vitepress-plugin-back-to-top:
         specifier: ^1.0.1
         version: 1.0.1
+      workbox-window:
+        specifier: ^7.1.0
+        version: 7.1.0
     devDependencies:
       '@mdit-vue/shared':
         specifier: ^2.1.3
         version: 2.1.3
       '@nolebase/markdown-it-bi-directional-links':
-        specifier: ^2.2.0
+        specifier: ^2.2.2
         version: 2.2.2(markdown-it@14.1.0)
       '@nolebase/ui':
         specifier: ^2.2.0
@@ -25,13 +31,13 @@ importers:
         specifier: ^2.2.0
         version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)
       '@nolebase/vitepress-plugin-git-changelog':
-        specifier: ^2.2.0
+        specifier: ^2.2.2
         version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)
       '@nolebase/vitepress-plugin-highlight-targeted-heading':
         specifier: ^2.2.0
         version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)
       '@nolebase/vitepress-plugin-inline-link-preview':
-        specifier: ^2.2.0
+        specifier: ^2.2.2
         version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)
       '@nolebase/vitepress-plugin-page-properties':
         specifier: ^2.2.0
@@ -1123,6 +1129,11 @@ packages:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
 
+  pnpm@9.6.0:
+    resolution: {integrity: sha512-ONxvuo26NbOTQLlwARLC/h4S8QsXE0cVpKqYzPe7A152/Zgc8Ls4TfqY+NavVIHCvvL0Jmokv6IMNOtxR84LXg==}
+    engines: {node: '>=18.12'}
+    hasBin: true
+
   postcss@8.4.39:
     resolution: {integrity: sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==}
     engines: {node: ^10 || ^12 || >=14}
@@ -1393,6 +1404,12 @@ packages:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
     hasBin: true
+
+  workbox-core@7.1.0:
+    resolution: {integrity: sha512-5KB4KOY8rtL31nEF7BfvU7FMzKT4B5TkbYa2tzkS+Peqj0gayMT9SytSFtNzlrvMaWgv6y/yvP9C0IbpFjV30Q==}
+
+  workbox-window@7.1.0:
+    resolution: {integrity: sha512-ZHeROyqR+AS5UPzholQRDttLFqGMwP0Np8MKWAdyxsDETxq3qOAyXvqessc3GniohG6e0mAqSQyKOHmT8zPF7g==}
 
   wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
@@ -2658,6 +2675,8 @@ snapshots:
   pngjs@5.0.0:
     optional: true
 
+  pnpm@9.6.0: {}
+
   postcss@8.4.39:
     dependencies:
       nanoid: 3.3.7
@@ -2942,6 +2961,13 @@ snapshots:
   which@2.0.2:
     dependencies:
       isexe: 2.0.0
+
+  workbox-core@7.1.0: {}
+
+  workbox-window@7.1.0:
+    dependencies:
+      '@types/trusted-types': 2.0.7
+      workbox-core: 7.1.0
 
   wrap-ansi@6.2.0:
     dependencies:
