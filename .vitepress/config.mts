@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { withPwa } from '@vite-pwa/vitepress'
 
 import timeline from "vitepress-markdown-timeline";
 
@@ -16,7 +17,7 @@ import {
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withPwa(defineConfig({
 
   vite: { 
     plugins: [ 
@@ -31,7 +32,12 @@ export default defineConfig({
         }, 
       }), 
     ],
-  }, 
+  },
+
+  sitemap: {
+    hostname: 'https://mcdoc.openm.tech',
+    lastmodDateOnly: false
+  },
 
   title: "MCDOC",
   lang: 'en-US',
@@ -188,6 +194,4 @@ editLink: {
     defaultHighlightLang: 'ts'
   }
 
-})
-
-
+}))

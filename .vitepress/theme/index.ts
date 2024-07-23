@@ -45,6 +45,8 @@ import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import Video from './components/Video.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import Navlink from './components/Navlink.vue'
+import RegisterSW from './components/RegisterSW.vue'
+import ReloadPrompt from './components/ReloadPrompt.vue'
 
 export default {
   extends: DefaultTheme,
@@ -80,7 +82,11 @@ export default {
             // A enhanced readabilities menu for wider screens
             'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
             // A enhanced readabilities menu for narrower screens (usually smaller than iPad Mini)
-            'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu), 
+            'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
+            'layout-bottom': () => [
+              h(RegisterSW),
+              h(ReloadPrompt),
+            ],
             'layout-top': () => [
               h(NolebaseHighlightTargetedHeading),
             ],
