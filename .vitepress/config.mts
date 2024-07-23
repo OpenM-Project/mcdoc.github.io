@@ -31,7 +31,12 @@ export default defineConfig({
         }, 
       }), 
     ],
-  }, 
+  },
+
+  sitemap: {
+    hostname: 'https://mcdoc.openm.tech',
+    lastmodDateOnly: false
+  },
 
   title: "MCDOC",
   lang: 'en-US',
