@@ -1,5 +1,6 @@
 ---
 title: Credits
+editLink: false
 ---
 
 # The OpenM Project's members
