@@ -62,7 +62,7 @@ It was basically closed-source, it got frequently flagged by AV software as a vi
 
 
 
-## The New Beginning of OpenM Project
+## The New Beginning of the OpenM Project
 
 ::: details The Decompilation
 
@@ -105,11 +105,17 @@ Since MCenter's discontinuation, tinedpakgamer has become silent ever since, exc
 
 ::: details M Centers 4.5
 
-First, tinedpakgamer revived the <a href="https://www.youtube.com/channel/UCM1jM7NWXvt8roj8mzMvhfw">Youtube Channel</a>. He then created the <a href="https://dsc.gg/mcenters">Discord Server</a> in which, on 8th May 2024, officially released M Centers 4.5 [The base code of M Centers 8.0]. It uses DLL Replacing, just like 4.0, but used .NET Framework replacing .NET Core, in which removes the requirement of .NET Runtime in your device. It also has an x86 version, but mainly it adds a <i>secret function</i>. The program can also be used with other UWP applications.
+First, tinedpakgamer revived the <a href="https://www.youtube.com/channel/UCM1jM7NWXvt8roj8mzMvhfw">Youtube Channel</a>. He then created the <a href="https://dsc.gg/mcenters">Discord Server</a> in which, on 8th May 2024, officially released M Centers 4.5 [The base code of M Centers 8.0]. It uses DLL Replacing, just like 4.0, but used .NET Framework replacing .NET Core, in which removes the requirement of .NET Runtime in your device. It also has an x86 version.
 
 :::
 
-::: details Start of wavEye
+::: details M Centers 8.0
+
+Next, also on the 8th of May, 2024, M Centers (tinedpakgamer) had officially released M Centers 8.0, built ontop of M Centers 4.5, at that time it did not have any major changes from 4.5, maybe even no changes from 4.5 except the version. After a long time of developing, and figuring out the Auto Patching system and how it worked, on the 3rd of June, 2024, M Centers 8.0.1.0 Preview released, being the first ever M Centers version to support basically every single windows version that supported Minecraft for Windows, and future versions, since the application used Zydis to auto patch DLLs. For now, M Centers 8th Edition does not support ARM, but in the coming months that will change with the release of M Centers 8th Edition for ARM and the auto patcher for it, since Zydis does not support ARM.
+
+:::
+
+::: details The Start of wavEye
 
 After OpenM was deleted, soyeonswife63 created the wavEye Project to work independently.
 
