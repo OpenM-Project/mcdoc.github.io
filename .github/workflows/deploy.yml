@@ -40,8 +40,6 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
-      - name: Add workbox-window
-        run: pnpm add workbox-window
       - name: Build
         run: pnpm run docs:build
       - name: Upload artifact
