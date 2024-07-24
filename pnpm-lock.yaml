@@ -31,14 +31,14 @@ importers:
         specifier: ^2.2.2
         version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-git-changelog':
-        specifier: ^2.2.0
-        version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)
+        specifier: ^2.2.2
+        version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-highlight-targeted-heading':
         specifier: ^2.2.2
         version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-inline-link-preview':
-        specifier: ^2.2.0
-        version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)
+        specifier: ^2.2.2
+        version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-page-properties':
         specifier: ^2.2.2
         version: 2.2.2(@algolia/client-search@4.24.0)(async-validator@4.2.5)(postcss@8.4.39)(qrcode@1.5.3)(sass@1.77.8)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
@@ -2201,6 +2201,15 @@ packages:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
 
+  pnpm@9.6.0:
+    resolution: {integrity: sha512-ONxvuo26NbOTQLlwARLC/h4S8QsXE0cVpKqYzPe7A152/Zgc8Ls4TfqY+NavVIHCvvL0Jmokv6IMNOtxR84LXg==}
+    engines: {node: '>=18.12'}
+    hasBin: true
+
+  possible-typed-array-names@1.0.0:
+    resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
+    engines: {node: '>= 0.4'}
+
   postcss@8.4.39:
     resolution: {integrity: sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2701,6 +2710,55 @@ packages:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
     hasBin: true
+
+  workbox-background-sync@7.1.0:
+    resolution: {integrity: sha512-rMbgrzueVWDFcEq1610YyDW71z0oAXLfdRHRQcKw4SGihkfOK0JUEvqWHFwA6rJ+6TClnMIn7KQI5PNN1XQXwQ==}
+
+  workbox-broadcast-update@7.1.0:
+    resolution: {integrity: sha512-O36hIfhjej/c5ar95pO67k1GQw0/bw5tKP7CERNgK+JdxBANQhDmIuOXZTNvwb2IHBx9hj2kxvcDyRIh5nzOgQ==}
+
+  workbox-build@7.1.1:
+    resolution: {integrity: sha512-WdkVdC70VMpf5NBCtNbiwdSZeKVuhTEd5PV3mAwpTQCGAB5XbOny1P9egEgNdetv4srAMmMKjvBk4RD58LpooA==}
+    engines: {node: '>=16.0.0'}
+
+  workbox-cacheable-response@7.1.0:
+    resolution: {integrity: sha512-iwsLBll8Hvua3xCuBB9h92+/e0wdsmSVgR2ZlvcfjepZWwhd3osumQB3x9o7flj+FehtWM2VHbZn8UJeBXXo6Q==}
+
+  workbox-core@7.1.0:
+    resolution: {integrity: sha512-5KB4KOY8rtL31nEF7BfvU7FMzKT4B5TkbYa2tzkS+Peqj0gayMT9SytSFtNzlrvMaWgv6y/yvP9C0IbpFjV30Q==}
+
+  workbox-expiration@7.1.0:
+    resolution: {integrity: sha512-m5DcMY+A63rJlPTbbBNtpJ20i3enkyOtSgYfv/l8h+D6YbbNiA0zKEkCUaMsdDlxggla1oOfRkyqTvl5Ni5KQQ==}
+
+  workbox-google-analytics@7.1.0:
+    resolution: {integrity: sha512-FvE53kBQHfVTcZyczeBVRexhh7JTkyQ8HAvbVY6mXd2n2A7Oyz/9fIwnY406ZcDhvE4NFfKGjW56N4gBiqkrew==}
+
+  workbox-navigation-preload@7.1.0:
+    resolution: {integrity: sha512-4wyAbo0vNI/X0uWNJhCMKxnPanNyhybsReMGN9QUpaePLTiDpKxPqFxl4oUmBNddPwIXug01eTSLVIFXimRG/A==}
+
+  workbox-precaching@7.1.0:
+    resolution: {integrity: sha512-LyxzQts+UEpgtmfnolo0hHdNjoB7EoRWcF7EDslt+lQGd0lW4iTvvSe3v5JiIckQSB5KTW5xiCqjFviRKPj1zA==}
+
+  workbox-range-requests@7.1.0:
+    resolution: {integrity: sha512-m7+O4EHolNs5yb/79CrnwPR/g/PRzMFYEdo01LqwixVnc/sbzNSvKz0d04OE3aMRel1CwAAZQheRsqGDwATgPQ==}
+
+  workbox-recipes@7.1.0:
+    resolution: {integrity: sha512-NRrk4ycFN9BHXJB6WrKiRX3W3w75YNrNrzSX9cEZgFB5ubeGoO8s/SDmOYVrFYp9HMw6sh1Pm3eAY/1gVS8YLg==}
+
+  workbox-routing@7.1.0:
+    resolution: {integrity: sha512-oOYk+kLriUY2QyHkIilxUlVcFqwduLJB7oRZIENbqPGeBP/3TWHYNNdmGNhz1dvKuw7aqvJ7CQxn27/jprlTdg==}
+
+  workbox-strategies@7.1.0:
+    resolution: {integrity: sha512-/UracPiGhUNehGjRm/tLUQ+9PtWmCbRufWtV0tNrALuf+HZ4F7cmObSEK+E4/Bx1p8Syx2tM+pkIrvtyetdlew==}
+
+  workbox-streams@7.1.0:
+    resolution: {integrity: sha512-WyHAVxRXBMfysM8ORwiZnI98wvGWTVAq/lOyBjf00pXFvG0mNaVz4Ji+u+fKa/mf1i2SnTfikoYKto4ihHeS6w==}
+
+  workbox-sw@7.1.0:
+    resolution: {integrity: sha512-Hml/9+/njUXBglv3dtZ9WBKHI235AQJyLBV1G7EFmh4/mUdSQuXui80RtjDeVRrXnm/6QWgRUEHG3/YBVbxtsA==}
+
+  workbox-window@7.1.0:
+    resolution: {integrity: sha512-ZHeROyqR+AS5UPzholQRDttLFqGMwP0Np8MKWAdyxsDETxq3qOAyXvqessc3GniohG6e0mAqSQyKOHmT8zPF7g==}
 
   wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
@@ -5272,6 +5330,10 @@ snapshots:
   pngjs@5.0.0:
     optional: true
 
+  pnpm@9.6.0: {}
+
+  possible-typed-array-names@1.0.0: {}
+
   postcss@8.4.39:
     dependencies:
       nanoid: 3.3.7
@@ -5840,6 +5902,119 @@ snapshots:
   which@2.0.2:
     dependencies:
       isexe: 2.0.0
+
+  workbox-background-sync@7.1.0:
+    dependencies:
+      idb: 7.1.1
+      workbox-core: 7.1.0
+
+  workbox-broadcast-update@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+
+  workbox-build@7.1.1:
+    dependencies:
+      '@apideck/better-ajv-errors': 0.3.6(ajv@8.17.1)
+      '@babel/core': 7.24.9
+      '@babel/preset-env': 7.24.8(@babel/core@7.24.9)
+      '@babel/runtime': 7.24.8
+      '@rollup/plugin-babel': 5.3.1(@babel/core@7.24.9)(rollup@2.79.1)
+      '@rollup/plugin-node-resolve': 15.2.3(rollup@2.79.1)
+      '@rollup/plugin-replace': 2.4.2(rollup@2.79.1)
+      '@rollup/plugin-terser': 0.4.4(rollup@2.79.1)
+      '@surma/rollup-plugin-off-main-thread': 2.2.3
+      ajv: 8.17.1
+      common-tags: 1.8.2
+      fast-json-stable-stringify: 2.1.0
+      fs-extra: 9.1.0
+      glob: 7.2.3
+      lodash: 4.17.21
+      pretty-bytes: 5.6.0
+      rollup: 2.79.1
+      source-map: 0.8.0-beta.0
+      stringify-object: 3.3.0
+      strip-comments: 2.0.1
+      tempy: 0.6.0
+      upath: 1.2.0
+      workbox-background-sync: 7.1.0
+      workbox-broadcast-update: 7.1.0
+      workbox-cacheable-response: 7.1.0
+      workbox-core: 7.1.0
+      workbox-expiration: 7.1.0
+      workbox-google-analytics: 7.1.0
+      workbox-navigation-preload: 7.1.0
+      workbox-precaching: 7.1.0
+      workbox-range-requests: 7.1.0
+      workbox-recipes: 7.1.0
+      workbox-routing: 7.1.0
+      workbox-strategies: 7.1.0
+      workbox-streams: 7.1.0
+      workbox-sw: 7.1.0
+      workbox-window: 7.1.0
+    transitivePeerDependencies:
+      - '@types/babel__core'
+      - supports-color
+
+  workbox-cacheable-response@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+
+  workbox-core@7.1.0: {}
+
+  workbox-expiration@7.1.0:
+    dependencies:
+      idb: 7.1.1
+      workbox-core: 7.1.0
+
+  workbox-google-analytics@7.1.0:
+    dependencies:
+      workbox-background-sync: 7.1.0
+      workbox-core: 7.1.0
+      workbox-routing: 7.1.0
+      workbox-strategies: 7.1.0
+
+  workbox-navigation-preload@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+
+  workbox-precaching@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+      workbox-routing: 7.1.0
+      workbox-strategies: 7.1.0
+
+  workbox-range-requests@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+
+  workbox-recipes@7.1.0:
+    dependencies:
+      workbox-cacheable-response: 7.1.0
+      workbox-core: 7.1.0
+      workbox-expiration: 7.1.0
+      workbox-precaching: 7.1.0
+      workbox-routing: 7.1.0
+      workbox-strategies: 7.1.0
+
+  workbox-routing@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+
+  workbox-strategies@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+
+  workbox-streams@7.1.0:
+    dependencies:
+      workbox-core: 7.1.0
+      workbox-routing: 7.1.0
+
+  workbox-sw@7.1.0: {}
+
+  workbox-window@7.1.0:
+    dependencies:
+      '@types/trusted-types': 2.0.7
+      workbox-core: 7.1.0
 
   wrap-ansi@6.2.0:
     dependencies:
