@@ -25,6 +25,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "medium-zoom": "^1.1.0",
     "pnpm": "^9.6.0",
     "vitepress-plugin-back-to-top": "^1.0.1",
     "workbox-window": "^7.1.0"

@@ -49,7 +49,7 @@ export default withPwa(defineConfig({
   appearance:'dark',
   head: [
           [ 'link', { rel: "manifest", href: "/manifest.json"}],
-          [ 'scipt', { src: "/asstes/js/service.js" }],
+          [ 'script', { src: "/asstes/js/service.js" }],
           [ 'script', { src: "/assets/js/ads.js" }],
           [ 'meta', { property: 'og:type', content: 'website' }],
           [ 'meta', { property: 'og:title', content: 'MCDOC' }],
