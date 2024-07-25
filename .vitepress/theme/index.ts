@@ -4,7 +4,6 @@ import { useData , useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style/style.css'
-import mediumZoom from 'medium-zoom';
 
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
@@ -67,12 +66,6 @@ export default {
       // default
       threshold:300
     })
-  },
-
-  setup() {
-    onMounted(() => {
-      mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg-soft)' });
-    });
   },
 
   Layout: () => {

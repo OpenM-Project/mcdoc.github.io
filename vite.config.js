@@ -26,7 +26,6 @@ export default defineConfig(() => {
         '@nolebase/vitepress-plugin-inline-link-preview',
         '@nolebase/vitepress-plugin-page-properties',
         'less',
-        'medium-zoom',
         'sass',
         'vite',
         'vitepress',
