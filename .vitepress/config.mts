@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { withPwa } from '@vite-pwa/vitepress'
 
 import timeline from "vitepress-markdown-timeline";
 
@@ -17,7 +16,7 @@ import {
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
-export default withPwa(defineConfig({
+export default defineConfig({
 
   vite: { 
     plugins: [ 
@@ -191,4 +190,4 @@ editLink: {
     defaultHighlightLang: 'ts'
   }
 
-}))
+})
