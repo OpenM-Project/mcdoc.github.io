@@ -59,6 +59,8 @@ export default {
     app.component('vImageViewer', vImageViewer);
     app.provide(InjectionKey, {
       // Configuration
+      defaultMode: 'LayoutMode.Original',
+      diableAnimation: false,
     } as Options)
     app.use(NolebaseGitChangelogPlugin)
     app.use(NolebaseInlineLinkPreviewPlugin)
