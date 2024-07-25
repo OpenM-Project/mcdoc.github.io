@@ -4,6 +4,9 @@ import { useData , useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style/style.css'
+import 'viewerjs/dist/viewer.min.css';
+import imageViewer from 'vitepress-plugin-image-viewer';
+import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
 
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
@@ -53,6 +56,7 @@ export default {
     app.component('Video' , Video)
     app.component('MNavLinks' , MNavLinks)
     app.component('Navlink' , Navlink)
+    app.component('vImageViewer', vImageViewer);
     app.provide(InjectionKey, {
       // Configuration
     } as Options)
@@ -67,6 +71,13 @@ export default {
       threshold:300
     })
   },
+
+  setup() {
+    // Get route
+    const route = useRoute();
+    // Using
+    imageViewer(route);
+},
 
   Layout: () => {
     const props: Record<string, any> = {}

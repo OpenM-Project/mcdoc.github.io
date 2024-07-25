@@ -26,7 +26,9 @@
   },
   "dependencies": {
     "pnpm": "^9.6.0",
+    "viewerjs": "^1.11.6",
     "vitepress-plugin-back-to-top": "^1.0.1",
+    "vitepress-plugin-image-viewer": "^1.1.4",
     "workbox-window": "^7.1.0"
   }
 }
