@@ -48,7 +48,6 @@ export default withPwa(defineConfig({
   srcExclude: ['/node_modules/'],
   appearance:'dark',
   head: [
-          [ 'link', { rel: "manifest", href: "/manifest.json"}],
           [ 'script', { src: "/asstes/js/service.js" }],
           [ 'meta', { property: 'og:type', content: 'website' }],
           [ 'meta', { property: 'og:title', content: 'MCDOC' }],
