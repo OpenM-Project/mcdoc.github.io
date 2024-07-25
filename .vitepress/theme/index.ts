@@ -92,10 +92,6 @@ export default {
             'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
             // A enhanced readabilities menu for narrower screens (usually smaller than iPad Mini)
             'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
-            'layout-bottom': () => [
-              h(RegisterSW),
-              h(ReloadPrompt),
-            ],
             'layout-top': () => [
               h(NolebaseHighlightTargetedHeading),
             ],
