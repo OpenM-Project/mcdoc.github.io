@@ -46,8 +46,6 @@ import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import Video from './components/Video.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import Navlink from './components/Navlink.vue'
-import RegisterSW from './components/RegisterSW.vue'
-import ReloadPrompt from './components/ReloadPrompt.vue'
 
 export default {
   extends: DefaultTheme,
