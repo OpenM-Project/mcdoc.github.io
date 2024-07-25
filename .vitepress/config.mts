@@ -50,7 +50,6 @@ export default withPwa(defineConfig({
   head: [
           [ 'link', { rel: "manifest", href: "/manifest.json"}],
           [ 'script', { src: "/asstes/js/service.js" }],
-          [ 'script', { src: "/assets/js/ads.js" }],
           [ 'meta', { property: 'og:type', content: 'website' }],
           [ 'meta', { property: 'og:title', content: 'MCDOC' }],
           [ 'meta', { property: 'og:image', content: '/assets/images/title.webp' }],
