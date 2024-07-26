@@ -89,7 +89,12 @@ export default defineConfig({
         text: 'Windows',
         collapsed: false,
         items: [
-          { text: 'Java Edition', link: 'https://fmhy.net/gaming-tools#minecraft-tools' },
+          { 
+            text: 'Java Edition',
+            link: 'https://fmhy.net/gaming-tools#minecraft-tools',
+            target: '_blank',
+            rel: 'noreferrer'          
+          },
           { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
           { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
           { text: 'Minecraft China', link: '/windows/minecraft-china' },
