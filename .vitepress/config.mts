@@ -1,19 +1,9 @@
 import { defineConfig } from 'vitepress'
-
 import timeline from "vitepress-markdown-timeline";
-
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
-
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
-
-import { 
-  InlineLinkPreviewElementTransform 
-} from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
-
-import {
-  GitChangelog,
-  GitChangelogMarkdownSection,
-} from '@nolebase/vitepress-plugin-git-changelog/vite'
+import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
+import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
