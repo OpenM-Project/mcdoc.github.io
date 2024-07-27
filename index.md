@@ -2,7 +2,7 @@
 layout: home
 
 title: MCDOC
-titleTemplate: An Ultimate Collection of Minecraft History, Tools & Unlockers.
+titleTemplate: The Ultimate Collection of Minecraft History, Tools & Unlockers.
 
 hero:
   name: "MCDOC"
