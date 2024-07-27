@@ -17,13 +17,14 @@ outline: deep
 </div>
 
 ::: tip Tip
-<p>If you want Beta/Preview or Older versions of MCfW10, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrock-launcher.github.io/">Bedrock Launcher</a>.</p>
+<p>If you want Beta/Preview or Older versions of Minecraft, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrock-launcher.github.io/">Bedrock Launcher</a>.</p>
 :::
 
 ::: info Glossary
 
 <u>*Patching in memory:*</u> When Minecraft is running, the RAM Manipulator [if using one] edits code (instructions) within the game process and other modules (i.e. dlls). Thus, it is temporary method and needs to be done every time the game is started.
- <u>*Difference between **I-MCM** and **DMM**:*</u> In the **I-MCM** method, the game exe (`Minecraft.Windows.exe`) is patched in memory, whereas in the **DMM** method, the store DLLs containing the license checking code are patched within memory.
+
+<u>*Difference between **I-MCM** and **DMM**:*</u> In the **I-MCM** method, the game exe (`Minecraft.Windows.exe`) is patched in memory, whereas in the **DMM** method, the store DLLs containing the license checking code are patched within memory.
 
 ***Methods:***
  * **I-MCM** - In-Memory Code Manipulation: Patches the license checking code within the game exe (`Minecraft.Windows.exe`) directly in memory.
