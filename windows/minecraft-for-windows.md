@@ -17,7 +17,7 @@ outline: deep
 </div>
 
 ::: tip Tip
-<p>If you want Beta/Preview or Older versions of Minecraft, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrock-launcher.github.io/">Bedrock Launcher</a>.</p>
+<p>If you want Beta/Preview or Older versions of Minecraft for Windows, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrock-launcher.github.io/">Bedrock Launcher</a>.</p>
 :::
 
 ::: info Glossary
