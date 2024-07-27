@@ -26,7 +26,7 @@ The first hack to unlock Minecraft, discovered by tinedpakgamer, is the <b>ClipS
 Then came along a permanent method, the <b>DLL Replacing</b>. By replacing <code>Windows.ApplicationModel.Store.dll</code> with <i>Cracked DLLs</i> and making it say the game was licensed, Minecraft was able to be unlocked! This was the method used by Tinedpakgamer in M Centers, released as version 3.0 <i>(2.0 was a sentry launcher using precracked appx. Its development failed and got scrapped)</i>. After M Centers 3.0 became commonly used, M Centers 3.3 was released which did the same thing, but fixed a bug in the previous version.
 :::
 
-::: details The third method - Memory Manipulation
+::: details The Third Method - Memory Manipulation
 
 In 2021, online-fix.me <i>(a well-known Russian site)</i> released their own version of memory injection crack, which became popular as well. After this, Tinedpakgamer developed M Centers 4.0 which added <b>Appx Download</b> and discarded some in-development methods like, <i>DLL RAM Patch</i>, <i>Store Purchase Crack</i> using pre-cracked dlls from a Github repository. M Centers 5.0 was released and it used <b>In-Memory Code Manipulation</b> without the need of any DLLs. This version also had a UWP app but it was tricky to install <i>(it needed Developer Mode to be enabled, and made users install his self-signing certificate which was not secure at all)</i>. M Centers 6.0 was released, but it was just a re-made UI for the exact same app <i>(it was intended to provide auto-patching DLLs, but it was never done).</i>
 
@@ -132,5 +132,13 @@ After Starlight was ditched, <code>BEAMinject</code> and <code>librosewater</cod
 Then, <code>libdopamine</code> was created, which was a revised version of <code>libstarlight</code>, but using a cleaner code template. This removed the issues during development that <code>libstarlight</code> saw, and finally, <code>BEAMinject</code> was completely re-written in Rust, and the Python version was deprecated.
 
 wavEye continues to maintain <code>BEAMinject</code> and <code>libdopamine</code>, along with other projects, to this day. wavEye remains as the only project which has FOSS for Minecraft unlocking.
+
+:::
+
+## The Revival of OpenM
+
+::: details Through MCDOC
+
+At one point in July 2024, OpenM's team thought of reviving its old community, OpenM. MCDOC and other repos were moved into OpenM-Project. Then [20th July 2024], the MCDOC discord was renamed into OpenM for the convenience of a single server. From then on, MCDOC is officially under OpenM.
 
 :::
