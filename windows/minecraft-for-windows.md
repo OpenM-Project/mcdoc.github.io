@@ -32,6 +32,7 @@ outline: deep
  * ClipSVC Method: \[Patched] [Check 1st Paragrapgh](/story#the-beginning-m-centers--online-fixme)
  * DLL Hooking: Uses [function hooking](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html) to modify the license checking functions within the game and/or other DLLs loaded within the game in memory.
  * DLL Replacing: Replaces the `Windows.ApplicationModel.Store.dll` DLL's with patched (i.e cracked) ones.
+ * DLL Auto Patch: Creates a Cracked DLL from original `Windows.ApplicationModel.Store.dll` and replaces the original one with cracked one.
  * **DRC** - DLL Redirection for Cracking: Also known as DLL hijacking, this method takes advantage of the [DLL search order](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order) to cause the game to load a patched (i.e. cracked) dll instead of the dll present within the system directories (`System32` and `SysWOW64`). This method does not require editing the dlls in the system directories.
 :::
 
