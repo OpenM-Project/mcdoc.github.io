@@ -2,12 +2,12 @@
 layout: home
 
 title: MCDOC
-titleTemplate: The Ultimate Collection of Minecraft History, Tools & Unlockers.
+titleTemplate: The Minecraft Piracy Index
 
 hero:
   name: "MCDOC"
   text: "Free Minecraft?"
-  tagline: An Ultimate Collection of Minecraft History, Tools & Unlockers.
+  tagline: The Minecraft Piracy Index
   actions:
     - theme: brand
       text: Browse
