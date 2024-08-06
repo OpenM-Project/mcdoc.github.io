@@ -11,7 +11,7 @@ WIP by XtronXI
 This is only for the Bedrock Edition of Minecraft
 :::
 
-For Minecraft for Windows to know if we have paid for it or not, it uses the **Store DLLs** to check for a license. This Store DLLs can be cracked/patched by users, whether manually or using [Third Party Softwares](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows). After the process is done by such softwares/programs, Minecraft will not be able to check, leading to the Full version of Minecraft. 
+For Minecraft for Windows to know if we have paid for it or not, it uses the **Store DLL** to check for a license. This Store DLL can be cracked/patched by users, whether manually or using [Third Party Softwares](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows). After the process is done by such softwares/programs, Minecraft will not be able to check, leading to the Full version of Minecraft. 
 
 ## Methods
 
@@ -24,15 +24,23 @@ As in the glossary, you can see that:
 - **DLL Hooking** method uses [**function hooking**](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html) and other debugging stuff to modify the license checking functions within the game and/or other DLLs loaded within the game in memory. [Temporary, Works only with Minecraft]
 - **DMM** method patches the DLLs within the game memory. [Temporary, Works only with Minecraft] 
 
-As you have read, DRC, DMM and DLL Hooking runs and change in-memory/RAM. This means, the changes are done in the game's process leading it to be temporary (requiring for activating every time) and only work for Minecraft. But these methods are different from I-MCM and pre-cracked [**appx**](https://fileinfo.com/extension/appx).The way these 2 works is patching the license checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. In the other hand, you can literally patch the game's code completely and pack it in a `.appx` and you can install it and then you dont need to do anything else. 
+As you have read, DRC, DMM and DLL Hooking runs and change in-memory/RAM. This means, the changes are done in the game's process leading it to be temporary (requiring for activating every time) and only work for Minecraft. But these methods are different from I-MCM and pre-cracked [**appx**](https://fileinfo.com/extension/appx).The way these 2 works is patching the license checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main differnce between I-MCM and DMM is that I-MCM can run while Minecraft is open but cant with DMM.
+
+Also, you can patch the game's code completely and pack it in a `.appx` and you can install it and then you dont need to do anything else. 
 
 ## Store DLL and Cracking/Patching
+
+::: tip Tip
+For more information about DLLs and Namespaces, see https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library and https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces
+:::
+
+Store DLLs are dlls that the Microsoft Store uses. The dll is located in the root directory (`system32` & `SysWOW64`) of your computer and is in the name `Windows.ApplicationModel.Store.dll`. The 2 main namespace functions that we need to say are [`Windows.Service.Store.StoreAppLicense.isTrial`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial?view=winrt-26100#windows-services-store-storeapplicense-istrial) and [`Windows.ApplicationModel.Store.LicenseInformation.isTrial`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial?view=winrt-26100#windows-applicationmodel-store-licenseinformation-istrial)
 
 Minecraft for Windows uses the `isTrial()` function in `Windows.ApplicationModel.Store` module to make the Trial.The `isTrial()` function checks the specific app's licensing system to whether or not to give the App a trial feature. Only specific apps allow this feature to be used like Minecraft and other apps (in meaning, you can bypass the trial in other UWP apps that use this Trial feature).
 
 To crack Minecraft for Windows, you will need to change the `isTrial()` function inside `Windows.ApplicationModel.Store.dll` available in System32 and SysWOW64 in assembly level.
 Specifically, you will need to change the value of a binary variable, `cl`, inside the `get_isTrial` string. 
-If the value of `cl` is `1`, then the `isTrial()` function will work normally causing the Trial in Minecraft. 
-If the value of `cl` is `0`, then the `isTrial()` function will not work and lets you get through Minecraft for free.
+If the value of `cl` is 1, then the `isTrial()` function will work normally causing the Trial in Minecraft. 
+If the value of `cl` is 0, then the `isTrial()` function will not work and lets you get through Minecraft for free.
 Knowing this, we will need to change `Windows.ApplicationModel.Store.dll` somehow, either editing manually like in the [video](https://youtu.be/h2W6vzLN8Fg) or this process can be automated and done in different ways.
 
