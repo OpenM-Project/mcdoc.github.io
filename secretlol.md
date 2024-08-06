@@ -28,6 +28,8 @@ As you have read, DRC, DMM and DLL Hooking runs and change in-memory/RAM. This m
 
 Also, you can patch the game's code completely and pack it in a `.appx` and you can install it and then you dont need to do anything else. 
 
+There are also other methods like ClipSVC, SetACL and BlueSky Method. We will also define these later.
+
 ## Store DLL and Cracking/Patching
 
 ::: tip Tip
