@@ -11,7 +11,7 @@ WIP by XtronXI
 This is only for the Bedrock Edition of Minecraft
 :::
 
-For Minecraft for Windows to know if we have paid for it or not, it uses the **Store DLL** to check for a license. This Store DLL can be cracked/patched by users, whether manually or using [Third Party Softwares](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows). After the process is done by such softwares/programs, Minecraft will not be able to check, leading to the Full version of Minecraft. 
+For Minecraft for Windows to know if we have paid for it or not, it uses the **Store DLL** to check for a license. This Store DLL can be cracked/patched by users, whether manually or using [Third Party Softwares](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows). After the process is done by such softwares/programs, Minecraft will not be able to check for the license, leading to the Full version of Minecraft. 
 
 ## Methods
 
@@ -36,9 +36,9 @@ There are also other methods like ClipSVC, SetACL and BlueSky Method. We will al
 For more information about DLLs and Namespaces, see https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library and https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces
 :::
 
-Store DLLs are dlls that the Microsoft Store uses. The dll is located in the root directory (`system32` & `SysWOW64`) of your computer and is in the name `Windows.ApplicationModel.Store.dll`. The 2 main namespace functions that we need to say are [`Windows.Service.Store.StoreAppLicense.isTrial`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial?view=winrt-26100#windows-services-store-storeapplicense-istrial) and [`Windows.ApplicationModel.Store.LicenseInformation.isTrial`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial?view=winrt-26100#windows-applicationmodel-store-licenseinformation-istrial)
+Store DLLs are dlls that the Microsoft Store uses. The dll is located in the root directory (`system32` & `SysWOW64`) of your computer and is in the name `Windows.ApplicationModel.Store.dll`. The 2 main namespaces that we need to say are [`Windows.Service.Store`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store?view=winrt-26100) which is used by newer versions of Minecraft and [`Windows.ApplicationModel.Store`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store?view=winrt-26100) which is used by initial versions of Minecraft.
 
-Minecraft for Windows uses the `isTrial()` function in `Windows.ApplicationModel.Store` module to make the Trial.The `isTrial()` function checks the specific app's licensing system to whether or not to give the App a trial feature. Only specific apps allow this feature to be used like Minecraft and other apps (in meaning, you can bypass the trial in other UWP apps that use this Trial feature).
+Minecraft for Windows uses the `isTrial()` function either of the namespaces to make the Trial. ..... The `isTrial()` function checks the specific app's licensing system to whether or not to give the App a trial feature. Only specific apps allow this feature to be used like Minecraft and other apps (in meaning, you can bypass the trial in other UWP apps that use this Trial feature).
 
 To crack Minecraft for Windows, you will need to change the `isTrial()` function inside `Windows.ApplicationModel.Store.dll` available in System32 and SysWOW64 in assembly level.
 Specifically, you will need to change the value of a binary variable, `cl`, inside the `get_isTrial` string. 

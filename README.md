@@ -16,9 +16,11 @@ This documentation aims to provide comprehensive information and guides on vario
 To get started with VitePress, follow these steps:
 1. Clone the repository: `git clone https://github.com/openm-project/mcdoc.github.io.git`
 2. Install VitePress: `npm install -g create-vitepress`
-3. Navigate to the project directory: `cd mcdoc.github.io`
-4. Start the local development server: `npm run dev`
-5. Open your browser and visit `http://localhost:3000` to view the documentation.
+3. Install pnpm: `npm install -g pnpm`
+4. Navigate to the project directory: `cd mcdoc.github.io`
+5. Build the dependecies for the server: `pnpm run docs:build`
+6. Start the internal server: `pnpm run docs:dev`
+7. Open your browser and visit `http://localhost:3000` to view the documentation.
 
 
 ## Contributing
