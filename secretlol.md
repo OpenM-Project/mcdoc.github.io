@@ -1,11 +1,11 @@
 ---
-title: How the Minecraft for Windows is Cracked/Patched
+title: How Minecraft for Windows is Cracked/Patched
 ---
 ::: danger
 WIP by XtronXI
 :::
 
-# How the Minecraft for Windows is Cracked/Patched
+# How Minecraft for Windows is Cracked/Patched
 
 ::: warning Note
 This is only for the Bedrock Edition of Minecraft
