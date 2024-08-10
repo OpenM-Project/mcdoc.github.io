@@ -11,7 +11,7 @@ WIP by XtronXI
 This is only for the Bedrock Edition of Minecraft
 :::
 
-Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in app purchase and licensing related tasks like identifying if user bought game or has acquired trial. We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify return value of trial function and Minecraft starts working in full game mode. The crack can be done manually or by [Third Party Softwares](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows)
+Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in app purchase and licensing related tasks like identifying if user bought game or has acquired trial. We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify return value of trial function and Minecraft starts working in full game mode. The crack can be done manually or by [Third Party Software, such as M Centers or online-fix.me's unlocker.](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows)
 
 ## Methods
 
