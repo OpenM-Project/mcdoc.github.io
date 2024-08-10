@@ -11,7 +11,7 @@ WIP by XtronXI
 This is only for the Bedrock Edition of Minecraft
 :::
 
-For Minecraft for Windows to know if we have paid for it or not, it uses the **Store DLL** to check for a license. This Store DLL can be cracked/patched by users, whether manually or using [Third Party Softwares](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows). After the process is done by such softwares/programs, Minecraft will not be able to check for the license, leading to the Full version of Minecraft. 
+Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in app purchase and licensing related tasks like identifying if user bought game or has acquired trial. We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify return value of trial function and Minecraft starts working in full game mode. The crack can be done manually or by [Third Party Softwares](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows)
 
 ## Methods
 
@@ -30,20 +30,18 @@ Also, you can patch the game's code completely and pack it in a `.appx` and you 
 
 There are also other methods like ClipSVC, SetACL and BlueSky Method. We will also define these later.
 
-## Store DLL and Cracking/Patching
+## DLL and Cracking/Patching
 
 ::: tip Tip
-For more information about DLLs and Namespaces, see https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library and https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces
+For more information about DLLs and Namespaces, see [https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library](https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library) and [https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces)
 :::
 
-Store DLLs are dlls that the Microsoft Store bought apps uses for things related to license and in-app purchases. The dll is located in the root directory (`System32` & `SysWOW64`) of your computer and is in the name `Windows.ApplicationModel.Store.dll`. So, Minecraft uses the Store DLLs to check for license. The detailed explanation on what happens is written below but there is a difference between how the initial versions and older versions does.
+::: details Newer Versions
+Newer Versions of Minecraft uses the boolean property [Windows.Services.Store.StoreAppLicense.IsTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to check if the license is a trial license by checking the license information (if installing `.appx` of any app that has a trial license, it will show a Limited Access version of the app). The license information of the newer versions of Minecraft is checked after  [`Windows.Services.Store.StoreContext.GetAppLicenseAsync`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storecontext.getapplicenseasync) returns a collection variables of the license.
+:::
 
 ::: details Initial Versions
-Initial Versions of Minecraft uses the boolean [`isTrial`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) property under the class [`StoreAppLicense`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense) of [`Windows.Services.Store`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store) namespace of the Store DLL to check if the license is a trial license by checking the license information (if installing `.appx` of any app that has a trial license, it will show a Limited Access version of the app). The license information of the initial versions of Minecraft is checked by [`GetAppLicenseAsync`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storecontext.getapplicenseasync) method under the class [`StoreContext`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store) of the same namespace.   
-:::
-
-::: details Older Versions
-Older Versions of Minecraft uses the boolean [`isTrial`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) property under the class [`LicenseInformation`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation) of [`Windows.ApplicationModel.Store`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store) namespace of the Store DLL to check if the license is a trial license by checking the license information (If installing .appx of any app that has a trial license, it will show a Limited Access version of the app). The license information of the older versions of Minecraft is checked by [`LicenseInformation`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.currentapp.licenseinformation) property under the class [`CurrentApp`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.currentapp) of the same namespace.
+ Versions of Minecraft uses the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the license is a trial license by checking the license information (if installing `.appx` of any app that has a trial license, it will show a Limited Access version of the app). The license information of the older versions of Minecraft is checked after [`Windows.ApplicationModel.Store.CurrentApp.LicenseInformation`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.currentapp.licenseinformation) returns a collection variables of the license.
 :::
 
 - To crack Minecraft for Windows, you will need to change the value of a binary variable, `cl`, inside the `isTrial` property. 
