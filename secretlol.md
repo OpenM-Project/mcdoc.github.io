@@ -47,8 +47,8 @@ Newer Versions of Minecraft uses the boolean property [Windows.Services.Store.St
 :::
 
 To crack Minecraft for Windows, you will need to change the dll using the Interactive Dissassebler
-You will have to make so that when Minecraft asks for the license, the isTrial property becomes false no matter what.
-This value is stored in a register called `cl`. To do this change, you will have to make so that when isTrial runs, `cl` is set to `0` (false).
+You will have to make so that when Minecraft asks for the license, the `isTrial` property becomes false no matter what.
+This value is stored in a [register](https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm) called `cl`. To do this change, you will have to make so that when `isTrial` runs, `cl` is set to `0` (false).
 
 ::: info Note
 If the value of `cl` is 1, then the specific app will be limited in access. 
