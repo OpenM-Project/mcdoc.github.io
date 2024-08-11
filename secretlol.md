@@ -50,13 +50,15 @@ To crack Minecraft for Windows, you will need to change the dll using the Intera
 You will have to make so that when Minecraft asks for the license, the isTrial property becomes false no matter what.
 This value is stored in a register called `cl`. To do this change, you will have to make so that when isTrial runs, `cl` is set to `0` (false).
 
+::: info Note
+If the value of `cl` is 1, then the specific app will be limited in access. 
+
+If the value of `cl` is 0, then the you will get full access in the specific app.
+:::
+
 Watch the video below to do it:
 
 <iframe width="420" height="315" src="https://youtube.com/embed/h2W6vzLN8Fg"></iframe> 
-
-**Note:**
-- If the value of `cl` is 1, then the specific app will be limited in access. 
-- If the value of `cl` is 0, then the you will get full access in the specific app.
 
 ## Extra Methods
 
