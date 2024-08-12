@@ -2,14 +2,11 @@
 title: How Minecraft for Windows is Cracked/Patched
 ---
 
-# How Minecraft for Windows is Cracked/Patched
 
 ::: warning Note
-This is only for the Bedrock Edition of Minecraft
+This page is focused for Bedrock Edition of Minecraft. However it can be used for other apps that meet required conditions.
 :::
 
-Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing related tasks like identifying if user bought game or has acquired trial.\
-We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify return value of trial function and Minecraft starts working in full game mode. The crack can be done manually or by specific [Third Party Software](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows).
 
 ## Methods
 
@@ -27,38 +24,36 @@ Also, you can patch the game's code completely and pack it in a `.appx` and you 
 
 There is an other method using ClipSVC, we will define that later.
 
-## The Licensing System
+# How Minecraft for Windows is Cracked/Patched
 
-::: tip Tip
-For more information about DLLs and Namespaces, see [https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library](https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library) and [https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces)
-:::
+Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing related tasks like identifying if user bought game or has acquired trial.\
+We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify return value of trial function and Minecraft starts working in full game mode. The crack can be done manually or by specific [Third Party Software](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows).
 
-To understand deeply about this "cracked" DLL that gets replaced with the original dll in the DLL Replacing method, you will have to know about the licensing process. The licensing process is different depending on the Minecraft version you have:
 
-::: info Note:
-Trial License - Any app with a trial license will be limited in access.
-:::
+
+## How Minecraft works
+
+
+
+To understand deeply about the DLL that gets replaced with the original dll, you will have to know about the licensing process. The licensing process is different depending on the Minecraft version you have:
 
 ### Newer Versions
-Newer Versions of Minecraft uses the boolean property [Windows.Services.Store.StoreAppLicense.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to determine if the license is a trial license by checking the license information. The license information of the newer versions of Minecraft is reviewed after [`Windows.Services.Store.StoreContext.GetAppLicenseAsync`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storecontext.getapplicenseasync) returns a collection of variables of the license.
+Newer Versions of Minecraft uses the boolean property [Windows.Services.Store.StoreAppLicense.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. The return value of this functions depends on whether you bought minecraft or not. Its value is affected if you have multiple accounts in PC or you have attached 10 PCs per account. In case of any issue with licensing limits, it returns true, this means Minecraft will run in trial mode
 
 ### Initial Versions
-Initial Versions of Minecraft uses the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to determine if the license is a trial license by checking the license information . The license information of the initial versions of Minecraft is reviewed after [`Windows.ApplicationModel.Store.CurrentApp.LicenseInformation`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.currentapp.licenseinformation) returns a collection of variables of the license.
+Initial Versions of Minecraft uses the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. Like Windows.Services.Store.StoreAppLicense.isTrial, its value is also affected by factors like accounts and PCs and if user exceeds any limit then Minecraft runs in trial mode.
 
+
+::: tip Tip
+For more information about how minecraft works visit https://learn.microsoft.com/en-us/uwp/api/windows.services.store and https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store
+:::
 ## Cracking/Patching
+We crack Minecraft by modifying return value of IsTrial boolean property. This is done by editing the related function at assembly level to make it replace isTrial value with false whenever Minecraft tries to access the property
+### Required Tools & Knowledge
+- You might need to know about [Assembly](https://www.tutorialspoint.com/assembly_programming/) before reading this, or your brain might explode.
+- Disassembler [Interactive Dissassebler](https://en.wikipedia.org/wiki/Interactive_Disassembler).
 
-::: warning Warning!
-You might need to know about [Assembly](https://www.tutorialspoint.com/assembly_programming/) before reading this, or your brain might explode.
-:::
 
-To crack Minecraft for Windows, you will need to change the dll using the [Interactive Dissassebler](https://en.wikipedia.org/wiki/Interactive_Disassembler).
-You will have to make so that when Minecraft asks for the license, the `isTrial` property becomes false no matter what.
-The value of isTrial is stored in a [register](https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm) called `cl`. To do this change, you will have to make so that when `isTrial` runs, `cl` is set to `0` (false).
-
-::: info Note:
-If the value of `cl` is 1, then the specific app will be limited in access.\
-If the value of `cl` is 0, then the you will get full access in the specific app.
-:::
 
 Watch the video below to do it:
 
@@ -70,7 +65,7 @@ Watch the video below to do it:
 
 **Tinedpakgamer** (founder of M Centers) discovered the first method to crack Minecraft using ClipSVC. But it turned out to be dangerous for your computer. It was used in MCenters 1.0 (aka Red MCenters), BlueSky Launcher etc. But what is ClipSVC? 
 
-**`ClipSVC`**, or the Client License Service is a Windows service related to Microsoft Store. It takes care of managing and protecting digital content from the Microsoft Store, like apps and games, to make sure they follow licensing rules and digital rights management (DRM). ClipSVC is used in the process of checking the license, so disabling it will basically break every single licensing system and no process related to it can be run. In meaning, you could force stop ClipSVC and get apps for free. But since it breaks Minecraft completely too, you will need to other steps.\
-**Runtime Broker** makes sure Minecraft follows its licensing rules and security settings. Since it is there running, you will have to End Task it at the correct time, which is when Minecraft buffers loading at 46%. And as I have said, this breaks Minecraft and MS Store, and it even could lead to system errors and crashes
+**`ClipSVC`**, or the Client License Service is a Windows service related to Microsoft Store. It takes care of managing and protecting digital content from the Microsoft Store, like apps and games, to make sure they follow licensing rules and digital rights management (DRM). ClipSVC is used in the process of checking the license, so disabling it will basically break every single licensing systems and no process related to it can be run. In meaning, you could force stop ClipSVC and get apps for free. But since it breaks Minecraft completely too, you will need to other steps.\
+**Runtime Broker** makes sure Minecraft follows its licensing rules and security settings. Sine this is there, you will have to End Task it at the correct time, which is when Minecraft buffers loading at 46%. And as I have said, this breaks Minecraft and MS Store, and it even could lead to system errors and crashes
 
 **And that's all! You have learnt how it works, and later on, I might plan to add new things to this page!**
