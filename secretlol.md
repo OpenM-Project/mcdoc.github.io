@@ -33,13 +33,17 @@ There is an other method using ClipSVC, we will define that later.
 For more information about DLLs and Namespaces, see [https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library](https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/dynamic-link-library) and [https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/namespaces)
 :::
 
-To understand deeply about the DLL that gets replaced with the original dll, you will have to know about the licensing process. The licensing process is different depending on the Minecraft version you have:
+To understand deeply about this "cracked" DLL that gets replaced with the original dll in the DLL Replacing method, you will have to know about the licensing process. The licensing process is different depending on the Minecraft version you have:
+
+::: info Note:
+Trial License - Any app with a trial license will be limited in access.
+:::
 
 ### Newer Versions
-Newer Versions of Minecraft uses the boolean property [Windows.Services.Store.StoreAppLicense.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to check if the license is a trial license by checking the license information (if installing `.appx` of any app that has a trial license, it will give you a limited version of the app). The license information of the newer versions of Minecraft is checked after [`Windows.Services.Store.StoreContext.GetAppLicenseAsync`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storecontext.getapplicenseasync) returns a collection variables of the license.
+Newer Versions of Minecraft uses the boolean property [Windows.Services.Store.StoreAppLicense.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to determine if the license is a trial license by checking the license information. The license information of the newer versions of Minecraft is reviewed after [`Windows.Services.Store.StoreContext.GetAppLicenseAsync`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storecontext.getapplicenseasync) returns a collection of variables of the license.
 
 ### Initial Versions
-Initial Versions of Minecraft uses the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the license is a trial license by checking the license information (if installing `.appx` of any app that has a trial license, it will show a Limited Access version of the app). The license information of the initial versions of Minecraft is checked after [`Windows.ApplicationModel.Store.CurrentApp.LicenseInformation`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.currentapp.licenseinformation) returns a collection variables of the license.
+Initial Versions of Minecraft uses the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to determine if the license is a trial license by checking the license information . The license information of the initial versions of Minecraft is reviewed after [`Windows.ApplicationModel.Store.CurrentApp.LicenseInformation`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.currentapp.licenseinformation) returns a collection of variables of the license.
 
 ## Cracking/Patching
 
