@@ -11,7 +11,7 @@ WIP by XtronXI
 This is only for the Bedrock Edition of Minecraft
 :::
 
-Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing related tasks like identifying if user bought game or has acquired trial.  
+Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing related tasks like identifying if user bought game or has acquired trial.\
 We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify return value of trial function and Minecraft starts working in full game mode. The crack can be done manually or by specific [Third Party Software](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows).
 
 ## Methods
@@ -43,7 +43,6 @@ Newer Versions of Minecraft uses the boolean property [Windows.Services.Store.St
 
 ### Initial Versions
 Initial Versions of Minecraft uses the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the license is a trial license by checking the license information (if installing `.appx` of any app that has a trial license, it will show a Limited Access version of the app). The license information of the initial versions of Minecraft is checked after [`Windows.ApplicationModel.Store.CurrentApp.LicenseInformation`](https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store.currentapp.licenseinformation) returns a collection variables of the license.
-:::
 
 ## Cracking/Patching
 
@@ -56,7 +55,7 @@ You will have to make so that when Minecraft asks for the license, the `isTrial`
 The value of isTrial is stored in a [register](https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm) called `cl`. To do this change, you will have to make so that when `isTrial` runs, `cl` is set to `0` (false).
 
 ::: info Note:
-If the value of `cl` is 1, then the specific app will be limited in access.  
+If the value of `cl` is 1, then the specific app will be limited in access.\
 If the value of `cl` is 0, then the you will get full access in the specific app.
 :::
 
