@@ -1,9 +1,6 @@
 ---
 title: How Minecraft for Windows is Cracked/Patched
 ---
-::: danger
-WIP by XtronXI
-:::
 
 # How Minecraft for Windows is Cracked/Patched
 
@@ -46,7 +43,7 @@ Initial Versions of Minecraft uses the boolean property [Windows.ApplicationMode
 
 ## Cracking/Patching
 
-::: warning Tip
+::: warning Warning!
 You might need to know about [Assembly](https://www.tutorialspoint.com/assembly_programming/) before reading this, or your brain might explode.
 :::
 
