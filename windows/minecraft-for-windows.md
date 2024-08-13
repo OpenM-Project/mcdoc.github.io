@@ -47,28 +47,28 @@ Name | Download | Source code | Is it maintained? | Method
 ⭐ OptiCraft|[Website](https://optijuegos.github.io/)|\-|**Yes**|**Cracked Appx**
 ⭐ Zhmurkov Launcher|[Website](https://zhmurkov.ru/)|\-|**Yes**|**Cracked Appx**
 🌐 Minecraft for Windows 10 Topic|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=38&t=90151)|\-|**Yes**|Multiple Methods
-MCentresDLLs|[GitHub](https://github.com/Max-RM/mcenterdlls/archive/refs/heads/main.zip)|[GitHub](https://github.com/Max-RM/mcenterdlls)|**Maybe**|Cracked DLLs for Minecraft BE
+MCenterDLLs|[GitHub](https://github.com/Max-RM/mcenterdlls/archive/refs/heads/main.zip)|[GitHub](https://github.com/Max-RM/mcenterdlls)|**Maybe**|Cracked DLLs for Minecraft BE
 Minecraft: Bedrock Edition [P] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.80) [P2P]|[RuTracker](https://rutracker.org/forum/viewtopic.php?t=6444229)|\-|**Yes**|**Cracked Appx**
 \[DL] Minecraft: Bedrock Edition [L] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.81) [Microsoft Store-Rip]|[Rutracker](https://rutracker.org/forum/viewtopic.php?t=6440824)|\-|**Yes**|**Cracked Appx**
+BlueSky Launcher|[GitHub](https://github.com/fym35/BlueSky) [PixelDrain](https://pixeldrain.com/u/indVkp1F)|[GitHub](https://pixeldrain.com/u/indVkp1F) forked from [FishiaT](https://github.com/FishiaT)|No|ClipSVC, SetACL, Bluesky Mode
+DynoLTS|[WayBack Machine](https://web.archive.org/web/20210502020234/https://github.com/ClickNinYT/DynoLTS/archive/refs/heads/main.zip)|[WayBack Machine](https://web.archive.org/web/20220708141801/github.com/clickninyt/dynolts)|No|Same as BlueSky
 BEAMinject |[Website](https://wavEye-project.github.io/BEAMinject/) | [GitHub](https://github.com/wavEye-Project/BEAMinject)|**Maybe**|**DMM**
 BEAMinject *(legacy)*|[Website](https://wavEye-project.github.io/BEAMinject_legacy/)|[GitHub](https://github.com/wavEye-Project/BEAMinject_legacy)|No|**DMM**
-Minecraft For Windows Launcher|[GitHub](https://github.com/jiesou/MFWL-Minecraft-For-Windows-Unlock-Launcher/archive/refs/heads/main.zip)|[GitHub](https://github.com/jiesou/MFWL-Minecraft-For-Windows-Unlock-Launcher)|No|DLL Replacing
-BlueSky Launcher|[GitHub](https://github.com/fym35/BlueSky) [PixelDrain](https://pixeldrain.com/u/indVkp1F)|[GitHub](https://pixeldrain.com/u/indVkp1F) forked from [FishiaT](https://github.com/FishiaT)|No|ClipSVC, SetACL, Bluesky Mode
-CODEX's crack|[GitHub](https://github.com/ClickNin/mcwin10-codexemulator/archive/refs/heads/master.zip)|[GitHub](https://github.com/ClickNin/mcwin10-codexemulator)|No|Patching MC's files
-DynoLTS|[WayBack Machine](https://web.archive.org/web/20210502020234/https://github.com/ClickNinYT/DynoLTS/archive/refs/heads/main.zip)|[WayBack Machine](https://web.archive.org/web/20220708141801/github.com/clickninyt/dynolts)|No|Same as BlueSky
 Free-Minecraft-Bedrock-Edition|[GitHub](https://github.com/TejasWork/Free-Minecraft-Bedrock-Edition/archive/refs/heads/main.zip)|[GitHub](https://github.com/TejasWork/Free-Minecraft-Bedrock-Edition)|No|**DMM**
-Freez Minecraft Crack|[GitHub](https://github.com/Sriharan-S/minecraft-win-crack/raw/main/Freez%20Minecraft%20Crack%20v2.1.zip)|[GitHub](https://github.com/Sriharan-S/minecraft-win-crack)|No|DLL Replacing
+Minecraft_Memory_Bypass_GUI|[GitHub](https://github.com/Xing-Fax/Minecraft_Memory_Bypass_GUI/releases/download/V1.4.0.0/Minecraft.Memory.Bypass.exe)|[GitHub](https://github.com/Xing-Fax/Minecraft_Memory_Bypass_GUI)|No|**DMM**
 MinecraftWindows10Bypass|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass/releases/download/V1.0/MinecraftWindows10Bypass.zip)|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass)|No|**I-MCM**
-MCPatcher|[GitHub](https://github.com/bricktea/MCPatcher/releases/download/v1.2.0/MCPatcher.exe)|[GitHub](https://github.com/bricktea/MCPatcher)|No|Patching MC’s files
-MCrev|[GitHub](https://github.com/mcrax/mcrev/releases/download/1.14/Revision.1.14.exe)|[GitHub](https://github.com/mcrax/mcrev)|No|Patching MC’s files
+Freez Minecraft Crack|[GitHub](https://github.com/Sriharan-S/minecraft-win-crack/raw/main/Freez%20Minecraft%20Crack%20v2.1.zip)|[GitHub](https://github.com/Sriharan-S/minecraft-win-crack)|No|DLL Replacing
 MCWIN10-PATCHER|[GitHub](https://github.com/raonygamer13/MCWIN10-PATCHER/releases/download/v1.0.0/McpePatcher.exe)|[GitHub](https://github.com/raonygamer13/MCWIN10-PATCHER)|No|DLL Replacing
+Minecraft For Windows Launcher|[GitHub](https://github.com/jiesou/MFWL-Minecraft-For-Windows-Unlock-Launcher/archive/refs/heads/main.zip)|[GitHub](https://github.com/jiesou/MFWL-Minecraft-For-Windows-Unlock-Launcher)|No|DLL Replacing
 MCWindows10UnlockHack|[PixelDrain](https://pixeldrain.com/u/C5f199xN)|[PixelDrain](https://pixeldrain.com/u/C5f199xN)|No|DLL Replacing
 MINECRAFT Win10 PC FRACO|[GitHub](https://github.com/raonygamer/Minecraft-Win10/raw/main/MINECRAFT%20Win10%20PC%20FRACO%20BY%20raonyreis13.zip)|[GitHub](https://github.com/raonygamer/Minecraft-Win10)|No|DLL Replacing
 Minecraft Launch Script|[GitHub](https://github.com/Sahil12524/Minecraft-Launch-Script-VB-WinForms/releases/download/v1.10/Minecraft.Launch.Script.1.10.7z)|[GitHub](https://github.com/Sahil12524/Minecraft-Launch-Script-VB-WinForms)|No|DLL Replacing
 Minecraft_For_Win10_Crack|[GitHub](https://github.com/zhicheng233/Minecraft_For_Win10_Crack/releases/download/MCBECrack2.41/Minecraft_For_Win10_Crack.exe)|[GitHub](https://github.com/zhicheng233/Minecraft_For_Win10_Crack)|No|DLL Replacing
-Minecraft_Memory_Bypass_GUI|[GitHub](https://github.com/Xing-Fax/Minecraft_Memory_Bypass_GUI/releases/download/V1.4.0.0/Minecraft.Memory.Bypass.exe)|[GitHub](https://github.com/Xing-Fax/Minecraft_Memory_Bypass_GUI)|No|**DMM**
 Minecraft-Activator|[GitHub](https://github.com/Ambassador4ik/Minecraft-Activator/archive/refs/heads/main.zip)|[GitHub](https://github.com/Ambassador4ik/Minecraft-Activator)|No|DLL Replacing
 Minecraft-Unlock|[GitHub](https://github.com/Xing-Fax/Minecraft-Unlock/releases/download/V2.3.0.0/Minecraft.Unlock.exe)|[GitHub](https://github.com/Xing-Fax/Minecraft-Unlock)|No|DLL Replacing
+CODEX's crack|[GitHub](https://github.com/ClickNin/mcwin10-codexemulator/archive/refs/heads/master.zip)|[GitHub](https://github.com/ClickNin/mcwin10-codexemulator)|No|Patching MC's files
+MCPatcher|[GitHub](https://github.com/bricktea/MCPatcher/releases/download/v1.2.0/MCPatcher.exe)|[GitHub](https://github.com/bricktea/MCPatcher)|No|Patching MC’s files
+MCrev|[GitHub](https://github.com/mcrax/mcrev/releases/download/1.14/Revision.1.14.exe)|[GitHub](https://github.com/mcrax/mcrev)|No|Patching MC’s files
 PATCHER - CODEX|[PixelDrain](https://pixeldrain.com/u/DzjhErdB)|\-|No|Patching MC’s files
 BLauncher|[GitHub](https://github.com/imsaku/blauncher/archive/refs/heads/main.zip)|[GitHub](https://github.com/imsaku/blauncher)|No|ClipSVC
 ClickGoLTS|[GitHub](https://github.com/FishiaT/ClickGoLTS/archive/refs/heads/main.zip)|[GitHub](https://github.com/FishiaT/ClickGoLTS)|No|ClipSVC
@@ -106,7 +106,4 @@ Mc Persona|[PixelDrain](https://pixeldrain.com/u/gn9BuMTG)|[Telegram](https://t.
 BlueCoin|[Telegram](https://t.me/archivebluecoin)|\-|**Yes**|Decrypting Marketplace Content
 Minecraft Bedrock Leaks|[Website](https://shytz.net/Minecraft-Leaks/Windows-Leaks)|\-|**Yes**|Minecraft: Bedrock Edition Development version leaks
 Minecraft DLC Archives|[Discord](https://discord.gg/eDpasTFmRr)|\-|**Yes**|Decrypted Marketplace Contents
-
-<div>
-  <!-- Skin Pack Unlocker|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=38&t=90151)|\-|**Yes**|Skinpack unlocker -->
-</div>
+Skin Pack Unlocker|[CS.RIN.RU]([https://cs.rin.ru/forum/viewtopic.php?f=38&t=90151](https://cs.rin.ru/forum/search.php?keywords=skin+pack+unlocker))|\-|**Yes**|Skinpack unlocker
