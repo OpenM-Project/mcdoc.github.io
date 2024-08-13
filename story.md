@@ -17,7 +17,7 @@ Then, people started to notice that the paid version and the trial version was t
 
 ::: details The First Method - ClipSVC
 
-The first hack to unlock Minecraft, discovered by tinedpakgamer, is the <b>ClipSVC Method</b>. With some registry code, you could force stop ClipSVC and prevent it from running in the background. After that, when you start Minecraft, it would buffer at 46% which you would then go and force stop Runtime Broker under Minecraft in Task Manager. And this worked! This was then packed into a program named M Centers by the discoverer. But, this method was the opposite of safe, as it breaks MS Store completely and on 10th October 2022, it got patched by Microsoft Sanity/Subscription Check Update.
+The first hack to unlock Minecraft, discovered by tinedpakgamer, is the <b>ClipSVC Method</b>. With some registry code, you could force stop ClipSVC and prevent it from running in the background. After that, when you start Minecraft, it would buffer at 46% which you would then go and force stop Runtime Broker under Minecraft in Task Manager. And this worked! This was then packed into a program named M Centers by the discoverer. But, this method was the opposite of safe, as it breaks MS Store completely and on 10th October 2022, it got patched in the version `1.19.50` of Minecraft.
 
 :::
 
