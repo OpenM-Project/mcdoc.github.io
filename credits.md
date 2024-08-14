@@ -56,7 +56,7 @@ window.onload = function() {
 </script>
 -->
 
-<VPTeamMembers size="medium" :members="members" />
+<VPTeamMembers size="small" :members="members" />
 
 </div>
 
