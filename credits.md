@@ -10,9 +10,25 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/138195097?v=4',
     name: 'XtronXI',
-    title: 'Owner of *r/mcommunity_* and moderator of *r/mcenters*, co-founder & developer at the OpenM Project, and partnered with M Centers',
+    title: 'Founded MCDOC, Owner of r/mcommunity_ and moderator of r/mcenters, co-founder & developer at the OpenM Project, and partnered with M Centers',
     links: [
-      { icon: 'github', link: 'https://github.com/' }
+      { icon: 'github', link: 'https://github.com/XtronXI/' }
+    ]
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/59843249?v=4',
+    name: 'Cubebanyasz',
+    title: 'Current owner of the OpenM Project, a contributor at M Centers & partnered with M Centers, and owner of the openm.tech domain, and the akshnav.cubebanyasz.me website',
+    links: [
+      { icon: 'github', link: 'https://github.com/misike12/' }
+    ]
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/176807151?v=4',
+    name: 'ARS',
+    title: 'Founder of the OpenM Project, Owner of r/openm, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.',
+    links: [
+      { icon: 'github', link: 'https://github.com/ars-fr/' }
     ]
   }
 ]
