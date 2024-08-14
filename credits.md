@@ -3,6 +3,24 @@ title: Credits
 editLink: false
 ---
 
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/138195097?v=4',
+    name: 'XtronXI',
+    title: 'Owner of <em>r/mcommunity_</em> and moderator of <em>r/mcenters</em>, co-founder & developer at the OpenM Project, and partnered with M Centers',
+    links: [
+      { icon: 'github', link: 'https://github.com/' }
+    ]
+  },
+  {
+    avatar
+  }
+]
+</script>
+
 # The OpenM Project's members
 
 <div>
@@ -24,6 +42,8 @@ window.onload = function() {
 };
 </script>
 -->
+
+<VPTeamMembers size="small" :members="members" />
 
 <table id="membersTable">
   <tr>
