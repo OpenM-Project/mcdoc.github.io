@@ -56,22 +56,7 @@ window.onload = function() {
 </script>
 -->
 
-<VPTeamMembers size="small" :members="members" />
-
-<table id="membersTable">
-  <tr>
-    <td><a href="https://github.com/XtronXI/">XtronXI</a></td>
-    <td>Owner of <em>r/mcommunity_</em> and moderator of <em>r/mcenters</em>, co-founder & developer at the OpenM Project, and partnered with M Centers.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/misike12/">Cubebanyasz</a></td>
-    <td>Current owner of the OpenM Project, a contributor at M Centers & partnered with M Centers, and owner of the <code>openm.tech</code> domain, and the <code>akshnav.cubebanyasz.me</code> website.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/ars-fr/">ARS</a></td>
-    <td>Founder of the OpenM Project, Owner of <em>r/openm</em>, A contributor & and partnered with M Centers, admin at M Community, and a developer & frequent contributor here at MCDOC.</td>
-  </tr>
-</table>
+<VPTeamMembers size="medium" :members="members" />
 
 </div>
 
