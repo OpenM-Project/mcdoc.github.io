@@ -71,6 +71,47 @@ const mention = [
     avatar: 'https://cdn.discordapp.com/avatars/829670801334468649/b835b8f133f7c27ade8c7a15ad9199f9.webp',
     name: 'SOMEONE',
     title: 'Founder of M Community, the community that was aiming to revive M Centers after M Centers left (13th February 2024), and before M Centers came back (1st May 2024), also a partner at M Centers.'
+  },
+  {
+    avatar: 'https://online-fix.me/templates/FixLand/images/oflogo.gif',
+    name: 'online-fix.me',
+    title: 'A website dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, such as the Minecraft for Windows crack, the Minecraft Dungeons crack, and the Minecraft Legends crack',
+    links: [
+      { icon: 'web', link: 'https://online-fix.me/' }
+    ]
+  },
+  {
+    avatar: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAGBQTFRFR3BM////////////////////////////////////////////////////////////////////////9fr65fLy1+vqx+Thud7brdjVn9PPj83Id8XAWb63PbmxEbSsALOr5GfTXQAAAB10Uk5TAAEJFSg1RFNeaHaJm6/A0eDt9fb3+Pn6+/z8/f48zzY/AAABWUlEQVR42o1Ti46DIBAsPvpQHjKgWMDy/395FYpI7pLeJCbCzi4zu3D5N0j3oIxzzsZHT/6I3wQKxPVXOgW0sc5776zRAG1qAoWyIeH1/p4KvD3HWygfzvAa/FzjiiXU2DTGk4I7zGf/uSzGxRoKXWFkglPYse7/BrQQBqyfOLvfBgm7F1Oy6GRwcQsDifX0Tl8wnExEc2BJkoh8B350MZnQuOYToySF7JTGQz0m8pkK5p0wI3dcYHuv18M5kSrEjSFL0DmhyrDZaI+5HBnBk8osOml8YSq2C6H08SshKJnjRMBnDVUbuqMvunLRQVfT6SbY2taELY2C9eTSDjJV9JClk3mYkBKAecUC5cr0UFu8LqsG9OJCGqYo46aYt1DDYDrdqEZA+yq+QvYlTkjLoUwp4mbI+u2QZgQwr9Y5+1w0IHJ+QUclMsQjG6zQ9ANljI639ts7rx73D92BMwla3uW4AAAAAElFTkSuQmCC',
+    name: 'OptiProjects / OptiJuegos',
+    title: 'A website dedicated to cracking Minecraft China / Minecraft China Dev, and Minecraft: Education Edition',
+    links: [
+      { icon: 'web', link: 'https://optijuegos.github.io/' }
+    ]
+  },
+  {
+    avatar: 'https://cdn4.cdn-telegram.org/file/lF0LH4T5bLjqi2s3-hNRAU9wz--jg3gA-KabhsTL8V3qz3nzOyPno1H_OYy3DZlIOu6in15MeCKIcoJIfbL3XkduyCafqxoVV99lLzqXP0xzDV8rYR8D8t3pBQFZ8tbfwSO9gY2VrBMNQnlaV6aHxpMKGn3MyPKgeBKVgzKd_H7MSgCJG8Heh5FmEgzFRHImKe90rMbssNR-aBXZGAaAAEpMIwvzB0rLbp4oq37JybMsAyZfONBY14xVJpDyENfa2kh60eDsamNCb3UmUh_xkn0_AYQMhaFEBT0lkOiRuF3U2iQDpLVCnVS2zl1m_4ZGF7Ak-8TkBL8dCvYFd8UGOg.jpg',
+    name: 'MDLC',
+    title: 'MDLC is dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, and a lot of pre-patched APPXs designed to work on different devices, MDLC is owned by Max RM',
+    links: [
+      { icon: 'telegram', link: 'https://t.me/MDLC_main' },
+      { icon: 'telegram', link: 'https://t.me/MDLC_group' }
+    ]
+  },
+  {
+    avatar: 'https://i.ibb.co/cgxK7gR/csrinru.png',
+    name: 'CS.RIN.RU',
+    title: 'A forum website that is full of cracking and Minecraft topics',
+    links: [
+      { icon: 'web', link: 'https://cs.rin.ru/' }
+    ]
+  },
+  {
+    avatar: 'https://rutracker.org/favicon-32x32.png',
+    name: 'RuTracker.org',
+    title: 'A torrent tracker website that contains alot of cracked Minecraft downloads',
+    links: [
+      { icon: 'web', link: 'https://rutracker.org/' }
+    ]
   }
 ]
 </script>
@@ -84,58 +125,11 @@ const mention = [
     <template #title>Worth Mentioning</template>
     <template #members>
       <VPTeamMembers size="small" :members="mention" />
-      <table>
-        <tr>
-          <td><a href="https://online-fix.me">online-fix.me</a></td>
-          <td>A website dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, such as the Minecraft for Windows crack, the Minecraft Dungeons crack, and the Minecraft Legends crack.</td>
-        </tr>
-        <tr>
-          <td><a href="https://optijuegos.github.io/">OptiProjects/OptiJuegos</a></td>
-        <td>A website dedicated to cracking Minecraft China / Minecraft China Dev, and Minecraft: Education Edition.</td>
-        </tr>
-        <tr>
-          <td><a href="https://t.me/MDLC_main">MDLC</a></td>
-          <td>MDLC is dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, and a lot of pre-patched APPX's designed to work on different devices, MDLC is owned by Max RM.</td>
-        </tr>
-        <tr>
-          <td><a href="https://cs.rin.ru/forum">cs.rin.ru</a></td>
-          <td>A forum website that is full of cracking and Minecraft topics.</td>
-        </tr>
-        <tr>
-          <td><a href="https://rutracker.org/">rutracker.org</a></td>
-          <td>A torrent tracker website that contains alot of cracked Minecraft downloads</td>
-        </tr>
-      </table>
     </template>
   </VPTeamPageSection>
 </VPTeamPage>
 
-<!--
-<table>
-  <tr>
-    <td><a href="https://online-fix.me">online-fix.me</a></td>
-    <td>A website dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, such as the Minecraft for Windows crack, the Minecraft Dungeons crack, and the Minecraft Legends crack.</td>
-  </tr>
-  <tr>
-    <td><a href="https://optijuegos.github.io/">OptiProjects/OptiJuegos</a></td>
-    <td>A website dedicated to cracking Minecraft China / Minecraft China Dev, and Minecraft: Education Edition.</td>
-  </tr>
-  <tr>
-    <td><a href="https://t.me/MDLC_main">MDLC</a></td>
-    <td>MDLC is dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, and a lot of pre-patched APPX's designed to work on different devices, MDLC is owned by Max RM.</td>
-  </tr>
-  <tr>
-    <td><a href="https://cs.rin.ru/forum">cs.rin.ru</a></td>
-    <td>A forum website that is full of cracking and Minecraft topics.</td>
-  </tr>
-  <tr>
-    <td><a href="https://rutracker.org/">rutracker.org</a></td>
-    <td>A torrent tracker website that contains alot of cracked Minecraft downloads</td>
-  </tr>
-</table>
--->
-
-#### *And other contributors or developers of OpenM, and its projects, M Centers, and M Community / M Community Development*
+#### *And other contributors or developers of OpenM, and its projects, M Centers, M Community / M Community Development, and other similar communities*
 
 <!--
 <script>
