@@ -19,7 +19,7 @@ const openm = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/59843249?v=4',
     name: 'Cubebanyasz',
-    title: 'Co-founder | Current owner of OpenM'
+    title: 'Co-founder | Current owner of OpenM',
     desc: 'A contributor at M Centers & partnered with M Centers, and owner of the openm.tech domain, and the akshnav.cubebanyasz.me website',
     links: [
       { icon: 'github', link: 'https://github.com/misike12/' }
@@ -28,7 +28,7 @@ const openm = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/176807151?v=4',
     name: 'ARS',
-    title: 'Major Contributor | Founder of OpenM'
+    title: 'Major Contributor | Founder of OpenM',
     desc: 'Owner of r/openm, a contributor & partnered with M Centers, and admin at M Community',
     links: [
       { icon: 'github', link: 'https://github.com/ars-fr/' }
