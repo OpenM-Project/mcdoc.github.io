@@ -13,7 +13,12 @@ const openm = [
     title: 'Founder |  Co-founder of OpenM',
     desc: 'Owner of r/mcommunity_ and moderator of r/mcenters, and partnered with M Centers',
     links: [
-      { icon: 'github', link: 'https://github.com/XtronXI/' }
+      { icon: 'github', link: 'https://github.com/XtronXI/' },
+      {
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" width="13" height="13"><rect width="13" height="13" fill="#E11111FF"></rect><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="10px" fill="#F5F5F5FF">Hi</text></svg>' },
+        link: 'https://test.com'
+        }
     ]
   },
   {
