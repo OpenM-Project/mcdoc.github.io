@@ -85,9 +85,6 @@ const mention = [
     <template #members>
       <VPTeamMembers size="small" :members="mention" />
     </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection>
-    <template #title>Important Websites/Forums/Communities</template>
     <table>
       <tr>
         <td><a href="https://online-fix.me">online-fix.me</a></td>
@@ -110,6 +107,7 @@ const mention = [
         <td>A torrent tracker website that contains alot of cracked Minecraft downloads</td>
       </tr>
     </table>
+  </VPTeamPageSection>
 </VPTeamPage>
 
 <!--
