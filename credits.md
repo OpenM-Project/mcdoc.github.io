@@ -4,9 +4,9 @@ editLink: false
 ---
 
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import {  VPTeamPage, VPTeamPageTitle, VPTeamMembers, VPTeamPageSection } from 'vitepress/theme'
 
-const members = [
+const openm = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/138195097?v=4',
     name: 'XtronXI',
@@ -32,11 +32,62 @@ const members = [
     ]
   }
 ]
+
+const mention = [
+  {
+    avatar: 'https://mcenters.net/images/mcenter_5_icon.png?rand=87b6',
+    name: 'Tinedpakgamer [MCenters]',
+    title: 'Developer of M Centers Launchers',
+    links: [
+      { icon: 'github', link: 'https://github.com/tinedpakgamer/' }
+    ]
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/81485476?v=4',
+    name: 'MaxRM',
+    title: '>A major partner of M Centers, the owner of MDLC (working on cracked appx for Minecraft), and helped in giving hex codes for BEAMinject',
+    links: [
+      { icon: 'github', link: 'https://github.com/Max-RM' }
+    ]
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/70952784?v=4',
+    name: 'CyberAWM',
+    title: 'A partner of M Centers',
+    links: [
+      { icon: 'github', link: 'https://github.com/QwertyTheCoder' }
+    ]
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/74685931?v=4'
+    name: 'FishiaT [ClickNinYT]',
+    title: 'Developer of ClickGo, ClickGoLTS, DynoLTS and BlueSky Launcher. He is also a partner of M Centers, although he is not in the M Centers discord server anymore',
+    links: [
+      { icon: 'github', link: 'https://github.com/FishiaT/' },
+      { icon: 'github', link: 'https://github.com/ClickNin/'}
+    ] 
+  },
+  {
+    avatar: 'https://cdn.discordapp.com/avatars/829670801334468649/b835b8f133f7c27ade8c7a15ad9199f9.webp',
+    name: 'SOMEONE',
+    title: 'Founder of M Community, the community that was aiming to revive M Centers after M Centers left (13th February 2024), and before M Centers came back (1st May 2024), also a partner at M Centers.'
+  }
+]
 </script>
 
-# The OpenM Project's members
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>OpenM Team</template>
+  </VPTeamPageTitle>
+  <VPTeamMembers size="medium" :members="openm" />
+  <VPTeamPageSection>
+    <template #title>Worth Mentioning</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="mention" />
+    </template>
+  </VPTeamPageSection>
+</VPTeamPage>
 
-<div>
 <!--
 <script>
 window.onload = function() {
@@ -56,27 +107,9 @@ window.onload = function() {
 </script>
 -->
 
-<VPTeamMembers size="small" :members="members" />
-
-</div>
-
----
-
-# Worth mentioning
+# Important Websites/Forums/Communities
 
 <table>
-  <tr>
-    <td><a href="https://github.com/tinedpakgamer/">MCenters</a>/<a href="https://github.com/tinedpakgamer/">TinedPakGamer</a></td>
-    <td>Developer of M Centers Launchers</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Max-RM">Max RM</a></td>
-    <td><strong>A <em>major</em> partner of M Centers</strong>, the owner of MDLC <em>(working on cracked appx for Minecraft)</em>, and helped in giving hex codes for BEAMinject.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/QwertyTheCoder">CyberAWM</a></td>
-    <td>A partner of M Centers.</td>
-  </tr>
   <tr>
     <td><a href="https://online-fix.me">online-fix.me</a></td>
     <td>A website dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, such as the Minecraft for Windows crack, the Minecraft Dungeons crack, and the Minecraft Legends crack.</td>
@@ -92,14 +125,6 @@ window.onload = function() {
   <tr>
     <td><a href="https://cs.rin.ru/forum">cs.rin.ru</a></td>
     <td>A forum website that is full of cracking and Minecraft topics.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/ClickNin/">ClickNinYT</a>/<a href="https://github.com/FishiaT">FishiaT</a></td>
-    <td>Developer of ClickGo, ClickGoLTS, DynoLTS and BlueSky Launcher. He is also partnered with M Centers, although he is not in the M Centers discord server anymore.</td>
-  </tr>
-  <tr>
-    <td>SOMEONE</td>
-    <td>Founder of M Community, the community that was aiming to revive M Centers after M Centers left (02/13/2024 [MM/DD/YYYY]), and before M Centers came back (05/01/2024 [MM/DD/YYYY]). <strong>SOMEONE</strong> is also a partner at M Centers.</td>
   </tr>
 </table>
 
