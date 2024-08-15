@@ -45,7 +45,7 @@ const mention = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/81485476?v=4',
     name: 'MaxRM',
-    title: '>A major partner of M Centers, the owner of MDLC (working on cracked appx for Minecraft), and helped in giving hex codes for BEAMinject',
+    title: 'A major partner of M Centers, the owner of MDLC (working on cracked appx for Minecraft), and helped in giving hex codes for BEAMinject',
     links: [
       { icon: 'github', link: 'https://github.com/Max-RM' }
     ]
@@ -88,25 +88,6 @@ const mention = [
   </VPTeamPageSection>
 </VPTeamPage>
 
-<!--
-<script>
-window.onload = function() {
-  var tbody = document.querySelector('#membersTable tbody');
-  var rows = Array.prototype.slice.call(tbody.rows, 0);
--->
-<!--
-  rows = rows.sort(function(a, b) {
-    return Math.random() > 0.5 ? 1 : -1;
-  });
--->
-<!--
-  rows.forEach(function(row) {
-    tbody.appendChild(row);
-  });
-};
-</script>
--->
-
 # Important Websites/Forums/Communities
 
 <table>
@@ -126,6 +107,29 @@ window.onload = function() {
     <td><a href="https://cs.rin.ru/forum">cs.rin.ru</a></td>
     <td>A forum website that is full of cracking and Minecraft topics.</td>
   </tr>
+  <tr>
+    <td><a href="https://rutracker.org/">rutracker.org</a></td>
+    <td>A torrent tracker website that contains alot of cracked Minecraft downloads</td>
+  </tr>
 </table>
 
 #### *And other contributors or developers of OpenM, and its projects, M Centers, and M Community / M Community Development*
+
+<!--
+<script>
+window.onload = function() {
+  var tbody = document.querySelector('#membersTable tbody');
+  var rows = Array.prototype.slice.call(tbody.rows, 0);
+-->
+<!--
+  rows = rows.sort(function(a, b) {
+    return Math.random() > 0.5 ? 1 : -1;
+  });
+-->
+<!--
+  rows.forEach(function(row) {
+    tbody.appendChild(row);
+  });
+};
+</script>
+-->
