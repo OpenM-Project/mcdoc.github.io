@@ -73,7 +73,7 @@ const mention = [
     title: 'Founder of M Community, the community that was aiming to revive M Centers after M Centers left (13th February 2024), and before M Centers came back (1st May 2024), also a partner at M Centers.'
   },
   {
-    avatar: 'https://online-fix.me/templates/FixLand/images/oflogo.gif',
+    avatar: 'https://i.ibb.co/B4zYpbz/frame-00-delay-0-04s.png',
     name: 'online-fix.me',
     title: 'A website dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, such as the Minecraft for Windows crack, the Minecraft Dungeons crack, and the Minecraft Legends crack',
     links: [
@@ -93,8 +93,8 @@ const mention = [
     name: 'MDLC',
     title: 'MDLC is dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, and a lot of pre-patched APPXs designed to work on different devices, MDLC is owned by Max RM',
     links: [
-      { icon: 'telegram', link: 'https://t.me/MDLC_main' },
-      { icon: 'telegram', link: 'https://t.me/MDLC_group' }
+      { icon: 'ic:baseline-telegram', link: 'https://t.me/MDLC_main' },
+      { icon: 'ic:baseline-telegram', link: 'https://t.me/MDLC_group' }
     ]
   },
   {
