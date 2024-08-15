@@ -22,7 +22,7 @@ const openm = [
     avatar: 'https://avatars.githubusercontent.com/u/59843249?v=4',
     name: 'Cubebanyasz',
     title: 'Co-founder | Current owner of OpenM',
-    desc: 'A contributor at M Centers & partnered with M Centers, and owner of the openm.tech domain, and the akshnav.cubebanyasz.me website',
+    desc: 'A contributor at M Centers & partnered with M Centers, and owner of the openm.tech domain, and the akshnav.netlify.app website',
     links: [
       { icon: 'github', link: 'https://github.com/misike12/' },
       { icon: 'twitter', link: 'https://x.com/Cubebanyasz' },
