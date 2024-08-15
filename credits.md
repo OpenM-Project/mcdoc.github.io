@@ -59,7 +59,7 @@ const mention = [
     ]
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/74685931?v=4'
+    avatar: 'https://avatars.githubusercontent.com/u/74685931?v=4',
     name: 'FishiaT [ClickNinYT]',
     title: 'Developer of ClickGo, ClickGoLTS, DynoLTS and BlueSky Launcher. He is also a partner of M Centers, although he is not in the M Centers discord server anymore',
     links: [
