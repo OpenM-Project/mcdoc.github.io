@@ -86,10 +86,33 @@ const mention = [
       <VPTeamMembers size="small" :members="mention" />
     </template>
   </VPTeamPageSection>
+  <VPTeamPageSection>
+    <template #title>Important Websites/Forums/Communities</template>
+    <table>
+      <tr>
+        <td><a href="https://online-fix.me">online-fix.me</a></td>
+        <td>A website dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, such as the Minecraft for Windows crack, the Minecraft Dungeons crack, and the Minecraft Legends crack.</td>
+      </tr>
+      <tr>
+        <td><a href="https://optijuegos.github.io/">OptiProjects/OptiJuegos</a></td>
+      <td>A website dedicated to cracking Minecraft China / Minecraft China Dev, and Minecraft: Education Edition.</td>
+      </tr>
+      <tr>
+        <td><a href="https://t.me/MDLC_main">MDLC</a></td>
+        <td>MDLC is dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, and a lot of pre-patched APPX's designed to work on different devices, MDLC is owned by Max RM.</td>
+      </tr>
+      <tr>
+        <td><a href="https://cs.rin.ru/forum">cs.rin.ru</a></td>
+        <td>A forum website that is full of cracking and Minecraft topics.</td>
+      </tr>
+      <tr>
+        <td><a href="https://rutracker.org/">rutracker.org</a></td>
+        <td>A torrent tracker website that contains alot of cracked Minecraft downloads</td>
+      </tr>
+    </table>
 </VPTeamPage>
 
-# Important Websites/Forums/Communities
-
+<!--
 <table>
   <tr>
     <td><a href="https://online-fix.me">online-fix.me</a></td>
@@ -112,6 +135,7 @@ const mention = [
     <td>A torrent tracker website that contains alot of cracked Minecraft downloads</td>
   </tr>
 </table>
+-->
 
 #### *And other contributors or developers of OpenM, and its projects, M Centers, and M Community / M Community Development*
 
