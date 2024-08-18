@@ -25,7 +25,7 @@ There is another method using ClipSVC, we will define that later.
 
 # How Minecraft for Windows is Cracked/Patched
 
-Minewithinor Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.\
+Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.\
 We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version. The crack can be done manually or by specific [Third Party Software](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows).
 
 ## How Minecraft works
