@@ -111,7 +111,7 @@ const mention = [
     ]
   },
   {
-    avatar: '/public/assets/images/MDLC.jpg',
+    avatar: '//assets/images/MDLC.jpg',
     name: 'MDLC',
     desc: 'MDLC is dedicated to cracking, and is really important, as it contains a lot of cracks for Minecraft, and a lot of pre-patched APPXs designed to work on different devices, MDLC is owned by Max RM',
     links: [
