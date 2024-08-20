@@ -103,7 +103,7 @@ const mention = [
     ]
   },
   {
-    avatar: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAGBQTFRFR3BM////////////////////////////////////////////////////////////////////////9fr65fLy1+vqx+Thud7brdjVn9PPj83Id8XAWb63PbmxEbSsALOr5GfTXQAAAB10Uk5TAAEJFSg1RFNeaHaJm6/A0eDt9fb3+Pn6+/z8/f48zzY/AAABWUlEQVR42o1Ti46DIBAsPvpQHjKgWMDy/395FYpI7pLeJCbCzi4zu3D5N0j3oIxzzsZHT/6I3wQKxPVXOgW0sc5776zRAG1qAoWyIeH1/p4KvD3HWygfzvAa/FzjiiXU2DTGk4I7zGf/uSzGxRoKXWFkglPYse7/BrQQBqyfOLvfBgm7F1Oy6GRwcQsDifX0Tl8wnExEc2BJkoh8B350MZnQuOYToySF7JTGQz0m8pkK5p0wI3dcYHuv18M5kSrEjSFL0DmhyrDZaI+5HBnBk8osOml8YSq2C6H08SshKJnjRMBnDVUbuqMvunLRQVfT6SbY2taELY2C9eTSDjJV9JClk3mYkBKAecUC5cr0UFu8LqsG9OJCGqYo46aYt1DDYDrdqEZA+yq+QvYlTkjLoUwp4mbI+u2QZgQwr9Y5+1w0IHJ+QUclMsQjG6zQ9ANljI639ts7rx73D92BMwla3uW4AAAAAElFTkSuQmCC',
+    avatar: './assets/images/oj.png',
     name: 'OptiProjects / OptiJuegos',
     desc: 'A website dedicated to cracking Minecraft China / Minecraft China Dev, and Minecraft: Education Edition',
     links: [
