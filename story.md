@@ -93,7 +93,7 @@ This hinted at their next release, <code>BEAMinject</code> which was a fast and 
 
 ::: details The Merge
 
-OpenM has been aborted, as soyeonswife63 retired on OpenM to begin a new individual project. The rest Mods/Admins deleted OpenM and set sail to M Community, as they have merged with them.
+OpenM has been aborted, as the old developer retired on OpenM to begin a new individual project. The rest Mods/Admins deleted OpenM and set sail to M Community, as they have merged with them.
 
 :::
 
@@ -115,25 +115,6 @@ Next, also on the 8th of May, 2024, M Centers (tinedpakgamer) had officially rel
 
 :::
 
-::: details The Start of wavEye
-
-After OpenM was deleted, soyeonswife63 created the wavEye Project to work independently.
-
-<code>libstarlight</code> was the first release, which was basically a Rust rewrite of <code>librosewater</code> from OpenM. There was supposed to be a successor to BEAMinject called Starlight, but it never saw the light of day due to issues during development.
-
-After Starlight was ditched, <code>BEAMinject</code> and <code>librosewater</code> was forked. These forks provided the following feature updates:
-<ul>
-  <li>Improved performance <i>(with code improvements & switching to Nuitka + UPX from pyinstaller)</i></li>
-  <li>Fixed major issues with OpenM releases <i>(namely UTF decoding issues)</i></li>
-  <li>Cleaned up code with proper Python practices</li>
-  <li>Added support for patching Minecraft Preview versions</li>
-</ul>
-
-Then, <code>libdopamine</code> was created, which was a revised version of <code>libstarlight</code>, but using a cleaner code template. This removed the issues during development that <code>libstarlight</code> saw, and finally, <code>BEAMinject</code> was completely re-written in Rust, and the Python version was deprecated.
-
-wavEye continues to maintain <code>BEAMinject</code> and <code>libdopamine</code>, along with other projects, to this day. wavEye remains as the only project which has FOSS for Minecraft unlocking.
-
-:::
 
 ## The Revival of OpenM
 

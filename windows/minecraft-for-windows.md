@@ -52,8 +52,6 @@ Minecraft: Bedrock Edition [P] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.80
 \[DL] Minecraft: Bedrock Edition [L] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.81) [Microsoft Store-Rip]|[Rutracker](https://rutracker.org/forum/viewtopic.php?t=6440824)|\-|**Yes**|**Cracked Appx**
 BlueSky Launcher|[GitHub](https://github.com/fym35/BlueSky) [PixelDrain](https://pixeldrain.com/u/indVkp1F)|[GitHub](https://pixeldrain.com/u/indVkp1F) forked from [FishiaT](https://github.com/FishiaT)|No|ClipSVC, SetACL, Bluesky Mode
 DynoLTS|[WayBack Machine](https://web.archive.org/web/20210502020234/https://github.com/ClickNinYT/DynoLTS/archive/refs/heads/main.zip)|[WayBack Machine](https://web.archive.org/web/20220708141801/github.com/clickninyt/dynolts)|No|Same as BlueSky
-BEAMinject |[Website](https://wavEye-project.github.io/BEAMinject/) | [GitHub](https://github.com/wavEye-Project/BEAMinject)|**Maybe**|**DMM**
-BEAMinject *(legacy)*|[Website](https://wavEye-project.github.io/BEAMinject_legacy/)|[GitHub](https://github.com/wavEye-Project/BEAMinject_legacy)|No|**DMM**
 Free-Minecraft-Bedrock-Edition|[GitHub](https://github.com/TejasWork/Free-Minecraft-Bedrock-Edition/archive/refs/heads/main.zip)|[GitHub](https://github.com/TejasWork/Free-Minecraft-Bedrock-Edition)|No|**DMM**
 Minecraft_Memory_Bypass_GUI|[GitHub](https://github.com/Xing-Fax/Minecraft_Memory_Bypass_GUI/releases/download/V1.4.0.0/Minecraft.Memory.Bypass.exe)|[GitHub](https://github.com/Xing-Fax/Minecraft_Memory_Bypass_GUI)|No|**DMM**
 MinecraftWindows10Bypass|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass/releases/download/V1.0/MinecraftWindows10Bypass.zip)|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass)|No|**I-MCM**
