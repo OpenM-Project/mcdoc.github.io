@@ -131,7 +131,7 @@ const mention = [
     ]
   },
   {
-    avatar: 'https://rutracker.org/favicon-32x32.png',
+    avatar: './assets/images/RuTracker.png',
     name: 'RuTracker.org',
     desc: 'A torrent tracker website that contains alot of cracked Minecraft downloads',
     links: [
