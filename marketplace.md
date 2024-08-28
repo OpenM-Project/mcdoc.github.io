@@ -16,9 +16,7 @@ title: Marketplace
 
 ### Precracked Content
 
-* [Minecraft DLC Archive](https://discord.gg/mU92azb9Ap)
-
-
+* [DLC Archive](https://t.me/Be_marketplace)
 
 ## Secret/Unlisted Products on Minecraft Marketplace
 
