@@ -15,12 +15,11 @@ This documentation aims to provide comprehensive information and guides on vario
 
 To get started with MCDOC using VitePress, follow these steps:
 1. Clone the repository: `git clone https://github.com/openm-project/mcdoc.github.io.git`
-2. Install VitePress: `npm install -g create-vitepress`
+2. Navigate to the project directory: `cd mcdoc.github.io`
 3. Install pnpm: `npm install -g pnpm`
-4. Navigate to the project directory: `cd mcdoc.github.io`
-5. Build the dependecies for the server: `pnpm run docs:build`
-6. Start the internal server: `pnpm run docs:dev`
-7. Open your browser and visit `http://localhost:3000` to view the documentation.
+4. Install Dependencies with pnpm: `pmpm install`
+5. Start the internal server: `pnpm run docs:dev`
+6. Open your browser and visit `http://localhost:5173` to view the documentation.
 
 
 ## Contributing
@@ -40,4 +39,4 @@ For any questions or inquiries, please contact the project maintainer at [mcdoc@
 
 We value your feedback! If you have any suggestions, comments, or questions about the documentation, please don't hesitate to reach out to us. You can submit an issue on the [GitHub repository](https://github.com/openm-project/mcdoc.github.io/issues) or contact us directly.
 
-We appreciate your support and hope you find MCDOC helpful for your Minecraft Bedrock Edition projects, tips, and tricks!
+We appreciate your support and hope you find MCDOC helpful for your Minecraft: Bedrock Edition projects, tips, and tricks!
