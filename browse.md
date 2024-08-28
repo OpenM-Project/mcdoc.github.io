@@ -20,8 +20,3 @@ Thank you for visiting MCDOC. Explore our collection and take your Minecraft exp
 
 - ⭐ Items or that are highly recommended, and/or preffered overall.
 - 🌐 Used to denote comprehensive indexes or guides, similar to those found in FMHY or the r/piracy megathread
-
-
-<!--
-- 🌟 A step above favorite, used for top-tier choices or preferences
--->
