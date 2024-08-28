@@ -10,8 +10,7 @@ export default defineConfig(() => {
       ], 
     },
     ssr: { 
-      noExternal: [ 
-        // If there are other packages that need to be processed by Vite, you can add them here.
+      noExternal: [
         '@nolebase/vitepress-plugin-enhanced-readabilities', 
         '@nolebase/ui',
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
@@ -32,11 +31,9 @@ export default defineConfig(() => {
         'vitepress-markdown-timeline',
         'vitepress-plugin-comment-with-giscus',
         'vue',
-      ], 
-    }, 
+      ],
+    },
     plugins: [
-      // other vite plugins...
     ],
-    // other vite configurations...
   }
 })
