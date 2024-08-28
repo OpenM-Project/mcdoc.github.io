@@ -27,11 +27,10 @@ features:
     title: Unlockers
     details: Cross platform unlocker to unlock Minecraft. (Windows, Android, IOS, PS, Nintendo, Xbox)
   - icon: 🧩
-    title: Addons
-    link: /miscellaneous
+    title: Marketplace
+    link: /marketplace
     details: Get addons, skinpacks, maps etc. for free
   - icon: 🔨
-    link: /windows/minecraft-for-windows#other-tools-for-minecraft-for-windows-10
     title: Tools
     details: Easily edit maps, skins etc
   - icon: 👥
