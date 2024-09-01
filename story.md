@@ -15,7 +15,7 @@ Then, people started to notice that the paid version and the trial version was t
 
 ## The Beginning, M Centers & online-fix\.me
 
-::: details The First Method - ClipSVC
+::: details The First Method - Force Disabling ClipSVC
 
 The first hack to unlock Minecraft, discovered by tinedpakgamer, is the <b>ClipSVC Method</b>. With some registry code, you could force stop ClipSVC and prevent it from running in the background. After that, when you start Minecraft, it would buffer at 46% which you would then go and force stop Runtime Broker under Minecraft in Task Manager. And this worked! This was then packed into a program named M Centers by the discoverer. But, this method was the opposite of safe, as it breaks MS Store completely and on 10th October 2022, it got patched in the version `1.19.50` of Minecraft.
 
@@ -80,7 +80,7 @@ And then some staff members and developers created a new server named "OpenM Com
 
 This hinted at their next release, <code>BEAMinject</code> which was a fast and secure unlocker using <b>DLL Memory Manipulation</b> for Minecraft. Development was slow and steady, but it was a breath of fresh air in the Minecraft cracking scene because of its features:
 <ul>
-  <li>It <i>was</i> the only maintained and currently working tool that was open-source</li>
+  <li>It <i>was</i> the only maintained and at that time, currently working tool that was open-sourced</li>
   <li>It worked with all kinds of Minecraft and Windows versions</li>
   <li>It natively supported ARMv7 and ARM64 devices</li>
   <li>It had a silent executable which allowed users to just create a nice-looking shortcut</li>
