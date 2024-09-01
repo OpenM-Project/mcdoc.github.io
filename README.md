@@ -1,6 +1,10 @@
-# <img src="https://raw.githubusercontent.com/OpenM-Project/mcdoc.github.io/main/public/assets/images/title.webp"></img>
-
-MCDOC is a documentation project for Minecraft tools and unlockers.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/OpenM-Project/mcdoc.github.io/main/public/assets/images/title.webp" alt="MCDOC Title">
+  <p><b>MCDOC is a documentation project for Minecraft tools and unlockers</b></p>
+  <a href="https://mcdoc.openm.tech" target="_blank">
+    <img src="https://raw.githubusercontent.com/OpenM-Project/mcdoc.github.io/main/public/assets/images/webapp-badge.svg" alt="Available on the Web" height="60">
+  </a>
+</div>
 
 ## Overview
 
