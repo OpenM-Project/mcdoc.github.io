@@ -31,8 +31,9 @@ features:
     link: /marketplace
     details: Get addons, skinpacks, maps etc. for free
   - icon: 🔨
-    title: Tools
-    details: Easily edit maps, skins etc
+    link: /secretlol
+    title: Learn
+    details: Understand how does most of the cracks work
   - icon: 👥
     link: /miscellaneous#communitys
     title: Communities
