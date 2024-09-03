@@ -50,6 +50,11 @@ export default {
       // default
       threshold:300
     })
+    onMounted(() => {
+      const viewer = new Viewer(document.querySelector('body'), {
+        selector: 'img:not(.no-viewer)'
+      });
+    });
   },
 
   setup() {
