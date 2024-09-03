@@ -25,6 +25,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "@orama/plugin-vitepress": "^2.0.23",
     "pnpm": "^9.9.0",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-back-to-top": "^1.0.1",
