@@ -2,6 +2,10 @@
 title: How Minecraft for Windows is Cracked/Patched
 ---
 
+::: danger WIP
+This page is currently Work-In-Progress. The information here might be outdated, incorrect and cannot be understanded.
+:::
+
 ::: warning Note
 This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows 10/11.
 :::
