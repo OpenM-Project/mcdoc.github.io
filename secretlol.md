@@ -2,33 +2,40 @@
 title: How Minecraft for Windows is Cracked/Patched
 ---
 
+::: danger WIP
+This page is currently Work-In-Progress. The information here might be outdated, incorrect and cannot be understanded.
+:::
 
 ::: warning Note
 This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows 10/11.
 :::
 
-# Unlockers
-
 We usually unlock Minecraft using Third-Party Softwares (listed [here](/windows/minecraft-for-windows#minecraft-for-windows)). These apps use different kinds of methods depending on how they are made. These methods are mentioned in the glossary on the same page. Let's now define all these methods and what they mean.
+
+## Methods
+
+::: details What is a DLL?
+A DLL (Dynamic Link Library) is like a toolkit shared by multiple workers (programs). Instead of each worker carrying their own tools, they all borrow what they need from a common toolbox (the DLL). Inside, it’s organized like a blueprint, with rooms (functions) and shelves (data) that the workers can quickly access. It’s a way to avoid clutter and share resources, so they can all work more efficiently without duplicating what’s already there. The [DLL mentioned here](#how-minecraft-works) is explained later.
+:::
 
 As in the glossary, you can see that:
 - **DLL Replacing** method replaces your own DLLs with cracked DLLs. This is completely permanent and might not be the correct solution if you want to go with "safer"
-- **DRC** method makes your game use cracked DLL available in another directory in your computer using the [DLL search order](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order). [Temporary, Works only with Minecraft]
+- **DRC** method makes your game use cracked DLLs available in another directory in your computer using the [DLL search order](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order). [Temporary, Works only with Minecraft]
 - **DLL Auto Patch** method creates patched DLLs from your own DLLs and replaces the original ones with patched ones. This is much more efficient than DLL Replacing with Online Sources since sometimes online source might not have the specific one needed. We'll look into this later.
 - **DLL Hooking** method uses [**function hooking**](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html) and other debugging in-memory to modify the license checking functions within the game and/or other DLLs loaded within the game in memory. [Temporary, Works only with Minecraft]
 - **DMM** method patches the DLLs within the game memory. [Temporary, Works only with Minecraft] 
 
-As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft. But these methods are different from Idifferencepre-cracked [**appx**](https://fileinfo.com/extension/appx). The way these 2 works is patching the license-checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.\
+As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft). But these methods are different from **In-Memory Code Manipulation** and pre-cracked [**appx**](https://fileinfo.com/extension/appx). The way these 2 works is patching the license-checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.\
 Also, you can patch the game's code completely and pack it in a `.appx` and you can install it and then you don't need to do anything else. 
 
-There is another method using ClipSVC, we will define that later.
+There is another method using [ClipSVC](#clipsvc), we will define that later.
 
-# How Minecraft for Windows is Cracked/Patched
+## How Minecraft works
 
 Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.\
 We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version. The crack can be done manually or by specific [Third Party Software](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows).
 
-## How Minecraft works
+## How Minecraft for Windows is Cracked/Patched
 
 To understand deeply about the DLL that gets replaced with the original DLL, you will have to know about the licensing process. The licensing process is different depending on the Minecraft version you have
 
