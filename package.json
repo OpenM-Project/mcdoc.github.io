@@ -18,7 +18,8 @@
     "vitepress-markdown-timeline": "^1.2.1",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
     "vitepress-plugin-tabs": "^0.5.0",
-    "vue": "^3.5.5"
+    "vue": "^3.5.5",
+    "xgplayer": "^3.0.20"
   },
   "scripts": {
     "dev": "vitepress dev",

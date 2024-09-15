@@ -23,17 +23,17 @@ import { InjectionKey } from '@nolebase/vitepress-plugin-enhanced-readabilities/
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
-import Video from './components/Video.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import Navlink from './components/Navlink.vue'
+import xgplayer from "./components/xgplayer.vue"
 
 export default {
   extends: DefaultTheme,
 
   enhanceApp({app}) {
-    app.component('Video' , Video)
     app.component('MNavLinks' , MNavLinks)
     app.component('Navlink' , Navlink)
+    app.component('xgplayer' , xgplayer)
     app.component('vImageViewer', vImageViewer);
     app.provide(InjectionKey, {
       // Configuration
