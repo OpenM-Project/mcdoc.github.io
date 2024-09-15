@@ -15,13 +15,12 @@
       text-decoration: none;
   }
   
-  /* h1 {
-    background:#e43498;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-  } */
+  h1 {
+  background: -webkit-linear-gradient(-288deg, #306464 10%, #249599 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 
 :root {
   --vp-custom-block-tip-bg: var(--vp-c-green-soft);
