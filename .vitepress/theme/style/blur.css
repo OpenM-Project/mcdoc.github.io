@@ -1,0 +1,82 @@
+/* https://vitepress.yiov.top/style.html#%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%AF%9B%E7%8E%BB%E7%92%83 */
+
+:root {
+
+    /* Home navigation */
+    .VPNavBar {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    /* Document page navigation on both sides */
+    .VPNavBar:not(.home) {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    @media (min-width: 960px) {
+
+        /* Document page navigation on both sides */
+        .VPNavBar:not(.home) {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Home page navigation on both sides after scrolling down */
+        .VPNavBar:not(.has-sidebar):not(.home.top) {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+    }
+
+    @media (min-width: 960px) {
+
+        /* Document page navigation in the middle */
+        .VPNavBar:not(.home.top) .content-body {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Home page navigation in the middle after scrolling down */
+        .VPNavBar:not(.has-sidebar):not(.home.top) .content-body {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+    }
+
+
+    /* Divider lines */
+
+    @media (min-width: 960px) {
+
+        /* Document page divider line */
+        .VPNavBar:not(.home.top) .divider-line {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Home page divider line */
+        .VPNavBar:not(.has-sidebar):not(.home.top) .divider {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+    }
+
+    /* Search box VPNavBarSearchButton.vue */
+    .DocSearch-Button {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+
+    /* Mobile outline column */
+    .VPLocalNav {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+        /* Hide divider line */
+        /* border-bottom: 5px solid var(--vp-c-gutter); */
+        border-bottom: 0px;
+    }
+
+
+}
