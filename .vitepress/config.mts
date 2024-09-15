@@ -4,7 +4,6 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
-import { OramaPlugin } from '@orama/plugin-vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,7 +11,6 @@ export default defineConfig({
   extends: {
   vite: { 
     plugins: [
-      OramaPlugin(),
       GitChangelog({ 
         // Fill in your repository URL here
         repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
@@ -140,6 +138,10 @@ export default defineConfig({
       prev: 'Prev',
       next: 'Next',
     },
+
+    search: {
+      provider: 'local'
+    }, 
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/openm-project/mcdoc.github.io', ariaLabel: 'MCDOC GitHub Repo' },
