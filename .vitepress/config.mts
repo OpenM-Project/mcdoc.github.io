@@ -53,6 +53,29 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
           [ 'meta', { name: 'twitter:site', content: '@openmproject' }],
           [ 'meta', { name: 'twitter:creator', content: '@openmproject' }],
+          //Google Analytics
+          [
+            'script',
+            { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-5ZZ37QC7' } //[!code focus]
+          ],
+          [
+            'script',
+            {},
+            `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-5ZZ37QC7');` //[!code focus]
+          ],
+          
+          //Google AdSense
+          [
+            "script",
+            {
+              "data-ad-client": "YOURCLIENTID like ca-pub-3798***", //[!code focus]
+              async: '',
+              src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+            },
+          ],
   ],
 
   themeConfig: {
