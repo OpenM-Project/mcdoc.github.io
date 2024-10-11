@@ -7,11 +7,18 @@ outline: deep
 
 <br>
 
+<style>
+/* Disable viewer.js for images with the no-viewerjs class */
+.no-viewerjs {
+    pointer-events: none;
+}
+</style>
+
 <div class="linkcard">
   <a href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ">
     <p class="description"><b>Download Minecraft for Windows</b><br><span>Click here to download!</span></p>
     <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" class="no-viewer"/>
+        <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" class="no-viewerjs"/>
     </div>
   </a>
 </div>
