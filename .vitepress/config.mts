@@ -71,7 +71,7 @@ export default defineConfig({
           [
             "script",
             {
-              "data-ad-client": "YOURCLIENTID like ca-pub-3798***", //[!code focus]
+              "data-ad-client": "ca-pub-8173764907252238", //[!code focus]
               async: '',
               src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
             },
