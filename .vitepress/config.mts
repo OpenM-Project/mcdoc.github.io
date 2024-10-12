@@ -84,6 +84,7 @@ export default defineConfig({
     logo: '/favicon.ico',
     siteTitle: 'MCDOC',
     nav: [
+        { text: 'Download', link: '/download/' },
         { text: 'Story', link: '/story'},
         { text: 'Miscellaneous', link: '/miscellaneous/' },
         { text: 'Marketplace', link: '/marketplace/' },
