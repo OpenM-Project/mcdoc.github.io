@@ -10,6 +10,11 @@
   margin-right: 0;
 }
 
+/* Disable viewer.js for images with the no-viewerjs class */
+.no-viewerjs {
+  pointer-events: none;
+}
+
 /* Background image */
 
 /*
