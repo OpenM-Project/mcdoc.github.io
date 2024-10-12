@@ -7,15 +7,27 @@ outline: deep
 
 <br>
 
-<style>
-/* Disable viewer.js for images with the no-viewerjs class */
-.no-viewerjs {
-    pointer-events: none;
-}
-</style>
+<script setup>
+import { useToast } from "vue-toastification";
+import { ref } from "vue";
+
+// Get toast interface
+const toast = useToast();
+
+const myMethod = () => {
+  // Since you returned `toast` from setup(), you can access it now
+  toast("Microsoft Store successfully opened!", {
+    timeout: 4000,
+    pauseOnFocusLoss: false,
+    draggablePercent: 0.6,
+    showCloseButtonOnHover: true,
+    closeButton: "button"
+    });
+};
+</script>
 
 <div class="linkcard">
-  <a href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ">
+  <a href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ" @click="myMethod">
     <p class="description"><b>Download Minecraft for Windows</b><br><span>Click here to download!</span></p>
     <div class="logo">
         <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" class="no-viewerjs"/>
