@@ -26,6 +26,8 @@ import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import MNavLinks from './components/MNavLinks.vue'
 import Navlink from './components/Navlink.vue'
 import xgplayer from "./components/xgplayer.vue"
+import Toast, { PluginOptions } from "vue-toastification";
+import "vue-toastification/dist/index.css";
 
 export default {
   extends: DefaultTheme,
@@ -40,6 +42,10 @@ export default {
       defaultMode: 'LayoutMode.Original',
       diableAnimation: false,
     } as Options)
+    const options: PluginOptions = {
+      // You can set your default options here
+    };
+    app.use(Toast, options);
     app.use(NolebaseGitChangelogPlugin)
     app.use(NolebaseInlineLinkPreviewPlugin)
     app.use(NolebaseGitChangelogPlugin, {
