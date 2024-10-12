@@ -43,7 +43,9 @@ export default {
       diableAnimation: false,
     } as Options)
     const options: PluginOptions = {
-      // You can set your default options here
+      transition: "Vue-Toastification__slideBlurred",
+      maxToasts: 30,
+      newestOnTop: true,
     };
     app.use(Toast, options);
     app.use(NolebaseGitChangelogPlugin)
