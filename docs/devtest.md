@@ -2,9 +2,11 @@
 title: Development test Page
 ---
 
+<!--
+
 <script setup>
-import { useToast } from "vue-toastification";
-import { ref } from "vue";
+import { useToast } from "vue-toastification"
+import { ref } from "vue"
 
 // Get toast interface
 const toast = useToast();
@@ -42,3 +44,4 @@ const myMethod = () => {
   background-color: #005a9e;
 }
 </style>
+-->
