@@ -16,8 +16,8 @@ Minecraft is an android game that takes players into a limitless world of creati
 You can download Minecraft from the official, **not** modified sources:
 
 <script setup>
-import * as pkg from "vue-toastification"
-const { useToast } = pkg
+import { useToast } from "vue-toastification";
+import { ref } from "vue";
 
 // Get toast interface
 const toast = useToast();

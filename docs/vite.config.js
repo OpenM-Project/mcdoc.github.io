@@ -11,6 +11,7 @@ export default defineConfig(() => {
     },
     ssr: { 
       noExternal: [
+        'vue-toastification',
         '@nolebase/vitepress-plugin-enhanced-readabilities', 
         '@nolebase/ui',
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
