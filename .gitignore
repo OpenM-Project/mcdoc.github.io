@@ -1,6 +1,6 @@
 # VitePress
 .vitepress/cache/
-node_modules/
+node_modules
 .vitepress/dist/
 # VSCode
 .vscode/
