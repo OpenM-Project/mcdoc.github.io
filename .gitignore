@@ -2,6 +2,10 @@
 .vitepress/cache/
 node_modules/
 .vitepress/dist/
+# VSCode
+.vscode/
+# Git
+.git/
 # Vue
 npm-debug.log*
 yarn-debug.log*
