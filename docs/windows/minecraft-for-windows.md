@@ -8,8 +8,8 @@ outline: deep
 <br>
 
 <script setup>
-import { useToast } from "vue-toastification";
-import { ref } from "vue";
+import * as pkg from "vue-toastification"
+const { useToast } = pkg
 
 // Get toast interface
 const toast = useToast();
