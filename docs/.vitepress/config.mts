@@ -39,6 +39,7 @@ export default defineConfig({
   srcExclude: ['/node_modules/'],
   appearance:'dark',
   head: [
+          ['link', { rel: 'icon', href: '/favicon.ico' }],
           [ 'meta', { name: 'google-adsense-account', content: 'ca-pub-8173764907252238' }],
           [ 'meta', { property: 'og:type', content: 'website' }],
           [ 'meta', { property: 'og:title', content: 'MCDOC' }],
