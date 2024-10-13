@@ -22,9 +22,9 @@
     "xgplayer": "^3.0.20"
   },
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "vitepress dev docs/",
+    "build": "vitepress build docs/",
+    "preview": "vitepress preview docs/"
   },
   "dependencies": {
     "pnpm": "^9.12.1",
