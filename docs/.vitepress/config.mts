@@ -73,9 +73,9 @@ export default defineConfig({
           [
             "script",
             {
-              "data-ad-client": "ca-pub-8173764907252238", //[!code focus]
               async: '',
-              src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8173764907252238",
+              crossorigin: "anonymous",
             },
           ],
   ],
