@@ -40,6 +40,32 @@ Depending on your location, you may have the following rights regarding your per
 ## Ads
 We may use third-party advertising companies to serve ads when you visit our website. These companies may use information about your visits to our website and other websites that are contained in web cookies and other tracking technologies in order to provide advertisements about goods and services of interest to you.
 
+## Cookie Policy
+
+### What Are Cookies?
+Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners to make their websites work, or to work more efficiently, as well as to provide reporting information.
+
+### How We Use Cookies
+We use cookies to enhance your browsing experience by:
+- Understanding and saving your preferences for future visits
+- Keeping track of advertisements
+- Compiling aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future
+
+### Types of Cookies We Use
+- **Essential Cookies**: These cookies are necessary for the website to function and cannot be switched off in our systems.
+- **Performance Cookies**: These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site.
+- **Functional Cookies**: These cookies enable the website to provide enhanced functionality and personalization.
+- **Targeting Cookies**: These cookies may be set through our site by our advertising partners to build a profile of your interests and show you relevant adverts on other sites.
+
+### Managing Cookies
+You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies. If you disable or refuse cookies, please note that some parts of this website may become inaccessible or not function properly.
+
+### Changes to Our Cookie Policy
+We may update our Cookie Policy from time to time to reflect changes to our practices or for other operational, legal, or regulatory reasons. Please revisit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.
+
+### Contact Information
+If you have any questions about our use of cookies or other technologies, please email us at privacy@openm.tech.
+
 ## Contact Us
 If you have questions or comments about this policy, you may contact us at:
 - Email: privacy@openm.tech

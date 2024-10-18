@@ -101,8 +101,8 @@ export default defineConfig({
          },         
         { text: 'More',
           items: [
-            { text: 'Privacy Policy', link: '/privacy/' },
-            { text: 'DMCA', link: '/dmca/' },
+            { text: 'Privacy Policy', link: '/legal/privacy/' },
+            { text: 'DMCA', link: '/legal/dmca/' },
             { text: 'Credits', link: '/credits/' },
           ]
         }
