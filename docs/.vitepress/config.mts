@@ -161,7 +161,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'All rights reserved.',
+      message: 'All trademarks, service marks, and trade names of Microsoft, Mojang, and Minecraft used in the site are trademarks or registered trademarks of their respective owners.',
       copyright: 'Copyright © 2024 OpenM Project',
     },
 
