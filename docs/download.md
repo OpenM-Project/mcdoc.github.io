@@ -76,7 +76,7 @@ console.log("Crack link set to:", crackLink.value);
   <a :href="storeLink" @click="myMethod">
     <p class="description"><b>Download Official Minecraft</b><br><span>Click here to download!</span></p>
     <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" class="no-viewerjs"/>
+         <img alt="Logo" width="70px" height="70px" src="/assets/images/download.svg" class="no-viewerjs"/>
     </div>
     <p class="small-gray-text">🛈 Auto Detected</p>
   </a>
@@ -91,7 +91,7 @@ console.log("Crack link set to:", crackLink.value);
   <a :href="crackLink" target=”_blank”>
     <p class="description"><b>Download Cracked Minecraft</b><br><span>Click here to download!</span></p>
     <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" class="no-viewerjs"/>
+        <img alt="Logo" width="70px" height="70px" src="/assets/images/download.svg" class="no-viewerjs"/>
     </div>
     <p class="small-gray-text">🛈 Auto Detected</p>
   </a>
