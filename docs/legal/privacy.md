@@ -7,61 +7,17 @@ title: Privacy Policy
 ## Introduction
 Welcome to the privacy policy of McDoc by OpenM Project. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us.
 
-## Information We Collect
-We collect personal information that you voluntarily provide to us when you register on the website, express an interest in obtaining information about us or our products and services, or otherwise contact us. The personal information that we collect depends on the context of your interactions with us and the website, the choices you make, and the products and features you use.
+## Cookies
+The website itself does not use cookies to store information about users. No cookies are necessary for the users to interact with the website content. Third-party cookies by Google, controlled by Google AdSense service, can be collected for personalizing advertisements. These cookies are not directly related to the website functionality. These cookies can be used by Google LLC and its partners based on the visits of this website and other unrelated websites to serve personalized ads. Ads personal settings can be changed by the users at this link. Any ads placed on this website can be personalized according to the collected cookies from this or other websites. Further information and options about opting out the advertising cookies can be found at AboutAds.info.
 
-### Information Automatically Collected
-We automatically collect certain information when you visit, use, or navigate the website. This information does not reveal your specific identity but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our website, and other technical information.
+## Privacy and gathered information
+The website does not contain any registration or login service and does not require any personal information from its visitors. Any user submitting a comment to this website agrees to the storage of the content of the comment, the inserted username, the time of the posting, and the IP address of the browsing device. IP address is stored in order to prevent spam and harmful bots posting unsuitable comments that might be disrespectful or suspicious. The IP address is not used for any other purposes and is stored in a secured database. The users can request removal of their posted comments at any time. No additional fingerprint information about the users is stored. The user location data is not analyzed or stored by this website.
 
-## How We Use Your Information
-We use personal information collected via our website for a variety of business purposes described below:
-- To provide and maintain our service
-- To improve our website and services
-- To comply with legal obligations
+## Safety
+Any advice, tips, and information published on this website are based on personal experience of the author and are not professional articles. Following any advice present on this website is voluntary and at one's own risk. The author assumes no responsibility for possible misinterpretation or harm caused by the information on this website. All the information on this website is posted with a good intention, observing generally accepted moral principles. This website does not contain anything related to child abuse, pornography, violence encouragement, illegal actions, dangerous and harmful actions, animal cruelty, or dishonest or deceptive practices. This website does not contain any malicious software or malware.
 
-## Sharing Your Information
-We do not share your personal information with third parties without your consent, except in the following situations:
-- Compliance with Laws
-- Business Transfers
-- Affiliates
-- With your Consent
-
-## Data Security
-We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable.
-
-## Your Privacy Rights
-Depending on your location, you may have the following rights regarding your personal information:
-- Access and Update
-- Deletion
-- Restriction of Processing
-- Data Portability
-- Objection to Processing
-
-## Ads
-We may use third-party advertising companies to serve ads when you visit our website. These companies may use information about your visits to our website and other websites that are contained in web cookies and other tracking technologies in order to provide advertisements about goods and services of interest to you.
-
-## Cookie Policy
-
-### What Are Cookies?
-Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners to make their websites work, or to work more efficiently, as well as to provide reporting information.
-
-### How We Use Cookies
-We use cookies to enhance your browsing experience by:
-- Understanding and saving your preferences for future visits
-- Keeping track of advertisements
-- Compiling aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future
-
-### Types of Cookies We Use
-- **Essential Cookies**: These cookies are necessary for the website to function and cannot be switched off in our systems.
-- **Performance Cookies**: These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site.
-- **Functional Cookies**: These cookies enable the website to provide enhanced functionality and personalization.
-- **Targeting Cookies**: These cookies may be set through our site by our advertising partners to build a profile of your interests and show you relevant adverts on other sites.
-
-### Managing Cookies
-You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies. If you disable or refuse cookies, please note that some parts of this website may become inaccessible or not function properly.
-
-### Changes to Our Cookie Policy
-We may update our Cookie Policy from time to time to reflect changes to our practices or for other operational, legal, or regulatory reasons. Please revisit this Cookie Policy regularly to stay informed about our use of cookies and related technologies.
+## Copyright
+All original materials on this website are free to use under CC0 licence. The original materials are all files in sections Videos, Images, Sounds, Music and most of the materials used in section Articles. The only exception is imagery in certain posts at the Articles section obtained from existing works under the Fair Use principle. The author of this website does not own the copyright of such materials and any further usage must be carried out according to the original author's guidelines. This website does not intentionally break any copyright rules, follows DMCA statement, and the ownership of the original materials is respected and well referenced.
 
 ### Contact Information
 If you have any questions about our use of cookies or other technologies, please email us at privacy@openm.tech.
