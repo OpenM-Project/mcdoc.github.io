@@ -91,6 +91,7 @@ export default defineConfig({
         { text: 'Marketplace', link: '/marketplace/' },
         { text: 'DMCA', link: '/dmca/' },
         { text: 'Credits', link: '/credits/' },
+        { text: 'Privacy Policy', link: '/privacy/' },
         { text: 'Guides',
           items: [
             { text: 'Windows',

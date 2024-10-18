@@ -7,7 +7,7 @@ titleTemplate: The Minecraft Piracy Index
 hero:
   name: "MCDOC"
   text: "Free Minecraft?"
-  tagline: The Minecraft Piracy Index
+  tagline: The Minecraft Pi**cy Index
   actions:
     - theme: brand
       text: Browse
