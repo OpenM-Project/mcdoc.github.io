@@ -89,7 +89,7 @@ export default defineConfig({
         { text: 'Story', link: '/story'},
         { text: 'Miscellaneous', link: '/miscellaneous/' },
         { text: 'Marketplace', link: '/marketplace/' },
-        { text: 'OpenM Project', link: 'project.openm.tech' },
+        { text: 'OpenM Project', link: 'https://project.openm.tech' },
         { text: 'Guides',
           items: [
             { text: 'Windows',
