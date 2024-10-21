@@ -26,7 +26,7 @@ export default defineConfig({
 },
 
   sitemap: {
-    hostname: 'https://mcdoc.openm.tech',
+    hostname: 'https://openm.tech',
     lastmodDateOnly: false
   },
 
@@ -44,7 +44,7 @@ export default defineConfig({
           [ 'meta', { property: 'og:type', content: 'website' }],
           [ 'meta', { property: 'og:title', content: 'MCDOC' }],
           [ 'meta', { property: 'og:image', content: '/assets/images/title.webp' }],
-          [ 'meta', { property: 'og:url', content: 'https://mcdoc.openm.tech' }],
+          [ 'meta', { property: 'og:url', content: 'https://openm.tech' }],
           [ 'meta', { property: 'og:description', content: 'An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.' }],
           [ 'meta', { property: 'og:site_name', content: 'MCDOC' }],
           [ 'meta', { property: 'og:locale', content: 'en_US' }],

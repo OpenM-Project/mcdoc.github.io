@@ -1,13 +1,13 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/OpenM-Project/mcdoc.github.io/main/docs/public/assets/images/title.webp" alt="MCDOC Title">
   <p><b>MCDOC is a documentation project for Minecraft tools and unlockers</b></p>
-  <a href="https://mcdoc.openm.tech" target="_blank">
+  <a href="https://openm.tech" target="_blank">
     <img src="https://raw.githubusercontent.com/OpenM-Project/mcdoc.github.io/main/docs/public/assets/images/webapp-badge.svg" alt="Available on the Web" height="60">
   </a>
   <br>
   <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/OpenM-Project/mcdoc.github.io/deploy.yml?style=for-the-badge">
   <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m797680100-f81db63ec489d992eaff6d5d?style=for-the-badge">
-  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fmcdoc.openm.tech&style=for-the-badge">
+  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fopenm.tech&style=for-the-badge">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/OpenM-Project/mcdoc.github.io?style=for-the-badge">
 
 
