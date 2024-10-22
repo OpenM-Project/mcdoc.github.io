@@ -58,7 +58,7 @@ export default defineConfig({
           //Google Analytics
           [
             'script',
-            { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-5ZZ37QC7' } //[!code focus]
+            { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-5ZZ37QC7' }
           ],
           [
             'script',
@@ -66,16 +66,16 @@ export default defineConfig({
             `window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GTM-5ZZ37QC7');` //[!code focus]
+            gtag('config', 'GTM-5ZZ37QC7');`
           ],
           
           //Google AdSense
           [
             "script",
             {
+              "data-ad-client": "ca-pub-8173764907252238",
               async: '',
-              src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8173764907252238",
-              crossorigin: "anonymous",
+              src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
             },
           ],
   ],
