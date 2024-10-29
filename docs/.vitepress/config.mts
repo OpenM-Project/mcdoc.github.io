@@ -40,7 +40,6 @@ export default defineConfig({
   appearance:'dark',
   head: [
           ['link', { rel: 'icon', href: '/favicon.ico' }],
-          [ 'meta', { name: 'google-adsense-account', content: 'ca-pub-8173764907252238' }],
           [ 'meta', { property: 'og:type', content: 'website' }],
           [ 'meta', { property: 'og:title', content: 'MCDOC' }],
           [ 'meta', { property: 'og:image', content: '/assets/images/title.webp' }],
@@ -53,8 +52,6 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:title', content: 'MCDOC' }],
           [ 'meta', { name: 'twitter:description', content: 'An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.' }],
           [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
-          [ 'meta', { name: 'twitter:site', content: '@openmproject' }],
-          [ 'meta', { name: 'twitter:creator', content: '@openmproject' }],
           //Google AdSense
           [
             "script",
