@@ -55,20 +55,6 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
           [ 'meta', { name: 'twitter:site', content: '@openmproject' }],
           [ 'meta', { name: 'twitter:creator', content: '@openmproject' }],
-          //Google Analytics
-          [
-            'script',
-            { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-5ZZ37QC7' }
-          ],
-          [
-            'script',
-            {},
-            `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'GTM-5ZZ37QC7');`
-          ],
-          
           //Google AdSense
           [
             "script",
