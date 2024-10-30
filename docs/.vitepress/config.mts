@@ -52,10 +52,7 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:title', content: 'MCDOC' }],
           [ 'meta', { name: 'twitter:description', content: 'An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.' }],
           [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
-      //    ['script', { async: 'true', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8173764907252238', crossorigin: 'anonymous' }]
-        ['script', { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'}],
-        ['script', {}, 
-        '(adsbygoogle = window.adsbygoogle || []).push({  google_ad_client: ca-pub-8173764907252238,  enable_page_level_ads: true });'],
+          ['script', { async: 'true', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8173764907252238', crossorigin: 'anonymous' }]
   ],
 
   themeConfig: {
