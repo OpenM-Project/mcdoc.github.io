@@ -4,7 +4,6 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
-import vuepressPluginGoogleAdsense from 'vitepress-plugin-google-adsense'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,13 +20,7 @@ export default defineConfig({
           disableChangelog: false,
           disableContributors: true,
         }, 
-      }),
-      [
-        vuepress-plugin-google-adsense,
-        {
-          adClient: "ca-pub-2245427233262012", // replace it with your adClient
-        },
-      ], 
+      }), 
     ],
   },
 },
@@ -59,7 +52,10 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:title', content: 'MCDOC' }],
           [ 'meta', { name: 'twitter:description', content: 'An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.' }],
           [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
-          ['script', { async: 'true', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8173764907252238', crossorigin: 'anonymous' }]
+      //    ['script', { async: 'true', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8173764907252238', crossorigin: 'anonymous' }]
+        ['script', { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'}],
+        ['script', {}, 
+        '(adsbygoogle = window.adsbygoogle || []).push({  google_ad_client: ca-pub-8173764907252238,  enable_page_level_ads: true });'],
   ],
 
   themeConfig: {
