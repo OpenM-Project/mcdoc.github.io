@@ -60,10 +60,10 @@ export default defineConfig({
     logo: '/favicon.ico',
     siteTitle: 'MCDOC',
     nav: [
-        { text: 'Downloads', link: '/download/' },
+        { text: 'Downloads', link: '/download' },
         { text: 'Story', link: '/story'},
-        { text: 'Miscellaneous', link: '/miscellaneous/' },
-        { text: 'Marketplace', link: '/marketplace/' },
+        { text: 'Miscellaneous', link: '/miscellaneous' },
+        { text: 'Marketplace', link: '/marketplace' },
         { text: 'OpenM Project', link: 'https://project.openm.tech' },
         { text: 'Guides',
           items: [
@@ -76,9 +76,9 @@ export default defineConfig({
          },         
         { text: 'More',
           items: [
-            { text: 'Privacy Policy', link: '/legal/privacy/' },
-            { text: 'DMCA', link: '/legal/dmca/' },
-            { text: 'Credits', link: '/credits/' },
+            { text: 'Privacy Policy', link: '/legal/privacy' },
+            { text: 'DMCA', link: '/legal/dmca' },
+            { text: 'Credits', link: '/credits' },
           ]
         }
         ],
