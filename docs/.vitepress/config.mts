@@ -52,15 +52,22 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:title', content: 'MCDOC' }],
           [ 'meta', { name: 'twitter:description', content: 'An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.' }],
           [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
+          [ 'meta', { name: 'google-adsense-account', content: 'ca-pub-8173764907252238' }],
           //Google AdSense
           [
             "script",
             {
-              "data-ad-client": "ca-pub-8173764907252238",
               async: '',
               src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              crossorogon: "anonymous",
             },
           ],
+          [
+            "script",
+            {},
+            "(adsbygoogle = window.adsbygoogle || []).push({});"
+          ],
+
   ],
 
   themeConfig: {
