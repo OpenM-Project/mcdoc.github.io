@@ -2,6 +2,8 @@
 title: How Minecraft for Windows is Cracked/Patched
 ---
 
+# {{ $frontmatter.title }}
+
 ::: danger WIP
 This page is currently Work-In-Progress. The information here might be outdated, incorrect and cannot be understanded.
 :::
