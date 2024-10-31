@@ -18,6 +18,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/openm-project/mcdoc.github.io
+    - theme: alt
+      text: Downloads
+      link: /download/
   image:
     src: /assets/images/logo.webp
     alt: MCDOC
