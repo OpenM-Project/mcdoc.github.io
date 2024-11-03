@@ -35,7 +35,6 @@ export default defineConfig({
   description: "An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.",
   base: '/',
   cleanUrls:true,
-  ignoreDeadLinks: true,
   srcExclude: ['/node_modules/'],
   appearance:'dark',
   head: [
