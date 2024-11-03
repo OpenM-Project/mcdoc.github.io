@@ -192,8 +192,6 @@ export default defineConfig({
     image: {
       lazyLoading: true
     },
-
-    defaultHighlightLang: 'ts'
   }
 
 })
