@@ -6,7 +6,7 @@
     "@nolebase/ui": "^2.8.0",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.8.0",
     "@nolebase/vitepress-plugin-git-changelog": "^2.8.0",
-    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.8.0",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.8.1",
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.8.0",
     "@nolebase/vitepress-plugin-page-properties": "^2.8.0",
     "@vitejs/plugin-vue": "^5.1.4",

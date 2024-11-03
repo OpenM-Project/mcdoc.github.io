@@ -43,8 +43,8 @@ importers:
         specifier: ^2.8.0
         version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-highlight-targeted-heading':
-        specifier: ^2.8.0
-        version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
+        specifier: ^2.8.1
+        version: 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-inline-link-preview':
         specifier: ^2.8.0
         version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
@@ -434,8 +434,8 @@ packages:
   '@nolebase/vitepress-plugin-git-changelog@2.8.0':
     resolution: {integrity: sha512-rinumst9pu2VAWP0IeHqiZaR628DBSOVHe9fzt4HzBFjcGK7Pkd6eVAwhV0isL0nKHWDUlj6A6cu0PecU3QnZA==}
 
-  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.8.0':
-    resolution: {integrity: sha512-/pZiUJ2QIJwSromdifsakdQH3G0vjWK2jhV4WY4kVD1f0AYP4JtTXnrH77so8hQrRVze3MGO3PholZrTDcVm9A==}
+  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.8.1':
+    resolution: {integrity: sha512-GsJajsQqpOJGQEJKqpwZak+nM7bmxbJeI8o+3lXNRiIkIkCPvhlZ/eoVPibrAbpLwz42vgL3xwZfRjX/QyJiwg==}
 
   '@nolebase/vitepress-plugin-inline-link-preview@2.8.0':
     resolution: {integrity: sha512-/C0glMO1iFZeGTQlWBsJyzGoi93DLj/F2xoZUOsg71zEei+/hLza5b1Urvf5hPecDZnP0lj+abjo631GUPOzDw==}
@@ -2245,7 +2245,7 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)':
+  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)':
     dependencies:
       less: 4.2.0
       vitepress: 1.4.3(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
