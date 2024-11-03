@@ -131,9 +131,7 @@ export default defineConfig({
       },
     ],
 
-    outline: {
-      level: [2, 3],
-    },
+    outline: 'deep',
 
     footer: {
       message: 'All trademarks, service marks, and trade names of Microsoft, Mojang, and Minecraft used in the site are trademarks or registered trademarks of their respective owners.',
