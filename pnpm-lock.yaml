@@ -34,8 +34,8 @@ importers:
         specifier: ^2.8.1
         version: 2.8.1(markdown-it@14.1.0)
       '@nolebase/ui':
-        specifier: ^2.8.0
-        version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
+        specifier: ^2.8.1
+        version: 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-enhanced-readabilities':
         specifier: ^2.8.0
         version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
@@ -424,9 +424,6 @@ packages:
     resolution: {integrity: sha512-iaS4HfiYQGnmSuPUFsQyX0LoErzEUD1HNGBcms0NeudWDO56sr9TNVnBa4HRC1aQtjGilBK9o7f7hamtP/cHXg==}
     peerDependencies:
       markdown-it: '>=14.0.0'
-
-  '@nolebase/ui@2.8.0':
-    resolution: {integrity: sha512-jbAnIE4SUpCbmNSE2x/AlUu+qo6smU1ABpPwjblsHyWNT4IQ/Mmmiq6aNewawE1Qa/quzu0pd+kHDmaiijnJXw==}
 
   '@nolebase/ui@2.8.1':
     resolution: {integrity: sha512-tvp9CbLnPQAqQM/U+boXM6LRbdW8WsbJ+JVjGCqhYoi+flS/CQ1Mgtv4CgIxcMDD5KEU1iuchcJi83hSine4xw==}
@@ -2059,41 +2056,6 @@ snapshots:
     dependencies:
       markdown-it: 14.1.0
 
-  '@nolebase/ui@2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)':
-    dependencies:
-      '@iconify-json/octicon': 1.2.1
-      less: 4.2.0
-      vitepress: 1.4.3(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
-      vue: 3.5.12
-    transitivePeerDependencies:
-      - '@algolia/client-search'
-      - '@types/node'
-      - '@types/react'
-      - '@vue/composition-api'
-      - async-validator
-      - axios
-      - change-case
-      - drauu
-      - fuse.js
-      - idb-keyval
-      - jwt-decode
-      - lightningcss
-      - markdown-it-mathjax3
-      - nprogress
-      - postcss
-      - qrcode
-      - react
-      - react-dom
-      - sass
-      - sass-embedded
-      - search-insights
-      - sortablejs
-      - stylus
-      - sugarss
-      - terser
-      - typescript
-      - universal-cookie
-
   '@nolebase/ui@2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)':
     dependencies:
       '@iconify-json/octicon': 1.2.1
@@ -2133,7 +2095,7 @@ snapshots:
     dependencies:
       '@iconify-json/carbon': 1.2.4
       '@iconify-json/icon-park-outline': 1.2.1
-      '@nolebase/ui': 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
+      '@nolebase/ui': 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
       less: 4.2.0
       vitepress: 1.4.3(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
     transitivePeerDependencies:
@@ -2168,7 +2130,7 @@ snapshots:
   '@nolebase/vitepress-plugin-git-changelog@2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)':
     dependencies:
       '@iconify-json/octicon': 1.2.1
-      '@nolebase/ui': 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
+      '@nolebase/ui': 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
       colorette: 2.0.20
       date-fns: 4.1.0
       defu: 6.1.4
