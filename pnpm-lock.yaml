@@ -46,8 +46,8 @@ importers:
         specifier: ^2.8.1
         version: 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-inline-link-preview':
-        specifier: ^2.8.0
-        version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
+        specifier: ^2.8.1
+        version: 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-page-properties':
         specifier: ^2.8.1
         version: 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
@@ -420,8 +420,8 @@ packages:
     peerDependencies:
       markdown-it: '>=14.0.0'
 
-  '@nolebase/markdown-it-element-transform@2.8.0':
-    resolution: {integrity: sha512-zZ2F+6jui6DjGCkL0NG/O5mCjYqekk4ZLIwL2H7M698/nWQcBUbvB1DlDN94oy26HEjikbvpyofO4e8w38pMaA==}
+  '@nolebase/markdown-it-element-transform@2.8.1':
+    resolution: {integrity: sha512-iaS4HfiYQGnmSuPUFsQyX0LoErzEUD1HNGBcms0NeudWDO56sr9TNVnBa4HRC1aQtjGilBK9o7f7hamtP/cHXg==}
     peerDependencies:
       markdown-it: '>=14.0.0'
 
@@ -440,8 +440,8 @@ packages:
   '@nolebase/vitepress-plugin-highlight-targeted-heading@2.8.1':
     resolution: {integrity: sha512-GsJajsQqpOJGQEJKqpwZak+nM7bmxbJeI8o+3lXNRiIkIkCPvhlZ/eoVPibrAbpLwz42vgL3xwZfRjX/QyJiwg==}
 
-  '@nolebase/vitepress-plugin-inline-link-preview@2.8.0':
-    resolution: {integrity: sha512-/C0glMO1iFZeGTQlWBsJyzGoi93DLj/F2xoZUOsg71zEei+/hLza5b1Urvf5hPecDZnP0lj+abjo631GUPOzDw==}
+  '@nolebase/vitepress-plugin-inline-link-preview@2.8.1':
+    resolution: {integrity: sha512-2vngd/KjcyE2RQBaSzZHHCkyRwY56eBnmukcvTGBIgleSFDqwGp3j8tnz24tTVsx9v8wOA5ZtvVjtohYoiis3Q==}
 
   '@nolebase/vitepress-plugin-page-properties@2.8.1':
     resolution: {integrity: sha512-nePsEN/5gdRw5wmhwkBsP+U5m7DRgnwaj+hs9+lj/HvRAM4nQ9PN9UUrHUpnqXCe0dTui2/uFJ2kOB4OzSNy4w==}
@@ -2055,7 +2055,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nolebase/markdown-it-element-transform@2.8.0(markdown-it@14.1.0)':
+  '@nolebase/markdown-it-element-transform@2.8.1(markdown-it@14.1.0)':
     dependencies:
       markdown-it: 14.1.0
 
@@ -2241,13 +2241,13 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@nolebase/vitepress-plugin-inline-link-preview@2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)':
+  '@nolebase/vitepress-plugin-inline-link-preview@2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)':
     dependencies:
       '@iconify-json/icon-park-outline': 1.2.1
       '@iconify-json/octicon': 1.2.1
       '@iconify-json/svg-spinners': 1.2.1
-      '@nolebase/markdown-it-element-transform': 2.8.0(markdown-it@14.1.0)
-      '@nolebase/ui': 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
+      '@nolebase/markdown-it-element-transform': 2.8.1(markdown-it@14.1.0)
+      '@nolebase/ui': 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.64.0)(terser@5.31.3)
       less: 4.2.0
       markdown-it: 14.1.0
       markdown-it-attrs: 4.2.0(markdown-it@14.1.0)
