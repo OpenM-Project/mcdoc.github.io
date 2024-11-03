@@ -164,17 +164,17 @@ export default defineConfig({
 
     externalLinkIcon: true,
 
-editLink: {
-  pattern: 'https://github.com/openm-project/mcdoc.github.io/edit/main/:path',
-  text: 'Edit this Page'
-},
+  editLink: {
+    pattern: 'https://github.com/openm-project/mcdoc.github.io/edit/main/:path',
+    text: 'Contribute to this Page'
+  },
 
-    lastUpdated: {
-      text: 'Last Updated',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
+   lastUpdated: {
+    text: 'Last Updated',
+    formatOptions: {
+      dateStyle: 'full',
+       timeStyle: 'medium'
+     }
     },
 
   },
