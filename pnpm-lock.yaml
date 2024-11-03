@@ -49,8 +49,8 @@ importers:
         specifier: ^2.8.0
         version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@nolebase/vitepress-plugin-page-properties':
-        specifier: ^2.8.0
-        version: 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
+        specifier: ^2.8.1
+        version: 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       '@vitejs/plugin-vue':
         specifier: ^5.1.4
         version: 5.1.4(vite@5.4.10(@types/node@18.19.50)(less@4.2.0)(sass@1.80.5)(stylus@0.63.0)(terser@5.31.3))(vue@3.5.12)
@@ -428,6 +428,9 @@ packages:
   '@nolebase/ui@2.8.0':
     resolution: {integrity: sha512-jbAnIE4SUpCbmNSE2x/AlUu+qo6smU1ABpPwjblsHyWNT4IQ/Mmmiq6aNewawE1Qa/quzu0pd+kHDmaiijnJXw==}
 
+  '@nolebase/ui@2.8.1':
+    resolution: {integrity: sha512-tvp9CbLnPQAqQM/U+boXM6LRbdW8WsbJ+JVjGCqhYoi+flS/CQ1Mgtv4CgIxcMDD5KEU1iuchcJi83hSine4xw==}
+
   '@nolebase/vitepress-plugin-enhanced-readabilities@2.8.0':
     resolution: {integrity: sha512-UJRtoGeg/xLgxF9vTlzMNRkYH7NscD7AYBBBkqjSZnjgmVNeg92qt991oUdSvbVuXHBXP/+gsorUfAXLv8MJrg==}
 
@@ -440,8 +443,8 @@ packages:
   '@nolebase/vitepress-plugin-inline-link-preview@2.8.0':
     resolution: {integrity: sha512-/C0glMO1iFZeGTQlWBsJyzGoi93DLj/F2xoZUOsg71zEei+/hLza5b1Urvf5hPecDZnP0lj+abjo631GUPOzDw==}
 
-  '@nolebase/vitepress-plugin-page-properties@2.8.0':
-    resolution: {integrity: sha512-XjaHf8YCO6a4iUpuJpqBnycq6UuZ3JDGM+AX9Yb6uQ48kvTje6JRDRSYT/q9n7agXfugrcZTSEzNzQWbSY9nCg==}
+  '@nolebase/vitepress-plugin-page-properties@2.8.1':
+    resolution: {integrity: sha512-nePsEN/5gdRw5wmhwkBsP+U5m7DRgnwaj+hs9+lj/HvRAM4nQ9PN9UUrHUpnqXCe0dTui2/uFJ2kOB4OzSNy4w==}
 
   '@parcel/watcher-android-arm64@2.4.1':
     resolution: {integrity: sha512-LOi/WTbbh3aTn2RYddrO8pnapixAziFl6SMxHM69r3tvdSm94JtCenaKgk1GRg5FJ5wpMCpHeW+7yqPlvZv7kg==}
@@ -2104,6 +2107,41 @@ snapshots:
       - typescript
       - universal-cookie
 
+  '@nolebase/ui@2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)':
+    dependencies:
+      '@iconify-json/octicon': 1.2.1
+      less: 4.2.0
+      vitepress: 1.4.3(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(less@4.2.0)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
+      vue: 3.5.12
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/node'
+      - '@types/react'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - fuse.js
+      - idb-keyval
+      - jwt-decode
+      - lightningcss
+      - markdown-it-mathjax3
+      - nprogress
+      - postcss
+      - qrcode
+      - react
+      - react-dom
+      - sass
+      - sass-embedded
+      - search-insights
+      - sortablejs
+      - stylus
+      - sugarss
+      - terser
+      - typescript
+      - universal-cookie
+
   '@nolebase/vitepress-plugin-enhanced-readabilities@2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)':
     dependencies:
       '@iconify-json/carbon': 1.2.4
@@ -2256,11 +2294,11 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@nolebase/vitepress-plugin-page-properties@2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)':
+  '@nolebase/vitepress-plugin-page-properties@2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)':
     dependencies:
       '@iconify-json/icon-park-outline': 1.2.1
       '@iconify-json/octicon': 1.2.1
-      '@nolebase/ui': 2.8.0(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
+      '@nolebase/ui': 2.8.1(@algolia/client-search@5.12.0)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(postcss@8.4.47)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.5)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)
       date-fns: 4.1.0
       gray-matter: 4.0.3
       less: 4.2.0
