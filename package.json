@@ -27,6 +27,7 @@
     "preview": "vitepress preview docs/"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
     "pnpm": "^9.12.3",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-back-to-top": "^1.0.1",

@@ -28,6 +28,7 @@ import Navlink from './components/Navlink.vue'
 import xgplayer from "./components/xgplayer.vue"
 import Toast, { PluginOptions } from "vue-toastification";
 import "vue-toastification/dist/index.css";
+import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
 
 export default {
   extends: DefaultTheme,
@@ -53,6 +54,7 @@ export default {
     app.use(NolebaseGitChangelogPlugin, {
       // Configuration
     })
+    app.use(autoAnimatePlugin)
     enhanceAppWithTabs(app)
     vitepressBackToTop({
       // default
