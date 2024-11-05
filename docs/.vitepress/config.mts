@@ -159,7 +159,7 @@ export default defineConfig({
       }
     ],
 
-    externalLinkIcon: true,
+    externalLinkIcon: false,
 
   editLink: {
     pattern: 'https://github.com/openm-project/mcdoc.github.io/edit/main/:path',
