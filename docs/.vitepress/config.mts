@@ -103,7 +103,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Linux (WIP)',
+        text: 'Linux',
         collapsed: false,
         items: [
           { text: 'Minecraft for Linux', link: '/linux/minecraft-for-linux' }
