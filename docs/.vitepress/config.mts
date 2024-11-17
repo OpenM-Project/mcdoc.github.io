@@ -94,6 +94,7 @@ export default defineConfig({
             rel: 'noreferrer'          
           },
           { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
+          { text: 'Minecraft Story Mode', link: '/windows/minecraft-storymode' },
           { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
           { text: 'Minecraft China', link: '/windows/minecraft-china' },
           { text: 'Minecraft Earth', link: '/windows/minecraft-earth' },
@@ -102,11 +103,19 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Linux (WIP)',
+        collapsed: false,
+        items: [
+          { text: 'Minecraft for Linux', link: '/linux/minecraft-for-linux' }
+        ]
+      },
+      {
         text: 'Android',
         collapsed: false,
         items: [
-          { text: 'Minecraft Earth', link: '/android/minecraft-earth' },
           { text: 'Minecraft for Android', link: '/android/minecraft-for-android' },
+          { text: 'Minecraft Earth', link: '/android/minecraft-earth' },
+          { text: 'Minecraft Story Mode', link: '/android/minecraft-storymode' },
           { text: 'Miscellaneous', link: '/android/miscellaneous' }
         ]
       },
@@ -114,8 +123,9 @@ export default defineConfig({
         text: 'iOS',
         collapsed: false,
         items: [
-          { text: 'Minecraft Earth', link: '/ios/minecraft-earth' },
-          { text: 'Minecraft for iOS', link: '/ios/minecraft-for-ios' }
+          { text: 'Minecraft for iOS', link: '/ios/minecraft-for-ios' },
+          { text: 'Minecraft Story Mode', link: '/ios/minecraft-storymode' },
+          { text: 'Minecraft Earth', link: '/ios/minecraft-earth' }
         ]
       },
       {
