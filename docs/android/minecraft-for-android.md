@@ -14,7 +14,7 @@ An APK file is an application made for Android devices. The file format was crea
 | ------ | ------ | ------ | ------ | ------
 | ⭐ ModsCraft | [Website](https://modscraft.net/en/mcpe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, both for Preview and Release versions
 | ⭐ MCBE APK Dev Team | [Website](https://github.com/ToolsPeople200/mcbe-apk) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in 64-bit and 32-bit, both in Preview and Release versions (Compressed only).
-| ⭐ StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for Minecraft Bedrock Edition.
+| ⭐ StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for various Minecraft editions.
 | APKDONE | [Website](https://apkdone.com/minecraft-game-mod/) | \- | **Yes** | Modded & Unlocked APKs of Minecraft for Android
 | MCPEDL.ORG | [Website](https://mcpedl.org/downloading/) | \- | **Yes** | Unlocked APKs of Minecraft for Android
 | Monster MCPE | [Website](https://monster-mcpe.com/download-minecraft-pe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android
