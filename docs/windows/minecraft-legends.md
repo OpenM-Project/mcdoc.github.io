@@ -7,6 +7,7 @@ title: Minecraft Legends
 Name | Link | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
 ⭐ Minecraft Legends Crack by online-fix.me|[Website](https://online-fix.me/games/adventures/17244-minecraft-legends-po-seti.html)|\-|\-|Crack for Minecraft Legends, which supports multiplayer. 
+⭐ StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for various Minecraft editions.
 🌐 Minecraft Legends Topic|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=10&t=123722)| - | **Yes** | The CS.RIN.RU topic of Minecraft Legends
 Legends Wiki Docs|[Website](https://docs.legendsmodding.com/)|[GitHub](https://github.com/LegendsModding/ModdingDocs)|**Yes**|A place to view known documentation for modding the popular game Minecraft: Legends
 Mythos|[Website](https://mythos.legendsmodding.com/)|\-|**Yes**|Minecraft Legends Mod Collection
