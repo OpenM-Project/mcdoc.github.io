@@ -22,6 +22,18 @@ export default defineConfig({
         }, 
       }), 
     ],
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: (assetInfo) => {
+            if (assetInfo.name.endsWith('.css')) {
+              return `assets/css/[name][extname]`
+            }
+            return `assets/[name][extname]`
+          }
+        }
+      }
+    },
   },
 },
 
