@@ -4,6 +4,19 @@ title: DMCA Notice
 
 # Digital Millennium Copyright Act (DMCA) Notice
 
+<br>
+
+<ClientOnly>
+  <div id="dmca-badge">
+    <a href="//www.dmca.com/Protection/Status.aspx?ID=9452318f-beec-4785-9144-01420efb0b45" 
+       title="DMCA.com Protection Status" 
+       class="dmca-badge">
+      <img src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=9452318f-beec-4785-9144-01420efb0b45"  
+           alt="DMCA.com Protection Status" />
+    </a>
+  </div>
+</ClientOnly>
+
 We respect the intellectual property rights of others. If you believe that any material available on our site infringes upon any copyright which you own or control, you may submit a notification pursuant to the Digital Millennium Copyright Act ("DMCA") by providing the following information in writing:
 
 1. The physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
