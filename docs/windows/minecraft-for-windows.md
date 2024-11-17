@@ -54,7 +54,14 @@ const myMethod = () => {
  * DLL Auto Patch: Creates a Cracked DLL from original `Windows.ApplicationModel.Store.dll` and replaces the original one with cracked one.
  * **DRC** - DLL Redirection for Cracking: Also known as DLL hijacking, this method takes advantage of the [DLL search order](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order) to cause the game to load a patched (i.e. cracked) dll instead of the dll present within the system directories (`System32` and `SysWOW64`). This method does not require editing the dlls in the system directories.
  * BlueSky Mode - Same as DLL Replacing
+
 :::
+
+## Modded / Unlocked / Original APPXs/EXEs
+
+| Name | Download | Source code | Is it maintained? | Description
+| ------ | ------ | ------ | ------ | ------
+| ⭐ StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for Minecraft Bedrock Edition.
 
 ## Unlockers for Minecraft for Windows
 
