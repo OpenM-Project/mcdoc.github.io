@@ -172,7 +172,7 @@ export default defineConfig({
     externalLinkIcon: false,
 
   editLink: {
-    pattern: 'https://github.com/openm-project/mcdoc.github.io/edit/main/:path',
+    pattern: 'https://github.com/openm-project/mcdoc.github.io/edit/main/docs/:path',
     text: 'Contribute to this Page'
   },
 
