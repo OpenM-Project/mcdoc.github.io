@@ -29,6 +29,7 @@ import xgplayer from "./components/xgplayer.vue"
 import Toast, { PluginOptions } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
+import DownloadButtons from './components/DownloadButtons.vue'
 
 export default {
   extends: DefaultTheme,
@@ -60,6 +61,7 @@ export default {
       // default
       threshold:300
     })
+    app.component('DownloadButtons', DownloadButtons)
   },
 
   setup() {
