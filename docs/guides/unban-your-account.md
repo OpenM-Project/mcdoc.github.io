@@ -1,7 +1,7 @@
 ---
-title: How To Unban Your Account On Windows?
+title: Guide On How To Unban Your Account (Windows)
 ---
 
-# How To Unban Your Account On Windows?
+# Guide On How To Unban Your Account (Windows)
 
 <xgplayer url="https://dl.openm.tech/guides/unban/video.webm" />
