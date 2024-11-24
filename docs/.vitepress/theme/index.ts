@@ -4,6 +4,7 @@ import { useData , useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style/style.css'
+import './style/tailwind.css'
 import 'viewerjs/dist/viewer.min.css';
 import imageViewer from 'vitepress-plugin-image-viewer';
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
@@ -29,7 +30,6 @@ import xgplayer from "./components/xgplayer.vue"
 import Toast, { PluginOptions } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
-import DownloadButtons from './components/DownloadButtons.vue'
 
 export default {
   extends: DefaultTheme,
@@ -61,7 +61,6 @@ export default {
       // default
       threshold:300
     })
-    app.component('DownloadButtons', DownloadButtons)
   },
 
   setup() {
