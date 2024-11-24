@@ -59,10 +59,11 @@ title: Download Page
   <div class="mb-6">
     <h3 class="text-xl font-bold text-[var(--vp-c-text-dark-1)]">Screenshots</h3>
     <div class="grid grid-cols-2 gap-4">
-      <img src="https://play-lh.googleusercontent.com/YOWjY8vEN2q2T5ak3Ex7eFTS2UnYc4C_rBNM2sRS3d7GBjxabbmFbyqEHVV21I65Tg=w526-h296-rw" alt="Screenshot 1" class="rounded-lg">
-      <img src="https://play-lh.googleusercontent.com/trxWprIXzPayLrHdi17aFbyG4nmWckT7aXLeNEEAk-O7baAVl1NKgEwZNvYY_ETknGY=w526-h296-rw" alt="Screenshot 2" class="rounded-lg">
-      <img src="https://play-lh.googleusercontent.com/Ft2-Xb0ZJ2NNe9LnW2Q51LHhoRJNdfDOxhw99Gj3gItSvdxh85Rw1_6V_rgnmi7qJDce=w526-h296-rw" alt="Screenshot 3" class="rounded-lg">
-      <img src="https://play-lh.googleusercontent.com/Y2IwsSIRhrgAm6SrZRMZE7uPeHGgwFxPvcdYb0Nl65ZK8SsHAdtj5o-GYf3Y58LA9g=w526-h296-rw" alt="Screenshot 4" class="rounded-lg">
+      <img src="https://dl.openm.tech/images/screenshot_01.webp" alt="Screenshot 1" class="rounded-lg">
+      <img src="https://dl.openm.tech/images/screenshot_02.webp" alt="Screenshot 2" class="rounded-lg">
+      <img src="https://dl.openm.tech/images/screenshot_03.webp" alt="Screenshot 3" class="rounded-lg">
+      <img src="https://dl.openm.tech/images/screenshot_04.webp" alt="Screenshot 4" class="rounded-lg">
+      <img src="https://dl.openm.tech/images/screenshot_05.webp" alt="Screenshot 5" class="rounded-lg">
     </div>
   </div>
 
