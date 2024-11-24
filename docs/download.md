@@ -50,10 +50,10 @@ title: Download Page
 
   <div class="mb-6">
     <h3 class="text-xl font-bold text-[var(--vp-c-text-dark-1)]">About the Game</h3>
-    <p class="text-gray-300">CREATE: Build anything you can imagine in your own infinite world, which is unique in every gameplay.</p>
-    <p class="text-gray-300">EXPLORE: Discover environments, resources, and mobs, and build your way through a world full of surprises.</p>
-    <p class="text-gray-300">SURVIVE: Experience unforgettable adventures as you face mysterious enemies.</p>
-    <p class="text-gray-300">PLAY WITH OTHERS: Have fun with your friends in cross-platform play.</p>
+    <p class="text-[var(--vp-c-text-dark-1)]">CREATE: Build anything you can imagine in your own infinite world, which is unique in every gameplay.</p>
+    <p class="text-[var(--vp-c-text-dark-1)]">EXPLORE: Discover environments, resources, and mobs, and build your way through a world full of surprises.</p>
+    <p class="text-[var(--vp-c-text-dark-1)]">SURVIVE: Experience unforgettable adventures as you face mysterious enemies.</p>
+    <p class="text-[var(--vp-c-text-dark-1)]">PLAY WITH OTHERS: Have fun with your friends in cross-platform play.</p>
   </div>
 
   <div class="mb-6">
