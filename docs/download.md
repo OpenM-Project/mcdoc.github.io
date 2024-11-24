@@ -74,31 +74,46 @@ title: Download Page
 </div>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 
-const officialLink = ref('ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ'); // Default link for Windows
-const crackedLink = ref('https://mcenters.net/'); // Default link for Cracked version
+const officialLink = ref('ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ');
+const crackedLink = ref('https://mcenters.net/');
+const selectedPlatform = ref('');
 
 const selectPlatform = (platform) => {
   switch (platform) {
     case 'Windows':
       officialLink.value = 'ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ';
-      crackedLink.value = 'https://mcenters.net/'; // Example link for Cracked
+      crackedLink.value = 'https://mcenters.net/';
       break;
     case 'Android':
       officialLink.value = 'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe';
-      crackedLink.value = 'https://misike12.github.io/modscraft_mcpe_apk-archive/'; // Example link for Cracked
+      crackedLink.value = 'https://misike12.github.io/modscraft_mcpe_apk-archive/';
       break;
     case 'iOS':
       officialLink.value = 'https://apps.apple.com/app/minecraft/id479516143';
-      crackedLink.value = 'https://ipaomtk.com/minecraft-ipa/'; // Example link for Cracked
+      crackedLink.value = 'https://ipaomtk.com/minecraft-ipa/';
       break;
     default:
       return;
   }
 };
-</script>
 
-<style>
-/* Tailwind CSS styles */
-</style>
+const detectPlatform = () => {
+  const userAgent = navigator.userAgent;
+  if (/Windows/.test(userAgent)) {
+    selectedPlatform.value = 'Windows';
+  } else if (/Android/.test(userAgent)) {
+    selectedPlatform.value = 'Android';
+  } else if (/iPad|iPhone|iPod/.test(userAgent)) {
+    selectedPlatform.value = 'iOS';
+  } else {
+    selectedPlatform.value = '';
+  }
+  selectPlatform(selectedPlatform.value);
+};
+
+onMounted(() => {
+  detectPlatform();
+});
+</script>
