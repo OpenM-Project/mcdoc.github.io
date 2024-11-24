@@ -30,7 +30,7 @@ To get started with MCDOC using VitePress, follow these steps:
 2. Navigate to the project directory: `cd mcdoc.github.io`
 3. Install pnpm: `npm install -g pnpm`
 4. Install Dependencies with pnpm: `pmpm install`
-5. Start the internal server: `pnpm run docs:dev`
+5. Start the internal server: `pnpm run dev`
 6. Open your browser and visit `http://localhost:5173` to view your local hosted version of MCDOC.
 
 
