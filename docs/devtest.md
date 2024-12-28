@@ -6,11 +6,9 @@ title: Development test Page
 import * as pkg from "vue-toastification"
 const { useToast } = pkg
 
-// Get toast interface
 const toast = useToast();
 
 const myMethod = () => {
-  // Since you returned `toast` from setup(), you can access it now
   toast("Test!", {
     timeout: 2000,
     closeOnClick: true,

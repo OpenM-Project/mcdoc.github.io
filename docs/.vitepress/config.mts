@@ -4,36 +4,24 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
 
   extends: {
   vite: { 
     plugins: [
       GitChangelog({ 
-        // Fill in your repository URL here
         repoURL: () => 'https://github.com/openm-project/mcdoc.github.io', 
-      }), 
+      }) as any,
       GitChangelogMarkdownSection({
         sections: { 
           disableChangelog: false,
           disableContributors: true,
         }, 
-      }), 
+      }) as any,
+      PageProperties(),
     ],
-    build: {
-      rollupOptions: {
-        output: {
-          assetFileNames: (assetInfo) => {
-            if (assetInfo.name.endsWith('.css')) {
-              return `assets/css/[name][extname]`
-            }
-            return `assets/[name][extname]`
-          }
-        }
-      }
-    },
   },
 },
 
@@ -67,7 +55,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
     siteTitle: 'MCDOC',
     nav: [
@@ -159,7 +146,6 @@ export default defineConfig({
       copyright: 'Copyright © 2024 OpenM Project',
     },
 
-    // Page - Next & Previous Buttons
     docFooter: {
       prev: 'Prev',
       next: 'Next',
@@ -195,17 +181,16 @@ export default defineConfig({
        timeStyle: 'medium'
      }
     },
-
   },
 
   markdown: {
     lineNumbers: true, 
 
     config: (md) => {
-      md.use(timeline);
-      md.use(BiDirectionalLinks())
-      md.use(InlineLinkPreviewElementTransform)
-      md.use(tabsMarkdownPlugin)
+      md.use(timeline as any);
+      md.use(BiDirectionalLinks() as any);
+      md.use(InlineLinkPreviewElementTransform as any);
+      md.use(tabsMarkdownPlugin as any);
     },
 
     image: {

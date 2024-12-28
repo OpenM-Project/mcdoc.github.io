@@ -1,4 +1,3 @@
-// https://vitepress.dev/guide/custom-theme
 import { h, onMounted, watch, nextTick, toRefs} from 'vue'
 import { useData , useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
@@ -40,7 +39,6 @@ export default {
     app.component('xgplayer' , xgplayer)
     app.component('vImageViewer', vImageViewer);
     app.provide(InjectionKey, {
-      // Configuration
       defaultMode: 'LayoutMode.Original',
       diableAnimation: false,
     } as Options)
@@ -50,15 +48,11 @@ export default {
       newestOnTop: true,
     };
     app.use(Toast, options);
-    app.use(NolebaseGitChangelogPlugin)
     app.use(NolebaseInlineLinkPreviewPlugin)
-    app.use(NolebaseGitChangelogPlugin, {
-      // Configuration
-    })
+    app.use(NolebaseGitChangelogPlugin, {})
     app.use(autoAnimatePlugin)
     enhanceAppWithTabs(app)
     vitepressBackToTop({
-      // default
       threshold:300
     })
   },
@@ -97,9 +91,7 @@ export default {
     }
 
     return h(DefaultTheme.Layout, props, {
-            // A enhanced readabilities menu for wider screens
-            'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu), 
-            // A enhanced readabilities menu for narrower screens (usually smaller than iPad Mini)
+            'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
             'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
             'layout-top': () => [
               h(NolebaseHighlightTargetedHeading),
