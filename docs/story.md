@@ -102,3 +102,8 @@ Then, people started to notice that the paid version and the trial version was t
 - **Through MCDOC**
   - At one point in July 2024, OpenM's team thought of reviving its old community, OpenM. MCDOC and other repos were moved into OpenM-Project. Then [20th July 2024], the MCDOC discord was renamed into OpenM for the convenience of a single server. From then on, MCDOC is officially under OpenM.
 :::
+
+::: timeline 2024-12-01
+- **MCenters Server Discontinuation** ***again***
+  - Since MCenters was being offline commonly and almost all the time, he discontinued his Discord server without any other thought and kept MCenters alive in his website. Now, MCommunity and OpenM are the only places for asking support.
+:::
