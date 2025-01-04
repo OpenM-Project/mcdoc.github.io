@@ -50,8 +50,7 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:card', content: 'summary_large_image' }],
           [ 'meta', { name: 'twitter:title', content: 'MCDOC' }],
           [ 'meta', { name: 'twitter:description', content: 'An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.' }],
-          [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
-          ['script', { async: 'true', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8173764907252238', crossorigin: 'anonymous' }]
+          [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }]
   ],
 
   themeConfig: {
