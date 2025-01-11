@@ -12,8 +12,9 @@ An APK file is an application made for Android devices. The file format was crea
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
-| ⭐ ModsCraft | [Website](https://modscraft.net/en/mcpe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, both for Preview and Release versions
 | ⭐ StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for various Minecraft editions.
+| ⭐ ModsCraft Fetcher | [Website](https://run4r-ses.github.io/modscraft_mcpe_apk/) | [GitHub](https://github.com/run4r-ses/modscraft_mcpe_apk) | **Yes** | Fetcher for ModsCraft, Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, for release versions only
+| ⭐ ModsCraft | [Website](https://modscraft.net/en/mcpe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android available in ARM-V7A, ARM64-V8A, x86, and Clone versions, both for Preview and Release versions
 | APKDONE | [Website](https://apkdone.com/minecraft-game-mod/) | \- | **Yes** | Modded & Unlocked APKs of Minecraft for Android
 | MCPEDL.ORG | [Website](https://mcpedl.org/downloading/) | \- | **Yes** | Unlocked APKs of Minecraft for Android
 | Monster MCPE | [Website](https://monster-mcpe.com/download-minecraft-pe/) | \- | **Yes** | Unlocked APKs of Minecraft for Android
