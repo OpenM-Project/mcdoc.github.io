@@ -59,7 +59,25 @@ export default defineConfig({
           [ 'meta', { name: 'yandex', content: 'index, follow' }],
           [ 'meta', { name: 'msvalidate.01', content: 'B24AD5C950D13D7C3EE70FD2F6B107B3' }],
           [ 'meta', { name: 'yandex-verification', content: 'd90a346e7ae4267f' }],
-
+          [ 'meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+          [ 'meta', { name: 'description', content: 'An Ultimate Collection of Minecraft Tools & Unlockers.' }],
+          [ 'script', { type: 'application/ld+json' }, `
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "url": "https://openm.tech",
+              "name": "MCDOC",
+              "description": "An Ultimate Collection of Minecraft Tools & Unlockers.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "OpenM Project",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://openm.tech/assets/images/logo.webp"
+                }
+              }
+            }
+          `],
   ],
 
   themeConfig: {
