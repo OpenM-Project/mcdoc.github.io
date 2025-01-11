@@ -93,7 +93,8 @@ export default defineConfig({
           items: [
             { text: 'Windows',
               items: [
-                { text: 'Unban Your Account', link: '/guides/unban-your-account' }
+                { text: 'Unban Your Account', link: '/guides/unban-your-account' },
+                { text: 'How To: M Centers', link: '/guides/use-m-centers' }
               ]
             }
           ]
