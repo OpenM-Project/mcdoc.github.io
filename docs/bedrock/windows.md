@@ -1,6 +1,5 @@
 ---
 title: Minecraft for Windows
-outline: deep
 ---
 
 # Minecraft for Windows

@@ -82,58 +82,81 @@ export default defineConfig({
 
     sidebar: [      
       {
-        text: 'Windows',
+        text: 'Bedrock Edition',
+        link: '/bedrock',
         collapsed: false,
         items: [
+          { text: 'Windows', link: '/bedrock/windows' },
+          { text: 'Linux', link: '/bedrock/linux' },
+          { text: 'Android', link: '/bedrock/android' },
+          { text: 'iOS', link: '/bedrock/ios' },
+          { text: 'Console',
+            collapsed: true,
+            items: [
+              { text: 'Nintendo Switch', link: '/bedrock/console/nintendo-switch' },
+              { text: 'PlayStation', link: '/bedrock/console/playstation' },
+              { text: 'Xbox', link: '/bedrock/console/xbox' },
+              { text: 'Wii', link: '/bedrock/console/wii' }
+            ]
+          },
+        ]
+      },
+      {
+        text: 'Java Edition',
+        collapsed: false,
+        items: [
+          { text: 'Windows', link: '/java/windows' },
+          { text: 'Linux', link: '/java/linux' },
           { 
-            text: 'Java Edition',
+            text: 'FMHY Wiki',
             link: 'https://fmhy.net/gaming-tools#minecraft-tools',
             target: '_blank',
             rel: 'noreferrer'          
           },
-          { text: 'Minecraft for Windows', link: '/windows/minecraft-for-windows' },
-          { text: 'Minecraft Story Mode', link: '/windows/minecraft-storymode' },
-          { text: 'Minecraft Dungeons', link: '/windows/minecraft-dungeons' },
-          { text: 'Minecraft China', link: '/windows/minecraft-china' },
-          { text: 'Minecraft Earth', link: '/windows/minecraft-earth' },
-          { text: 'Minecraft Education', link: '/windows/minecraft-education' },
-          { text: 'Minecraft Legends', link: '/windows/minecraft-legends' }
         ]
       },
       {
-        text: 'Linux',
+        text: 'Minecraft Earth',
         collapsed: false,
         items: [
-          { text: 'Minecraft for Linux', link: '/linux/minecraft-for-linux' }
+          { text: 'Server setup',
+            collapsed: true,
+            items: [
+              { text: 'Windows', link: '/earth/server-setup/windows' },
+            ]
+          },
+          { text: 'Android', link: '/earth/android' },
+          { text: 'IOS', link: '/earth/ios' },
         ]
       },
       {
-        text: 'Android',
+        text: 'Story Mode',
         collapsed: false,
         items: [
-          { text: 'Minecraft for Android', link: '/android/minecraft-for-android' },
-          { text: 'Minecraft Earth', link: '/android/minecraft-earth' },
-          { text: 'Minecraft Story Mode', link: '/android/minecraft-storymode' },
-          { text: 'Miscellaneous', link: '/android/miscellaneous' }
+          { text: 'Android', link: '/story-mode/android' },
+          { text: 'IOS', link: '/story-mode/ios' },
+          { text: 'Windows', link: '/story-mode/windows' },
         ]
       },
       {
-        text: 'iOS',
+        text: 'Other',
         collapsed: false,
         items: [
-          { text: 'Minecraft for iOS', link: '/ios/minecraft-for-ios' },
-          { text: 'Minecraft Story Mode', link: '/ios/minecraft-storymode' },
-          { text: 'Minecraft Earth', link: '/ios/minecraft-earth' }
-        ]
-      },
-      {
-        text: 'Console Edition',
-        collapsed: false,
-        items: [
-          { text: 'Minecraft for Nintendo Switch', link: '/console/minecraft-for-nintendo-switch' },
-          { text: 'Minecraft for PlayStation', link: '/console/minecraft-for-playstation' },
-          { text: 'Minecraft for Xbox', link: '/console/minecraft-for-xbox' },
-          { text: 'Minecraft for Wii', link: '/console/minecraft-for-wii' }
+          { text: 'Windows',
+            collapsed: true,
+            items: [
+              { text: 'Education', link: '/other/windows/education' },
+              { text: 'Legends', link: '/other/windows/legends' },
+              { text: 'Dungeons', link: '/other/windows/dungeons' },
+              { text: 'China', link: '/other/windows/china' },
+            ]
+          },
+          { text: 'Android',
+            collapsed: true,
+            items: [
+              { text: 'Miscellaneous', link: '/other/android/miscellaneous' },
+            ]
+          }
         ]
       },
     ],
@@ -142,7 +165,7 @@ export default defineConfig({
 
     footer: {
       message: 'All trademarks, service marks, and trade names of Microsoft, Mojang, and Minecraft used in the site are trademarks or registered trademarks of their respective owners.',
-      copyright: 'Copyright © 2024 OpenM Project',
+      copyright: 'Copyright © 2024-2025 OpenM Project',
     },
 
     docFooter: {
