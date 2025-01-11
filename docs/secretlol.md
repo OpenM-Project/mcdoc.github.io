@@ -12,7 +12,7 @@ This page is currently Work-In-Progress. The information here might be outdated,
 This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows 10/11.
 :::
 
-We usually unlock Minecraft using Third-Party Softwares (listed [here](/windows/minecraft-for-windows#minecraft-for-windows)). These apps use different kinds of methods depending on how they are made. These methods are mentioned in the glossary on the same page. Let's now define all these methods and what they mean.
+We usually unlock Minecraft using Third-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). These apps use different kinds of methods depending on how they are made. These methods are mentioned in the glossary on the same page. Let's now define all these methods and what they mean.
 
 ## Methods
 
@@ -35,7 +35,7 @@ There is another method using [ClipSVC](#clipsvc), we will define that later.
 ## How Minecraft works
 
 Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.\
-We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version. The crack can be done manually or by specific [Third Party Software](/windows/minecraft-for-windows#unlockers-for-minecraft-for-windows).
+We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version. The crack can be done manually or by specific [Third Party Software](/bedrock/windows#unlockers-for-minecraft-for-windows).
 
 ## How Minecraft for Windows is Cracked/Patched
 
