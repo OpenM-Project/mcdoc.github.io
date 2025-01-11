@@ -53,6 +53,13 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
           [ 'meta', { name: 'keywords', content: 'minecraft, bedrock, java, earth, story mode, windows, linux, android, ios, console, nintendo switch, playstation, xbox, wii, education, legends, dungeons, OpenM, Project, tools, Story, Free Minecraft, Unlocker, Crack, working, 100%, marketplace, addon, crack, free, pro, minecoin, minecraft, MCDOC, unlockers, index, safe' }],
           [ 'meta', { name: 'author', content: 'OpenM Project' }],
+          [ 'meta', { name: 'robots', content: 'index, follow' }],
+          [ 'meta', { name: 'googlebot', content: 'index, follow' }],
+          [ 'meta', { name: 'bingbot', content: 'index, follow' }],
+          [ 'meta', { name: 'yandex', content: 'index, follow' }],
+          [ 'meta', { name: 'msvalidate.01', content: 'B24AD5C950D13D7C3EE70FD2F6B107B3' }],
+          [ 'meta', { name: 'yandex-verification', content: 'd90a346e7ae4267f' }],
+
   ],
 
   themeConfig: {
