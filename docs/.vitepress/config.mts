@@ -50,7 +50,9 @@ export default defineConfig({
           [ 'meta', { name: 'twitter:card', content: 'summary_large_image' }],
           [ 'meta', { name: 'twitter:title', content: 'MCDOC' }],
           [ 'meta', { name: 'twitter:description', content: 'An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.' }],
-          [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }]
+          [ 'meta', { name: 'twitter:image', content: '/assets/images/title.webp' }],
+          [ 'meta', { name: 'keywords', content: 'minecraft, bedrock, java, earth, story mode, windows, linux, android, ios, console, nintendo switch, playstation, xbox, wii, education, legends, dungeons, OpenM, Project, tools, Story, Free Minecraft, Unlocker, Crack, working, 100%, marketplace, addon, crack, free, pro, minecoin, minecraft, MCDOC, unlockers, index, safe' }],
+          [ 'meta', { name: 'author', content: 'OpenM Project' }],
   ],
 
   themeConfig: {
@@ -131,12 +133,7 @@ export default defineConfig({
       },
       {
         text: 'Story Mode',
-        collapsed: false,
-        items: [
-          { text: 'Android', link: '/story-mode/android' },
-          { text: 'IOS', link: '/story-mode/ios' },
-          { text: 'Windows', link: '/story-mode/windows' },
-        ]
+        link: '/story-mode',
       },
       {
         text: 'Other',

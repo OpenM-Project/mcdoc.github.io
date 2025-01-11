@@ -2,12 +2,12 @@
 layout: home
 
 title: MCDOC
-titleTemplate: The Minecraft Piracy Index
+titleTemplate: The Ultimate Minecraft Piracy Index
 
 hero:
   name: "MCDOC"
   text: "Free Minecraft?"
-  tagline: The Minecraft Pi**cy Index
+  tagline: The Ultimate Minecraft Pi**cy Index
   actions:
     - theme: brand
       text: Browse
