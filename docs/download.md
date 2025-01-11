@@ -78,14 +78,14 @@ title: Download Page
 import { ref, onMounted } from 'vue';
 
 const officialLink = ref('ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ');
-const crackedLink = ref('https://mcenters.net/');
+const crackedLink = ref('https://github.com/OpenM-Project/reMCenters/releases/');
 const selectedPlatform = ref('');
 
 const selectPlatform = (platform) => {
   switch (platform) {
     case 'Windows':
       officialLink.value = 'ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ';
-      crackedLink.value = 'https://mcenters.net/';
+      crackedLink.value = 'https://github.com/OpenM-Project/reMCenters/releases/';
       break;
     case 'Android':
       officialLink.value = 'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe';
