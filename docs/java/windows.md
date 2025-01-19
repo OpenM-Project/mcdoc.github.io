@@ -24,6 +24,8 @@ Betacraft| [Website](https://betacraft.uk/) | [Github](https://github.com/betacr
 
 ## FPS Launchers
 
+| Name | Download | Source code | Is it maintained? | Description
+| ------ | ------ | ------ | ------ | ------
 | CheatBreaker | [Website](https://cheatbreaker.net/) | [Github](https://github.com/CheatBreakerNet/Launcher/) | Yes | Fairly popular FPS launcher with anti-cheat
 | LabyMod | [Website](https://www.labymod.net/en) | - | Yes | A customizable launcher while being frickin` smooth.
 | Salwyrr Launcher | [Website](https://www.salwyrr.com/) | - | Yes | FPS launcher with anti-cheat
@@ -31,6 +33,8 @@ Betacraft| [Website](https://betacraft.uk/) | [Github](https://github.com/betacr
 
 ## Beta Launchers
 
+| Name | Download | Source code | Is it maintained? | Description
+| ------ | ------ | ------ | ------ | ------
 | ⭐ Codex-Ipsa | [Website](https://codex-ipsa.cz/mclauncher/) | [Github](https://github.com/Codex-Ipsa/CodexIpsa-Launcher) | Yes | An experimental Minecraft launcher, which is designed for playing older versions and different editions of the game
 | OmniArchive | [Website](https://omniarchive.uk/) | - | Yes | (Not exactly a launcher, but) Provides downloads for older and lost media Java versions.
 
