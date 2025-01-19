@@ -3,8 +3,6 @@ title: Minecraft Java Edition for Windows
 outline: deep
 ---
 
-NOT OVER
-
 # Minecraft: Java Edition
 
 <br>
@@ -13,14 +11,27 @@ NOT OVER
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
-| ⭐ PrismLauncher | [Website](https://prismlauncher.org/) | [Github](https://github.com/PrismLauncher/PrismLauncher) | Yes | A feature-rich launcher, preferred by many. (Doesnt support cracked, refer to /here/)
+| ⭐ PrismLauncher | [Website](https://prismlauncher.org/) | [Github](https://github.com/PrismLauncher/PrismLauncher) | Yes | A feature-rich launcher, preferred by many (Doesnt support cracked, refer to /here/)
 | ⭐ ATLauncher | [Website](https://atlauncher.com/) | - | Yes | Launchers with self-made modpacks to change the gameplay 
 | SKLauncher | [Website](https://skmedix.pl/) | [Github](https://github.com/skmedix/SKlauncher) | Yes | A very user-friendly launcher 
 | UltimMC | [Website](https://github.com/UltimMC/Launcher) | - | Yes | MultiMC launcher but with cracked accounts
 Betacraft| [Website](https://betacraft.uk/) | [Github](https://github.com/betacraftuk/betacraft-launcher/)| *Maybe* | Multi-version launcher for Minecraft Beta Versions
 | Legacy Launcher | [Website](https://llaun.ch/en) | - | Yes | A great launcher for users
 | HMCL | [Website](https://hmcl.huangyuhui.net/) | - | *Maybe* | A chinese launcher, pretty useful
+| Crystal Launcher | [Website](https://crystal-launcher.net/) | - | *Maybe* | A launcher with cape & skin system and modpack features
+| GDLauncher | [Website](https://gdlauncher.com/) | - | Yes | A feature-rich laucher that looks impressive
+| X Minecraft Launcer | [Website](https://xmcl.app/) | [Github](https://github.com/voxelum/x-minecraft-launcher) | Yes | A launcher with modpack features and integration with other sources.
 
 ## FPS Launchers
 
-https://cheatbreaker.net/
+| CheatBreaker | [Website](https://cheatbreaker.net/) | [Github](https://github.com/CheatBreakerNet/Launcher/) | Yes | Fairly popular FPS launcher with anti-cheat
+| LabyMod | [Website](https://www.labymod.net/en) | - | Yes | A customizable launcher while being frickin` smooth.
+| Salwyrr Launcher | [Website](https://www.salwyrr.com/) | - | Yes | FPS launcher with anti-cheat
+| AresClient | [Website](https://www.aresclient.com/) | - | Yes | Really good FPS launcher
+
+## Beta Launchers
+
+| ⭐ Codex-Ipsa | [Website](https://codex-ipsa.cz/mclauncher/) | [Github](https://github.com/Codex-Ipsa/CodexIpsa-Launcher) | Yes | An experimental Minecraft launcher, which is designed for playing older versions and different editions of the game
+| OmniArchive | [Website](https://omniarchive.uk/) | - | Yes | (Not exactly a launcher, but) Provides downloads for older and lost media Java versions.
+
+*i need to get paid for this oh god*
