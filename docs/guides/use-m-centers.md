@@ -18,6 +18,10 @@ Please note that the M Centers website is down, and you will have to download fr
 
 2. Press the Windows key and R key simultaneously and then type `ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ`. This will open the Microsoft Store with the Minecraft for Windows trial page.
 
+::: tip Tip
+<p>If step 2 doesn't result in Microsoft Store opening with the Minecraft trial page, instead download Minecraft Launcher from the Microsoft Store and install Bedrock from there, or from the Xbox app, search for <strong>Minecraft for Windows</strong> and download it from there.</p>
+:::
+
 3. Then download the trial game by pressing `Get Trial`.
 
 4. Next, download M Centers 8.0 from these following links: [x64](https://github.com/OpenM-Project/m-centers-archive/raw/refs/tags/mcenters8013/M-Centers-8.0.1.3-x64.zip) | [x86](https://github.com/OpenM-Project/m-centers-archive/raw/refs/tags/mcenters8013/M-Centers-8.0.1.3-x86.zip).
