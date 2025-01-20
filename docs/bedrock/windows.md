@@ -35,7 +35,9 @@ const myMethod = () => {
 </div>
 
 ::: tip Tip
-<p>If you want Beta/Preview or Older versions of Minecraft for Windows, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrocklauncher.github.io/">Bedrock Launcher</a>.</p>
+<p>If the above button doesn't result in Microsoft Store opening with the Minecraft trial page, instead download Minecraft Launcher from the Microsoft Store and install Bedrock from there, or from the Xbox app, search for <strong>Minecraft for Windows</strong> and download it from there.</p>
+
+<p>Also, If you want preview or older versions of Minecraft for Windows, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrocklauncher.github.io/">Bedrock Launcher</a>.</p>
 :::
 
 ::: info Glossary
