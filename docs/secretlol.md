@@ -68,7 +68,7 @@ Watch the video below to do it:
 
 ### ClipSVC
 
-**Tinedpakgamer** (founder of M Centers) discovered the first method to crack Minecraft using ClipSVC. But it turned out to be dangerous for your computer. It was used in MCenters 1.0 (aka Red MCenters), BlueSky Launcher, etc. But what is ClipSVC? 
+**Tinedpakgamer** (founder of M Centers) discovered the first method to crack Minecraft using ClipSVC. But it turned out to be dangerous for your computer. It was used in M Centers 1.0 (aka Red M Centers), BlueSky Launcher, etc. But what is ClipSVC? 
 
 **`ClipSVC`**, or the Client License Service is a Windows service related to the Microsoft Store. It takes care of managing and protecting digital content from the Microsoft Store, like apps and games, to make sure they follow licensing rules and digital rights management (DRM). ClipSVC is used in the process of checking the license, so disabling it will break every single licensing system and no process related to it can be run. In meaning, you could force stop ClipSVC and get apps for free. But since it breaks Minecraft completely too, you will need to do other steps.\
 **Runtime Broker** makes sure Minecraft follows its licensing rules and security settings. Since this is there, you will have to End Task it at the correct time, which is when Minecraft buffers loading at 46%. And as I have said, this breaks Minecraft and MS Store, and it even could lead to system errors and crashes

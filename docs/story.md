@@ -83,7 +83,7 @@ Then, people started to notice that the paid version and the trial version was t
 
 ::: timeline 2024-05-01
 - **M Centers arrival**
-  - Since MCenter's discontinuation, tinedpakgamer has become silent ever since, except in Twitter. But, as of 1st May 2024, he joined M Community and announced that he was working on M Centers 8.0, so, M Centers prevail!
+  - Since M Centers' discontinuation, tinedpakgamer has become silent ever since, except in Twitter. But, as of 1st May 2024, he joined M Community and announced that he was working on M Centers 8.0, so, M Centers prevail!
 :::
 
 ::: timeline 2024-05-08
@@ -104,6 +104,11 @@ Then, people started to notice that the paid version and the trial version was t
 :::
 
 ::: timeline 2024-12-01
-- **MCenters Server Discontinuation** ***again***
-  - Since MCenters was being offline commonly and almost all the time, he discontinued his Discord server without any other thought and kept MCenters alive in his website. Now, MCommunity and OpenM are the only places for asking support.
+- **M Centers Server Discontinuation** ***again***
+  - Since M Centers was being offline commonly and almost all the time, he discontinued his Discord server without any other thought and kept M Centers alive in his website. Now, M Community is the only official place for support related to M Centers.
+:::
+
+::: timeline 2025-01-07
+- **M Centers Website Discontinuation**
+  - M Centers was being
 :::

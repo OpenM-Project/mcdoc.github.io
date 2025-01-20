@@ -47,7 +47,7 @@ const openm = [
 const mention = [
   {
     avatar: 'https://mcenters.net/images/mcenter_5_icon.png?rand=87b6',
-    name: 'Tinedpakgamer [MCenters]',
+    name: 'Tinedpakgamer [M Centers]',
     desc: 'Developer of M Centers Launchers',
     links: [
       { icon: 'github', link: 'https://github.com/tinedpakgamer/' },
