@@ -44,4 +44,4 @@ Every effort is made to keep the website up and running smoothly. However, we ta
 
 If you have any questions or concerns regarding this DMCA notice or our website, please feel free to contact us at [mcdoc@openm.tech](mailto:mcdoc@openm.tech).
 
-** NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT OR M CENTERS OR ANY OF THE TOOLS LISTED ON THIS WEBSITE! **
+**WE DO NOT ADVOCATE PIRACY NOR ARE AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT OR M CENTERS OR ANY OF THE TOOLS LISTED ON THIS WEBSITE!**
