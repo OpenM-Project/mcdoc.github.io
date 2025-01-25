@@ -5,7 +5,7 @@ title: Privacy Policy
 # Privacy Policy
 
 ## Introduction
-Welcome to the privacy policy of McDoc by OpenM Project. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us.
+Welcome to the privacy policy of MCDOC by the OpenM Project. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us.
 
 ## Cookies
 The website itself does not use cookies to store information about users. No cookies are necessary for the users to interact with the website content. Third-party cookies by Google, controlled by Google AdSense service, can be collected for personalizing advertisements. These cookies are not directly related to the website functionality. These cookies can be used by Google LLC and its partners based on the visits of this website and other unrelated websites to serve personalized ads. Ads personal settings can be changed by the users at this link. Any ads placed on this website can be personalized according to the collected cookies from this or other websites. Further information and options about opting out the advertising cookies can be found at AboutAds.info.
