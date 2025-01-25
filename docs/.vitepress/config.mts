@@ -187,8 +187,8 @@ export default defineConfig({
     outline: 'deep',
 
     footer: {
-      message: 'All trademarks, service marks, and trade names of Microsoft, Mojang, and Minecraft used in the site are trademarks or registered trademarks of their respective owners.',
-      copyright: 'Copyright © 2024-2025 OpenM Project',
+      message: 'All trademarks, service marks, and trade names of Microsoft, Mojang, and Minecraft used in the site are trademarks or registered trademarks of their respective owners. We do not advocate piracy nor are an official Minecraft product. Not approved by or associated with Mojang or Microsoft or M Centers or any of the tools listed on this website!',
+      copyright: 'Copyright © 2024-${new Date().getFullYear()} OpenM Project',
     },
 
     docFooter: {
