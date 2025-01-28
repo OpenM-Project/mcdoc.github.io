@@ -105,10 +105,10 @@ Then, people started to notice that the paid version and the trial version was t
 
 ::: timeline 2024-12-01
 - **M Centers Server Discontinuation** ***again***
-  - Since M Centers was being offline commonly and almost all the time, he discontinued his Discord server without any other thought and kept M Centers alive in his website. Now, M Community is the only official place for support related to M Centers.
+  - Since MCenters was being offline almost all the time, he discontinued his Discord server without any other thought and kept M Centers alive in his website. Now, M Community is the only official place for support related to M Centers.
 :::
 
 ::: timeline 2025-01-07
-- **M Centers Website Discontinuation**
-  - M Centers was being
+- **M Centers Discontinuation**
+  - As time passed by, M Centers website, along with all other sources, have been removed by tinedpakgamer. Not just that, he no longer wants the title `MCenters` or `M Centers` to refer to this app. But, there are other places where you can find how to download it's archives.
 :::

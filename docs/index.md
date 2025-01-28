@@ -26,7 +26,7 @@ hero:
     alt: MCDOC
 features:
   - icon: 🔓
-    link: /windows/minecraft-for-windows
+    link: /bedrock/windows
     title: Unlockers
     details: Cross platform unlocker to unlock Minecraft. (Windows, Android, IOS, PS, Nintendo, Xbox)
   - icon: 🧩
@@ -35,7 +35,7 @@ features:
     details: Get addons, skinpacks, maps etc. for free
   - icon: 🔨
     link: /secretlol
-    title: Learn
+    title: Learn (WIP)
     details: Understand how does most of the cracks work
   - icon: 👥
     link: /miscellaneous#communitys
