@@ -49,5 +49,5 @@ Betacraft| [Website](https://betacraft.uk/) | [Github](https://github.com/betacr
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
-| ⭐ Codex-Ipsa | [Website](https://codex-ipsa.cz/mclauncher/) | [Github](https://github.com/Codex-Ipsa/CodexIpsa-Launcher) | Yes | An experimental Minecraft launcher, which is designed for playing older versions and different editions of the game
+| Codex-Ipsa | [Website](https://codex-ipsa.cz/mclauncher/) | [Github](https://github.com/Codex-Ipsa/CodexIpsa-Launcher) | Yes | (Doesn't support cracked) An experimental Minecraft launcher, which is designed for playing older versions and different editions of the game
 | OmniArchive | [Website](https://omniarchive.uk/) | - | Yes | (Not exactly a launcher, but) Provides downloads for older and lost media Java versions.
