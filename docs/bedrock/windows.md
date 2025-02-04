@@ -68,7 +68,6 @@ const myMethod = () => {
 
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
-⭐ M Centers|[Website](https://github.com/OpenM-Project/M-Centers-8.0/tree/patch-1/) / [Discord](https://dsc.gg/mcenters)|[GitHub](https://github.com/OpenM-Project/m-centers-archive/releases/latest/)|**Yes**|**Multiple Methods**
 ⭐ Max_RM's pre-cracked appx|[Telegram](https://t.me/MDLC_main) / [2](https://t.me/MPC_MCBE_UWP)|\-|**Yes**|**Cracked Appx**
 ⭐ online-fix\.me's Launcher|[Website](https://online-fix.me/games/sandbox/16708-minecraft-for-windows-10-po-seti.html)|\-|**Yes**|**I-MCM**
 ⭐ OptiCraft|[Website](https://optijuegos.github.io/)|\-|**Yes**|**Cracked Appx**
