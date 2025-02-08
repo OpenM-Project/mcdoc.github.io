@@ -4,15 +4,11 @@ title: How Minecraft for Windows is Cracked/Patched
 
 # {{ $frontmatter.title }}
 
-::: danger WIP
-This page is currently Work-In-Progress. The information here might be outdated, incorrect and cannot be understanded.
-:::
-
 ::: warning Note
 This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows 10/11.
 :::
 
-We usually unlock Minecraft using Third-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). These apps use different kinds of methods depending on how they are made. These methods are mentioned in the glossary on the same page. Let's now define all these methods and what they mean.
+We all unlock Minecraft using 3rd-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). Now you wonder, how do they work? Well, this page is for you! But before that, lets define what the methods these 3rd-Party Softwars use.
 
 ## Methods
 
@@ -21,21 +17,24 @@ A DLL (Dynamic Link Library) is like a toolkit shared by multiple workers (progr
 :::
 
 As in the glossary, you can see that:
-- **DLL Replacing** method replaces your own DLLs with cracked DLLs. This is completely permanent and might not be the correct solution if you want to go with "safer"
+- **DLL Replacing** method replaces the DLLs in your PC with cracked DLLs.
 - **DRC** method makes your game use cracked DLLs available in another directory in your computer using the [DLL search order](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order). [Temporary, Works only with Minecraft]
-- **DLL Auto Patch** method creates patched DLLs from your own DLLs and replaces the original ones with patched ones. This is much more efficient than DLL Replacing with Online Sources since sometimes online source might not have the specific one needed. We'll look into this later.
-- **DLL Hooking** method uses [**function hooking**](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html) and other debugging in-memory to modify the license checking functions within the game and/or other DLLs loaded within the game in memory. [Temporary, Works only with Minecraft]
+- **DLL Auto Patch** method creates patched DLLs from the DLLs in your PC and replaces them with the patched ones. This is much more efficient than DLL Replacing with Online Sources since sometimes online source might not have the specific one needed. We'll look into this later.
+- **DLL Hooking** method uses [**function hooking**](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html), and other debugging, in-memory to modify the license checking functions within the game and/or other DLLs loaded within the game in memory. [Temporary, Works only with Minecraft]
 - **DMM** method patches the DLLs within the game memory. [Temporary, Works only with Minecraft] 
 
-As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft). But these methods are different from **In-Memory Code Manipulation** and pre-cracked [**appx**](https://fileinfo.com/extension/appx). The way these 2 works is patching the license-checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.\
-Also, you can patch the game's code completely and pack it in a `.appx` and you can install it and then you don't need to do anything else. 
+As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft). But these methods are different from **In-Memory Code Manipulation** and pre-cracked [**appx**](https://fileinfo.com/extension/appx).\
+The way these 2 works is patching the license-checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.\
+Also, you can patch the game's code completely and pack it in a `.appx` library and you can install it so that you don't need to do anything else. 
 
-There is another method using [ClipSVC](#clipsvc), we will define that later.
+There is another method using [ClipSVC](#clipsvc), we will also talk about it later.
 
 ## How Minecraft works
 
-Minecraft for Windows uses `C:\Windows\System32\Windows.ApplicationModel.Store.dll` for its licensing system. It makes use of this DLL to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.\
-We crack `C:\Windows\System32\Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version. The crack can be done manually or by specific [Third Party Software](/bedrock/windows#unlockers-for-minecraft-for-windows).
+Minecraft for Windows uses `Windows.ApplicationModel.Store.dll` located in `C:\Windows\system32` (x64/64-bit) and `C:\Windows\SysWOW64` (x86\32-bit) for its licensing system. It makes use of these DLLs to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.\
+You can crack `Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version (This means, when Minecraft checks if the user has bought the game, it gives a specific value. Then, if the "bought the game" value is `false`, then IsTrial becomes `true`. But, rather than making it `true`, when we crack this dll, it makes it `false` so even if Minecraft App knows you havent paid, it will give the Full Version.). The crack can be done manually or by specific [Third Party Software](/bedrock/windows#unlockers-for-minecraft-for-windows).
+
+---
 
 ## How Minecraft for Windows is Cracked/Patched
 
@@ -68,9 +67,19 @@ Watch the video below to do it:
 
 ### ClipSVC
 
-**Tinedpakgamer** (founder of M Centers) discovered the first method to crack Minecraft using ClipSVC. But it turned out to be dangerous for your computer. It was used in M Centers 1.0 (aka Red M Centers), BlueSky Launcher, etc. But what is ClipSVC? 
+**[REDACTED1]** (founder of [REDACTED2]) discovered the first method to crack Minecraft using ClipSVC. But it turned out to be dangerous for your computer. It was used in [REDACTED2] 1.0 (aka Red [REDACTED2]), BlueSky Launcher, etc. But what is ClipSVC? 
 
 **`ClipSVC`**, or the Client License Service is a Windows service related to the Microsoft Store. It takes care of managing and protecting digital content from the Microsoft Store, like apps and games, to make sure they follow licensing rules and digital rights management (DRM). ClipSVC is used in the process of checking the license, so disabling it will break every single licensing system and no process related to it can be run. In meaning, you could force stop ClipSVC and get apps for free. But since it breaks Minecraft completely too, you will need to do other steps.\
 **Runtime Broker** makes sure Minecraft follows its licensing rules and security settings. Since this is there, you will have to End Task it at the correct time, which is when Minecraft buffers loading at 46%. And as I have said, this breaks Minecraft and MS Store, and it even could lead to system errors and crashes
+
+### Pre-Cracked APPX, I-MCM and DMM
+
+Now the doubt is about other types of cracking, how do they work? 
+
+**DMM** works the same way but rather than editing the DLL in Local Storage (Permenant), it edits in Memory (Temporary). As said, this can be done by 3rd-Party Softwares.\
+**I-MCM** works by rather than editing the DLL, it edits the `Minecraft.Windows.exe` file, in Memory, so that whenever it gets a value for IsTrial, it will always be accessed as `0` (false).\
+**Pre-Cracked APPX** is same as I-MCM, but this APPX is permenantly cracked and updates are impossible. (Btw, this might be wrong, but this is the way that I think is correct)
+
+---
 
 **And that's all! You have learned how it works, and later on, I might plan to add new things to this page!**
