@@ -594,32 +594,32 @@ packages:
   '@nolebase/ui@2.13.0':
     resolution: {integrity: sha512-vPguv4Tt/Ngsafo6usMBbQ2pLWmqeY9wSWT03WirhHq8Peo9yeCCV8NtnT9Ppt4msZ2qWFOYUtzIG4DdlPgSDQ==}
     peerDependencies:
-      vitepress: ^1.5.0 || ^v2.0.0-alpha.1
+      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-enhanced-readabilities@2.13.0':
     resolution: {integrity: sha512-qh/iph9HhUZTHdfjn6wh9ewv1fMyw6V+BE6h5pxdpOJCuBNfCyXsn3XGhX5UWArPOHXIxuLgAurqTw/hPFXaug==}
     peerDependencies:
-      vitepress: ^1.5.0 || ^v2.0.0-alpha.1
+      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-git-changelog@2.13.0':
     resolution: {integrity: sha512-Nx74BbsG4JMX8v+M9bas0jEY06gIw4bfERNfwdiUJ82AeNVJOC0piYcPCS6chgsowm+rScet/3DwRsCFHm9Ktg==}
     peerDependencies:
-      vitepress: ^1.5.0 || ^v2.0.0-alpha.1
+      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-highlight-targeted-heading@2.13.0':
     resolution: {integrity: sha512-kRZmOsokOBj+P2FtcMfPRNb7yxaqWvrHP9xb1pUvoOWDHCAUVfxzUBrlp2cuoRq0d0PiU7UPYWj9EthWLSmwjg==}
     peerDependencies:
-      vitepress: ^1.5.0 || ^v2.0.0-alpha.1
+      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-inline-link-preview@2.13.0':
     resolution: {integrity: sha512-WuMYdK9uRPn4QvfJMoKQQRq7/jrl8bcLvPopBZjpTLtqBNvFNrUPbylKEFBn9rABwQFrcNAIqMkvgliG8bLkxw==}
     peerDependencies:
-      vitepress: ^1.5.0 || ^v2.0.0-alpha.1
+      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-page-properties@2.13.0':
     resolution: {integrity: sha512-FltR0EInuOSrhFwk8jP5RJqSHdulN5E8PScheb2npJ5z0n/bfu2Sz87oc1dMVC6lbYUjAl81Jq/71sXsHCsLSg==}
     peerDependencies:
-      vitepress: ^1.5.0 || ^v2.0.0-alpha.1
+      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
 
   '@parcel/watcher-android-arm64@2.5.1':
     resolution: {integrity: sha512-KF8+j9nNbUN8vzOFDpRMsaKBHZ/mcjEjMToVMJOhTozkDonQFFrRcfdLWn6yWKCmJKmdVxSgHiYvTCef4/qcBA==}
