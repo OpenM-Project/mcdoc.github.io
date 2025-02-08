@@ -16,7 +16,7 @@
     "sass": "^1.84.0",
     "stylus": "^0.63.0",
     "tailwindcss": "^3.4.17",
-    "vite": "6.1.0",
+    "vite": "^6.1.0",
     "vitepress": "1.6.3",
     "vitepress-markdown-timeline": "^1.2.2",
     "vitepress-plugin-comment-with-giscus": "^1.1.15",
