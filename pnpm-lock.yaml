@@ -79,7 +79,7 @@ importers:
         specifier: ^6.1.0
         version: 6.1.0(@types/node@18.19.50)(jiti@1.21.7)(less@4.2.2)(sass@1.84.0)(stylus@0.63.0)(terser@5.31.3)(yaml@2.7.0)
       vitepress:
-        specifier: ^1.6.3
+        specifier: 1.6.3
         version: 1.6.3(@algolia/client-search@5.20.1)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(less@4.2.2)(postcss@8.5.1)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.84.0)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)(typescript@5.7.3)
       vitepress-markdown-timeline:
         specifier: ^1.2.2
@@ -594,32 +594,32 @@ packages:
   '@nolebase/ui@2.13.0':
     resolution: {integrity: sha512-vPguv4Tt/Ngsafo6usMBbQ2pLWmqeY9wSWT03WirhHq8Peo9yeCCV8NtnT9Ppt4msZ2qWFOYUtzIG4DdlPgSDQ==}
     peerDependencies:
-      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
+      vitepress: 1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-enhanced-readabilities@2.13.0':
     resolution: {integrity: sha512-qh/iph9HhUZTHdfjn6wh9ewv1fMyw6V+BE6h5pxdpOJCuBNfCyXsn3XGhX5UWArPOHXIxuLgAurqTw/hPFXaug==}
     peerDependencies:
-      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
+      vitepress: 1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-git-changelog@2.13.0':
     resolution: {integrity: sha512-Nx74BbsG4JMX8v+M9bas0jEY06gIw4bfERNfwdiUJ82AeNVJOC0piYcPCS6chgsowm+rScet/3DwRsCFHm9Ktg==}
     peerDependencies:
-      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
+      vitepress: 1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-highlight-targeted-heading@2.13.0':
     resolution: {integrity: sha512-kRZmOsokOBj+P2FtcMfPRNb7yxaqWvrHP9xb1pUvoOWDHCAUVfxzUBrlp2cuoRq0d0PiU7UPYWj9EthWLSmwjg==}
     peerDependencies:
-      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
+      vitepress: 1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-inline-link-preview@2.13.0':
     resolution: {integrity: sha512-WuMYdK9uRPn4QvfJMoKQQRq7/jrl8bcLvPopBZjpTLtqBNvFNrUPbylKEFBn9rABwQFrcNAIqMkvgliG8bLkxw==}
     peerDependencies:
-      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
+      vitepress: 1.6.3 || ^v2.0.0-alpha.1
 
   '@nolebase/vitepress-plugin-page-properties@2.13.0':
     resolution: {integrity: sha512-FltR0EInuOSrhFwk8jP5RJqSHdulN5E8PScheb2npJ5z0n/bfu2Sz87oc1dMVC6lbYUjAl81Jq/71sXsHCsLSg==}
     peerDependencies:
-      vitepress: ^1.6.3 || ^v2.0.0-alpha.1
+      vitepress: 1.6.3 || ^v2.0.0-alpha.1
 
   '@parcel/watcher-android-arm64@2.5.1':
     resolution: {integrity: sha512-KF8+j9nNbUN8vzOFDpRMsaKBHZ/mcjEjMToVMJOhTozkDonQFFrRcfdLWn6yWKCmJKmdVxSgHiYvTCef4/qcBA==}
