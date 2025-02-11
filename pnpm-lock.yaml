@@ -79,7 +79,7 @@ importers:
         specifier: ^6.1.0
         version: 6.1.0(@types/node@18.19.50)(jiti@1.21.7)(less@4.2.2)(sass@1.84.0)(stylus@0.63.0)(terser@5.31.3)(yaml@2.7.0)
       vitepress:
-        specifier: 1.6.3
+        specifier: ^1.6.3
         version: 1.6.3(@algolia/client-search@5.20.1)(@types/node@18.19.50)(@types/react@18.3.5)(async-validator@4.2.5)(less@4.2.2)(postcss@8.5.1)(qrcode@1.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.84.0)(search-insights@2.15.0)(stylus@0.63.0)(terser@5.31.3)(typescript@5.7.3)
       vitepress-markdown-timeline:
         specifier: ^1.2.2
