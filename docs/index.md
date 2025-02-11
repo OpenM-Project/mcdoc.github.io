@@ -34,8 +34,8 @@ features:
     link: /marketplace
     details: Get addons, skinpacks, maps etc. for free
   - icon: 🔨
-    link: /secretlol
-    title: Learn (WIP)
+    link: /learn
+    title: Learn
     details: Understand how does most of the cracks work
   - icon: 👥
     link: /miscellaneous#communitys
