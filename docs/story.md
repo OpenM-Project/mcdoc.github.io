@@ -11,6 +11,8 @@ The detailed story of cracking Minecraft.
 When Minecraft was released, people started to look for ways to play the game for free *(as usual)*. The game had a trial version which was limited and you could only play for 60 minutes in a world.
 
 Then, people started to notice that the paid version and the trial version was the exact same app! So, efforts started to try to unlock the game, and here we are today.
+
+( [REDACTED1] is a developer, and [REDACTED2] is his project. We are requested to remove both these names so I will be reffering them as like this. )
 </div>
 
 ## The Beginning, [REDACTED2] & online-fix.me

@@ -84,17 +84,14 @@ export default defineConfig({
     logo: '/favicon.ico',
     siteTitle: 'MCDOC',
     nav: [
-        { text: 'Downloads', link: '/download' },
-        { text: 'Story', link: '/story'},
-        { text: 'Miscellaneous', link: '/miscellaneous' },
         { text: 'Marketplace', link: '/marketplace' },
+        { text: 'Miscellaneous', link: '/miscellaneous' },
         { text: 'OpenM Project', link: 'https://project.openm.tech' },
         { text: 'Guides',
           items: [
             { text: 'Windows',
               items: [
-                { text: 'Unban Your Account', link: '/guides/unban-your-account' },
-                { text: 'How To: M Centers', link: '/guides/use-m-centers' }
+                { text: 'Unban Your Account', link: '/guides/unban-your-account' }
               ]
             }
           ]
@@ -158,6 +155,14 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Minecraft Dungeons',
+        collapsed: 'false',
+        items: [
+          { text: 'Windows', link: '/dungeons/windows' },
+          { text: 'Android', link: '/dungeons/android'}
+        ]
+      },
+      {
         text: 'Story Mode',
         link: '/story-mode',
       },
@@ -169,15 +174,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Education', link: '/other/windows/education' },
-              { text: 'Legends', link: '/other/windows/legends' },
-              { text: 'Dungeons', link: '/other/windows/dungeons' },
+              { text: 'Legends', link: '/other/windows/legends' },,
               { text: 'China', link: '/other/windows/china' },
-            ]
-          },
-          { text: 'Android',
-            collapsed: true,
-            items: [
-              { text: 'Miscellaneous', link: '/other/android/miscellaneous' },
             ]
           }
         ]
