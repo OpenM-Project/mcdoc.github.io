@@ -61,7 +61,7 @@ We crack Minecraft by modifying the returned value of the IsTrial boolean proper
 
 Watch the video below to do it:
 
-<iframe width="420" height="315" src="https://youtube.com/embed/h2W6vzLN8Fg"></iframe> 
+<xgplayer url="https://dl.openm.tech/learn/dll-assembly.mp4"/>
 
 ## Extra Methods
 
