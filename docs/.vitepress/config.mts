@@ -105,7 +105,16 @@ export default defineConfig({
         }
         ],
 
-    sidebar: [      
+    sidebar: [
+      {
+        text: 'Story',
+        link: '/story',
+
+      },
+      {
+        text: 'Downloads',
+        link: '/download'
+      },      
       {
         text: 'Bedrock Edition',
         link: '/bedrock',
@@ -156,7 +165,7 @@ export default defineConfig({
       },
       {
         text: 'Minecraft Dungeons',
-        collapsed: 'false',
+        collapsed: false,
         items: [
           { text: 'Windows', link: '/dungeons/windows' },
           { text: 'Android', link: '/dungeons/android'}
