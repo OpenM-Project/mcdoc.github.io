@@ -107,13 +107,16 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Story',
-        link: '/story',
-
+        text: '❇️ Downloads',
+        link: '/download'
       },
       {
-        text: 'Downloads',
-        link: '/download'
+        text: '📖 Story',
+        link: '/story'
+      },
+      {
+        text: '🔨 Learn',
+        link: '/learn'
       },      
       {
         text: 'Bedrock Edition',
@@ -172,21 +175,13 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Story Mode',
-        link: '/story-mode',
-      },
-      {
         text: 'Other',
         collapsed: false,
         items: [
-          { text: 'Windows',
-            collapsed: true,
-            items: [
               { text: 'Education', link: '/other/windows/education' },
               { text: 'Legends', link: '/other/windows/legends' },,
               { text: 'China', link: '/other/windows/china' },
-            ]
-          }
+              { text: 'Story Mode', link: '/story-mode'}
         ]
       },
     ],

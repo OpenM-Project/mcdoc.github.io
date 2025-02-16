@@ -8,7 +8,7 @@ title: How Minecraft for Windows is Cracked/Patched
 This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows 10/11.
 :::
 
-We all unlock Minecraft using 3rd-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). Now you wonder, how do they work? Well, this page is for you! But before that, lets define what the methods these 3rd-Party Softwars use.
+We all unlock Minecraft using 3rd-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). If you wonder how they work, this page is just for you! But before that, lets define the methods these 3rd-Party Softwars use.
 
 ## Methods
 
@@ -23,36 +23,35 @@ As in the glossary, you can see that:
 - **DLL Hooking** method uses [**function hooking**](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html), and other debugging, in-memory to modify the license checking functions within the game and/or other DLLs loaded within the game in memory. [Temporary, Works only with Minecraft]
 - **DMM** method patches the DLLs within the game memory. [Temporary, Works only with Minecraft] 
 
-As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft). But these methods are different from **In-Memory Code Manipulation** and pre-cracked [**appx**](https://fileinfo.com/extension/appx).\
-The way these 2 works is patching the license-checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.\
+As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft). But these methods are different from **In-Memory Code Manipulation** and pre-cracked [**appx**](https://fileinfo.com/extension/appx).
+
+The way these 2 works is patching the license-checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.
+
 Also, you can patch the game's code completely and pack it in a `.appx` library and you can install it so that you don't need to do anything else. 
 
 There is another method using [ClipSVC](#clipsvc), we will also talk about it later.
 
 ## How Minecraft works
 
-Minecraft for Windows uses `Windows.ApplicationModel.Store.dll` located in `C:\Windows\system32` (x64/64-bit) and `C:\Windows\SysWOW64` (x86\32-bit) for its licensing system. It makes use of these DLLs to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.\
-You can crack `Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version (This means, when Minecraft checks if the user has bought the game, it gives a specific value. Then, if the "bought the game" value is `false`, then IsTrial becomes `true`. But, rather than making it `true`, when we crack this dll, it makes it `false` so even if Minecraft App knows you havent paid, it will give the Full Version.). The crack can be done manually or by specific [Third Party Software](/bedrock/windows#unlockers-for-minecraft-for-windows).
+Minecraft for Windows uses `Windows.ApplicationModel.Store.dll` located in `C:\Windows\system32` (x64/64-bit) and `C:\Windows\SysWOW64` (x86\32-bit) for its licensing system. It makes use of these DLLs to perform in-app purchases and licensing-related tasks like identifying if the user bought the game or has acquired trial.
 
----
+You can crack `Windows.ApplicationModel.Store.dll` to modify the returned value of the trial function and Minecraft starts working in its full version (This means, when Minecraft checks if the user has bought the game, it gives a specific value. Then, if the "bought the game" value is `false`, then IsTrial becomes `true`. But, rather than making it `true`, when we crack this dll, it makes it `false` so even if Minecraft App knows you havent paid, it will give the Full Version.). The crack can be done manually or by specific [Third Party Software](/bedrock/windows#unlockers-for-minecraft-for-windows).
 
 ## How Minecraft for Windows is Cracked/Patched
 
-To understand deeply about the DLL that gets replaced with the original DLL, you will have to know about the licensing process. The licensing process is different depending on the Minecraft version you have
+To understand deeply about the DLL that gets replaced with the original DLL, you will have to know about the licensing process. The licensing process is different depending on the Minecraft version you have.
 
-### Newer Versions
-Newer Versions of Minecraft use the boolean property [Windows.Services.Store.StoreAppLicense.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. The returned value of this function depends on whether you bought Minecraft or not. Its value is affected if you have multiple accounts on a PC or you have attached 10 PCs per account. In case of any issue with licensing limits, it returns true, this means Minecraft will run in trial mode
+| Newer Versions | Initial Versions |
+| -------------- | ---------------- |
+| Newer Versions of Minecraft use the boolean property [Windows.Services.Store.StoreAppLicense.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. The returned value of this function depends on whether you bought Minecraft or not. Its value is affected if you have multiple accounts on a PC or you have attached 10 PCs per account. In case of any issue with licensing limits, it returns true, this means Minecraft will run in trial mode. | Initial Versions of Minecraft use the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoftDLLm/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. Like Windows.Services.Store.StoreAppLicense.isTrial, its value is also affected by factors like accounts and PCs and if the user exceeds any limit then Minecraft runs in trial mode. |
 
-### Initial Versions
-Initial Versions of Minecraft use the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoftDLLm/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. Like Windows.Services.Store.StoreAppLicense.isTrial, its value is also affected by factors like accounts and PCs and if the user exceeds any limit then Minecraft runs in trial mode.
-
-::: tip Tip
+::: tip TIP
 For more information about how Minecraft works, visit https://learn.microsoft.com/en-us/uwp/api/windows.services.store and https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store
 :::
 
 ## Cracking/Patching
 
-::: tip Required Tools & Knowledge
+::: tip REQUIREMENTS
 - You might need to know about [Assembly](https://www.tutorialspoint.com/assembly_programming/) before reading this, or your brain might explode.
 - Disassembler - [Interactive Dissassebler](https://en.wikipedia.org/wiki/Interactive_Disassembler).
 :::
@@ -76,9 +75,9 @@ Watch the video below to do it:
 
 Now the doubt is about other types of cracking, how do they work? 
 
-**DMM** works the same way but rather than editing the DLL in Local Storage (Permenant), it edits in Memory (Temporary). As said, this can be done by 3rd-Party Softwares.\
-**I-MCM** works by rather than editing the DLL, it edits the `Minecraft.Windows.exe` file, in Memory, so that whenever it gets a value for IsTrial, it will always be accessed as `0` (false).\
-**Pre-Cracked APPX** is same as I-MCM, but this APPX is permenantly cracked and updates are impossible. (Btw, this might be wrong, but this is the way that I think is correct)
+- **DMM** works the same way but rather than editing the DLL in Local Storage (Permenant), it edits in Memory (Temporary). As said, this can be done by 3rd-Party Softwares.
+- **I-MCM** works by rather than editing the DLL, it edits the `Minecraft.Windows.exe` file, in Memory, so that whenever it gets a value for IsTrial, it will always be accessed as `0` (false).
+- **Pre-Cracked APPX** is same as I-MCM, but this APPX is permenantly cracked and updates are impossible. (Btw, this might be wrong, but this is the way that I think is correct)
 
 ---
 
