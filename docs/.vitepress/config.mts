@@ -107,15 +107,15 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '<span class="i-twemoji:sparkle"></span> Downloads',
+        text: '❇️ Downloads',
         link: '/download'
       },
       {
-        text: '<span class="i-twemoji:open-book"></span> Story',
+        text: '📖 Story',
         link: '/story'
       },
       {
-        text: '<span class="i-twemoji:hammer"></span> Learn',
+        text: '🔨 Learn',
         link: '/learn'
       },      
       {
