@@ -5,7 +5,7 @@ title: How Minecraft for Windows is Cracked/Patched
 # How Minecraft for Windows is Cracked/Patched
 
 ::: warning Note
-This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows 10/11.
+This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows.
 :::
 
 We all unlock Minecraft using 3rd-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). If you wonder how they work, this page is just for you! But before that, lets define the methods these 3rd-Party Softwars use.
@@ -43,7 +43,7 @@ To understand deeply about the DLL that gets replaced with the original DLL, you
 
 | Newer Versions | Initial Versions |
 | -------------- | ---------------- |
-| Newer Versions of Minecraft use the boolean property [Windows.Services.Store.StoreAppLicense.isTrial](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. The returned value of this function depends on whether you bought Minecraft or not. Its value is affected if you have multiple accounts on a PC or you have attached 10 PCs per account. In case of any issue with licensing limits, it returns true, this means Minecraft will run in trial mode. | Initial Versions of Minecraft use the boolean property [Windows.ApplicationModel.Store.LicenseInformation.isTrial](https://learn.microsoftDLLm/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. Like Windows.Services.Store.StoreAppLicense.isTrial, its value is also affected by factors like accounts and PCs and if the user exceeds any limit then Minecraft runs in trial mode. |
+| Newer Versions of Minecraft use the boolean property [`Windows.Services.Store.StoreAppLicense.isTrial`](https://learn.microsoft.com/en-us/uwp/api/windows.services.store.storeapplicense.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. The returned value of this function depends on whether you bought Minecraft or not. Its value is affected if you have multiple accounts on a PC or you have attached 10 PCs per account. In case of any issue with licensing limits, it returns true, this means Minecraft will run in trial mode. | Initial Versions of Minecraft use the boolean property [`Windows.ApplicationModel.Store.LicenseInformation.isTrial`](https://learn.microsoftDLLm/en-us/uwp/api/windows.applicationmodel.store.licenseinformation.istrial) from `Windows.ApplicationModel.Store.dll` to check if the user is licensed to use all features of Minecraft or just trial only features. Like `Windows.Services.Store.StoreAppLicense.isTrial`, its value is also affected by factors like accounts and PCs and if the user exceeds any limit then Minecraft runs in trial mode. |
 
 ::: tip TIP
 For more information about how Minecraft works, visit https://learn.microsoft.com/en-us/uwp/api/windows.services.store and https://learn.microsoft.com/en-us/uwp/api/windows.applicationmodel.store
