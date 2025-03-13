@@ -173,7 +173,7 @@ export default defineConfig({
       },
       {
         text: 'Other',
-        collapsed: false,
+        collapsed: true,
         items: [
               { text: 'Education', link: '/other/windows/education' },
               { text: 'Legends', link: '/other/windows/legends' },,
