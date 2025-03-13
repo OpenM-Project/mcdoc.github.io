@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
-import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
@@ -27,7 +26,6 @@ export default defineConfig({
 
   sitemap: {
     hostname: 'https://openm.tech',
-    lastmodDateOnly: false
   },
 
   title: "MCDOC",
@@ -35,7 +33,6 @@ export default defineConfig({
   description: "An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.",
   base: '/',
   cleanUrls:true,
-  srcExclude: ['/node_modules/'],
   appearance:'dark',
   head: [
           ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -237,7 +234,6 @@ export default defineConfig({
       md.use(timeline as any);
       md.use(BiDirectionalLinks() as any);
       md.use(InlineLinkPreviewElementTransform as any);
-      md.use(tabsMarkdownPlugin as any);
     },
 
     image: {

@@ -41,18 +41,5 @@ export default defineConfig(() => {
         }
       }
     },
-    build: {
-      chunkSizeWarningLimit: 100000000,
-      rollupOptions: {
-        output: {
-          assetFileNames: (assetInfo) => {
-            if (assetInfo.name.endsWith('.css')) {
-              return `assets/css/[name][extname]`
-            }
-            return `assets/[name][extname]`
-          }
-        }
-      },
-    },
   }
 })

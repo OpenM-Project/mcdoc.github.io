@@ -7,7 +7,6 @@ import './style/tailwind.css'
 import 'viewerjs/dist/viewer.min.css';
 import imageViewer from 'vitepress-plugin-image-viewer';
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
-import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
@@ -51,7 +50,6 @@ export default {
     app.use(NolebaseInlineLinkPreviewPlugin)
     app.use(NolebaseGitChangelogPlugin, {})
     app.use(autoAnimatePlugin)
-    enhanceAppWithTabs(app)
     vitepressBackToTop({
       threshold:300
     })

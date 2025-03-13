@@ -2,6 +2,7 @@
 .vitepress/cache/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+docs/.vitepress/.temp/
 .vitepress/dist/
 
 # VSCode
