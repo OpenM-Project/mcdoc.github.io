@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
-    "pnpm": "^10.6.2",
     "viewerjs": "^1.11.7",
     "vitepress-plugin-back-to-top": "^1.0.1",
     "vitepress-plugin-image-viewer": "^1.1.6",
