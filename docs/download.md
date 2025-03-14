@@ -3,9 +3,8 @@ title: Download Page
 ---
 
 <div class="flex flex-col items-center justify-center p-6" style="background-color: var(--vp-c-default-4);">
-  <h1 class="text-4xl font-bold mb-3 text-white">Download Minecraft</h1>
+  <h1>Download Minecraft</h1>
   <p class="text-[var(--vp-c-text-dark-1)] mb-4">Choose your platform to get started!</p>
-
   <div class="flex space-x-4 mb-6">
     <a :href="officialLink" @click="myMethod" target="_blank" class="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-neutral-950 py-1 pl-6 pr-14 font-medium text-white">
       <span class="z-10 pr-2 text-white">Official Minecraft</span>
@@ -29,23 +28,13 @@ title: Download Page
     </a>
   </div>
 
-  <div class="mb-6">
+  <div>
     <label for="platform-select" class="text-[var(--vp-c-text-dark-1)] mb-2">Select Platform: </label>
-    <select id="platform-select" class="bg-gray-800 text-white rounded-md p-2" @change="selectPlatform($event.target.value)">
-      <option value="" disabled selected>Select your platform</option>
+    <select id="platform-select" class="bg-gray-800 text-white rounded-md p-2" @change="selectPlatform($event.target.value)" :value="selectedPlatform">
       <option value="Windows">Windows</option>
       <option value="Android">Android</option>
       <option value="iOS">iOS</option>
     </select>
-  </div>
-
-  <div class="text-center mb-6">
-    <h2 class="text-[var(--vp-c-text-dark-1)]">Minecraft</h2>
-    <p class="text-[var(--vp-c-text-dark-1)]">Mojang</p>
-    <p class="text-[var(--vp-c-text-dark-1)]">In-app purchases</p>
-    <p class="text-[var(--vp-c-text-dark-1)]">4.4 ⭐ (5.19 M reviews)</p>
-    <p class="text-[var(--vp-c-text-dark-1)]">50 M+ downloads</p>
-    <p class="text-[var(--vp-c-text-dark-1)]">Content rating: PEGI 7</p>
   </div>
 
   <div class="mb-6">
@@ -76,6 +65,9 @@ title: Download Page
 
 <script setup>
 import { ref, onMounted } from 'vue';
+import * as pkg from "vue-toastification"
+const { useToast } = pkg
+const toast = useToast();  // Create toast instance
 
 const officialLink = ref('ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ');
 const crackedLink = ref(' https://github.com/M-Community-Dev/Downloads/');
@@ -89,7 +81,7 @@ const selectPlatform = (platform) => {
       break;
     case 'Android':
       officialLink.value = 'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe';
-      crackedLink.value = 'https://misike12.github.io/modscraft_mcpe_apk-archive/';
+      crackedLink.value = 'https://run4r-ses.github.io/modscraft_mcpe_apk/';
       break;
     case 'iOS':
       officialLink.value = 'https://apps.apple.com/app/minecraft/id479516143';
@@ -110,7 +102,16 @@ const detectPlatform = () => {
     selectedPlatform.value = 'iOS';
   } else {
     selectedPlatform.value = '';
-  }
+    console.log('Unable to detect user agent')
+    
+    toast("Unable to detect platform! Please select it yourself!", {
+      timeout: 4000,
+      pauseOnFocusLoss: false,
+      draggablePercent: 0.6,
+      showCloseButtonOnHover: true,
+      closeButton: "button"
+    });
+  };
   selectPlatform(selectedPlatform.value);
 };
 

@@ -183,7 +183,7 @@ export default defineConfig({
       },
     ],
 
-    outline: 'deep',
+    outline: '1, 6',
 
     footer: {
       message: `All trademarks, service marks, and trade names of Microsoft, Mojang, and Minecraft used in the site are trademarks or registered trademarks of their respective owners.`,

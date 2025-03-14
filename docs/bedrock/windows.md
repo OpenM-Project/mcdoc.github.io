@@ -10,11 +10,9 @@ title: Minecraft for Windows
 import * as pkg from "vue-toastification"
 const { useToast } = pkg
 
-// Get toast interface
 const toast = useToast();
 
 const myMethod = () => {
-  // Since you returned `toast` from setup(), you can access it now
   toast("Microsoft Store successfully opened!", {
     timeout: 4000,
     pauseOnFocusLoss: false,
