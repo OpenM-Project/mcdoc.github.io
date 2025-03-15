@@ -74,6 +74,7 @@ const crackedLink = ref(' https://github.com/M-Community-Dev/Downloads/');
 const selectedPlatform = ref('');
 
 const selectPlatform = (platform) => {
+  selectedPlatform.value = platform;
   switch (platform) {
     case 'Windows':
       officialLink.value = 'ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ';
