@@ -12,9 +12,6 @@ hero:
     - theme: brand
       text: Browse
       link: /browse/
-    - theme: brand
-      text: Story
-      link: /story/
     - theme: alt
       text: Downloads
       link: /download/

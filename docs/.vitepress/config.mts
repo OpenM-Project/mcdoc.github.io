@@ -33,6 +33,7 @@ export default defineConfig({
   description: "An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.",
   base: '/',
   cleanUrls:true,
+  srcExclude: ['story.md'],
   appearance:'dark',
   head: [
           ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -107,10 +108,10 @@ export default defineConfig({
         text: '❇️ Downloads',
         link: '/download'
       },
-      {
+      /**{
         text: '📖 Story',
         link: '/story'
-      },
+      },**/
       {
         text: '🔨 Learn',
         link: '/learn'
