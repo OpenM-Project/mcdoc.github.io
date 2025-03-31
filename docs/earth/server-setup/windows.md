@@ -7,7 +7,7 @@ title: Minecraft Earth
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
 Vienna|[GitHub](https://github.com/Project-Genoa/Vienna/archive/refs/heads/master.zip)|[GitHub](https://github.com/Project-Genoa/Vienna)|No|Project Earth Api
-Project Earth Setup|[PixelDrain](https://pixeldrain.com/u/qyCBJNWu)|[WayBack Machine](https://web.archive.org/web/20240410175602/https://github.com/BitcoderCZ/ProjectEarthLauncher)|Maybe|A noob-friendly tool for setting up Project Earth
+Project Earth Setup|[PixelDrain](https://pixeldrain.com/u/qyCBJNWu)|[WayBack Machine](https://web.archive.org/web/20240410175602/https://github.com/BitcoderCZ/ProjectEarthLauncher)|No|A noob-friendly tool for setting up Project Earth
 ProjectEarthApi|[GitHub](https://github.com/BitcoderCZ/ProjectEarthApi/archive/refs/heads/master.zip)|[GitHub](https://github.com/BitcoderCZ/ProjectEarthApi)|No|Project Earth Api
 TileServer|[GitHub](https://github.com/BitcoderCZ/TileServer/archive/refs/heads/master.zip)|[GitHub](https://github.com/BitcoderCZ/TileServer)|No|Tileserver for Project Earth
 Project Earth Patches|[GitHub](https://github.com/Project-Genoa/patches/archive/refs/heads/master.zip)|[GitHub](https://github.com/Project-Genoa/patches)|No|Patches for Project Earth Patcher
