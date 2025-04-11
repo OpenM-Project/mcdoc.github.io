@@ -17,6 +17,7 @@ title: Marketplace Piracy
 ### Precracked Content
 
 * [DLC Archive](https://t.me/Be_marketplace)
+* [MinecraftRequest](https://t.me/MinecraftRequest)
 
 ## Secret/Unlisted Products on Minecraft Marketplace
 

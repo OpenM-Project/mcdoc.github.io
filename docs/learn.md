@@ -8,7 +8,7 @@ title: How Minecraft for Windows is Cracked/Patched
 This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows.
 :::
 
-We all unlock Minecraft using 3rd-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). If you wonder how they work, this page is just for you! But before that, lets define the methods these 3rd-Party Softwars use.
+We all unlock Minecraft using 3rd-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). If your wondering how they work, this page is just for you! But before that, lets define the methods these 3rd-Party Softwars use.
 
 ## Methods
 
@@ -23,9 +23,9 @@ As in the glossary, you can see that:
 - **DLL Hooking** method uses [**function hooking**](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html), and other debugging, in-memory to modify the license checking functions within the game and/or other DLLs loaded within the game in memory. [Temporary, Works only with Minecraft]
 - **DMM** method patches the DLLs within the game memory. [Temporary, Works only with Minecraft] 
 
-As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft). But these methods are different from **In-Memory Code Manipulation** and pre-cracked [**appx**](https://fileinfo.com/extension/appx).
+As you have read, DRC, DMM, and DLL Hooking runs and changes in-memory/RAM. This means, the changes are done in the game's process leading it to be temporary (requiring for activating license checking work for Minecraft). But these methods are different from **In-Memory Code Manipulation** and pre-cracked [**appx**](https://fileinfo.com/extension/appx).
 
-The way these 2 works is patching the license-checking code with in the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.
+The way these two work is by patching the license-checking code within the game. (in meaning, it removes the code where Minecraft checks for license). **I-MCM** patches the license checking code within the game's memory, making it temporary. The main difference between I-MCM and DMM is that I-MCM can run while Minecraft is open but can't with DMM.
 
 Also, you can patch the game's code completely and pack it in a `.appx` library and you can install it so that you don't need to do anything else. 
 
@@ -62,17 +62,16 @@ We crack Minecraft by modifying the returned value of the IsTrial boolean proper
 
 <xgplayer url="https://dl.openm.tech/learn/dll-assembly.mp4"/>
 
-The above video shows how to create the DLLs for cracking Minecraft. You can use applications like IOBit Unlocker to replace the original DLLs to the cracked DLLs or you can use [REDACTED2] 5.0 to do it for you.
-
+The above video shows how to create the DLLs for cracking Minecraft. You can use applications like IOBit Unlocker to replace the original DLLs to the cracked DLLs.
 ## Extra Methods
 
 ### ClipSVC
 
-**[REDACTED1]** (founder of [REDACTED2]) discovered the first method to crack Minecraft using ClipSVC. But it turned out to be dangerous for your computer. It was used in [REDACTED2] 1.0 (aka Red [REDACTED2]), BlueSky Launcher, etc. But what is ClipSVC? 
+ClipSVC was used in BlueSky Launcher, and more. But what is ClipSVC? 
 
 **`ClipSVC`**, or the Client License Service is a Windows service related to the Microsoft Store. It takes care of managing and protecting digital content from the Microsoft Store, like apps and games, to make sure they follow licensing rules and digital rights management (DRM). ClipSVC is used in the process of checking the license, so disabling it will break every single licensing system and no process related to it can be run. In meaning, you could force stop ClipSVC and get apps for free. But since it breaks Minecraft completely too, you will need to do other steps.
 
-**Runtime Broker** makes sure Minecraft follows its licensing rules and security settings. Since this is there, you will have to End Task it at the correct time, which is when Minecraft buffers loading at 46%. And as I have said, this breaks Minecraft and MS Store, and it even could lead to system errors and crashes
+**Runtime Broker** makes sure Minecraft follows its licensing rules and security settings. Since it's present, you will have to End Task it at an exact time, that is, when Minecraft buffers loading at 46%. And as I have said, this breaks Minecraft and MS Store, and it even could lead to system errors and crashes.
 
 ### Pre-Cracked APPX, I-MCM and DMM
 

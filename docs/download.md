@@ -78,7 +78,7 @@ const selectPlatform = (platform) => {
   switch (platform) {
     case 'Windows':
       officialLink.value = 'ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ';
-      crackedLink.value = ' https://github.com/M-Community-Dev/Downloads/';
+      crackedLink.value = ' https://t.me/MPC_MCBE_UWP';
       break;
     case 'Android':
       officialLink.value = 'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe';
