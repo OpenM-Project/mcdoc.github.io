@@ -20,11 +20,11 @@ Any advice, tips, and information published on this website are based on persona
 All original materials on this website are free to use under CC0 licence. The original materials are all files in sections Videos, Images, Sounds, Music and most of the materials used in section Articles. The only exception is imagery in certain posts at the Articles section obtained from existing works under the Fair Use principle. The author of this website does not own the copyright of such materials and any further usage must be carried out according to the original author's guidelines. This website does not intentionally break any copyright rules, follows DMCA statement, and the ownership of the original materials is respected and well referenced.
 
 ### Contact Information
-If you have any questions about our use of cookies or other technologies, please email us at privacy@openm.tech.
+If you have any questions about our use of cookies or other technologies, please email us at privacy@mcdoc.site.
 
 ## Contact Us
 If you have questions or comments about this policy, you may contact us at:
-- Email: privacy@openm.tech
+- Email: privacy@mcdoc.site
 
 ## Changes to This Privacy Policy
 We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page. You are advised to review this privacy policy periodically for any changes.

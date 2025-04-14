@@ -60,7 +60,7 @@ For more information about how Minecraft works, visit https://learn.microsoft.co
 
 We crack Minecraft by modifying the returned value of the IsTrial boolean property. This is done by editing the related function at assembly level to make it replace the isTrial value with false(`0`) whenever Minecraft tries to access the property.
 
-<xgplayer url="https://dl.openm.tech/learn/dll-assembly.mp4"/>
+<xgplayer url="https://dl.mcdoc.site/learn/dll-assembly.mp4"/>
 
 The above video shows how to create the DLLs for cracking Minecraft. You can use applications like IOBit Unlocker to replace the original DLLs to the cracked DLLs.
 ## Extra Methods

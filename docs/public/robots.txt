@@ -33,4 +33,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://openm.tech/sitemap.xml
+Sitemap: https://mcdoc.site/sitemap.xml
