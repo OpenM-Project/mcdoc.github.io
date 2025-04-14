@@ -19,7 +19,7 @@ Contains Downloads for:
     Telegram Links for support (And also the downloads for BlueCoin, Testcoin, MCDecryptor):
     - [BlueCoin Community](https://t.me/+U7qdSQdu1fswZGY0)
     - [BlueCoin CHannel](https://t.me/BackUpCoinBlue)
-
+    :::
 
 ### Precracked Content
 
