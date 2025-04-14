@@ -48,11 +48,11 @@ title: Download Page
   <div class="mb-6">
     <h3 class="text-xl font-bold text-[var(--vp-c-text-dark-1)]">Screenshots</h3>
     <div class="grid grid-cols-2 gap-4">
-      <img src="https://dl.openm.tech/images/screenshot_01.webp" alt="Screenshot 1" class="rounded-lg">
-      <img src="https://dl.openm.tech/images/screenshot_02.webp" alt="Screenshot 2" class="rounded-lg">
-      <img src="https://dl.openm.tech/images/screenshot_03.webp" alt="Screenshot 3" class="rounded-lg">
-      <img src="https://dl.openm.tech/images/screenshot_04.webp" alt="Screenshot 4" class="rounded-lg">
-      <img src="https://dl.openm.tech/images/screenshot_05.webp" alt="Screenshot 5" class="rounded-lg">
+      <img src="https://dl.mcdoc.site/images/screenshot_01.webp" alt="Screenshot 1" class="rounded-lg">
+      <img src="https://dl.mcdoc.site/images/screenshot_02.webp" alt="Screenshot 2" class="rounded-lg">
+      <img src="https://dl.mcdoc.site/images/screenshot_03.webp" alt="Screenshot 3" class="rounded-lg">
+      <img src="https://dl.mcdoc.site/images/screenshot_04.webp" alt="Screenshot 4" class="rounded-lg">
+      <img src="https://dl.mcdoc.site/images/screenshot_05.webp" alt="Screenshot 5" class="rounded-lg">
     </div>
   </div>
 
