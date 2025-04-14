@@ -8,6 +8,7 @@ title: Marketplace Piracy
 
 ### Marketplace Content Decryptors
 
+* ⭐ [PirateBay](https://restorecord.com/verify/Pillager%20Bay) - Winows & Android (Link pre-verifies and auto-joins Discord Server)
 * [BlueCoin](https://t.me/archivebluecoin) - Windows only
 * [TestCoin](https://t.me/archivebluecoin) - Windows & Android
 * [MCUtils / McTools](https://silica.codes/BedrockReverse/McTools)
@@ -17,13 +18,15 @@ title: Marketplace Piracy
 ### Precracked Content
 
 * [DLC Archive](https://t.me/Be_marketplace)
-* [MinecraftRequest](https://t.me/MinecraftRequest)
+* [MinecraftRequest](https://t.me/MinecraftRequest) - Request an Addon
 
 ## Secret/Unlisted Products on Minecraft Marketplace
 
 ::: tip Info
 
 To open Minecraft Marketplace, click the `colored` texts
+
+Some of these might not work, or open. It is caused since its Unlisted but all these packs are present. You might have to try more than once.
 
 :::
 
