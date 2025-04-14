@@ -8,7 +8,7 @@ title: Marketplace Piracy
 
 ### Marketplace Content Decryptors
 
-* ⭐ [PirateBay](https://restorecord.com/verify/Pillager%20Bay) - Winows & Android (Link pre-verifies and auto-joins Discord Server)
+* ⭐ [Pillager Bay](https://restorecord.com/verify/Pillager%20Bay) - Winows & Android (Link pre-verifies and auto-joins Discord Server)
 * [BlueCoin](https://t.me/archivebluecoin) - Windows only
 * [TestCoin](https://t.me/archivebluecoin) - Windows & Android
 * [MCUtils / McTools](https://silica.codes/BedrockReverse/McTools)
