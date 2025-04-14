@@ -13,6 +13,13 @@ Contains Downloads for:
     - ⭐ BlueCoin - Software for searching a marketplace item and downloading it in `output` folder
     - TestCoin - Python code alternative to BlueCoin
     - MCDecryptor - Decrypt bought marketplace item into its respective file
+    - ToolCoin - An Easy to Use decryptor, with a modern GUI (Only for Android)
+    
+    ::: tip Info
+    Telegram Links for support (And also the downloads for BlueCoin, Testcoin, MCDecryptor):
+    - [BlueCoin Community](https://t.me/+U7qdSQdu1fswZGY0)
+    - [BlueCoin CHannel](https://t.me/BackUpCoinBlue)
+
 
 ### Precracked Content
 
