@@ -84,7 +84,7 @@ export default defineConfig({
     nav: [
         { text: 'Marketplace', link: '/marketplace' },
         { text: 'Miscellaneous', link: '/miscellaneous' },
-        { text: 'OpenM Project', link: 'https://project.mcdoc.site' },
+        { text: 'OpenM Project', link: 'https://openm.mcdoc.site' },
         { text: 'Guides',
           items: [
             { text: 'Windows',
