@@ -68,7 +68,7 @@ Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
 ⭐ Max_RM's pre-cracked appx|[Telegram](https://t.me/MPC_MCBE_UWP)|\-|**Yes**|**Cracked Appx**
 ⭐ online-fix\.me's Launcher|[Website](https://online-fix.me/games/sandbox/16708-minecraft-for-windows-10-po-seti.html)|\-|**Yes**|**I-MCM**
-⭐ OptiCraft|[Website](https://optijuegos.github.io/)|\-|**Yes**|**Cracked Appx**
+⭐ OptiCraft|[Website](https://optijuegos.pages.dev/)|\-|**Yes**|**Cracked Appx**
 ⭐ Zhmurkov Launcher|[Website](https://zhmurkov.ru/)|\-|**Yes**|**Cracked Appx**
 🌐 Minecraft for Windows 10 Topic|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=38&t=90151)|\-|**Yes**|Multiple Methods
 MCenterDLLs|[GitHub](https://github.com/Max-RM/mcenterdlls/archive/refs/heads/main.zip)|[GitHub](https://github.com/Max-RM/mcenterdlls)|**Maybe**|Cracked DLLs for Minecraft BE
