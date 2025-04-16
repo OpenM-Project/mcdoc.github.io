@@ -6,7 +6,6 @@
   </a>
   <br>
   <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/OpenM-Project/mcdoc.github.io/deploy.yml?style=for-the-badge">
-  <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m797680100-f81db63ec489d992eaff6d5d?style=for-the-badge">
   <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fmcdoc.site&style=for-the-badge">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/OpenM-Project/mcdoc.github.io?style=for-the-badge">
 
