@@ -8,7 +8,7 @@ title: Marketplace Piracy
 
 ### Marketplace Content Decryptors
 
-* [Pillager Bay](https://dc.mcdoc.site/) - Winows & Android / Exclusive on our Discord server
+* [Pillager Bay](https://dc.mcdoc.site/) - Windows & Android / Exclusive on our Discord server \
 Contains:
     - ⭐ BlueCoin - Software for searching a marketplace item and downloading it in `output` folder
     - TestCoin - Python code alternative to BlueCoin
@@ -18,7 +18,7 @@ Contains:
 ::: tip Alternatives:
 Telegram Links for support (And also the downloads for BlueCoin, Testcoin, MCDecryptor):
 - [BlueCoin Community](https://t.me/+U7qdSQdu1fswZGY0)
-- [BlueCoin CHannel](https://t.me/BackUpCoinBlue)
+- [BlueCoin Channel](https://t.me/BackUpCoinBlue)
 :::
 
 ### Precracked Content

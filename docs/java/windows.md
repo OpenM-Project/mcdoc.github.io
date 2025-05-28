@@ -12,6 +12,7 @@ outline: deep
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
 | ⭐ PrismLauncher | [Website](https://prismlauncher.org/) | [Github](https://github.com/PrismLauncher/PrismLauncher) | Yes | A feature-rich launcher, preferred by many (Doesnt support cracked, refer to [here](#prism-launcher-tools))
+| ⭐ ElyPrismLauncher | [Github](https://github.com/Octol1ttle/ElyPrismLauncher) | A remake of Prism Launcher with Ely.By and Offline Account features.
 | ⭐ ATLauncher | [Website](https://atlauncher.com/) | - | Yes | Launchers with self-made modpacks to change the gameplay 
 | SKLauncher | [Website](https://skmedix.pl/) | [Github](https://github.com/skmedix/SKlauncher) | Yes | A very user-friendly launcher (Have ads now)
 | UltimMC | [Website](https://github.com/UltimMC/Launcher) | - | Yes | MultiMC launcher but with cracked accounts
@@ -34,7 +35,7 @@ Betacraft| [Website](https://betacraft.uk/) | [Github](https://github.com/betacr
 | ------ | ------ | ------
 | Prism4Free | [Rentry](https://rentry.co/prism4free/) | A guide on how to get Offline Account for free
 | PLPMCOB | [Github](https://github.com/antunnitraj/Prism-Launcher-PolyMC-Offline-Bypass?tab=readme-ov-file#usage-for-installer) | Another similar guide on how to get Offline Account for free
-| ElyPrismLauncher | [Github](https://github.com/Octol1ttle/ElyPrismLauncher) | A remake of Prism Launcher with Ely.By and Offline Account features.
+
 
 ## FPS Launchers
 
