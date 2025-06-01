@@ -41,7 +41,6 @@ Betacraft| [Website](https://betacraft.uk/) | [Github](https://github.com/betacr
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
-| CheatBreaker | [Website](https://cheatbreaker.net/) | [Github](https://github.com/CheatBreakerNet/Launcher/) | Yes | Fairly popular FPS launcher with anti-cheat
 | LabyMod | [Website](https://www.labymod.net/en) | - | Yes | A customizable launcher while being frickin` smooth.
 | Salwyrr Launcher | [Website](https://www.salwyrr.com/) | - | Yes | FPS launcher with anti-cheat
 | AresClient | [Website](https://www.aresclient.com/) | - | Yes | Really good FPS launcher
