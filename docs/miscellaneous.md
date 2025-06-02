@@ -11,8 +11,6 @@ title: Miscellaneous
 ## Communities
 
 * [Anti P2W Movement: Bedrock Edition](https://discord.gg/antip2w)
-* [M Community](https://discord.gg/h7ke59TwgS)
-* [Minecraft Forums Community](https://www.mc-forums.com/)
 * [Minecraft Bedrock Developer Edition Discussion Community / #boycottmojang](https://t.me/boycottmojang)
 * [MC Users chat](https://t.me/mdlc_public)
 * [TNT ENTERTAINMENT inc](https://t.me/TNT_ENTERTAINMENT_inc)
@@ -42,7 +40,7 @@ title: Miscellaneous
 ## Archives
 
 * [Bedrock Archive](https://t.me/bedrockarchive)
-* [Shytz](https://shytz.net/)
+* [Shytz](https://web.archive.org/web/20240516101558/https://shytz.net/#)
 
 ## Deleted/Copyrighted Contents
 
