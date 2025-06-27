@@ -67,10 +67,10 @@ title: Download Page
 import { ref, onMounted } from 'vue';
 import * as pkg from "vue-toastification"
 const { useToast } = pkg
-const toast = useToast();  // Create toast instance
+const toast = useToast();
 
 const officialLink = ref('ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ');
-const crackedLink = ref(' https://github.com/M-Community-Dev/Downloads/');
+const crackedLink = ref(' https://t.me/TNT_ENTERTAINMENT_inc/80118');
 const selectedPlatform = ref('');
 
 const selectPlatform = (platform) => {
@@ -78,7 +78,7 @@ const selectPlatform = (platform) => {
   switch (platform) {
     case 'Windows':
       officialLink.value = 'ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ';
-      crackedLink.value = ' https://t.me/MPC_MCBE_UWP';
+      crackedLink.value = ' https://t.me/TNT_ENTERTAINMENT_inc/80118';
       break;
     case 'Android':
       officialLink.value = 'https://play.google.com/store/apps/details?id=com.mojang.minecraftpe';
