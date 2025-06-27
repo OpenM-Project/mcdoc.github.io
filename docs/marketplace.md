@@ -8,7 +8,7 @@ title: Marketplace Piracy
 
 ### Marketplace Content Decryptors
 
-* [Pillager Bay](https://dc.mcdoc.site/) - Windows & Android / Exclusive on our Discord server \
+* [Pillager Bay](https://discord.gg/rQBCDu6Bcp) - Windows & Android \
 Contains:
     - ⭐ BlueCoin - Software for searching a marketplace item and downloading it in `output` folder
     - TestCoin - Python code alternative to BlueCoin
@@ -20,10 +20,12 @@ Telegram Links for support (And also the downloads for BlueCoin, Testcoin, MCDec
 - [BlueCoin Community](https://t.me/+U7qdSQdu1fswZGY0)
 - [BlueCoin Channel](https://t.me/BackUpCoinBlue)
 :::
+::: info Tip
+If you authenticate [this](https://restorecord.com/verify/Pillager%20Bay) Discord bot, it will add you back to a new Pillager Bay Discord server in case the current one gets deleted.
+:::
 
 ### Precracked Content
 
-* [DLC Archive](https://t.me/Be_marketplace)
 * [Minecraft_DLC_FREE](https://t.me/Minecraft_DLC_FREE) – Request addons via bot, powered by TestCoin.
 * [MinecraftRequest](https://t.me/MinecraftRequest) - Request an Addon
 
