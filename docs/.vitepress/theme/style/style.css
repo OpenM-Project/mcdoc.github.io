@@ -3,6 +3,7 @@
 @import './linkcard.css';
 @import './vp-code-group.css';
 @import './blur.css';
+@import 'tailwindcss';
 
 /* Fix Layout Switcher */
 
