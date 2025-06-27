@@ -70,7 +70,7 @@ Name | Download | Source code | Is it maintained? | Method
 ⭐ OptiCraft|[Website](https://optijuegos.net/)|\-|**Yes**|**Modified Education Ed. to make it seem as it's Bedrock Ed. May contain bugs. *Works in Win7***
 ⭐ Zhmurkov Launcher|[Website](https://zhmurkov.ru/)|\-|**Yes**|**Cracked Appx**
 🌐 Minecraft for Windows 10 Topic|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=38&t=90151)|\-|**Yes**|Multiple Methods
-Max_RM's pre-cracked appx|[Telegram](https://t.me/MPC_MCBE_UWP)|\-|No|**Upcoming Launcher!**
+Max_RM's pre-cracked appx|[Telegram](https://t.me/TNT_ENTERTAINMENT_inc)|\-|No|**Upcoming Launcher!**
 Minecraft: Bedrock Edition [P] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.80) [P2P]|[RuTracker](https://rutracker.org/forum/viewtopic.php?t=6444229)|\-|**Yes**|**Cracked Appx**
 \[DL] Minecraft: Bedrock Edition [L] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.81) [Microsoft Store-Rip]|[Rutracker](https://rutracker.org/forum/viewtopic.php?t=6440824)|\-|**Yes**|**Cracked Appx**
 BlueSky Launcher|[GitHub](https://github.com/fym35/BlueSky) [PixelDrain](https://pixeldrain.com/u/indVkp1F)|[GitHub](https://pixeldrain.com/u/indVkp1F) forked from [FishiaT](https://github.com/FishiaT)|No|ClipSVC, SetACL, Bluesky Mode
