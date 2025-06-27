@@ -24,6 +24,7 @@ Telegram Links for support (And also the downloads for BlueCoin, Testcoin, MCDec
 ### Precracked Content
 
 * [DLC Archive](https://t.me/Be_marketplace)
+* [Minecraft_DLC_FREE](https://t.me/Minecraft_DLC_FREE) – Request addons via bot, powered by TestCoin.
 * [MinecraftRequest](https://t.me/MinecraftRequest) - Request an Addon
 
 ## Secret/Unlisted Products on Minecraft Marketplace
