@@ -76,7 +76,6 @@ Minecraft: Bedrock Edition [P] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.80
 BlueSky Launcher|[GitHub](https://github.com/fym35/BlueSky) [PixelDrain](https://pixeldrain.com/u/indVkp1F)|[GitHub](https://pixeldrain.com/u/indVkp1F) forked from [FishiaT](https://github.com/FishiaT)|No|ClipSVC, SetACL, Bluesky Mode
 DynoLTS|[WayBack Machine](https://web.archive.org/web/20210502020234/https://github.com/ClickNinYT/DynoLTS/archive/refs/heads/main.zip)|[WayBack Machine](https://web.archive.org/web/20220708141801/github.com/clickninyt/dynolts)|No|Same as BlueSky
 MinecraftWindows10Bypass|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass/releases/download/V1.0/MinecraftWindows10Bypass.zip)|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass)|No|**I-MCM**
-Freez Minecraft Crack|[GitHub](https://github.com/Sriharan-S/minecraft-win-crack/raw/main/Freez%20Minecraft%20Crack%20v2.1.zip)|[GitHub](https://github.com/Sriharan-S/minecraft-win-crack)|No|DLL Replacing
 MCWIN10-PATCHER|[GitHub](https://github.com/raonygamer13/MCWIN10-PATCHER/releases/download/v1.0.0/McpePatcher.exe)|[GitHub](https://github.com/raonygamer13/MCWIN10-PATCHER)|No|DLL Replacing
 Minecraft For Windows Launcher|[GitHub](https://github.com/jiesou/MFWL-Minecraft-For-Windows-Unlock-Launcher/archive/refs/heads/main.zip)|[GitHub](https://github.com/jiesou/MFWL-Minecraft-For-Windows-Unlock-Launcher)|No|DLL Replacing
 MCWindows10UnlockHack|[PixelDrain](https://pixeldrain.com/u/C5f199xN)|[PixelDrain](https://pixeldrain.com/u/C5f199xN)|No|DLL Replacing
