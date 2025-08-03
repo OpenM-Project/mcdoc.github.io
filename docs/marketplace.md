@@ -8,7 +8,7 @@ title: Marketplace Piracy
 
 ### Marketplace Content Decryptors
 
-* [Pillager Bay](https://discord.gg/rQBCDu6Bcp) - Windows & Android \
+* [Pillager Bay](https://discord.gg/8sVGt3sjjt) or Verify [here](https://restorecord.com/verify/Pillager%20Bay) to auto-join - Windows & Android \
 Contains:
     - ⭐ BlueCoin - Software for searching a marketplace item and downloading it in `output` folder
     - TestCoin - Python code alternative to BlueCoin
