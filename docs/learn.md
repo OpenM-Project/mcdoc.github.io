@@ -8,7 +8,7 @@ title: How Minecraft for Windows is Cracked/Patched
 This page is focused on the Bedrock Edition of Minecraft. However, it can be used for other apps that use the same licensing system as Minecraft for Windows.
 :::
 
-We all unlock Minecraft using 3rd-Party Softwares (listed [here](/bedrock/windows#minecraft-for-windows)). If your wondering how they work, this page is just for you! But before that, lets define the methods these 3rd-Party Softwars use.
+If you're here, you've probably unlocked Minecraft using any 3rd-Party Software (listed [here](/bedrock/windows#minecraft-for-windows)). If your wondering how they work, this page is just for you! But before that, lets explore the various methods these 3rd-Party Softwars use.
 
 ## Methods
 
@@ -52,10 +52,8 @@ For more information about how Minecraft works, visit https://learn.microsoft.co
 ## Cracking/Patching
 
 ::: tip REQUIREMENTS
-- You might need to know about [Assembly](https://www.tutorialspoint.com/assembly_programming/) before reading this, or your brain might explode.
+- Knowing the basics of  [Assembly](https://www.tutorialspoint.com/assembly_programming/) is recommended before reading the rest of this page.
 - Disassembler - [Interactive Dissassebler](https://en.wikipedia.org/wiki/Interactive_Disassembler).
-
-[REDACTED1] is a developer and [REDACTED2] is his project. I refer them like this since they requested me to remove all the reference of these names.
 :::
 
 We crack Minecraft by modifying the returned value of the IsTrial boolean property. This is done by editing the related function at assembly level to make it replace the isTrial value with false(`0`) whenever Minecraft tries to access the property.
