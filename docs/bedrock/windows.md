@@ -60,7 +60,7 @@ const myMethod = () => {
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
-| ⭐ StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for Minecraft Bedrock Edition.
+| StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for Minecraft Bedrock Edition.
 
 ## Unlockers for Minecraft for Windows
 
@@ -105,13 +105,13 @@ Name | Download | Source code | Is it maintained?| Description
 ------ | ------ | ------ | ------| ------
 ⭐ MCLauncher|[GitHub](https://github.com/MCMrARM/mc-w10-version-launcher/releases)|[GitHub](https://github.com/MCMrARM/mc-w10-version-launcher)|**Yes**|Multi-version launcher for Minecraft
 ⭐ Bedrock Launcher|[GitHub](https://github.com/BedrockLauncher/BedrockLauncher/releases)|[GitHub](https://github.com/BedrockLauncher/BedrockLauncher)|**Yes**|Multi-version launcher for Minecraft with a good GUI
+⭐ Mcappx|[Website](https://www.mcappx.com/)|\-|**Yes**|A third-party game resource platform that focuses on providing all versions of Minecraft for Windows
 ⭐ AutoModificator|[GitHub](https://github.com/Max-RM/AutoModificator)|[GitHub](https://github.com/Max-RM/AutoModificator/releases)|**Yes**| Unlocking height limit and piston push limit
 MCli|[GitHub](https://raw.githubusercontent.com/mcrax/mcli/main/MCli.py)|[GitHub](https://github.com/mcrax/mcli)|No|UUID downloading
 McUtils|[PixelDrain](https://pixeldrain.com/u/Rpw33LwR)|\-|*Maybe*|Decrypting Marketplace Content
 Secret-Minecraft-marketplace-products|[PixelDrain](https://pixeldrain.com/u/TeFv567Z)|~~PixelDrain~~|No|List of unavalible marketplace items
 Testcoin|[Telegram](https://t.me/archivebluecoin)|[Telegram](https://t.me/archivebluecoin)|**Yes**|Decrypting Marketplace Content
-ThePillagerBay|[Telegram](https://t.me/ThePillagerBay)|~~Telegram~~|**Yes**|Decrypted Marketplace Contents
-Mcappx|[Website](https://www.mcappx.com/)|\-|**Yes**|A third-party game resource platform that focuses on providing all versions of Minecraft for Windows
+ThePillagerBay|[Telegram](https://t.me/ThePillagerBay)|~~Telegram~~|**Yes**|Decrypted Marketplace Content
 Mc Persona|[PixelDrain](https://pixeldrain.com/u/gn9BuMTG)|[Telegram](https://t.me/c/2071756372/1758)|*Maybe*|Persona decryptor
 BlueCoin|[Telegram](https://t.me/archivebluecoin)|\-|**Yes**|Decrypting Marketplace Content
 Minecraft DLC Archives|[Discord](https://discord.gg/eDpasTFmRr)|\-|**Yes**|Decrypted Marketplace Contents
