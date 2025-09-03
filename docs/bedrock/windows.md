@@ -56,16 +56,11 @@ const myMethod = () => {
 
 :::
 
-## Modded / Unlocked / Original APPXs/EXEs
-
-| Name | Download | Source code | Is it maintained? | Description
-| ------ | ------ | ------ | ------ | ------
-| StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for Minecraft Bedrock Edition.
-
 ## Unlockers for Minecraft for Windows
 
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
+🌟 M Centers|[x64](https://dl.mcdoc.site/learn/M-Centers-8.0.1.3-x64.zip)/[x86](https://dl.mcdoc.site/learn/M-Centers-8.0.1.3-x86.zip)| \- | No | **DLL Auto Patch + More**
 ⭐ online-fix\.me's Launcher|[Website](https://online-fix.me/games/sandbox/16708-minecraft-for-windows-10-po-seti.html)|\-|**Yes**|**I-MCM**
 ⭐ OptiCraft|[Website](https://optijuegos.net/)|\-|**Yes**|**Modified Education Ed. to make it seem as it's Bedrock Ed. May contain bugs. *Works in Win7***
 ⭐ Zhmurkov Launcher|[Website](https://zhmurkov.ru/)|\-|**Yes**|**Cracked Appx**
@@ -88,6 +83,12 @@ MCrev|[GitHub](https://github.com/mcrax/mcrev/releases/download/1.14/Revision.1.
 PATCHER - CODEX|[PixelDrain](https://pixeldrain.com/u/DzjhErdB)|\-|No|Patching MC’s files
 BLauncher|[GitHub](https://github.com/imsaku/blauncher/archive/refs/heads/main.zip)|[GitHub](https://github.com/imsaku/blauncher)|No|ClipSVC
 XenonLauncher|[GitHub](https://github.com/charlie272/XenonLauncher/archive/refs/heads/main.zip)|[GitHub](https://github.com/charlie272/XenonLauncher)|No|ClipSVC
+
+## Modded / Unlocked / Original APPXs/EXEs
+
+| Name | Download | Source code | Is it maintained? | Description
+| ------ | ------ | ------ | ------ | ------
+| StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for Minecraft Bedrock Edition.
 
 ## Hacked/Modded Clients for Minecraft for Windows 10
 
