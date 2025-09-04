@@ -60,7 +60,7 @@ const myMethod = () => {
 
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
-🌟 M Centers|[x64](https://dl.mcdoc.site/learn/M-Centers-8.0.1.3-x64.zip)/[x86](https://dl.mcdoc.site/learn/M-Centers-8.0.1.3-x86.zip)| \- | No | **DLL Auto Patch + More**
+🌟 M Centers|[x64](https://dl.mcdoc.site/learn/MCBedrockPatch-x64.zip)/[x86](https://dl.mcdoc.site/learn/MCBedrockPatch-x86.zip)| \- | No | **DLL Auto Patch + More**
 ⭐ online-fix\.me's Launcher|[Website](https://online-fix.me/games/sandbox/16708-minecraft-for-windows-10-po-seti.html)|\-|**Yes**|**I-MCM**
 ⭐ OptiCraft|[Website](https://optijuegos.net/)|\-|**Yes**|**Modified Education Ed. to make it seem as it's Bedrock Ed. May contain bugs. *Works in Win7***
 ⭐ Zhmurkov Launcher|[Website](https://zhmurkov.ru/)|\-|**Yes**|**Cracked Appx**
