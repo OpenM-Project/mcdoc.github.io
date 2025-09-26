@@ -32,13 +32,15 @@ const myMethod = () => {
   </a>
 </div>
 
-::: tip Tip
+::: tip TIP
 <p>If the above button doesn't result in Microsoft Store opening with the Minecraft trial page, instead download Minecraft Launcher from the Microsoft Store and install Bedrock from there, or from the Xbox app, search for <strong>Minecraft for Windows</strong> and download it from there.</p>
 
 <p>Also, If you want preview or older versions of Minecraft for Windows, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrocklauncher.github.io/">Bedrock Launcher</a>.</p>
 :::
 
-::: info Glossary
+## Unlockers for Minecraft for Windows
+
+::: details Glossary
 
 <u>*Patching in memory:*</u> When Minecraft is running, the RAM Manipulator [if using one] edits code (instructions) within the game process and other modules (i.e. dlls). Thus, it is temporary method and needs to be done every time the game is started.
 
@@ -47,7 +49,7 @@ const myMethod = () => {
 ***Methods:***
  * **I-MCM** - In-Memory Code Manipulation: Patches the license checking code within the game exe (`Minecraft.Windows.exe`) directly in memory.
   * **DMM** - DLL Memory Manipulation: Patches the license checking code within the `Windows.ApplicationModel.Store.dll` module loaded within the game in memory.
- * ClipSVC Method: \[Patched] [Check at Learn](/learn#ClipSVC) -->
+ * ClipSVC Method: \[Patched] [Check at Learn -->](/learn#clipsvc)
  * DLL Hooking: Uses [function hooking](https://kylehalladay.com/blog/2020/11/13/Hooking-By-Example.html) to modify the license checking functions within the game and/or other DLLs loaded within the game in memory.
  * DLL Replacing: Replaces the `Windows.ApplicationModel.Store.dll` DLL's with patched (i.e cracked) ones.
  * DLL Auto Patch: Creates a Cracked DLL from original `Windows.ApplicationModel.Store.dll` and replaces the original one with cracked one.
@@ -56,7 +58,6 @@ const myMethod = () => {
 
 :::
 
-## Unlockers for Minecraft for Windows
 
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
@@ -68,7 +69,7 @@ Name | Download | Source code | Is it maintained? | Method
 Max_RM's pre-cracked appx|[Telegram](https://t.me/TNT_ENTERTAINMENT_inc)|\-|No|**Upcoming Launcher!**
 Minecraft: Bedrock Edition [P] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.80) [P2P]|[RuTracker](https://rutracker.org/forum/viewtopic.php?t=6444229)|\-|**Yes**|**Cracked Appx**
 \[DL] Minecraft: Bedrock Edition [L] [RUS + ENG + 22] (2015, Simulation, UWP) (1.20.81) [Microsoft Store-Rip]|[Rutracker](https://rutracker.org/forum/viewtopic.php?t=6440824)|\-|**Yes**|**Cracked Appx**
-BlueSky Launcher|[GitHub](https://github.com/fym35/BlueSky) [PixelDrain](https://pixeldrain.com/u/indVkp1F)|[GitHub](https://pixeldrain.com/u/indVkp1F) forked from [FishiaT](https://github.com/FishiaT)|No|ClipSVC, SetACL, Bluesky Mode
+BlueSky Launcher|[GitHub](https://github.com/fym35/BlueSky) [PixelDrain](https://pixeldrain.com/u/indVkp1F)|[GitHub](https://github.com/fym35/BlueSky) forked from [FishiaT](https://github.com/FishiaT)|No|ClipSVC, SetACL, Bluesky Mode
 DynoLTS|[WayBack Machine](https://web.archive.org/web/20210502020234/https://github.com/ClickNinYT/DynoLTS/archive/refs/heads/main.zip)|[WayBack Machine](https://web.archive.org/web/20220708141801/github.com/clickninyt/dynolts)|No|Same as BlueSky
 MinecraftWindows10Bypass|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass/releases/download/V1.0/MinecraftWindows10Bypass.zip)|[GitHub](https://github.com/keowu/Minecraft-Windows-10-Trial-Bypass)|No|**I-MCM**
 MCWIN10-PATCHER|[GitHub](https://github.com/raonygamer13/MCWIN10-PATCHER/releases/download/v1.0.0/McpePatcher.exe)|[GitHub](https://github.com/raonygamer13/MCWIN10-PATCHER)|No|DLL Replacing

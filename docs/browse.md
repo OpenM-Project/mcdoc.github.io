@@ -4,9 +4,6 @@ title: Browse
 
 # Getting started
 
-::: warning Head straight to [**Downloads**](/download)!
-:::
-
 ## Welcome to MCDOC
 
 Welcome to MCDOC, your ultimate resource for unlocking the full potential of Minecraft. Whether you're looking to access the game without restrictions, uncover hidden items, or customize the game's behavior, MCDOC is your gateway to a variety of powerful tools and unlockers.

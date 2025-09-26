@@ -9,12 +9,12 @@ hero:
   text: "Free Minecraft?"
   tagline: The Ultimate Minecraft Pi**cy Index
   actions:
+    - theme: download
+      text: Download
+      link: /download/
     - theme: brand
       text: Browse
       link: /browse/
-    - theme: alt
-      text: Downloads
-      link: /download/
   image:
     src: /assets/images/logo.webp
     alt: MCDOC
@@ -41,5 +41,15 @@ features:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #644119, #ddb807);
+}
+
+.VPHomeHero .actions .VPButton.download {
+  /* border: 3px solid #70f84e9f; */
+  color: #ffffff;
+  background-color: #70f84e4b;
+}
+.VPHomeHero .actions .VPButton.download:hover {
+  background-color: #70f84e77;
+  color: #ffffff;
 }
 </style>
