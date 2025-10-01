@@ -1,7 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
-    "@mdit-vue/shared": "^2.1.4",
+    "@mdit-vue/shared": "^3.0.2",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
     "@nolebase/ui": "^2.18.2",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
