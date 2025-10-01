@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@formkit/auto-animate':
-        specifier: ^0.8.4
-        version: 0.8.4
+        specifier: ^0.9.0
+        version: 0.9.0
       viewerjs:
         specifier: ^1.11.7
         version: 1.11.7
@@ -375,8 +375,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@formkit/auto-animate@0.8.4':
-    resolution: {integrity: sha512-DHHC01EJ1p70Q0z/ZFRBIY8NDnmfKccQoyoM84Tgb6omLMat6jivCdf272Y8k3nf4Lzdin/Y4R9q8uFtU0GbnA==}
+  '@formkit/auto-animate@0.9.0':
+    resolution: {integrity: sha512-VhP4zEAacXS3dfTpJpJ88QdLqMTcabMg0jwpOSxZ/VzfQVfl3GkZSCZThhGC5uhq/TxPHPzW0dzr4H9Bb1OgKA==}
 
   '@giscus/vue@2.4.0':
     resolution: {integrity: sha512-QOxKHgsMT91myyQagP2v20YYAei1ByZuc3qcaYxbHx4AwOeyVrybDIuRFwG9YDv6OraC86jYnU4Ixd37ddC/0A==}
@@ -2327,7 +2327,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.10':
     optional: true
 
-  '@formkit/auto-animate@0.8.4': {}
+  '@formkit/auto-animate@0.9.0': {}
 
   '@giscus/vue@2.4.0(vue@3.5.22(typescript@5.7.3))':
     dependencies:
