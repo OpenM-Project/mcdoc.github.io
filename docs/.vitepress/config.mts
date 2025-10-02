@@ -34,7 +34,7 @@ export default defineConfig({
   base: '/',
   cleanUrls:true,
   srcExclude: ['story.md'],
-  appearance:'dark',
+  appearance: true,
   head: [
           ['link', { rel: 'icon', href: '/favicon.ico' }],
           [ 'meta', { property: 'og:type', content: 'website' }],
