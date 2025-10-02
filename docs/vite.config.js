@@ -3,23 +3,7 @@ import { defineConfig } from 'vite'
 export default defineConfig(() => {
   return {
     build: {
-      chunkSizeWarningLimit: 1500,
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            vue: ['vue'],
-            vitepress: ['vitepress'],
-            nolebase: [
-              '@nolebase/vitepress-plugin-enhanced-readabilities',
-              '@nolebase/vitepress-plugin-git-changelog',
-              '@nolebase/vitepress-plugin-highlight-targeted-heading',
-              '@nolebase/vitepress-plugin-inline-link-preview',
-              '@nolebase/vitepress-plugin-page-properties'
-            ],
-            ui: ['vue-toastification']
-          }
-        }
-      }
+      rollupOptions: {}
     },
     optimizeDeps: {
       exclude: [ 
