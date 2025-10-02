@@ -4,9 +4,6 @@ outline: deep
 ---
 
 # Minecraft: Java Edition
-
-<br>
-
 ## Version Launchers
 
 | Name | Download | Source code | Is it maintained? | Description

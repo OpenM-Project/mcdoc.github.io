@@ -3,9 +3,6 @@ title: Java Edition for Linux
 ---
 
 # Minecraft: Java Edition for Linux
-
-<br>
-
 ## Version Launchers
 
 | Name | Download | Source code | Is it maintained? | Description

@@ -16,12 +16,6 @@ riskLevel: "Medium"
 <p>Also, If you want preview or older versions of Minecraft for Windows, then download <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a> or <a href="https://bedrocklauncher.github.io/">Bedrock Launcher</a>.</p>
 :::
 
-## Unlockers for Minecraft for Windows
-::: tip See also
-- [Linux](/bedrock/linux) · [Android](/bedrock/android) · [iOS](/bedrock/ios)
-- Troubleshooting: [Windows issues](/guides/troubleshooting#windows)
-:::
-
 ::: details Glossary
 
 <u>*Patching in memory:*</u> When Minecraft is running, the RAM Manipulator [if using one] edits code (instructions) within the game process and other modules (i.e. dlls). Thus, it is temporary method and needs to be done every time the game is started.
@@ -100,3 +94,9 @@ Mc Persona|[PixelDrain](https://pixeldrain.com/u/gn9BuMTG)|[Telegram](https://t.
 BlueCoin|[Telegram](https://t.me/archivebluecoin)|\-|**Yes**|Decrypting Marketplace Content
 Minecraft DLC Archives|[Discord](https://discord.gg/eDpasTFmRr)|\-|**Yes**|Decrypted Marketplace Contents
 Skin Pack Unlocker|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=38&t=90151)|\-|**Yes**|Skinpack unlocker
+
+## Unlockers for Minecraft for Windows
+::: tip See also
+- [Linux](/bedrock/linux) · [Android](/bedrock/android) · [iOS](/bedrock/ios)
+- Troubleshooting: [Windows issues](/guides/troubleshooting#windows)
+:::
