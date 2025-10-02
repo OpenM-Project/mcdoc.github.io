@@ -16,7 +16,7 @@ export default defineConfig(() => {
               '@nolebase/vitepress-plugin-inline-link-preview',
               '@nolebase/vitepress-plugin-page-properties'
             ],
-            ui: ['viewerjs', 'vue-toastification']
+            ui: ['vue-toastification']
           }
         }
       }
