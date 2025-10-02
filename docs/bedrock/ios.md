@@ -1,8 +1,14 @@
 ---
 title: Minecraft for iOS
+lastTested: "2025-10-02"
+riskLevel: "High"
 ---
 
 # Minecraft for iOS
+
+<VersionBadge />
+
+<LegalCallout />
 
 ::: info What is an IPA?
 An IPA file is an application made for iOS devices (iPhone & iPad). The file format was created by Apple. To install an IPA, it is recommended that you use [SideStore](https://sidestore.io/) or [AltStore](https://altstore.io/).
@@ -28,6 +34,11 @@ AppCake | [Website](https://www.iphonecake.com/app_479516143_.html) | - | **Yes*
 TweakHome | [Website](https://tweakhome.app/minecraft-ipa/) | - | No | Modded & Unlocked IPAs of Minecraft for IOS.
 Senumy | [Website](https://senumy.com/ipa-library/hacked-games/minecraft/) | - | No | Unlocked IPAs of Minecraft for IOS.
 Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pocket-edition-versions-ipa) | - | No | An archive of Unlocked Minecraft IPAs.
+
+::: tip See also
+- [Windows](/bedrock/windows) · [Linux](/bedrock/linux) · [Android](/bedrock/android)
+- Troubleshooting: [iOS notes](/guides/troubleshooting#ios)
+:::
 
 ## Other Tools
 

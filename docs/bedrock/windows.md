@@ -1,36 +1,14 @@
 ---
 title: Minecraft for Windows
+lastTested: "2025-10-02"
+riskLevel: "Medium"
 ---
 
 # Minecraft for Windows
 
-<br>
+<VersionBadge />
 
-<script setup>
-import * as pkg from "vue-toastification"
-const { useToast } = pkg
-
-const toast = useToast();
-
-const myMethod = () => {
-  toast("Microsoft Store successfully opened!", {
-    timeout: 4000,
-    pauseOnFocusLoss: false,
-    draggablePercent: 0.6,
-    showCloseButtonOnHover: true,
-    closeButton: "button"
-    });
-};
-</script>
-
-<div class="linkcard">
-  <a href="ms-windows-store://pdp/?ProductId=9NBLGGH2JHXJ" @click="myMethod">
-    <p class="description"><b>Download Minecraft for Windows</b><br><span>Click here to download!</span></p>
-    <div class="logo">
-        <img alt="Logo" width="70px" height="70px" src="/assets/images/minecraft-launcher.webp" class="no-viewerjs"/>
-    </div>
-  </a>
-</div>
+<LegalCallout />
 
 ::: tip TIP
 <p>If the above button doesn't result in Microsoft Store opening with the Minecraft trial page, instead download Minecraft Launcher from the Microsoft Store and install Bedrock from there, or from the Xbox app, search for <strong>Minecraft for Windows</strong> and download it from there.</p>
@@ -39,6 +17,10 @@ const myMethod = () => {
 :::
 
 ## Unlockers for Minecraft for Windows
+::: tip See also
+- [Linux](/bedrock/linux) · [Android](/bedrock/android) · [iOS](/bedrock/ios)
+- Troubleshooting: [Windows issues](/guides/troubleshooting#windows)
+:::
 
 ::: details Glossary
 

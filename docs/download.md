@@ -6,7 +6,7 @@ title: Download Page
   <h1>Download Minecraft</h1>
   <p class="text-[var(--vp-c-text-dark-1)] mb-4">Choose your platform to get started!</p>
   <div class="flex space-x-4 mb-6">
-    <a :href="officialLink" @click="myMethod" target="_blank" class="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-neutral-950 py-1 pl-6 pr-14 font-medium text-white">
+    <a :href="officialLink" target="_blank" class="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-neutral-950 py-1 pl-6 pr-14 font-medium text-white">
       <span class="z-10 pr-2 text-white">Official Minecraft</span>
       <div class="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-neutral-700 transition-[width] group-hover:w-[calc(100%-8px)]">
         <div class="mr-3.5 flex items-center justify-center">
@@ -57,11 +57,15 @@ title: Download Page
   </div>
 
   <div class="mb-6">
-    <h3 class="text-xl font-bold text-[var(--vp-c-text-dark-1)]">Support</h3>
-    <p class="text-[var(--vp-c-text-dark-1)]">SUPPORT: <a href="https://www.minecraft.net/help" class="text-blue-400">minecraft.net/help</a></p>
-    <p class="text-[var(--vp-c-text-dark-1)]">MORE INFORMATION: <a href="https://www.minecraft.net/" class="text-blue-400">minecraft.net</a></p>
+    <h3 class="text-xl font-bold text-[var(--vp-c-text-dark-1)]">Integrity & Tips</h3>
+    <ul class="list-disc ml-6 text-[var(--vp-c-text-dark-1)]">
+      <li>Verify downloads: compare hashes when provided.</li>
+      <li>Prefer official sources where possible.</li>
+      <li>If a link is down, try mirrors or check platform guides.</li>
+    </ul>
   </div>
-</div>
+
+ </div>
 
 <script setup>
 import { ref, onMounted } from 'vue';

@@ -1,10 +1,21 @@
 ---
 title: Minecraft for Linux
+lastTested: "2025-10-02"
+riskLevel: "Medium"
 ---
 
 # Minecraft for Linux
 
+<VersionBadge />
+
+<LegalCallout />
+
 ## Launchers/Methods
+
+::: tip See also
+- [Windows](/bedrock/windows) · [Android](/bedrock/android) · [iOS](/bedrock/ios)
+- Troubleshooting: [Linux notes](/guides/troubleshooting#linux)
+:::
 
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------

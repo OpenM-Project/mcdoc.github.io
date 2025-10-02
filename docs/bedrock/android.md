@@ -1,8 +1,14 @@
 ---
 title: Minecraft for Android
+lastTested: "2025-10-02"
+riskLevel: "Medium"
 ---
 
 # Minecraft for Android
+
+<VersionBadge />
+
+<LegalCallout />
 
 ::: info What is an APK?
 An APK file is an application made for Android devices. The file format was created by Android. To install an APK, you have to turn on **Install Apps from Unknown Sources** in your phone's settings, download the apk, and double click it to open the installation page, or you can alternatively, use [adb](https://developer.android.com/tools/adb) to install Minecraft for Android by doing **adb install {replace this with the Minecraft APK's filename}.apk**.
@@ -24,6 +30,11 @@ An APK file is an application made for Android devices. The file format was crea
 | MODDROID | [Website](https://moddroid.com/games/arcade/minecraft/) | \- | **Yes** | Modded & Unlocked APKs of Minecraft for Android
 | MODYOLO | [Website](https://modyolo.com/minecraft.html) | \- | **No** | Modded & Unlocked APKs of Minecraft for Android
 | BeestoXD's MCBE APKs | [Website](https://minecraft-bedrock.pages.dev/) | [GitHub](https://github.com/BeestoXd/Download-Minecraft-Free/releases) | No | Unlocked APKs of Minecraft for Android available in 64-bit and 32-bit, both Preview and Release versions, maintained by BeestoXD, the owner of Toolbox UP.
+
+::: tip See also
+- [Windows](/bedrock/windows) · [Linux](/bedrock/linux) · [iOS](/bedrock/ios)
+- Troubleshooting: [Android tips](/guides/troubleshooting#android)
+:::
 
 
 ## Other Tools

@@ -100,6 +100,7 @@ export default defineConfig({
             { text: 'Privacy Policy', link: '/legal/privacy' },
             { text: 'DMCA', link: '/legal/dmca' },
             { text: 'Credits', link: '/credits' },
+            { text: 'Changelog', link: '/changelog' },
           ]
         }
         ],
@@ -109,10 +110,10 @@ export default defineConfig({
         text: '❇️ Downloads',
         link: '/download'
       },
-      /**{
+      {
         text: '📖 Story',
         link: '/story'
-      },**/
+      },
       {
         text: '🔨 Learn',
         link: '/learn'
@@ -185,7 +186,7 @@ export default defineConfig({
       },
     ],
 
-    outline: '1, 6',
+    outline: [1, 6],
 
     footer: {
       message: `All trademarks, service marks, and trade names of Microsoft, Mojang, and Minecraft used in the site are trademarks or registered trademarks of their respective owners.`,

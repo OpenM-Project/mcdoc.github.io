@@ -38,6 +38,8 @@ To get started with MCDOC using VitePress, follow these steps:
 Contributions to MCDOC are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request, or create an issue.
 **For requesting to add a material to MCDOC is accepted!, please do a Pull Request for it.**
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for style, frontmatter schema, and PR checklist.
+
 ## License
 
 This project is licensed under the MIT License. For more info, check out the [LICENSE](LICENSE) file.

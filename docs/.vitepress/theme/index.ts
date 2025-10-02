@@ -25,6 +25,8 @@ import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import MNavLinks from './components/MNavLinks.vue'
 import Navlink from './components/Navlink.vue'
 import xgplayer from "./components/xgplayer.vue"
+import LegalCallout from './components/LegalCallout.vue'
+import VersionBadge from './components/VersionBadge.vue'
 import Toast, { PluginOptions } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
@@ -36,6 +38,8 @@ export default {
     app.component('MNavLinks' , MNavLinks)
     app.component('Navlink' , Navlink)
     app.component('xgplayer' , xgplayer)
+    app.component('LegalCallout', LegalCallout)
+    app.component('VersionBadge', VersionBadge)
     app.component('vImageViewer', vImageViewer);
     app.provide(InjectionKey, {
       defaultMode: 'LayoutMode.Original',
@@ -59,6 +63,12 @@ export default {
     const route = useRoute();
     const { frontmatter } = toRefs(useData());
     imageViewer(route);
+    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+      import('workbox-window').then(({ Workbox }) => {
+        const wb = new Workbox('/sw.js')
+        wb.register()
+      }).catch(() => {})
+    }
     giscusTalk({
       repo: 'OpenM-Project/mcdoc.github.io',
       repoId: 'R_kgDOM_hm8w',
