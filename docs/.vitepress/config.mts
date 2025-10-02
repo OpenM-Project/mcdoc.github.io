@@ -91,7 +91,8 @@ export default defineConfig({
               items: [
                 { text: 'Unban Your Account', link: '/guides/unban-your-account' }
               ]
-            }
+            },
+            { text: 'Troubleshooting', link: '/guides/troubleshooting' }
           ]
          },         
         { text: 'More',
@@ -177,9 +178,9 @@ export default defineConfig({
         collapsed: true,
         items: [
               { text: 'Education', link: '/other/windows/education' },
-              { text: 'Legends', link: '/other/windows/legends' },,
+              { text: 'Legends', link: '/other/windows/legends' },
               { text: 'China', link: '/other/windows/china' },
-              { text: 'Story Mode', link: '/story-mode'}
+              { text: 'Story Mode', link: '/story-mode/'}
         ]
       },
     ],
