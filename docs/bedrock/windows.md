@@ -35,6 +35,8 @@ riskLevel: "Medium"
 :::
 
 
+<TableWrap>
+
 Name | Download | Source code | Is it maintained? | Method
 ------ | ------ | ------ | ------| ------
 🌟 MCBedrockPatch|[x64](https://dl.mcdoc.site/learn/MCBedrockPatch-x64.zip)/[x86](https://dl.mcdoc.site/learn/MCBedrockPatch-x86.zip)| \- | No | **DLL Auto Patch + More**
@@ -61,13 +63,21 @@ PATCHER - CODEX|[PixelDrain](https://pixeldrain.com/u/DzjhErdB)|\-|No|Patching M
 BLauncher|[GitHub](https://github.com/imsaku/blauncher/archive/refs/heads/main.zip)|[GitHub](https://github.com/imsaku/blauncher)|No|ClipSVC
 XenonLauncher|[GitHub](https://github.com/charlie272/XenonLauncher/archive/refs/heads/main.zip)|[GitHub](https://github.com/charlie272/XenonLauncher)|No|ClipSVC
 
+</TableWrap>
+
 ## Modded / Unlocked / Original APPXs/EXEs
+
+<TableWrap>
 
 | Name | Download | Source code | Is it maintained? | Description
 | ------ | ------ | ------ | ------ | ------
 | StarMoon Minecraft Repo | [Website](https://spectrollay.github.io/minecraft_repository_test/) | [GitHub](https://github.com/spectrollay/minecraft_repository_test/) | **Yes** | Various different APKs, APPXs, and more, for Minecraft Bedrock Edition.
 
+</TableWrap>
+
 ## Hacked/Modded Clients for Minecraft for Windows 10
+
+<TableWrap>
 
 Name | Download | Source code | Is it maintained?| Description
 ------ | ------ | ------ | ------| ------
@@ -77,7 +87,11 @@ Name | Download | Source code | Is it maintained?| Description
 Prax Client|[GitHub](https://github.com/Prax-Client/Releases) (DLL to be used with [Prax Injector](https://github.com/Prax-Client/Injector))|[GitHub](https://github.com/Prax-Client/Injector)|**Yes**|Prax Client is an external hacked/modded client for Minecraft Bedrock Edition. It offers various features to enhance gameplay.
 Horion Open-SRC|\-|[GitHub](https://github.com/NRGJobro/Horion-Open-SRC)|**No**|Horion, but updated to 1.18.12 and open src :)
 
+</TableWrap>
+
 ## Other Tools for Minecraft for Windows 10
+
+<TableWrap>
 
 Name | Download | Source code | Is it maintained?| Description
 ------ | ------ | ------ | ------| ------
@@ -94,6 +108,8 @@ Mc Persona|[PixelDrain](https://pixeldrain.com/u/gn9BuMTG)|[Telegram](https://t.
 BlueCoin|[Telegram](https://t.me/archivebluecoin)|\-|**Yes**|Decrypting Marketplace Content
 Minecraft DLC Archives|[Discord](https://discord.gg/eDpasTFmRr)|\-|**Yes**|Decrypted Marketplace Contents
 Skin Pack Unlocker|[CS.RIN.RU](https://cs.rin.ru/forum/viewtopic.php?f=38&t=90151)|\-|**Yes**|Skinpack unlocker
+
+</TableWrap>
 
 ## Unlockers for Minecraft for Windows
 ::: tip See also

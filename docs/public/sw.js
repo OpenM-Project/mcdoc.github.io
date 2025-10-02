@@ -20,6 +20,11 @@ self.addEventListener('activate', (event) => {
       const keys = await caches.keys()
       await Promise.all(keys.filter((k) => !k.startsWith(CACHE_VERSION)).map((k) => caches.delete(k)))
       await self.clients.claim()
+      // notify clients that an update is ready
+      const clients = await self.clients.matchAll({ type: 'window' })
+      for (const client of clients) {
+        client.postMessage({ type: 'SW_READY' })
+      }
     })()
   )
 })

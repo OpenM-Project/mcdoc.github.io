@@ -1,0 +1,25 @@
+name: Broken link / Malicious link
+description: Report a dead or unsafe link so we can fix it
+labels: [broken-link]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      description: The page where you found the link
+      placeholder: https://mcdoc.site/...
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Target link
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happened? (404, malware warning, wrong content, etc.)
+

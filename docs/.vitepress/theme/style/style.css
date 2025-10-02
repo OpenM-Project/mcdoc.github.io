@@ -6,6 +6,12 @@
 @import 'tailwindcss';
 
 /* Fix Layout Switcher */
+/* Sticky table header */
+table thead th { position: sticky; top: 0; background: var(--vp-c-bg); z-index: 1; }
+
+/* Sidebar link hover/active polish */
+.VPSidebar .link .text:hover { color: var(--vp-c-brand-2); }
+.VPSidebar .link .text.active { color: var(--vp-c-brand-1); font-weight: 600; }
 
 .VPSocialLinks.VPNavBarSocialLinks.social-links {
   margin-right: 0;

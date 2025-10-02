@@ -1,0 +1,23 @@
+name: Content correction
+description: Report inaccurate/outdated info
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested fix
+    validations:
+      required: true
+

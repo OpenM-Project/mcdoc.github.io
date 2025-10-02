@@ -18,6 +18,8 @@ If you are able to use it, it is **highly** recommended to use [TrollStore](http
 
 ## Apple ID Services
 
+<TableWrap>
+
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
 ⭐ akwebguide | [Website](https://www.akwebguide.com/) | - | **Yes** | Unlocked Apple ID service for a variety of games including Minecraft for IOS
@@ -35,6 +37,8 @@ TweakHome | [Website](https://tweakhome.app/minecraft-ipa/) | - | No | Modded & 
 Senumy | [Website](https://senumy.com/ipa-library/hacked-games/minecraft/) | - | No | Unlocked IPAs of Minecraft for IOS.
 Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pocket-edition-versions-ipa) | - | No | An archive of Unlocked Minecraft IPAs.
 
+</TableWrap>
+
 ::: tip See also
 - [Windows](/bedrock/windows) · [Linux](/bedrock/linux) · [Android](/bedrock/android)
 - Troubleshooting: [iOS notes](/guides/troubleshooting#ios)
@@ -42,7 +46,11 @@ Minecraft IPA Archive | [Archive.org](https://archive.org/details/minecraft-pock
 
 ## Other Tools
 
+<TableWrap>
+
 Name | Download | Source code | Is it maintained? | Description
 ------ | ------ | ------ | ------| ------
 ⭐ Project Lumina | [Website](https://projectlumina.xyz/) / [Discord](https://discord.com/invite/7ppv6m7huM) | - | **Yes** | The first free non-jailbreak mod menu client for Minecraft on iOS devices ported to Shortcuts!
 Plug ToolBox | [AppStore](https://apps.apple.com/us/app/plug-toolbox-for-minecraft/id1354063228) | - | **Yes** | The only mod menu client for Minecraft on the App Store, the caveat is that it is unfortunately **paid**.
+
+</TableWrap>

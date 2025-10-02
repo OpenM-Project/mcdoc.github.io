@@ -27,6 +27,10 @@ import Navlink from './components/Navlink.vue'
 import xgplayer from "./components/xgplayer.vue"
 import LegalCallout from './components/LegalCallout.vue'
 import VersionBadge from './components/VersionBadge.vue'
+import TableWrap from './components/TableWrap.vue'
+import ReportLink from './components/ReportLink.vue'
+import TagsChips from './components/TagsChips.vue'
+import RelatedLinks from './components/RelatedLinks.vue'
 import Toast, { PluginOptions } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
@@ -40,6 +44,10 @@ export default {
     app.component('xgplayer' , xgplayer)
     app.component('LegalCallout', LegalCallout)
     app.component('VersionBadge', VersionBadge)
+    app.component('TableWrap', TableWrap)
+    app.component('ReportLink', ReportLink)
+    app.component('TagsChips', TagsChips)
+    app.component('RelatedLinks', RelatedLinks)
     app.component('vImageViewer', vImageViewer);
     app.provide(InjectionKey, {
       defaultMode: 'LayoutMode.Original',
@@ -57,6 +65,23 @@ export default {
     vitepressBackToTop({
       threshold:300
     })
+
+    // SW update toast
+    if (typeof window !== 'undefined') {
+      navigator.serviceWorker?.addEventListener('message', (e) => {
+        if (e.data?.type === 'SW_READY') {
+          const t = (window as any).$toast || null
+          // vue-toastification is installed
+          if (t) {
+            t.info('New version available', {
+              timeout: 6000,
+              closeOnClick: true,
+              onClick: () => location.reload()
+            })
+          }
+        }
+      })
+    }
   },
 
   setup() {
