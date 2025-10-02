@@ -42,14 +42,20 @@ features:
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #644119, #ddb807);
 }
-
+.VPHomeHero .actions .VPButton.brand{
+  transition: background 0.35s ease, transform 0.25s ease;
+}
+.VPHomeHero .actions .VPButton.brand:hover{
+  transform: translateY(-2px);
+}
 .VPHomeHero .actions .VPButton.download {
-  /* border: 3px solid #70f84e9f; */
   color: #ffffff;
-  background-color: #70f84e4b;
+  background: linear-gradient(135deg, #cfa61c 0%, #e0b83a 50%, #b88408 100%);
+  transition: background 0.35s ease, transform 0.25s ease;
 }
 .VPHomeHero .actions .VPButton.download:hover {
-  background-color: #70f84e77;
+  background: linear-gradient(135deg, #e2b521 0%, #f3cf55 50%, #cfa61c 100%);
   color: #ffffff;
+  transform: translateY(-2px);
 }
 </style>
