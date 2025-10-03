@@ -29,6 +29,7 @@ import LegalCallout from './components/LegalCallout.vue'
 import VersionBadge from './components/VersionBadge.vue'
 import TableWrap from './components/TableWrap.vue'
 import ReportLink from './components/ReportLink.vue'
+import ReportButton from './components/ReportButton.vue'
 import TagsChips from './components/TagsChips.vue'
 import RelatedLinks from './components/RelatedLinks.vue'
 import Toast, { PluginOptions } from "vue-toastification";
@@ -46,6 +47,7 @@ export default {
     app.component('VersionBadge', VersionBadge)
     app.component('TableWrap', TableWrap)
     app.component('ReportLink', ReportLink)
+    app.component('ReportButton', ReportButton)
     app.component('TagsChips', TagsChips)
     app.component('RelatedLinks', RelatedLinks)
     app.component('vImageViewer', vImageViewer);
@@ -124,8 +126,14 @@ export default {
     }
 
     return h(DefaultTheme.Layout, props, {
-            'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
-            'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
+            'nav-bar-content-after': () => [
+              h(NolebaseEnhancedReadabilitiesMenu),
+              h(ReportButton)
+            ],
+            'nav-screen-content-after': () => [
+              h(NolebaseEnhancedReadabilitiesScreenMenu),
+              h(ReportButton)
+            ],
             'layout-top': () => [
               h(NolebaseHighlightTargetedHeading),
             ],
