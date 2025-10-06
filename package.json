@@ -27,7 +27,14 @@
   "scripts": {
     "dev": "vitepress dev docs/",
     "build": "vitepress build docs/",
-    "preview": "vitepress preview docs/"
+    "preview": "vitepress preview docs/",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
+    "format": "prettier --write .",
+    "type-check": "vue-tsc --noEmit",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "clean": "rm -rf docs/.vitepress/dist",
+    "serve": "serve docs/.vitepress/dist -s -l 5000"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.9.0",

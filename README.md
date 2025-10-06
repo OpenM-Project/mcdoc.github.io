@@ -38,7 +38,62 @@ To get started with MCDOC using VitePress, follow these steps:
 Contributions to MCDOC are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request, or create an issue.
 **For requesting to add a material to MCDOC is accepted!, please do a Pull Request for it.**
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for style, frontmatter schema, and PR checklist.
+### How to Contribute
+
+1. **Fork the repository** and clone it to your local machine
+2. **Create a new branch** for your changes: `git checkout -b feature/your-feature-name`
+3. **Make your changes** following our coding standards and guidelines
+4. **Test your changes** by running the development server: `pnpm run dev`
+5. **Commit your changes** with a descriptive commit message
+6. **Push to your fork** and create a pull request
+
+### Contribution Guidelines
+
+- **Code Style**: Follow the existing code style and use Prettier for formatting
+- **Commit Messages**: Use clear, descriptive commit messages
+- **Pull Requests**: Provide a clear description of your changes and why they're needed
+- **Issues**: Use the issue templates and provide as much detail as possible
+- **Documentation**: Update documentation for any new features or changes
+
+### Development Setup
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm run dev
+
+# Build for production
+pnpm run build
+
+# Preview production build
+pnpm run preview
+```
+
+### Project Structure
+
+```
+docs/
+├── .vitepress/          # VitePress configuration and theme
+│   ├── config.mts       # Main configuration
+│   └── theme/           # Custom theme components
+├── bedrock/             # Bedrock Edition content
+├── java/                # Java Edition content
+├── guides/              # Tutorials and guides
+├── marketplace/         # Marketplace content
+└── public/              # Static assets
+```
+
+### Content Guidelines
+
+- **Markdown**: Use proper Markdown syntax and formatting
+- **Images**: Optimize images and use WebP format when possible
+- **Links**: Use relative links for internal content
+- **Frontmatter**: Include proper frontmatter with title, description, and tags
+- **Accessibility**: Ensure content is accessible with proper alt text and headings
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed style, frontmatter schema, and PR checklist.
 
 ## License
 

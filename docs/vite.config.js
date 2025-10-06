@@ -1,16 +1,32 @@
 import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
 export default defineConfig(() => {
   return {
     build: {
-      rollupOptions: {}
+      rollupOptions: {
+        external: ['fsevents']
+      },
+      chunkSizeWarningLimit: 1000,
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true
+        }
+      }
     },
     optimizeDeps: {
       exclude: [ 
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
         '@nolebase/vitepress-plugin-highlight-targeted-heading',
-        'vitepress'
-      ], 
+        'vitepress',
+        'fsevents'
+      ],
+      include: [
+        'vue',
+        'vue-toastification'
+      ]
     },
     ssr: { 
       noExternal: [
@@ -44,5 +60,17 @@ export default defineConfig(() => {
         }
       }
     },
+    resolve: {
+      alias: {
+        '@': resolve(__dirname, 'docs'),
+        '@assets': resolve(__dirname, 'docs/public/assets'),
+        '@components': resolve(__dirname, 'docs/.vitepress/theme/components')
+      }
+    },
+    server: {
+      fs: {
+        allow: ['..']
+      }
+    }
   }
 })

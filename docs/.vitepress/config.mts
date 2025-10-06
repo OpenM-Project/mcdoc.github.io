@@ -26,6 +26,9 @@ export default defineConfig({
 
   sitemap: {
     hostname: 'https://mcdoc.site',
+    lastmod: new Date().toISOString(),
+    changefreq: 'weekly',
+    priority: 0.8,
   },
 
   title: "MCDOC",
@@ -36,6 +39,10 @@ export default defineConfig({
   appearance: true,
   head: [
           ['link', { rel: 'icon', href: '/favicon.ico' }],
+          ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+          ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+          ['link', { rel: 'dns-prefetch', href: 'https://dl.mcdoc.site' }],
+          ['link', { rel: 'dns-prefetch', href: 'https://github.com' }],
           [ 'meta', { property: 'og:type', content: 'website' }],
           [ 'meta', { property: 'og:title', content: 'MCDOC' }],
           [ 'meta', { property: 'og:image', content: '/assets/images/title.webp' }],
@@ -64,14 +71,57 @@ export default defineConfig({
               "@type": "WebSite",
               "url": "https://mcdoc.site",
               "name": "MCDOC",
-              "description": "An Ultimate Collection of Minecraft Tools & Unlockers.",
+              "alternateName": "Minecraft Documentation",
+              "description": "An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.",
+              "inLanguage": "en-US",
+              "isAccessibleForFree": true,
+              "isFamilyFriendly": true,
+              "keywords": "minecraft, bedrock, java, earth, story mode, windows, linux, android, ios, console, nintendo switch, playstation, xbox, wii, education, legends, dungeons, OpenM, Project, tools, Story, Free Minecraft, Unlocker, Crack, working, 100%, marketplace, addon, crack, free, pro, minecoin, minecraft, MCDOC, unlockers, index, safe",
               "publisher": {
                 "@type": "Organization",
                 "name": "OpenM Project",
+                "url": "https://openm.mcdoc.site",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://mcdoc.site/assets/images/logo.webp"
-                }
+                  "url": "https://mcdoc.site/assets/images/logo.webp",
+                  "width": 512,
+                  "height": 512
+                },
+                "sameAs": [
+                  "https://github.com/openm-project/mcdoc.github.io",
+                  "https://dc.mcdoc.site",
+                  "https://www.reddit.com/r/openm/"
+                ]
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://mcdoc.site/?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              },
+              "mainEntity": {
+                "@type": "ItemList",
+                "name": "Minecraft Tools & Unlockers",
+                "description": "Comprehensive collection of Minecraft tools, unlockers, and resources",
+                "numberOfItems": 50,
+                "itemListElement": [
+                  {
+                    "@type": "SoftwareApplication",
+                    "name": "Minecraft Bedrock Unlocker",
+                    "description": "Unlock Minecraft Bedrock Edition for Windows, Android, iOS, and consoles",
+                    "applicationCategory": "GameApplication",
+                    "operatingSystem": ["Windows", "Android", "iOS", "PlayStation", "Xbox", "Nintendo Switch"]
+                  },
+                  {
+                    "@type": "SoftwareApplication",
+                    "name": "Minecraft Java Unlocker",
+                    "description": "Unlock Minecraft Java Edition for Windows and Linux",
+                    "applicationCategory": "GameApplication",
+                    "operatingSystem": ["Windows", "Linux"]
+                  }
+                ]
               }
             }
           `],

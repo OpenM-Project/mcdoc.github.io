@@ -50,7 +50,7 @@ export default {
     app.component('ReportButton', ReportButton)
     app.component('TagsChips', TagsChips)
     app.component('RelatedLinks', RelatedLinks)
-    app.component('vImageViewer', vImageViewer);
+    app.component('vImageViewer', vImageViewer)
     app.provide(InjectionKey, {
       defaultMode: 'LayoutMode.Original',
       diableAnimation: false,
@@ -69,7 +69,7 @@ export default {
     })
 
     // SW update toast
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && typeof navigator !== 'undefined') {
       navigator.serviceWorker?.addEventListener('message', (e) => {
         if (e.data?.type === 'SW_READY') {
           const t = (window as any).$toast || null
@@ -78,7 +78,11 @@ export default {
             t.info('New version available', {
               timeout: 6000,
               closeOnClick: true,
-              onClick: () => location.reload()
+              onClick: () => {
+                if (typeof location !== 'undefined') {
+                  location.reload()
+                }
+              }
             })
           }
         }
@@ -90,7 +94,7 @@ export default {
     const route = useRoute();
     const { frontmatter } = toRefs(useData());
     imageViewer(route);
-    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+    if (typeof window !== 'undefined' && typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
       import('workbox-window').then(({ Workbox }) => {
         const wb = new Workbox('/sw.js')
         wb.register()

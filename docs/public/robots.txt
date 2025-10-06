@@ -31,6 +31,26 @@ Disallow:
 User-agent: yahoo-blogs/v3.9
 Disallow: 
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Allow: /
+
 Sitemap: https://mcdoc.site/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+Disallow: /cgi-bin/
+
+# Allow important pages
+Allow: /download
+Allow: /browse
+Allow: /marketplace
+Allow: /bedrock/
+Allow: /java/
+Allow: /guides/
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

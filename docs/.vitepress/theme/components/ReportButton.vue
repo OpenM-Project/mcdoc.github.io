@@ -382,12 +382,15 @@ ${formData.severity}
 }
 
 .submit-button {
-  background: var(--vp-c-brand-1);
-  color: var(--vp-c-brand-soft);
+  background: #644119;
+  color: #ffffff;
+  border: 1px solid #644119;
 }
 
 .submit-button:hover:not(:disabled) {
-  background: var(--vp-c-brand-2);
+  background: #7a4f1f;
+  border-color: #7a4f1f;
+  color: #ffffff;
 }
 
 .submit-button:disabled {
@@ -399,6 +402,18 @@ ${formData.severity}
 .dark .popup-content {
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-divider);
+}
+
+.dark .submit-button {
+  background: #fbbf24;
+  color: #1f2937;
+  border: 1px solid #fbbf24;
+}
+
+.dark .submit-button:hover:not(:disabled) {
+  background: #f59e0b;
+  border-color: #f59e0b;
+  color: #1f2937;
 }
 
 /* Mobile responsiveness */
