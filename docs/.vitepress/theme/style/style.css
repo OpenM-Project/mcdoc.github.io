@@ -400,13 +400,13 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--vp-c-brand-2);
+  background: var(--vp-c-gray-3);
   border-radius: 4px;
   transition: background 0.2s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--vp-c-brand-1);
+  background: var(--vp-c-gray-2);
 }
 
 /* Enhanced code block interactions */
