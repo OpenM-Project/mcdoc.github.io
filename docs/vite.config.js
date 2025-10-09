@@ -9,7 +9,7 @@ export default defineConfig(() => {
         output: {
           manualChunks: {
             vendor: ['vue'],
-            utils: ['@formkit/auto-animate', 'vue-toastification']
+            utils: ['vue-toastification']
           }
         }
       },
@@ -70,7 +70,8 @@ export default defineConfig(() => {
         scss: {
           api: 'modern-compiler'
         }
-      }
+      },
+      devSourcemap: true
     },
     resolve: {
       alias: {
@@ -91,7 +92,8 @@ export default defineConfig(() => {
       target: 'esnext'
     },
     define: {
-      __VUE_PROD_DEVTOOLS__: false
+      __VUE_PROD_DEVTOOLS__: false,
+      __VITEPRESS_THEME__: JSON.stringify('dark')
     }
   }
 })

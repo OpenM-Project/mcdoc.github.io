@@ -32,6 +32,10 @@ import ReportLink from './components/ReportLink.vue'
 import ReportButton from './components/ReportButton.vue'
 import TagsChips from './components/TagsChips.vue'
 import RelatedLinks from './components/RelatedLinks.vue'
+import ReadingTime from './components/ReadingTime.vue'
+import CopyCodeButton from './components/CopyCodeButton.vue'
+import ReadingProgress from './components/ReadingProgress.vue'
+import CustomLayout from './components/CustomLayout.vue'
 import Toast, { PluginOptions } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
@@ -50,6 +54,10 @@ export default {
     app.component('ReportButton', ReportButton)
     app.component('TagsChips', TagsChips)
     app.component('RelatedLinks', RelatedLinks)
+    app.component('ReadingTime', ReadingTime)
+    app.component('CopyCodeButton', CopyCodeButton)
+    app.component('ReadingProgress', ReadingProgress)
+    app.component('CustomLayout', CustomLayout)
     app.component('vImageViewer', vImageViewer)
     app.provide(InjectionKey, {
       defaultMode: 'LayoutMode.Original',
@@ -133,7 +141,7 @@ export default {
       inputPosition: 'top',
       lang: 'en',
       locales: {
-        'en-US': 'en'
+          'en-US': 'en'
       },
       homePageShowComment: false,
       lightTheme: 'light',
@@ -181,8 +189,144 @@ export default {
           observer.observe(el);
         });
       }
+
+      // Auto-add copy buttons to code blocks
+      if (typeof window !== 'undefined') {
+        const addCopyButtons = () => {
+          const codeBlocks = document.querySelectorAll('div[class*="language-"]:not(.copy-button-added)');
+          codeBlocks.forEach(block => {
+            const code = block.querySelector('code');
+            if (code && !block.querySelector('.copy-code-button')) {
+              const copyButton = document.createElement('button');
+              copyButton.className = 'copy-code-button';
+              copyButton.innerHTML = `
+                <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                </svg>
+              `;
+              
+              copyButton.addEventListener('click', async () => {
+                try {
+                  await navigator.clipboard.writeText(code.textContent || '');
+                  copyButton.innerHTML = `
+                    <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="20,6 9,17 4,12"/>
+                    </svg>
+                  `;
+                  copyButton.style.background = 'var(--vp-c-brand-soft)';
+                  copyButton.style.color = 'var(--vp-c-brand-1)';
+                  copyButton.style.borderColor = 'var(--vp-c-brand-1)';
+                  
+                  setTimeout(() => {
+                    copyButton.innerHTML = `
+                      <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                      </svg>
+                    `;
+                    copyButton.style.background = '';
+                    copyButton.style.color = '';
+                    copyButton.style.borderColor = '';
+                  }, 2000);
+                } catch (err) {
+                  console.error('Failed to copy code:', err);
+                }
+              });
+              
+              block.appendChild(copyButton);
+              block.classList.add('copy-button-added');
+            }
+          });
+        };
+
+        // Auto-add reading time component
+        const addReadingTime = () => {
+          // Don't add on specific pages
+          const excludedPages = ['/', '/index', '/credits', '/download', '/changelog'];
+          if (excludedPages.includes(route.path)) {
+            // Remove any existing reading time on excluded pages
+            const existingReadingTime = document.querySelector('.auto-reading-time');
+            if (existingReadingTime) {
+              existingReadingTime.remove();
+            }
+            return;
+          }
+          
+          const content = document.querySelector('.vp-doc .container .content') || document.querySelector('.vp-doc .content') || document.querySelector('.vp-doc');
+          if (content && !document.querySelector('.auto-reading-time')) {
+            // Create reading time element
+            const readingTimeEl = document.createElement('div');
+            readingTimeEl.className = 'auto-reading-time';
+            readingTimeEl.innerHTML = `
+              <div class="reading-time-container">
+                <div class="reading-time">
+                  <svg class="reading-time-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12,6 12,12 16,14"/>
+                  </svg>
+                  <span>Reading time will be calculated...</span>
+                </div>
+              </div>
+            `;
+            
+            // Find the page title (h1) and insert reading time after it
+            const title = content.querySelector('h1');
+            if (title && title.parentNode) {
+              title.parentNode.insertBefore(readingTimeEl, title.nextSibling);
+            } else {
+              // Fallback: insert at the beginning of content
+              content.insertBefore(readingTimeEl, content.firstChild);
+            }
+            
+                   // Calculate reading time from actual text content
+                   const text = content.textContent || '';
+                   const wordCount = text.split(/\s+/).filter(word => word.length > 2).length;
+                   const readingTime = Math.ceil(wordCount / 225);
+
+                   // Only show reading time if it's more than 1.5 minutes (90 seconds)
+                   if (readingTime >= 2) {
+                     readingTimeEl.innerHTML = `
+                       <div class="simple-reading-time">
+                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                           <circle cx="12" cy="12" r="10"/>
+                           <polyline points="12,6 12,12 16,14"/>
+                         </svg>
+                         <span>${readingTime} min read</span>
+                       </div>
+                     `;
+                   } else {
+                     readingTimeEl.remove();
+                   }
+          }
+        };
+
+        // Add components on mount and route change
+        const addComponents = () => {
+          addCopyButtons();
+          // Add delay for reading time to ensure content is loaded
+          setTimeout(() => {
+            addReadingTime();
+          }, 100);
+        };
+        
+        addComponents();
+        
+        // Watch for route changes and re-add components
+        watch(route, () => {
+          // Clean up existing reading time before adding new one
+          const existingReadingTime = document.querySelector('.auto-reading-time');
+          if (existingReadingTime) {
+            existingReadingTime.remove();
+          }
+          
+          nextTick(() => {
+            addComponents();
+          });
+        });
+      }
     });
-  },
+},
 
   Layout: () => {
     const props: Record<string, any> = {}
@@ -192,7 +336,9 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props, {
+    return h('div', { class: 'vp-layout-wrapper' }, [
+      h(ReadingProgress),
+      h(DefaultTheme.Layout, props, {
             'nav-bar-content-after': () => [
               h(NolebaseEnhancedReadabilitiesMenu),
               h(ReportButton)
@@ -204,7 +350,11 @@ export default {
             'layout-top': () => [
               h(NolebaseHighlightTargetedHeading),
             ],
+        'doc-before': () => [
+          // ReadingTime is now auto-added via JavaScript
+            ],
     })
+    ])
   },
 
 } satisfies Theme

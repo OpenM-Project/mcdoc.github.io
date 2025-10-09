@@ -22,10 +22,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://mcdoc.site',
-    lastmod: new Date().toISOString(),
-    changefreq: 'weekly',
-    priority: 0.8,
+    hostname: 'https://mcdoc.site'
   },
 
   title: "MCDOC",
@@ -64,6 +61,16 @@ export default defineConfig({
           [ 'meta', { name: 'yandex-verification', content: 'd90a346e7ae4267f' }],
           [ 'meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
           [ 'meta', { name: 'description', content: 'An Ultimate Collection of Minecraft Tools & Unlockers.' }],
+          [ 'meta', { name: 'color-scheme', content: 'dark' }],
+          [ 'meta', { name: 'theme-color', content: '#644119', media: '(prefers-color-scheme: dark)' }],
+          [ 'meta', { name: 'format-detection', content: 'telephone=no' }],
+          [ 'meta', { name: 'mobile-web-app-capable', content: 'yes' }],
+          [ 'meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+          [ 'meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }],
+          [ 'meta', { name: 'apple-mobile-web-app-title', content: 'MCDOC' }],
+          [ 'meta', { name: 'application-name', content: 'MCDOC' }],
+          [ 'meta', { name: 'msapplication-TileColor', content: '#644119' }],
+          [ 'meta', { name: 'msapplication-config', content: '/browserconfig.xml' }],
           [ 'script', { type: 'application/ld+json' }, `
             {
               "@context": "https://schema.org",
@@ -129,6 +136,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/favicon.ico',
     siteTitle: 'MCDOC',
+    darkMode: true,
     nav: [
         { text: 'Marketplace', link: '/marketplace' },
         { text: 'Miscellaneous', link: '/miscellaneous' },
@@ -148,7 +156,6 @@ export default defineConfig({
             { text: 'Privacy Policy', link: '/legal/privacy' },
             { text: 'DMCA', link: '/legal/dmca' },
             { text: 'Credits', link: '/credits' },
-            { text: 'Changelog', link: '/changelog' },
           ]
         }
         ],
