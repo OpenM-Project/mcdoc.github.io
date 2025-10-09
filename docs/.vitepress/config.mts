@@ -6,8 +6,6 @@ import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-p
 import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
 
 export default defineConfig({
-
-  extends: {
   vite: { 
     plugins: [
       GitChangelog({ 
@@ -22,7 +20,6 @@ export default defineConfig({
       PageProperties(),
     ],
   },
-},
 
   sitemap: {
     hostname: 'https://mcdoc.site',
@@ -35,8 +32,10 @@ export default defineConfig({
   lang: 'en-US',
   description: "An Ultimate Collection of Bedrock Minecraft History, Tools & Unlockers.",
   base: '/',
-  cleanUrls:true,
-  appearance: true,
+  cleanUrls: true,
+  appearance: 'dark',
+  lastUpdated: true,
+  ignoreDeadLinks: false,
   head: [
           ['link', { rel: 'icon', href: '/favicon.ico' }],
           ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -159,10 +158,10 @@ export default defineConfig({
         text: '❇️ Downloads',
         link: '/download'
       },
-      {
-        text: '📖 Story',
-        link: '/story'
-      },
+      // {
+      //   text: '📖 Story',
+      //   link: '/story'
+      // },
       {
         text: '🔨 Learn',
         link: '/learn'
@@ -248,7 +247,30 @@ export default defineConfig({
     },
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Search',
+            buttonAriaLabel: 'Search'
+          },
+          modal: {
+            displayDetails: 'Display detailed matches',
+            resetButtonTitle: 'Reset search',
+            backButtonTitle: 'Close search',
+            noResultsText: 'No results for',
+            footer: {
+              selectText: 'to select',
+              selectKeyAriaLabel: 'enter',
+              navigateText: 'to navigate',
+              navigateUpKeyAriaLabel: 'arrow up',
+              navigateDownKeyAriaLabel: 'arrow down',
+              closeText: 'to close',
+              closeKeyAriaLabel: 'escape'
+            }
+          }
+        }
+      }
     }, 
 
     socialLinks: [
@@ -280,17 +302,22 @@ export default defineConfig({
   },
 
   markdown: {
-    lineNumbers: true, 
-
+    lineNumbers: true,
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark'
+    },
+    languages: [],
     config: (md) => {
       md.use(timeline as any);
       md.use(BiDirectionalLinks() as any);
       md.use(InlineLinkPreviewElementTransform as any);
     },
-
     image: {
       lazyLoading: true
     },
+    linkify: true,
+    breaks: true
   }
 
 })

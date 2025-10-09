@@ -221,3 +221,169 @@ table thead th { position: sticky; top: 0; background: var(--vp-c-bg); z-index: 
 a:link {
   text-decoration: none;
 }
+
+/* Modern CSS Features */
+:root {
+  /* Enhanced animations */
+  --vp-animation-duration: 0.3s;
+  --vp-animation-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Modern shadows */
+  --vp-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --vp-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --vp-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  
+  /* Enhanced focus styles */
+  --vp-focus-ring: 0 0 0 2px var(--vp-c-brand-1);
+}
+
+/* Improved focus accessibility */
+*:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Modern scroll behavior */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Enhanced button interactions */
+.vp-button {
+  transition: all var(--vp-animation-duration) var(--vp-animation-easing);
+  transform: translateY(0);
+}
+
+.vp-button:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--vp-shadow-md);
+}
+
+.vp-button:active {
+  transform: translateY(0);
+}
+
+/* Improved card hover effects */
+.vp-doc div[class*="language-"] {
+  transition: box-shadow var(--vp-animation-duration) var(--vp-animation-easing);
+}
+
+.vp-doc div[class*="language-"]:hover {
+  box-shadow: var(--vp-shadow-lg);
+}
+
+/* Modern table styling */
+.vp-doc table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--vp-shadow-sm);
+}
+
+/* Enhanced image loading */
+.vp-doc img {
+  transition: opacity var(--vp-animation-duration) var(--vp-animation-easing);
+  border-radius: 8px;
+}
+
+.vp-doc img[data-loading] {
+  opacity: 0;
+}
+
+.vp-doc img:not([data-loading]) {
+  opacity: 1;
+}
+
+/* Modern navigation enhancements */
+.VPNavBar {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Improved sidebar interactions */
+.VPSidebar .link {
+  transition: all var(--vp-animation-duration) var(--vp-animation-easing);
+  border-radius: 6px;
+  margin: 2px 8px;
+}
+
+.VPSidebar .link:hover {
+  transform: translateX(4px);
+}
+
+.VPSidebar .link.active {
+  background-color: var(--vp-c-brand-soft);
+  font-weight: 600;
+}
+
+/* Modern search enhancements */
+.DocSearch-Modal {
+  border-radius: 12px;
+  box-shadow: var(--vp-shadow-lg);
+}
+
+/* Enhanced code blocks */
+.vp-doc div[class*="language-"] {
+  border-radius: 8px;
+  position: relative;
+}
+
+.vp-doc div[class*="language-"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  border-radius: 8px 8px 0 0;
+}
+
+/* Modern loading states */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.loading {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Enhanced mobile experience */
+@media (max-width: 768px) {
+  .VPSidebar .link:hover {
+    transform: none;
+  }
+  
+  .vp-button:hover {
+    transform: none;
+  }
+}
+
+/* Modern glassmorphism effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Enhanced accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -5,16 +5,28 @@ export default defineConfig(() => {
   return {
     build: {
       rollupOptions: {
-        external: ['fsevents']
+        external: ['fsevents'],
+        output: {
+          manualChunks: {
+            vendor: ['vue'],
+            utils: ['@formkit/auto-animate', 'vue-toastification']
+          }
+        }
       },
       chunkSizeWarningLimit: 1000,
       minify: 'terser',
       terserOptions: {
         compress: {
           drop_console: true,
-          drop_debugger: true
+          drop_debugger: true,
+          pure_funcs: ['console.log', 'console.info']
+        },
+        mangle: {
+          safari10: true
         }
-      }
+      },
+      target: 'esnext',
+      cssTarget: 'chrome80'
     },
     optimizeDeps: {
       exclude: [ 
@@ -70,7 +82,16 @@ export default defineConfig(() => {
     server: {
       fs: {
         allow: ['..']
+      },
+      hmr: {
+        overlay: true
       }
+    },
+    esbuild: {
+      target: 'esnext'
+    },
+    define: {
+      __VUE_PROD_DEVTOOLS__: false
     }
   }
 })

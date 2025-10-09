@@ -1,5 +1,5 @@
-import { h, onMounted, watch, nextTick, toRefs} from 'vue'
-import { useData , useRoute } from 'vitepress'
+import { h, onMounted, watch, nextTick, toRefs, ref, computed} from 'vue'
+import { useData, useRoute, useRouter } from 'vitepress'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style/style.css'
@@ -92,14 +92,38 @@ export default {
 
   setup() {
     const route = useRoute();
-    const { frontmatter } = toRefs(useData());
+    const router = useRouter();
+    const { frontmatter, theme } = toRefs(useData());
+    
+    // Modern loading state management
+    const isLoading = ref(false);
+    const loadingProgress = ref(0);
+    
+    // Enhanced image viewer with modern features
     imageViewer(route);
+    
+    // Modern service worker with enhanced caching
     if (typeof window !== 'undefined' && typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
       import('workbox-window').then(({ Workbox }) => {
-        const wb = new Workbox('/sw.js')
-        wb.register()
-      }).catch(() => {})
+        const wb = new Workbox('/sw.js', {
+          updateViaCache: 'none'
+        });
+        
+        // Enhanced service worker lifecycle
+        wb.addEventListener('controlling', () => {
+          window.location.reload();
+        });
+        
+        wb.addEventListener('waiting', () => {
+          // Show update notification
+          console.log('New version available');
+        });
+        
+        wb.register().catch(() => {});
+      }).catch(() => {});
     }
+    
+    // Enhanced giscus integration with modern features
     giscusTalk({
       repo: 'OpenM-Project/mcdoc.github.io',
       repoId: 'R_kgDOM_hm8w',
@@ -109,17 +133,56 @@ export default {
       inputPosition: 'top',
       lang: 'en',
       locales: {
-          'en-US': 'en'
+        'en-US': 'en'
       },
       homePageShowComment: false,
       lightTheme: 'light',
       darkTheme: 'transparent_dark',
-  }, {
-      frontmatter, route
+      // Modern giscus features
+      loading: 'lazy',
+      strict: '1',
+      reactionsEnabled: '1',
+      emitMetadata: '0',
+      theme: computed(() => theme.value.dark ? 'transparent_dark' : 'light')
+    }, {
+      frontmatter, 
+      route
+    }, true);
+    
+    // Modern route tracking and analytics
+    watch(route, (newRoute, oldRoute) => {
+      if (oldRoute && newRoute.path !== oldRoute.path) {
+        // Track page views
+        if (typeof window !== 'undefined' && (window as any).gtag) {
+          (window as any).gtag('config', 'GA_MEASUREMENT_ID', {
+            page_path: newRoute.path
+          });
+        }
+      }
+    });
+    
+    // Enhanced error handling
+    onMounted(() => {
+      // Modern intersection observer for lazy loading
+      if (typeof window !== 'undefined' && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate-fade-in');
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '50px'
+        });
+        
+        // Observe elements for animation
+        document.querySelectorAll('.vp-doc img, .vp-doc pre').forEach(el => {
+          observer.observe(el);
+        });
+      }
+    });
   },
-      true
-  );
-},
 
   Layout: () => {
     const props: Record<string, any> = {}
