@@ -388,47 +388,6 @@ html {
   }
 }
 
-/* Mobile table horizontal scrolling */
-@media (max-width: 768px) {
-  .vp-doc table {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  .vp-doc table thead,
-  .vp-doc table tbody,
-  .vp-doc table tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-  }
-  
-  .vp-doc table th,
-  .vp-doc table td {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    min-width: 120px;
-  }
-}
-
-/* Table wrapper for better mobile scrolling */
-.vp-doc .table-wrapper {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 16px 0;
-}
-
-@media (max-width: 768px) {
-  .vp-doc .table-wrapper {
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-}
-
 /* Modern scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
