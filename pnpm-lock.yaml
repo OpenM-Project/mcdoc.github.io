@@ -35,34 +35,34 @@ importers:
         version: 2.18.2(markdown-it@14.1.0)
       '@nolebase/ui':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       '@nolebase/vitepress-plugin-enhanced-readabilities':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       '@nolebase/vitepress-plugin-git-changelog':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       '@nolebase/vitepress-plugin-highlight-targeted-heading':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))
+        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))
       '@nolebase/vitepress-plugin-inline-link-preview':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       '@nolebase/vitepress-plugin-page-properties':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+        version: 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       '@tailwindcss/postcss':
         specifier: ^4.1.14
         version: 4.1.14
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
-        version: 6.0.1(vite@7.1.9(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+        version: 6.0.1(vite@7.1.9(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.6)
       less:
-        specifier: ^4.4.1
-        version: 4.4.1
+        specifier: ^4.4.2
+        version: 4.4.2
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -77,10 +77,10 @@ importers:
         version: 4.1.14
       vite:
         specifier: ^7.1.9
-        version: 7.1.9(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0)
+        version: 7.1.9(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0)
       vitepress:
         specifier: 2.0.0-alpha.12
-        version: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
+        version: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
       vitepress-markdown-timeline:
         specifier: ^1.2.2
         version: 1.2.2
@@ -120,11 +120,11 @@ packages:
     resolution: {integrity: sha512-bkFqkLhh3pMBUQQkpVgWDWq/lqzc2678eUyDlTBhRqhCHFguYYGM0Efga7tYk4TogG/3x0EEl66/OQ+WGbWB/Q==}
     engines: {node: '>=6.9.0'}
 
-  '@docsearch/css@4.1.0':
-    resolution: {integrity: sha512-nuNKGjHj/FQeWgE9t+i83QD/V67QiaAmGY7xS9TVCRUiCqSljOgIKlsLoQZKKVwEG8f+OWKdznzZkJxGZ7d06A==}
+  '@docsearch/css@4.2.0':
+    resolution: {integrity: sha512-65KU9Fw5fGsPPPlgIghonMcndyx1bszzrDQYLfierN+Ha29yotMHzVS94bPkZS6On9LS8dE4qmW4P/fGjtCf/g==}
 
-  '@docsearch/js@4.1.0':
-    resolution: {integrity: sha512-49+CzeGfOiwG85k+dDvKfOsXLd9PQACoY/FLrZfFOKmpWv166u7bAHmBLdzvxlk8nJ289UgpGf0k6GQZtC85Fg==}
+  '@docsearch/js@4.2.0':
+    resolution: {integrity: sha512-KBHVPO29QiGUFJYeAqxW0oXtGf/aghNmRrIRPT4/28JAefqoCkNn/ZM/jeQ7fHjl0KNM6C+KlLVYjwyz6lNZnA==}
 
   '@esbuild/aix-ppc64@0.25.10':
     resolution: {integrity: sha512-0NFWnA+7l41irNuaSVlLfgNT12caWJVLzp5eAVhZ0z1qpxbockccEt3s+149rE64VUI3Ml2zt8Nv5JVc4QXTsw==}
@@ -290,14 +290,14 @@ packages:
     peerDependencies:
       vue: '>=3.2.0'
 
-  '@iconify-json/carbon@1.2.13':
-    resolution: {integrity: sha512-vXrFFKkfYaZSwf4WfnRQJQMnpEzxlPlupwZZlS1WvOAuNnWahsUudHycaMpoBzDqBfniH4KQ2b5qnw0VMKoJug==}
+  '@iconify-json/carbon@1.2.14':
+    resolution: {integrity: sha512-33u6uGiYJ79Dfp72peT+PBMcjxzi+NyJLpqYRX8pnw0zchsUW7Us2xecgvkWgD83KYcbe6hufyWlHFU9y7fb/Q==}
 
   '@iconify-json/icon-park-outline@1.2.4':
     resolution: {integrity: sha512-NyZxXe2gD2TbTOyoRRMdtEJhr6i2KQCdDlYYoOn5oZLndQjwpIhw79hzeFhXvP38/o40D3gQ+l+IaSJgbB+0TQ==}
 
-  '@iconify-json/octicon@1.2.14':
-    resolution: {integrity: sha512-EVP0wcWrJW8L9jLm5JxUiNWAhjm+WeEVxR1/do9ChCx7QRBbNTdaV5u5d9l8H+u3liTgcIijPU8wpc9N7TQG1w==}
+  '@iconify-json/octicon@1.2.16':
+    resolution: {integrity: sha512-lVf3SbtRK0kNLAK7PxBoiyNGRZVdKpi+9y2/DXv8nWeFgBhU/ctK8D1s4wd0FNp1ZMyrh7K2MXmbnENcDOIUhA==}
 
   '@iconify-json/simple-icons@1.2.54':
     resolution: {integrity: sha512-OQQYl8yC5j3QklZOYnK31QYe5h47IhyCoxSLd53f0e0nA4dgi8VOZS30SgSAbsecQ+S0xlGJMjXIHTIqZ+ML3w==}
@@ -894,8 +894,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  baseline-browser-mapping@2.8.12:
-    resolution: {integrity: sha512-vAPMQdnyKCBtkmQA6FMCBvU9qFIppS3nzyXnEM+Lo2IAhG4Mpjv9cCxMudhgV3YdNNJv6TNqXy97dfRVL2LmaQ==}
+  baseline-browser-mapping@2.8.16:
+    resolution: {integrity: sha512-OMu3BGQ4E7P1ErFsIPpbJh0qvDudM/UuJeHgkAvfWe+0HFJCXh+t/l8L6fVLR55RI/UbKrVLnAXZSVwd9ysWYw==}
     hasBin: true
 
   birpc@2.6.1:
@@ -920,8 +920,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001748:
-    resolution: {integrity: sha512-5P5UgAr0+aBmNiplks08JLw+AW/XG/SurlgZLgB1dDLfAw7EfRGxIwzPHxdSCGY/BTKDqIVyJL87cCN6s0ZR0w==}
+  caniuse-lite@1.0.30001749:
+    resolution: {integrity: sha512-0rw2fJOmLfnzCRbkm8EyHL8SvI2Apu5UbnQuTsJ0ClgrH8hcwFooJ1s5R0EP8o8aVrFu8++ae29Kt9/gZAZp/Q==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -1033,8 +1033,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.230:
-    resolution: {integrity: sha512-A6A6Fd3+gMdaed9wX83CvHYJb4UuapPD5X5SLq72VZJzxHSY0/LUweGXRWmQlh2ln7KV7iw7jnwXK7dlPoOnHQ==}
+  electron-to-chromium@1.5.234:
+    resolution: {integrity: sha512-RXfEp2x+VRYn8jbKfQlRImzoJU01kyDvVPBmG39eU2iuRVhuS6vQNocB8J0/8GrIMLnPzgz4eW6WiRnJkTuNWg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1057,8 +1057,8 @@ packages:
     resolution: {integrity: sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==}
     hasBin: true
 
-  es-toolkit@1.39.10:
-    resolution: {integrity: sha512-E0iGnTtbDhkeczB0T+mxmoVlT4YNweEKBLq7oaU4p11mecdsZpNWOglI4895Vh4usbQ+LsJiuLuI2L0Vdmfm2w==}
+  es-toolkit@1.40.0:
+    resolution: {integrity: sha512-8o6w0KFmU0CiIl0/Q/BCEOabF2IJaELM1T2PWj6e8KqzHv1gdx+7JtFnDwOx1kJH/isJ5NwlDG1nCr1HrRF94Q==}
 
   es5-ext@0.10.64:
     resolution: {integrity: sha512-p2snDhiLaXe6dahss1LddxqEm+SkuDvV8dnIQG0MWjyHpcMNfXKPE+/Cc0y+PhxJX3A4xGNeFCj5oc0BUh6deg==}
@@ -1271,8 +1271,8 @@ packages:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
 
-  less@4.4.1:
-    resolution: {integrity: sha512-X9HKyiXPi0f/ed0XhgUlBeFfxrlDP3xR4M7768Zl+WXLUViuL9AOPPJP4nCV0tgRWvTYvpNmN0SFhZOQzy16PA==}
+  less@4.4.2:
+    resolution: {integrity: sha512-j1n1IuTX1VQjIy3tT7cyGbX7nvQOsFLoIqobZv4ttI5axP923gA44zUj6miiA6R5Aoms4sEGVIIcucXUbRI14g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1945,9 +1945,9 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@docsearch/css@4.1.0': {}
+  '@docsearch/css@4.2.0': {}
 
-  '@docsearch/js@4.1.0': {}
+  '@docsearch/js@4.2.0': {}
 
   '@esbuild/aix-ppc64@0.25.10':
     optional: true
@@ -2034,7 +2034,7 @@ snapshots:
       giscus: 1.6.0
       vue: 3.5.22(typescript@5.7.3)
 
-  '@iconify-json/carbon@1.2.13':
+  '@iconify-json/carbon@1.2.14':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -2042,7 +2042,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/octicon@1.2.14':
+  '@iconify-json/octicon@1.2.16':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -2133,69 +2133,69 @@ snapshots:
     dependencies:
       markdown-it: 14.1.0
 
-  '@nolebase/ui@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
+  '@nolebase/ui@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
     dependencies:
-      '@iconify-json/octicon': 1.2.14
-      less: 4.4.1
-      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
+      '@iconify-json/octicon': 1.2.16
+      less: 4.4.2
+      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
       vue: 3.5.22(typescript@5.7.3)
 
-  '@nolebase/vitepress-plugin-enhanced-readabilities@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
+  '@nolebase/vitepress-plugin-enhanced-readabilities@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
     dependencies:
-      '@iconify-json/carbon': 1.2.13
+      '@iconify-json/carbon': 1.2.14
       '@iconify-json/icon-park-outline': 1.2.4
-      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
-      less: 4.4.1
-      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
+      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+      less: 4.4.2
+      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
     transitivePeerDependencies:
       - vue
 
-  '@nolebase/vitepress-plugin-git-changelog@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
+  '@nolebase/vitepress-plugin-git-changelog@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
     dependencies:
-      '@iconify-json/octicon': 1.2.14
-      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+      '@iconify-json/octicon': 1.2.16
+      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       colorette: 2.0.20
       date-fns: 4.1.0
       defu: 6.1.4
-      es-toolkit: 1.39.10
+      es-toolkit: 1.40.0
       execa: 9.6.0
       globby: 14.1.0
       gray-matter: 4.0.3
-      less: 4.4.1
+      less: 4.4.2
       uncrypto: 0.1.3
-      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
+      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
     transitivePeerDependencies:
       - vue
 
-  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))':
+  '@nolebase/vitepress-plugin-highlight-targeted-heading@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))':
     dependencies:
-      less: 4.4.1
-      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
+      less: 4.4.2
+      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
 
-  '@nolebase/vitepress-plugin-inline-link-preview@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
+  '@nolebase/vitepress-plugin-inline-link-preview@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
     dependencies:
       '@iconify-json/icon-park-outline': 1.2.4
-      '@iconify-json/octicon': 1.2.14
+      '@iconify-json/octicon': 1.2.16
       '@iconify-json/svg-spinners': 1.2.4
       '@nolebase/markdown-it-element-transform': 2.18.2(markdown-it@14.1.0)
-      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
-      less: 4.4.1
+      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+      less: 4.4.2
       markdown-it: 14.1.0
       markdown-it-attrs: 4.3.1(markdown-it@14.1.0)
-      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
+      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
     transitivePeerDependencies:
       - vue
 
-  '@nolebase/vitepress-plugin-page-properties@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
+  '@nolebase/vitepress-plugin-page-properties@2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
     dependencies:
       '@iconify-json/icon-park-outline': 1.2.4
-      '@iconify-json/octicon': 1.2.14
-      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+      '@iconify-json/octicon': 1.2.16
+      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       date-fns: 4.1.0
       gray-matter: 4.0.3
-      less: 4.4.1
+      less: 4.4.2
       uuid: 11.1.0
-      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
+      vitepress: 2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0)
     transitivePeerDependencies:
       - vue
 
@@ -2474,10 +2474,10 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-vue@6.0.1(vite@7.1.9(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
+  '@vitejs/plugin-vue@6.0.1(vite@7.1.9(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.29
-      vite: 7.1.9(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0)
+      vite: 7.1.9(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0)
       vue: 3.5.22(typescript@5.7.3)
 
   '@vue/compiler-core@3.5.22':
@@ -2600,7 +2600,7 @@ snapshots:
   autoprefixer@10.4.21(postcss@8.5.6):
     dependencies:
       browserslist: 4.26.3
-      caniuse-lite: 1.0.30001748
+      caniuse-lite: 1.0.30001749
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
@@ -2609,7 +2609,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  baseline-browser-mapping@2.8.12: {}
+  baseline-browser-mapping@2.8.16: {}
 
   birpc@2.6.1: {}
 
@@ -2623,9 +2623,9 @@ snapshots:
 
   browserslist@4.26.3:
     dependencies:
-      baseline-browser-mapping: 2.8.12
-      caniuse-lite: 1.0.30001748
-      electron-to-chromium: 1.5.230
+      baseline-browser-mapping: 2.8.16
+      caniuse-lite: 1.0.30001749
+      electron-to-chromium: 1.5.234
       node-releases: 2.0.23
       update-browserslist-db: 1.1.3(browserslist@4.26.3)
 
@@ -2635,7 +2635,7 @@ snapshots:
   camelcase@5.3.1:
     optional: true
 
-  caniuse-lite@1.0.30001748: {}
+  caniuse-lite@1.0.30001749: {}
 
   ccount@2.0.1: {}
 
@@ -2729,7 +2729,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.230: {}
+  electron-to-chromium@1.5.234: {}
 
   emoji-regex@8.0.0: {}
 
@@ -2750,7 +2750,7 @@ snapshots:
       prr: 1.0.1
     optional: true
 
-  es-toolkit@1.39.10: {}
+  es-toolkit@1.40.0: {}
 
   es5-ext@0.10.64:
     dependencies:
@@ -3004,7 +3004,7 @@ snapshots:
 
   kind-of@6.0.3: {}
 
-  less@4.4.1:
+  less@4.4.2:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
@@ -3528,7 +3528,7 @@ snapshots:
 
   viewerjs@1.11.7: {}
 
-  vite@7.1.9(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0):
+  vite@7.1.9(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0):
     dependencies:
       esbuild: 0.25.10
       fdir: 6.5.0(picomatch@4.0.3)
@@ -3539,7 +3539,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
       jiti: 2.6.1
-      less: 4.4.1
+      less: 4.4.2
       lightningcss: 1.30.1
       sass: 1.93.2
       stylus: 0.64.0
@@ -3566,16 +3566,16 @@ snapshots:
     dependencies:
       viewerjs: 1.11.7
 
-  vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0):
+  vitepress@2.0.0-alpha.12(async-validator@4.2.5)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(postcss@8.5.6)(qrcode@1.5.3)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(typescript@5.7.3)(yaml@2.8.0):
     dependencies:
-      '@docsearch/css': 4.1.0
-      '@docsearch/js': 4.1.0
+      '@docsearch/css': 4.2.0
+      '@docsearch/js': 4.2.0
       '@iconify-json/simple-icons': 1.2.54
       '@shikijs/core': 3.13.0
       '@shikijs/transformers': 3.13.0
       '@shikijs/types': 3.13.0
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 6.0.1(vite@7.1.9(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
+      '@vitejs/plugin-vue': 6.0.1(vite@7.1.9(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0))(vue@3.5.22(typescript@5.7.3))
       '@vue/devtools-api': 8.0.2
       '@vue/shared': 3.5.22
       '@vueuse/core': 13.9.0(vue@3.5.22(typescript@5.7.3))
@@ -3584,7 +3584,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 3.13.0
-      vite: 7.1.9(jiti@2.6.1)(less@4.4.1)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0)
+      vite: 7.1.9(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.1)(sass@1.93.2)(stylus@0.64.0)(terser@5.31.3)(yaml@2.8.0)
       vue: 3.5.22(typescript@5.7.3)
     optionalDependencies:
       postcss: 8.5.6
