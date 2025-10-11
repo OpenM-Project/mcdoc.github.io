@@ -13,7 +13,7 @@ outline: deep
 | ⭐ ATLauncher | [Website](https://atlauncher.com/) | - | Yes | Launchers with self-made modpacks to change the gameplay 
 | SKLauncher | [Website](https://skmedix.pl/) | [Github](https://github.com/skmedix/SKlauncher) | Yes | A very user-friendly launcher (Have ads now)
 | UltimMC | [Website](https://github.com/UltimMC/Launcher) | - | Yes | MultiMC launcher but with cracked accounts
-| Migurinth | [Website](https://mhttps://github.com/MiguVT/migurinthigurinth.miguvt.com/) | [Github](https://github.com/MiguVT/migurinth) | Yes | Modrinth fork, with removed ads and telemetry, and cracked account support
+| Migurinth | [Website](https://migurinth.miguvt.com/) | [Github](https://github.com/MiguVT/migurinth) | Yes | Modrinth fork, with removed ads and telemetry, and cracked account support
 | Betacraft| [Website](https://betacraft.uk/) | [Github](https://github.com/betacraftuk/betacraft-launcher/)| *Maybe* | Multi-version launcher for Minecraft Beta Versions
 | Legacy Launcher | [Website](https://llaun.ch/en) | - | Yes | A great launcher for users
 | HMCL | [Website](https://hmcl.huangyuhui.net/) | - | *Maybe* | A chinese launcher, pretty useful
